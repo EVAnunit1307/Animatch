@@ -1,7 +1,8 @@
 """Small, framework-agnostic helper API for Animatch (placeholders)."""
 from typing import List
 
-from . import __version__
+# import top-level package metadata
+from .. import __version__
 
 
 class AnimatchAPI:
