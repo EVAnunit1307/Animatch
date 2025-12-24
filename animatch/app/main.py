@@ -1,14 +1,7 @@
-"""Entry point for the Animatch app (placeholder)."""
-from .api import AnimatchAPI
+from fastapi import FastAPI
 
+app = FastAPI(title="Animatch", version="0.1.0")
 
-def main() -> None:
-    """Run a simple app demo."""
-    api = AnimatchAPI()
-    print("Animatch app initialized")
-    # placeholder run
-    print("Available services:", api.list_services())
-
-
-if __name__ == "__main__":
-    main()
+@app.get("/health")
+def health():
+    return {"status": "ok"}
