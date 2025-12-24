@@ -14,7 +14,7 @@ async def inspect(file: UploadFile = File(...)):
     return {"bytes": len(data)}
 
    
-    arr = np.frombuffer(data, dtype=np.uint8)
+    arr = np.frombuffer(data, dtype=np.uint8) #converts bytes to list of num
     img = cv2.imdecode(arr, cv2.IMREAD_COLOR)
 
     if img is None:
@@ -22,3 +22,14 @@ async def inspect(file: UploadFile = File(...)):
 
     h, w = img.shape[:2]
     return {"width": w, "height": h}
+
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    brightness = float(np.mean(gray))
+    lighting_ok = brightness >= 60
+
+    return {
+        "width": w,
+        "height": h,
+        "brightness": round(brightness, 2),
+        "lighting_ok": lighting_ok,
+    }
