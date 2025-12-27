@@ -1,1 +1,115 @@
-[]
+[
+  {
+    "id": "naruto",
+    "name": "Naruto Uzumaki",
+    "series": "Naruto",
+    "tags": ["anime"],
+    "vector": {
+      "face_ratio": 0.60,
+      "eye_spacing": 0.45,
+      "eye_openness": 0.55,
+      "jaw_angle": 0.34,
+      "chin_ratio": 0.40,
+      "brow_height": 0.46
+    }
+  },
+  {
+    "id": "luffy",
+    "name": "Monkey D. Luffy",
+    "series": "One Piece",
+    "tags": ["anime"],
+    "vector": {
+      "face_ratio": 0.64,
+      "eye_spacing": 0.42,
+      "eye_openness": 0.58,
+      "jaw_angle": 0.30,
+      "chin_ratio": 0.38,
+      "brow_height": 0.44
+    }
+  },
+  {
+    "id": "sakura",
+    "name": "Sakura Haruno",
+    "series": "Naruto",
+    "tags": ["anime", "female"],
+    "vector": {
+      "face_ratio": 0.58,
+      "eye_spacing": 0.50,
+      "eye_openness": 0.60,
+      "jaw_angle": 0.32,
+      "chin_ratio": 0.36,
+      "brow_height": 0.48
+    }
+  },
+  {
+    "id": "mikasa",
+    "name": "Mikasa Ackerman",
+    "series": "Attack on Titan",
+    "tags": ["anime", "female"],
+    "vector": {
+      "face_ratio": 0.57,
+      "eye_spacing": 0.47,
+      "eye_openness": 0.52,
+      "jaw_angle": 0.35,
+      "chin_ratio": 0.37,
+      "brow_height": 0.42
+    }
+  },
+  {
+    "id": "tanjiro",
+    "name": "Tanjiro Kamado",
+    "series": "Demon Slayer",
+    "tags": ["anime"],
+    "vector": {
+      "face_ratio": 0.62,
+      "eye_spacing": 0.44,
+      "eye_openness": 0.56,
+      "jaw_angle": 0.31,
+      "chin_ratio": 0.39,
+      "brow_height": 0.45
+    }
+  },
+  {
+    "id": "nezuko",
+    "name": "Nezuko Kamado",
+    "series": "Demon Slayer",
+    "tags": ["anime", "female"],
+    "vector": {
+      "face_ratio": 0.59,
+      "eye_spacing": 0.48,
+      "eye_openness": 0.63,
+      "jaw_angle": 0.33,
+      "chin_ratio": 0.35,
+      "brow_height": 0.47
+    }
+  },
+  {
+    "id": "gojo",
+    "name": "Satoru Gojo",
+    "series": "Jujutsu Kaisen",
+    "tags": ["anime"],
+    "vector": {
+      "face_ratio": 0.63,
+      "eye_spacing": 0.41,
+      "eye_openness": 0.49,
+      "jaw_angle": 0.38,
+      "chin_ratio": 0.42,
+      "brow_height": 0.40
+    }
+  },
+  {
+    "id": "p_diddy",
+    "name": "Sean 'P. Diddy' Combs",
+    "series": "Real Person",
+    "tags": ["celebrity"],
+    "note": "Included without facial metrics. Do not use for biometric comparison.",
+    "vector": {
+        "face_ratio": 0.63,
+        "eye_spacing": 0.43,
+        "eye_openness": 0.50,
+        "jaw_angle": 0.36,
+        "chin_ratio": 0.42,
+        "brow_height": 0.45
+    }
+  }
+]
