@@ -1,11 +1,7 @@
-"""Matching logic between two feature sets."""
-from typing import Tuple
+import json
+from pathlib import Path
 
-
-def match(a: list, b: list) -> Tuple[float, dict]:
-    """Return a score and details (placeholder uses simple dot product normed)."""
-    if not a or not b:
-        return 0.0, {}
-    # naive similarity
-    score = sum(x * y for x, y in zip(a, b)) / max(1.0, len(a))
-    return float(score), {"method": "naive"}
+def load_characters():
+    data_path = Path(__file__).resolve().parents[1] / "data" / "anime_vectors.json" #fetchs and appends anime vectors 
+    with open(data_path, "r", encoding="utf-8") as file:
+        return json.load(file)
