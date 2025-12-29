@@ -1,8 +1,9 @@
-from fastapi import FastAPI, UploadFile, File, Body
+from fastapi import FastAPI, UploadFile, File, Body, HTTPException
 import numpy as np 
 import cv2
 from animatch.app.services.explain import explain_match
 from animatch.app.services.match import match_characters
+from animatch.app.services.landmarks import extract_landmarks
 app = FastAPI(title="Animatch")
 
 @app.get("/health")
@@ -31,6 +32,16 @@ async def inspect(file: UploadFile = File(...)):
         "brightness": round(brightness, 2),
         "lighting_ok": lighting_ok,
     }
+
+@app.post("/match")
+async def match(file: UploadFile = File(...)):
+    data = await file.read()
+    landmarks, quality = extract_landmarks(data)
+
+    if landmarks is None:
+        raise HTTPException(status_code=400, detail="No face detected. Try better lighting and face the camera.")
+
+    return {"landmark_count": len(landmarks), "quality": quality}
 
 @app.post("/match/features")
 def match_features(features = Body(...), top_k = 3): #features is the json the client sends, ... means body is required 
