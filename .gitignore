@@ -8,6 +8,7 @@ dist/
 .env
 .venv/
 scripts/models/
+animatch/app/models/
 
 # Editor/IDE
 .vscode/
