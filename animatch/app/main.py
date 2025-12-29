@@ -1,7 +1,8 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, Body
 import numpy as np 
 import cv2
-
+from animatch.app.services.explain import explain_match
+from animatch.app.services.match import match_characters
 app = FastAPI(title="Animatch")
 
 @app.get("/health")
@@ -30,3 +31,13 @@ async def inspect(file: UploadFile = File(...)):
         "brightness": round(brightness, 2),
         "lighting_ok": lighting_ok,
     }
+
+@app.post("/match/features")
+def match_features(features = Body(...), top_k = 3): #features is the json the client sends, ... means body is required 
+    matches = match_characters(features, top_k=top_k)
+
+    for m in matches:
+        m["reasons"] = explain_match(features, m["vector"])
+
+    return {"matches": matches}
+
