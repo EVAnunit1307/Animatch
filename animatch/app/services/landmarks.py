@@ -62,22 +62,6 @@ def get_brightness(img: np.ndarray) -> float:
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     return float(np.mean(gray))
 
-def angle_ok_from_landmarks(landmarks):
-    # landmarks are list of (x,y,z) normalized
-    nose = landmarks[1]
-    left_eye = landmarks[133]
-    right_eye = landmarks[362]
-
-    left_dx = abs(left_eye[0] - nose[0])
-    right_dx = abs(right_eye[0] - nose[0])
-
-    if right_dx == 0:
-        return False
-
-    ratio = left_dx / right_dx
-    # if ratio is far from 1, face is likely turned
-    return 0.65 <= ratio <= 1.55
-
 
 def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, float, float]]], dict]:
     """
@@ -102,6 +86,8 @@ def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, fl
     lms = result.face_landmarks[0]
     landmarks = [(p.x, p.y, p.z) for p in lms]
 
+    info["face_detected"] = True
+
     angle_ok = angle_ok_from_landmarks(landmarks)
     info["angle_ok"] = angle_ok
 
@@ -115,7 +101,6 @@ def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, fl
         conf += 0.25
     info["confidence"] = round(conf, 2)
 
-    info["face_detected"] = True
     return landmarks, info
 
 
@@ -142,3 +127,22 @@ def angle_ok_from_landmarks(landmarks: List[Tuple[float, float, float]]) -> bool
     roll = abs(math.atan2(dy, dx))  # radians
     return roll < 0.2  # ~11 degrees
 
+
+def draw_landmarks_on_image(
+    image_bytes: bytes, landmarks: List[Tuple[float, float, float]], radius: int = 2
+) -> bytes:
+    """
+    Draw landmarks on the input image and return PNG bytes.
+    """
+    img = decode_image(image_bytes)
+    h, w = img.shape[:2]
+
+    for x, y, _ in landmarks:
+        px = int(x * w)
+        py = int(y * h)
+        cv2.circle(img, (px, py), radius, (0, 255, 0), thickness=-1)
+
+    ok, buf = cv2.imencode(".png", img)
+    if not ok:
+        raise ValueError("Could not encode debug image.")
+    return buf.tobytes()

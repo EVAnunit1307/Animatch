@@ -1,9 +1,10 @@
+import base64
 from fastapi import FastAPI, UploadFile, File, Body, HTTPException, Query
 import numpy as np 
 import cv2
 from animatch.app.services.explain import explain_match
 from animatch.app.services.match import match_characters
-from animatch.app.services.landmarks import extract_landmarks
+from animatch.app.services.landmarks import extract_landmarks, draw_landmarks_on_image
 from animatch.app.services.features import landmarks_to_features
 from animatch.app.services.match import load_characters
 app = FastAPI(title="Animatch")
@@ -44,7 +45,8 @@ def characters():
 async def match(
     file: UploadFile = File(...),
     top_k: int = Query(3),
-    debug: bool = Query(False)
+    debug: bool = Query(False),
+    return_image: bool = Query(False, description="Return base64 PNG with plotted landmarks"),
 ):
     try:
         data = await file.read()
@@ -69,6 +71,9 @@ async def match(
                 "features": features,
                 "landmark_count": len(landmarks)
             }
+        if return_image:
+            overlay = draw_landmarks_on_image(data, landmarks)
+            resp["debug_image_b64"] = base64.b64encode(overlay).decode("ascii")
 
         return resp
     except HTTPException:
