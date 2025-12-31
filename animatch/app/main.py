@@ -5,7 +5,7 @@ from animatch.app.services.explain import explain_match
 from animatch.app.services.match import match_characters
 from animatch.app.services.landmarks import extract_landmarks
 from animatch.app.services.features import landmarks_to_features
-
+from animatch.app.services.match import load_characters
 app = FastAPI(title="Animatch")
 
 @app.get("/health")
@@ -34,6 +34,11 @@ async def inspect(file: UploadFile = File(...)):
         "brightness": round(brightness, 2),
         "lighting_ok": lighting_ok,
     }
+
+@app.get("/characters")
+def characters():
+    chars = load_characters()
+    return [{"id": c["id"], "name": c["name"], "series": c["series"], "tags": c.get("tags", [])} for c in chars]
 
 @app.post("/match")
 async def match(
