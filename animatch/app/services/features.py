@@ -12,6 +12,9 @@ LEFT_LOWER_LID = 145
 RIGHT_UPPER_LID = 386
 RIGHT_LOWER_LID = 374
 
+LEFT_BROW = [70, 63, 105, 66, 107]
+RIGHT_BROW = [300, 293, 334, 296, 336]
+
 
 def dist2d(a, b):
     dx = a[0] - b[0]
@@ -102,7 +105,19 @@ def landmarks_to_features(landmarks):
     jaw_angle = jaw_angle_rad / math.pi  # normalize by dividing by pi
 
 
+    chin_width = float(jaw_right[0] - jaw_left[0])
+    chin_ratio = chin_width/face_width
 
+    left_brow_y = float(np.mean([pts[i][1] for i in LEFT_BROW]))
+    right_brow_y = float(np.mean([pts[i][1] for i in RIGHT_BROW]))
+
+    left_lid_y = float(pts[LEFT_UPPER_LID][1])
+    right_lid_y = float(pts[RIGHT_UPPER_LID][1])
+
+    left_gap = (left_lid_y - left_brow_y) / face_height
+    right_gap = (right_lid_y - right_brow_y) / face_height
+
+    brow_height = (left_gap + right_gap) / 2
 
 
 
@@ -110,5 +125,7 @@ def landmarks_to_features(landmarks):
     "face_ratio": round(face_ratio, 4),
     "eye_spacing": round(eye_spacing, 4),
     "eye_openness": round(eye_openness, 4),
-    "jaw_angle": round(jaw_angle, 4)
+    "jaw_angle": round(jaw_angle, 4),
+    "chin_ratio": round(chin_ratio, 4),
+    "brow_height": round(brow_height, 4) 
 }
