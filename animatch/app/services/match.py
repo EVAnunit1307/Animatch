@@ -21,7 +21,8 @@ def match_characters (user_features, top_k=3): #gets top 3
 
     for c in char:
         d = distance(user_features, c["vector"])
-        sim = 1.0 / (1.0/d)
+        # avoid division by zero if vectors are identical; keep score in [0,1]
+        sim = 1.0 / (1.0 + d)
         scored.append((sim,c)) #ppends similarioty score and character 
 
     scored.sort(key=lambda x: x[0], reverse=True) #sorts by the first thing in tuple, from decending 

@@ -1,9 +1,11 @@
-from fastapi import FastAPI, UploadFile, File, Body, HTTPException
+from fastapi import FastAPI, UploadFile, File, Body, HTTPException, Query
 import numpy as np 
 import cv2
 from animatch.app.services.explain import explain_match
 from animatch.app.services.match import match_characters
 from animatch.app.services.landmarks import extract_landmarks
+from animatch.app.services.features import landmarks_to_features
+
 app = FastAPI(title="Animatch")
 
 @app.get("/health")
@@ -34,14 +36,43 @@ async def inspect(file: UploadFile = File(...)):
     }
 
 @app.post("/match")
-async def match(file: UploadFile = File(...)):
-    data = await file.read()
-    landmarks, quality = extract_landmarks(data)
+async def match(
+    file: UploadFile = File(...),
+    top_k: int = Query(3),
+    debug: bool = Query(False)
+):
+    try:
+        data = await file.read()
 
-    if landmarks is None:
-        raise HTTPException(status_code=400, detail="No face detected. Try better lighting and face the camera.")
+        landmarks, quality = extract_landmarks(data)
+        if landmarks is None:
+            raise HTTPException(status_code=400, detail="No face detected. Try better lighting and face the camera.")
 
-    return {"landmark_count": len(landmarks), "quality": quality}
+        features = landmarks_to_features(landmarks)
+
+        matches = match_characters(features, top_k=top_k)
+        for m in matches:
+            m["reasons"] = explain_match(features, m["vector"])
+
+        resp = {
+            "matches": matches,
+            "quality": quality
+        }
+
+        if debug:
+            resp["debug"] = {
+                "features": features,
+                "landmark_count": len(landmarks)
+            }
+
+        return resp
+    except HTTPException:
+        # already has status; just re-raise
+        raise
+    except Exception as exc:
+        # Surface the error instead of generic 500 to simplify debugging in Swagger
+        raise HTTPException(status_code=500, detail=f"Match failed: {exc}")
+
 
 @app.post("/match/features")
 def match_features(features = Body(...), top_k = 3): #features is the json the client sends, ... means body is required 
@@ -51,4 +82,3 @@ def match_features(features = Body(...), top_k = 3): #features is the json the c
         m["reasons"] = explain_match(features, m["vector"])
 
     return {"matches": matches}
-
