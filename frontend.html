@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animatch Demo</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    img { max-width: 480px; display: block; margin-top: 12px; }
+    pre { background: #f5f5f5; padding: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Animatch</h1>
+  <input type="file" id="file" accept="image/*">
+  <label><input type="checkbox" id="returnImage" checked> return_image</label>
+  <button id="go">Send</button>
+  <div id="status"></div>
+  <img id="overlay" alt="">
+  <pre id="json"></pre>
+  <script>
+    const api = "http://127.0.0.1:8000/match";
+    const go = document.getElementById("go");
+    go.onclick = async () => {
+      const f = document.getElementById("file").files[0];
+      if (!f) return alert("Pick a file");
+      const form = new FormData();
+      form.append("file", f);
+      const url = api + "?return_image=" + document.getElementById("returnImage").checked;
+      document.getElementById("status").textContent = "Uploading...";
+      try {
+        const res = await fetch(url, { method: "POST", body: form });
+        const data = await res.json();
+        document.getElementById("json").textContent = JSON.stringify(data, null, 2);
+        if (data.debug_image_b64) {
+          document.getElementById("overlay").src = "data:image/png;base64," + data.debug_image_b64;
+        }
+        document.getElementById("status").textContent = "Done";
+      } catch (e) {
+        document.getElementById("status").textContent = "Error: " + e;
+      }
+    };
+  </script>
+</body>
+</html>
