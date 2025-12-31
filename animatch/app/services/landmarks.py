@@ -61,6 +61,22 @@ def get_brightness(img: np.ndarray) -> float:
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     return float(np.mean(gray))
 
+def angle_ok_from_landmarks(landmarks):
+    # landmarks are list of (x,y,z) normalized
+    nose = landmarks[1]
+    left_eye = landmarks[133]
+    right_eye = landmarks[362]
+
+    left_dx = abs(left_eye[0] - nose[0])
+    right_dx = abs(right_eye[0] - nose[0])
+
+    if right_dx == 0:
+        return False
+
+    ratio = left_dx / right_dx
+    # if ratio is far from 1, face is likely turned
+    return 0.65 <= ratio <= 1.55
+
 
 def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, float, float]]], dict]:
     """
