@@ -18,6 +18,27 @@ def dist2d(a, b):
     dy = a[1] - b[1]
     return math.sqrt(dx*dx + dy*dy)
 
+def angle_at_point(a, b, c):
+    """computes angle ABC with B as the vertex, uses dot prod"""
+    ba = a[:2] - b[:2] #takes first 2, alt of [][]
+    bc = a[:2] - c[:2]
+
+    dot = float(ba[0]*bc[0] + ba[1] * bc[1])
+    mag_ba = math.sqrt(float(ba[0]*ba[0] + ba[1]*ba[1]))
+    mag_bc = math.sqrt(float(bc[0]*bc[0] + bc[1]*bc[1]))
+
+    if mag_ba == 0 or mag_bc == 0:
+        return 0.0
+    
+    angle_val = dot / (mag_ba * mag_bc)
+    if angle_val > 1:  # clamp to avoid math domain errors
+        angle_val = 1
+    if angle_val < -1:
+        angle_val = -1
+
+    return math.acos(angle_val)  # radians
+
+
 
 def landmarks_to_features(landmarks):
     pts = np.array(landmarks, dtype=np.float32)  # shape: (N, 3)
@@ -64,11 +85,30 @@ def landmarks_to_features(landmarks):
     right_open = right_eye_height / right_eye_width
 
     eye_openness = (left_open + right_open) / 2    #avrages
+    chin = pts[ys.argmax()] # chin = lowest point (max y)
+
+    # bottom region = last 15% of face height
+    y_cut = ys.min() + 0.85 * face_height
+    bottom_pts = pts[ys >= y_cut]
+
+    # fallback
+    if len(bottom_pts) < 5:
+        bottom_pts = pts
+
+    jaw_left = bottom_pts[bottom_pts[:, 0].argmin()]
+    jaw_right = bottom_pts[bottom_pts[:, 0].argmax()]
+
+    jaw_angle_rad = angle_at_point(jaw_left, chin, jaw_right)
+    jaw_angle = jaw_angle_rad / math.pi  # normalize by dividing by pi
+
+
+
 
 
 
     return {
     "face_ratio": round(face_ratio, 4),
     "eye_spacing": round(eye_spacing, 4),
-    "eye_openness": round(eye_openness, 4)
+    "eye_openness": round(eye_openness, 4),
+    "jaw_angle": round(jaw_angle, 4)
 }
