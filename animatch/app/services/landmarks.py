@@ -1,3 +1,4 @@
+import math
 from pathlib import Path
 from typing import Optional, Tuple, List
 
@@ -93,13 +94,51 @@ def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, fl
     mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
     result = _get_landmarker().detect(mp_image)
 
+    
+
     if not result.face_landmarks:
         return None, info
 
     lms = result.face_landmarks[0]
     landmarks = [(p.x, p.y, p.z) for p in lms]
 
+    angle_ok = angle_ok_from_landmarks(landmarks)
+    info["angle_ok"] = angle_ok
+
+    # simple confidence score
+    conf = 0.0
+    if info["face_detected"]:
+        conf += 0.5
+    if info["lighting_ok"]:
+        conf += 0.25
+    if info["angle_ok"]:
+        conf += 0.25
+    info["confidence"] = round(conf, 2)
+
     info["face_detected"] = True
     return landmarks, info
 
+
+LEFT_EYE_OUTER = 33
+RIGHT_EYE_OUTER = 263
+
+
+def angle_ok_from_landmarks(landmarks: List[Tuple[float, float, float]]) -> bool:
+    """
+    Heuristic frontal/roll check using eye corners.
+    Returns True if the roll angle is within a small threshold.
+    """
+    try:
+        left = landmarks[LEFT_EYE_OUTER]
+        right = landmarks[RIGHT_EYE_OUTER]
+    except Exception:
+        return False
+
+    dx = right[0] - left[0]
+    dy = right[1] - left[1]
+    if dx == 0 and dy == 0:
+        return False
+
+    roll = abs(math.atan2(dy, dx))  # radians
+    return roll < 0.2  # ~11 degrees
 
