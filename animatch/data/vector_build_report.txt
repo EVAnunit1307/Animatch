@@ -1,6 +1,6 @@
-Total entries: 4
-Successful: 2
-Failed: 2
-No face: vinland_saga_1, vinland_saga_2
+Total entries: 20
+Successful: 20
+Failed: 0
+No face: -
 Errors:
   -

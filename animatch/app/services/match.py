@@ -1,11 +1,24 @@
 import json
 import math 
 from pathlib import Path
+from typing import Tuple, List
+
+_CHAR_CACHE: Tuple[List[dict], dict] | None = None
+
 
 def load_characters():
+    """Load characters once and cache with precomputed stats."""
+    global _CHAR_CACHE
+    if _CHAR_CACHE is not None:
+        return _CHAR_CACHE
+
     data_path = Path(__file__).resolve().parents[1] / "data" / "anime_vectors.json" #fetchs and appends anime vectors 
     with open(data_path, "r", encoding="utf-8") as file:
-        return json.load(file)
+        chars = json.load(file)
+    stats = compute_stats(chars)
+    _CHAR_CACHE = (chars, stats)
+    return _CHAR_CACHE
+
 features = ["face_ratio", "eye_spacing", "eye_openness", "jaw_angle", "chin_ratio", "brow_height"]
 
 def compute_stats(characters):
@@ -44,8 +57,7 @@ def distance(user_vector, char_vector):
     return math.sqrt(total)
 
 def match_characters (user_features, top_k=3): #gets top 3 
-    char = load_characters()
-    stats = compute_stats(char)
+    char, stats = load_characters()
     user_norm = normalize(user_features, stats)
     scored = []
 
@@ -59,11 +71,13 @@ def match_characters (user_features, top_k=3): #gets top 3
 
     results = []
     for sim, c in scored[:top_k]:#goes to scores takes top 3 
+        pct = max(0.0, min(100.0, sim * 100.0))
         results.append({
             "id": c["id"],
             "name": c["name"],
             "series": c["series"],
             "similarity": round(sim, 4),
+            "similarity_pct": round(pct, 1),
             "vector": c["vector"],
             "image_url": c.get("image_url"),
         })

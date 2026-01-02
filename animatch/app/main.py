@@ -47,8 +47,8 @@ async def inspect(file: UploadFile = File(...)):
 
 @app.get("/characters")
 def characters():
-    chars = load_characters()
-    return [{"id": c["id"], "name": c["name"], "series": c["series"], "tags": c.get("tags", [])} for c in chars]
+    chars, _ = load_characters()
+    return [{"id": c["id"], "name": c["name"], "series": c["series"], "tags": c.get("tags", []), "image_url": c.get("image_url")} for c in chars]
 
 @app.post("/match")
 async def match(
@@ -89,6 +89,7 @@ async def match(
                 "sharpness_ok": quality.get("sharpness_ok"),
                 "face_size_ok": quality.get("face_size_ok"),
                 "confidence": quality.get("confidence"),
+                "warnings": [],
             },
         }
 
@@ -100,6 +101,18 @@ async def match(
         if return_image:
             overlay = draw_landmarks_on_image(data, landmarks)
             resp["debug_image_b64"] = base64.b64encode(overlay).decode("ascii")
+
+        # build warnings
+        warnings = []
+        if not resp["quality"]["lighting_ok"]:
+            warnings.append("Lighting is low")
+        if not resp["quality"]["angle_ok"]:
+            warnings.append("Face angle is off")
+        if resp["quality"]["sharpness_ok"] is False:
+            warnings.append("Image looks blurry")
+        if resp["quality"]["face_size_ok"] is False:
+            warnings.append("Face region is small")
+        resp["quality"]["warnings"] = warnings
 
         return resp
     except HTTPException:
