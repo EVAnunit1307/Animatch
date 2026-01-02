@@ -38,8 +38,9 @@ SERIES_TO_ID = {
 }
 
 # Adjust these if you want more/fewer per series
-MIN_FAVS = 2500
-MAX_PER_SERIES = 25
+# Lowered favorites threshold to widen pool; bumped cap for bigger series.
+MIN_FAVS = 1500
+MAX_PER_SERIES = 30
 
 DATA_DIR = Path("animatch/data")
 JIKAN_DIR = DATA_DIR / "jikan"

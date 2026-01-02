@@ -162,6 +162,42 @@
     "overlay_url": "/static/overlays/naruto_12.png"
   },
   {
+    "id": "naruto_16",
+    "name": "Tsunade",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.428,
+      "eye_spacing": 0.2729,
+      "eye_openness": 0.2224,
+      "jaw_angle": 0.1181,
+      "chin_ratio": 0.5094,
+      "brow_height": 0.096
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/523646.jpg?s=6e76b1e4adef34cd1698c91947542cc5",
+    "overlay_url": "/static/overlays/naruto_16.png"
+  },
+  {
+    "id": "naruto_17",
+    "name": "Hidan",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3447,
+      "eye_spacing": 0.2254,
+      "eye_openness": 0.2459,
+      "jaw_angle": 0.1083,
+      "chin_ratio": 0.6255,
+      "brow_height": 0.084
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/103578.jpg?s=389d90926039f796c2095de3c61a8d62",
+    "overlay_url": "/static/overlays/naruto_17.png"
+  },
+  {
     "id": "one_piece_1",
     "name": "Roronoa, Zoro",
     "series": "One Piece",
@@ -250,6 +286,42 @@
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/146013.jpg?s=cb2628e503ecea60dc2619b4aedf3247",
     "overlay_url": "/static/overlays/one_piece_16.png"
+  },
+  {
+    "id": "one_piece_18",
+    "name": "Yamato",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5695,
+      "eye_spacing": 0.2964,
+      "eye_openness": 0.2477,
+      "jaw_angle": 0.0821,
+      "chin_ratio": 0.5847,
+      "brow_height": 0.1554
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/490104.jpg?s=4a01b7f2e3293f5ca0219e7f03f1bc26",
+    "overlay_url": "/static/overlays/one_piece_18.png"
+  },
+  {
+    "id": "one_piece_22",
+    "name": "Carrot",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.7373,
+      "eye_spacing": 0.2862,
+      "eye_openness": 0.2231,
+      "jaw_angle": 0.0683,
+      "chin_ratio": 0.6101,
+      "brow_height": 0.1089
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/323766.jpg?s=9ebc986391a1190f4a4df2774db0f02f",
+    "overlay_url": "/static/overlays/one_piece_22.png"
   },
   {
     "id": "jujutsu_kaisen_0",
@@ -430,6 +502,24 @@
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/8/524177.jpg?s=91bbde7d801299f3ff1fb5d8388cc133",
     "overlay_url": "/static/overlays/jujutsu_kaisen_11.png"
+  },
+  {
+    "id": "jujutsu_kaisen_12",
+    "name": "Mahito",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.405,
+      "eye_spacing": 0.2681,
+      "eye_openness": 0.2496,
+      "jaw_angle": 0.1075,
+      "chin_ratio": 0.5366,
+      "brow_height": 0.0969
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/446508.jpg?s=8cfa45381097f1e9a720982061ec087d",
+    "overlay_url": "/static/overlays/jujutsu_kaisen_12.png"
   },
   {
     "id": "demon_slayer_0",
@@ -792,7 +882,43 @@
     "overlay_url": "/static/overlays/my_hero_academia_9.png"
   },
   {
-    "id": "my_hero_academia_10",
+    "id": "my_hero_academia_11",
+    "name": "Jirou, Kyouka",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5616,
+      "eye_spacing": 0.2579,
+      "eye_openness": 0.2627,
+      "jaw_angle": 0.0961,
+      "chin_ratio": 0.5428,
+      "brow_height": 0.1129
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/300745.jpg?s=c0e7c66c088b06ea9d3806ce852e84f4",
+    "overlay_url": "/static/overlays/my_hero_academia_11.png"
+  },
+  {
+    "id": "my_hero_academia_12",
+    "name": "Yaoyorozu, Momo",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5423,
+      "eye_spacing": 0.2328,
+      "eye_openness": 0.2423,
+      "jaw_angle": 0.1294,
+      "chin_ratio": 0.5528,
+      "brow_height": 0.1125
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/562316.jpg?s=bd0f31951d784f77f2d5b78e568b6115",
+    "overlay_url": "/static/overlays/my_hero_academia_12.png"
+  },
+  {
+    "id": "my_hero_academia_13",
     "name": "Iida, Tenya",
     "series": "My Hero Academia",
     "tags": [
@@ -807,7 +933,7 @@
       "brow_height": 0.1001
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/299417.jpg?s=ae97d822ef7c4cdbe392766389c3f5f1",
-    "overlay_url": "/static/overlays/my_hero_academia_10.png"
+    "overlay_url": "/static/overlays/my_hero_academia_13.png"
   },
   {
     "id": "fullmetal_alchemist:_brotherhood_1",
@@ -862,6 +988,24 @@
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/451785.jpg?s=11bc1988772e66c4fce2ff3dee08b8da",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_5.png"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_13",
+    "name": "Scar",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4195,
+      "eye_spacing": 0.271,
+      "eye_openness": 0.1824,
+      "jaw_angle": 0.1247,
+      "chin_ratio": 0.5456,
+      "brow_height": 0.0758
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/31591.jpg?s=0f4cfb335f3a86eede76abc630a3fe9e",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_13.png"
   },
   {
     "id": "bleach_3",
@@ -973,6 +1117,24 @@
   },
   {
     "id": "bleach_14",
+    "name": "Hirako, Shinji",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4558,
+      "eye_spacing": 0.1894,
+      "eye_openness": 0.2857,
+      "jaw_angle": 0.1078,
+      "chin_ratio": 0.4558,
+      "brow_height": 0.0952
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/72979.jpg?s=218ab8454b5512a2d97ea5bcace550ce",
+    "overlay_url": "/static/overlays/bleach_14.png"
+  },
+  {
+    "id": "bleach_16",
     "name": "Ishida, Uryuu",
     "series": "Bleach",
     "tags": [
@@ -987,7 +1149,7 @@
       "brow_height": 0.092
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/139189.jpg?s=c45c92f3d197dbbe891cfd266f487c2f",
-    "overlay_url": "/static/overlays/bleach_14.png"
+    "overlay_url": "/static/overlays/bleach_16.png"
   },
   {
     "id": "one_punch_man_5",
@@ -1006,6 +1168,24 @@
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/473637.jpg?s=7ed26a04a631d8f3175a8ee4b29932fa",
     "overlay_url": "/static/overlays/one_punch_man_5.png"
+  },
+  {
+    "id": "one_punch_man_6",
+    "name": "Speed-o'-Sound Sonic",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5585,
+      "eye_spacing": 0.312,
+      "eye_openness": 0.2513,
+      "jaw_angle": 0.1443,
+      "chin_ratio": 0.4724,
+      "brow_height": 0.0927
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/294250.jpg?s=5cc41f3b4143928a0a665407b4db76be",
+    "overlay_url": "/static/overlays/one_punch_man_6.png"
   },
   {
     "id": "death_note_0",
@@ -1170,6 +1350,24 @@
     "overlay_url": "/static/overlays/hunter_x_hunter_6.png"
   },
   {
+    "id": "hunter_x_hunter_10",
+    "name": "Kite",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.356,
+      "eye_spacing": 0.2651,
+      "eye_openness": 0.1972,
+      "jaw_angle": 0.1318,
+      "chin_ratio": 0.4772,
+      "brow_height": 0.1059
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/203429.jpg?s=682fcc486dc7f39ddb369bc7f69e4e2e",
+    "overlay_url": "/static/overlays/hunter_x_hunter_10.png"
+  },
+  {
     "id": "chainsaw_man_0",
     "name": "Power",
     "series": "Chainsaw Man",
@@ -1240,6 +1438,24 @@
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/586726.jpg?s=aff903523f5ae6598fa12678b20e8b1f",
     "overlay_url": "/static/overlays/chainsaw_man_8.png"
+  },
+  {
+    "id": "chainsaw_man_9",
+    "name": "Kishibe",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4349,
+      "eye_spacing": 0.2435,
+      "eye_openness": 0.21,
+      "jaw_angle": 0.0728,
+      "chin_ratio": 0.6382,
+      "brow_height": 0.1244
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/488553.jpg?s=90bf9b9117281aaead8dd8ac08cf388f",
+    "overlay_url": "/static/overlays/chainsaw_man_9.png"
   },
   {
     "id": "spy_x_family_2",
@@ -1458,6 +1674,42 @@
     "overlay_url": "/static/overlays/haikyuu!!_7.png"
   },
   {
+    "id": "haikyuu!!_8",
+    "name": "Tanaka, Ryuunosuke",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5078,
+      "eye_spacing": 0.2781,
+      "eye_openness": 0.3412,
+      "jaw_angle": 0.1047,
+      "chin_ratio": 0.4555,
+      "brow_height": 0.0905
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/417860.jpg?s=edb184ef440a886520c0c055e0b70343",
+    "overlay_url": "/static/overlays/haikyuu!!_8.png"
+  },
+  {
+    "id": "haikyuu!!_9",
+    "name": "Yamaguchi, Tadashi",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4811,
+      "eye_spacing": 0.2849,
+      "eye_openness": 0.2472,
+      "jaw_angle": 0.113,
+      "chin_ratio": 0.5184,
+      "brow_height": 0.1257
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/417857.jpg?s=499a41cc56955974fc486237d32eb04b",
+    "overlay_url": "/static/overlays/haikyuu!!_9.png"
+  },
+  {
     "id": "kuroko's_basketball_1",
     "name": "Aomine, Daiki",
     "series": "Kuroko's Basketball",
@@ -1528,6 +1780,42 @@
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/169361.jpg?s=f512a9ee4fc65da1f7a472c5880a252b",
     "overlay_url": "/static/overlays/kuroko's_basketball_4.png"
+  },
+  {
+    "id": "kuroko's_basketball_5",
+    "name": "Midorima, Shintarou",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4084,
+      "eye_spacing": 0.2844,
+      "eye_openness": 0.2443,
+      "jaw_angle": 0.1198,
+      "chin_ratio": 0.4878,
+      "brow_height": 0.1131
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/165835.jpg?s=6814a00169479efd70d34f471952f01a",
+    "overlay_url": "/static/overlays/kuroko's_basketball_5.png"
+  },
+  {
+    "id": "kuroko's_basketball_6",
+    "name": "Murasakibara, Atsushi",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.284,
+      "eye_spacing": 0.2699,
+      "eye_openness": 0.2252,
+      "jaw_angle": 0.1309,
+      "chin_ratio": 0.4921,
+      "brow_height": 0.083
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/246755.jpg?s=e1b9d35502872e8ae682ed00e0af233a",
+    "overlay_url": "/static/overlays/kuroko's_basketball_6.png"
   },
   {
     "id": "slam_dunk_0",
@@ -1618,6 +1906,24 @@
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/512342.jpg?s=c89119576332c12a04505c20c09bf15a",
     "overlay_url": "/static/overlays/slam_dunk_4.png"
+  },
+  {
+    "id": "sword_art_online_2",
+    "name": "Yui",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3922,
+      "eye_spacing": 0.2699,
+      "eye_openness": 0.313,
+      "jaw_angle": 0.1126,
+      "chin_ratio": 0.5809,
+      "brow_height": 0.1167
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/264165.jpg?s=56e6fe02305973c72bfa7f3d91e9d806",
+    "overlay_url": "/static/overlays/sword_art_online_2.png"
   },
   {
     "id": "no_game_no_life_0",
@@ -1728,6 +2034,42 @@
     "overlay_url": "/static/overlays/tokyo_ghoul_5.png"
   },
   {
+    "id": "tokyo_ghoul_6",
+    "name": "Eto",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6055,
+      "eye_spacing": 0.2667,
+      "eye_openness": 0.1942,
+      "jaw_angle": 0.1248,
+      "chin_ratio": 0.5589,
+      "brow_height": 0.0923
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/276501.jpg?s=6bd3d1eda8082217b36d0e2ff2d8775f",
+    "overlay_url": "/static/overlays/tokyo_ghoul_6.png"
+  },
+  {
+    "id": "tokyo_ghoul_7",
+    "name": "Arima, Kishou",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3665,
+      "eye_spacing": 0.2743,
+      "eye_openness": 0.2139,
+      "jaw_angle": 0.1193,
+      "chin_ratio": 0.5005,
+      "brow_height": 0.1131
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/257935.jpg?s=774409608456392dcaca31f53234bb53",
+    "overlay_url": "/static/overlays/tokyo_ghoul_7.png"
+  },
+  {
     "id": "fairy_tail_1",
     "name": "Scarlet, Erza",
     "series": "Fairy Tail",
@@ -1782,7 +2124,25 @@
     "overlay_url": "/static/overlays/fairy_tail_6.png"
   },
   {
-    "id": "fairy_tail_8",
+    "id": "fairy_tail_9",
+    "name": "Zeref",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5591,
+      "eye_spacing": 0.2793,
+      "eye_openness": 0.2536,
+      "jaw_angle": 0.105,
+      "chin_ratio": 0.5002,
+      "brow_height": 0.1175
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/327914.jpg?s=c9c1cd0a58d71f457abcd7dcda32d567",
+    "overlay_url": "/static/overlays/fairy_tail_9.png"
+  },
+  {
+    "id": "fairy_tail_10",
     "name": "Marvell, Wendy",
     "series": "Fairy Tail",
     "tags": [
@@ -1797,7 +2157,25 @@
       "brow_height": 0.098
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/196497.jpg?s=dd93974ccb821624cc71eb789025b7cf",
-    "overlay_url": "/static/overlays/fairy_tail_8.png"
+    "overlay_url": "/static/overlays/fairy_tail_10.png"
+  },
+  {
+    "id": "fairy_tail_11",
+    "name": "Strauss, Mirajane",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3446,
+      "eye_spacing": 0.2632,
+      "eye_openness": 0.3055,
+      "jaw_angle": 0.1421,
+      "chin_ratio": 0.5866,
+      "brow_height": 0.1304
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/196491.jpg?s=58aaaff21992e90d5604a05543709193",
+    "overlay_url": "/static/overlays/fairy_tail_11.png"
   },
   {
     "id": "black_clover_0",
@@ -1870,6 +2248,24 @@
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/318765.jpg?s=dbc2307d86d0e001e31b9aad6f12b21c",
     "overlay_url": "/static/overlays/black_clover_4.png"
+  },
+  {
+    "id": "black_clover_7",
+    "name": "Novachrono, Julius",
+    "series": "Black Clover",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4444,
+      "eye_spacing": 0.2292,
+      "eye_openness": 0.208,
+      "jaw_angle": 0.0826,
+      "chin_ratio": 0.5966,
+      "brow_height": 0.0748
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/474453.jpg?s=a66742ae73fbb1a9449472c2c0cca53a",
+    "overlay_url": "/static/overlays/black_clover_7.png"
   },
   {
     "id": "dr._stone_2",

@@ -56,7 +56,7 @@ def distance(user_vector, char_vector):
         total += diffrence * diffrence
     return math.sqrt(total)
 
-def match_characters (user_features, top_k=3): #gets top 3 
+def match_characters (user_features, top_k=4): #default top 4 
     char, stats = load_characters()
     user_norm = normalize(user_features, stats)
     scored = []

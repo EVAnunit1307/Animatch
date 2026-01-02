@@ -55,7 +55,7 @@ def characters():
 @app.post("/match")
 async def match(
     file: UploadFile = File(...),
-    top_k: int = Query(3),
+    top_k: int = Query(4),
     debug: bool = Query(False),
     return_image: bool = Query(False, description="Return base64 PNG with plotted landmarks"),
 ):
@@ -126,7 +126,7 @@ async def match(
 
 
 @app.post("/match/features")
-def match_features(features = Body(...), top_k = 3): #features is the json the client sends, ... means body is required 
+def match_features(features = Body(...), top_k = 4): #features is the json the client sends, ... means body is required 
     matches = match_characters(features, top_k=top_k)
 
     for m in matches:

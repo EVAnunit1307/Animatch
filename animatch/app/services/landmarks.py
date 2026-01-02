@@ -165,7 +165,7 @@ def draw_landmarks_on_image(
 
     # auto-scale radius to image size; keep a minimum so small images still visible
     if radius is None:
-        radius = max(2, int(min(h, w) * 0.003))
+        radius = max(1, int(min(h, w) * 0.003) - 1)
 
     for x, y, _ in landmarks:
         px = int(x * w)
