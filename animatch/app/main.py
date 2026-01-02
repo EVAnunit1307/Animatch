@@ -59,7 +59,16 @@ async def match(
     return_image: bool = Query(False, description="Return base64 PNG with plotted landmarks"),
 ):
     try:
+        # Basic input validation
+        if not file.content_type or not file.content_type.startswith("image/"):
+            raise HTTPException(status_code=400, detail="File must be an image (jpg/png).")
+
         data = await file.read()
+        max_bytes = 5 * 1024 * 1024  # 5 MB
+        if len(data) == 0:
+            raise HTTPException(status_code=400, detail="Empty file.")
+        if len(data) > max_bytes:
+            raise HTTPException(status_code=400, detail="File too large (max 5MB).")
 
         landmarks, quality = extract_landmarks(data)
         if landmarks is None:

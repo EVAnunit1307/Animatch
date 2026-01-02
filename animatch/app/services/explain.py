@@ -17,8 +17,9 @@ def explain_match(user_vector:float, char_vector:float , max_response = 3):
     differences.sort(key=lambda x: x[0])
 
     reasons = []
-    for _, key in differences[:max_response]:
-        reasons.append(feature_labels.get(key, f"Similar {key}"))
+    for diff, key in differences[:max_response]:
+        label = feature_labels.get(key, f"Similar {key}")
+        reasons.append({"feature": key, "reason": label, "difference": round(float(diff), 4)})
 
     return reasons
 
