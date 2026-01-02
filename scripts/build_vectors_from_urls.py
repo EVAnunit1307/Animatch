@@ -28,6 +28,22 @@ def download_bytes(url: str) -> bytes:
     r.raise_for_status()
     return r.content
 
+def fetch_char_detail_image(char_id: int) -> list[str]:
+    """Try to get alternate image URLs from Jikan character detail."""
+    urls = []
+    try:
+        resp = requests.get(f"https://api.jikan.moe/v4/characters/{char_id}", timeout=20)
+        resp.raise_for_status()
+        data = resp.json().get("data", {})
+        img = data.get("images", {}).get("jpg", {})
+        for key in ("image_url", "large_image_url", "small_image_url"):
+            u = img.get(key)
+            if u:
+                urls.append(u)
+    except Exception:
+        pass
+    return urls
+
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -49,43 +65,59 @@ def main() -> None:
         FAILED_DIR.mkdir(parents=True, exist_ok=True)
 
     for c in items:
-        url = c.get("image_url")
-        if not url:
-            print("Skip (no url):", c["id"])
-            continue
+        urls_to_try = []
+        if c.get("image_url"):
+            urls_to_try.append(c["image_url"])
+        if c.get("image_small"):
+            urls_to_try.append(c["image_small"])
+        if c.get("char_id"):
+            urls_to_try.extend(fetch_char_detail_image(c["char_id"]))
 
-        try:
-            img_bytes = download_bytes(url)
-            landmarks, quality = extract_landmarks(img_bytes)
-            if landmarks is None:
-                print("No face:", c["id"])
-                failed += 1
-                noface.append(c["id"])
-                if SAVE_FAILED:
-                    (FAILED_DIR / f"{c['id']}_noface.jpg").write_bytes(img_bytes)
+        tried = False
+        success = False
+
+        for url in urls_to_try:
+            if not url:
                 continue
+            tried = True
+            try:
+                img_bytes = download_bytes(url)
+                landmarks, quality = extract_landmarks(img_bytes)
+                if landmarks is None:
+                    continue
 
-            vector = landmarks_to_features(landmarks)
-            record = {
-                "id": c["id"],
-                "name": c.get("name"),
-                "series": c.get("series"),
-                "tags": c.get("tags", []),
-                "vector": vector,
-                "image_url": url,
-            }
-            results.append(record)
-            print("OK:", c["id"])
+                vector = landmarks_to_features(landmarks)
+                record = {
+                    "id": c["id"],
+                    "name": c.get("name"),
+                    "series": c.get("series"),
+                    "tags": c.get("tags", []),
+                    "vector": vector,
+                    "image_url": url,
+                }
+                results.append(record)
+                print("OK:", c["id"])
+                success = True
+                break
+            except Exception as exc:
+                # try next URL
+                continue
+            finally:
+                time.sleep(0.2)  # be polite
 
-        except Exception as exc:
-            print("Fail:", c["id"], exc)
+        if not success:
             failed += 1
-            errors.append((c["id"], str(exc)))
-            if SAVE_FAILED:
-                (FAILED_DIR / f"{c['id']}_error.txt").write_text(str(exc), encoding="utf-8")
-            continue
-        finally:
-            time.sleep(0.3)  # be polite
+            if not tried:
+                print("Skip (no url):", c["id"])
+                errors.append((c["id"], "no url"))
+            else:
+                print("No face or failed:", c["id"])
+                noface.append(c["id"])
+                if SAVE_FAILED and urls_to_try:
+                    try:
+                        (FAILED_DIR / f"{c['id']}_last.jpg").write_bytes(img_bytes)
+                    except Exception:
+                        pass
 
     OUT.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
     report_lines = [

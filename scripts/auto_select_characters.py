@@ -19,11 +19,26 @@ SERIES_TO_ID = {
     "Chainsaw Man": 44511,
     "Spy x Family": 50265,
     "JoJo's Bizarre Adventure": 14719,
+    "Haikyuu!!": 20583,
+    "Kuroko's Basketball": 11771,
+    "Slam Dunk": 170,
+    "Re:Zero": 31240,
+    "Sword Art Online": 11757,
+    "No Game No Life": 19815,
+    "Shield Hero": 35790,
+    "Slime": 37430,
+    "Tokyo Ghoul": 22319,
+    "Fairy Tail": 6702,
+    "Black Clover": 34572,
+    "Dr. Stone": 38691,
+    "Blue Lock": 49596,
+    "Vinland Saga": 37521,
+    "Code Geass": 1575,
 }
 
 # Adjust these if you want more/fewer per series
-MIN_FAVS = 3000
-MAX_PER_SERIES = 20
+MIN_FAVS = 2500
+MAX_PER_SERIES = 25
 
 DATA_DIR = Path("animatch/data")
 JIKAN_DIR = DATA_DIR / "jikan"
@@ -59,6 +74,8 @@ def main():
         for idx, c in enumerate(top_chars):
             ch = c.get("character", {})
             img = ch.get("images", {}).get("jpg", {}).get("image_url")
+            img_small = ch.get("images", {}).get("jpg", {}).get("small_image_url")
+            char_id = ch.get("mal_id")
             name = ch.get("name", "")
             cid = f"{series.lower().replace(' ', '_')}_{idx}"
             results.append(
@@ -68,6 +85,8 @@ def main():
                     "series": series,
                     "tags": ["anime"],
                     "image_url": img or "",
+                    "image_small": img_small or "",
+                    "char_id": char_id,
                 }
             )
 
