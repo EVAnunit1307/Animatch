@@ -103,7 +103,7 @@ def main() -> None:
                 # try next URL
                 continue
             finally:
-                time.sleep(0.2)  # be polite
+                time.sleep(0.05)  # be polite but faster
 
         if not success:
             failed += 1
