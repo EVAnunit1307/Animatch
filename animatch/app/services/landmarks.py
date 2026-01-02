@@ -63,22 +63,43 @@ def get_brightness(img: np.ndarray) -> float:
     return float(np.mean(gray))
 
 
+def get_blur_score(img: np.ndarray) -> float:
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    return float(cv2.Laplacian(gray, cv2.CV_64F).var())
+
+
+def face_size_ok(landmarks: List[Tuple[float, float, float]], width: int, height: int, min_ratio: float = 0.15) -> bool:
+    xs = [p[0] * width for p in landmarks]
+    ys = [p[1] * height for p in landmarks]
+    w = max(xs) - min(xs)
+    h = max(ys) - min(ys)
+    return (w / width) >= min_ratio and (h / height) >= min_ratio
+
+
 def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, float, float]]], dict]:
     """
     Returns (landmarks, info). landmarks is a list of (x, y, z) or None if no face.
     info contains brightness, lighting_ok, face_detected flags.
     """
     img = decode_image(image_bytes)
-    info = {"face_detected": False, "lighting_ok": False, "brightness": None}
+    info = {
+        "face_detected": False,
+        "lighting_ok": False,
+        "brightness": None,
+        "blur_score": None,
+        "sharpness_ok": False,
+        "face_size_ok": False,
+    }
 
     brightness = get_brightness(img)
     info["brightness"] = round(brightness, 2)
     info["lighting_ok"] = brightness >= 60
+    blur_score = get_blur_score(img)
+    info["blur_score"] = round(blur_score, 2)
+    info["sharpness_ok"] = blur_score >= 30.0
 
     mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
     result = _get_landmarker().detect(mp_image)
-
-    
 
     if not result.face_landmarks:
         return None, info
@@ -86,10 +107,10 @@ def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, fl
     lms = result.face_landmarks[0]
     landmarks = [(p.x, p.y, p.z) for p in lms]
 
-    info["face_detected"] = True
-
     angle_ok = angle_ok_from_landmarks(landmarks)
     info["angle_ok"] = angle_ok
+    info["face_size_ok"] = face_size_ok(landmarks, img.shape[1], img.shape[0])
+    info["face_detected"] = True
 
     # simple confidence score
     conf = 0.0
@@ -99,6 +120,10 @@ def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, fl
         conf += 0.25
     if info["angle_ok"]:
         conf += 0.25
+    if not info["sharpness_ok"]:
+        conf -= 0.1
+    if not info["face_size_ok"]:
+        conf -= 0.1
     info["confidence"] = round(conf, 2)
 
     return landmarks, info

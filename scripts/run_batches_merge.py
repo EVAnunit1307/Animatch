@@ -1,7 +1,4 @@
-"""
-Run the vector builder on each batch file in animatch/data/batches
-and merge all results into animatch/app/data/anime_vectors.json.
-"""
+
 import json
 import subprocess
 import sys

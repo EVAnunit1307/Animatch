@@ -4,10 +4,9 @@ from fastapi.middleware.cors import CORSMiddleware
 import numpy as np 
 import cv2
 from animatch.app.services.explain import explain_match
-from animatch.app.services.match import match_characters
+from animatch.app.services.match import match_characters, load_characters
 from animatch.app.services.landmarks import extract_landmarks, draw_landmarks_on_image
 from animatch.app.services.features import landmarks_to_features
-from animatch.app.services.match import load_characters
 app = FastAPI(title="Animatch")
 
 # Allow local files and simple dev servers to call the API
@@ -82,7 +81,15 @@ async def match(
 
         resp = {
             "matches": matches,
-            "quality": quality
+            "quality": {
+                "brightness": quality.get("brightness"),
+                "lighting_ok": quality.get("lighting_ok"),
+                "angle_ok": quality.get("angle_ok"),
+                "blur_score": quality.get("blur_score"),
+                "sharpness_ok": quality.get("sharpness_ok"),
+                "face_size_ok": quality.get("face_size_ok"),
+                "confidence": quality.get("confidence"),
+            },
         }
 
         if debug:
@@ -110,4 +117,7 @@ def match_features(features = Body(...), top_k = 3): #features is the json the c
     for m in matches:
         m["reasons"] = explain_match(features, m["vector"])
 
-    return {"matches": matches}
+    return {
+        "matches": matches,
+        "quality": None,
+    }
