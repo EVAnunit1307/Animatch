@@ -1,0 +1,308 @@
+[
+  {
+    "id": "naruto_0",
+    "name": "Uzumaki, Naruto",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469"
+  },
+  {
+    "id": "naruto_1",
+    "name": "Uchiha, Itachi",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.jpg?s=11eac9672b208175831a0da62f188622"
+  },
+  {
+    "id": "naruto_2",
+    "name": "Hatake, Kakashi",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/284129.jpg?s=b0a6b941fd427cbfd85657f316c0e309"
+  },
+  {
+    "id": "naruto_3",
+    "name": "Uchiha, Sasuke",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/131317.jpg?s=9705c17dba36c2edebded3a72dc1a46e"
+  },
+  {
+    "id": "naruto_4",
+    "name": "Nara, Shikamaru",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/131315.jpg?s=a800fe970f638eae38b1e50d3471121d"
+  },
+  {
+    "id": "naruto_5",
+    "name": "Jiraiya",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7"
+  },
+  {
+    "id": "naruto_6",
+    "name": "Gaara",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/293375.jpg?s=ceeb8ed1578737104c8e347ab7a52101"
+  },
+  {
+    "id": "naruto_7",
+    "name": "Hyuuga, Hinata",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/278736.jpg?s=efc87a537d323edc47900cb08e1722c9"
+  },
+  {
+    "id": "naruto_8",
+    "name": "Namikaze, Minato",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/128074.jpg?s=3c25d6b03a654401141036f32b6e9b8b"
+  },
+  {
+    "id": "naruto_9",
+    "name": "Pain",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/73473.jpg?s=5c41288db6aa7a2339a4ff90ea211d49"
+  },
+  {
+    "id": "naruto_10",
+    "name": "Lee, Rock",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/433353.jpg?s=c2099a6532ecf14f4cf233c4cbd6532f"
+  },
+  {
+    "id": "naruto_11",
+    "name": "Haruno, Sakura",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c"
+  },
+  {
+    "id": "one_piece_0",
+    "name": "Monkey D., Luffy",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/310307.jpg?s=3a27ab33bee665febfba970f24f203ba"
+  },
+  {
+    "id": "one_piece_1",
+    "name": "Roronoa, Zoro",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/100534.jpg?s=4a00840eacc26e9ad86bae6f505e4826"
+  },
+  {
+    "id": "one_piece_2",
+    "name": "Sanji",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/136769.jpg?s=52b8fdfc38114a389d83dd5301842556"
+  },
+  {
+    "id": "one_piece_3",
+    "name": "Nico, Robin",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/363700.jpg?s=3e7fa6074c0d30c8bede3905680e983c"
+  },
+  {
+    "id": "one_piece_4",
+    "name": "Trafalgar, Law",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/258757.jpg?s=a537201b5cb91a6905765fee2de00012"
+  },
+  {
+    "id": "one_piece_5",
+    "name": "Tony Tony, Chopper",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/100536.jpg?s=9536cd3e6fe65064a110b8d8b2f2808e"
+  },
+  {
+    "id": "one_piece_6",
+    "name": "Nami",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/59914.jpg?s=302fa4565e9cbd5368b6ca4da51e1a0c"
+  },
+  {
+    "id": "one_piece_7",
+    "name": "Usopp",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/188076.jpg?s=f24eccad7d76e7747895a9a945d8a3ed"
+  },
+  {
+    "id": "one_piece_8",
+    "name": "Portgas D., Ace",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/72220.jpg?s=e92b075a899b3b5d3cdac70615d8853b"
+  },
+  {
+    "id": "one_piece_9",
+    "name": "Brook",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/161005.jpg?s=8e3191d4d9691fffe3dafaefaf086014"
+  },
+  {
+    "id": "one_piece_10",
+    "name": "Charlotte, Katakuri",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/342776.jpg?s=f470538ebc96929c2d1ba1e27b7a9f63"
+  },
+  {
+    "id": "one_piece_11",
+    "name": "Franky",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/210053.jpg?s=58f71be3af78384ac43869b8c681efaf"
+  },
+  {
+    "id": "jujutsu_kaisen_0",
+    "name": "Gojou, Satoru",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01"
+  },
+  {
+    "id": "jujutsu_kaisen_1",
+    "name": "Itadori, Yuuji",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/467646.jpg?s=9e1cb7b0c6c7f145661e8ee93f32215d"
+  },
+  {
+    "id": "jujutsu_kaisen_2",
+    "name": "Nanami, Kento",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/581424.jpg?s=78de007092c9e32f3555753de4999ee6"
+  },
+  {
+    "id": "jujutsu_kaisen_3",
+    "name": "Fushiguro, Megumi",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/392689.jpg?s=2395a10b59bb54ec9891c74ef214fea1"
+  },
+  {
+    "id": "jujutsu_kaisen_4",
+    "name": "Ryoumen, Sukuna",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/431152.jpg?s=776045fc0fe9f2ecf8923f0f9c20f288"
+  },
+  {
+    "id": "jujutsu_kaisen_5",
+    "name": "Kugisaki, Nobara",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/422313.jpg?s=053db48815610ce7fdc280f62a3499ce"
+  },
+  {
+    "id": "jujutsu_kaisen_6",
+    "name": "Zenin, Maki",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/423949.jpg?s=72edfa936ac89421e8d16970762d8b5b"
+  },
+  {
+    "id": "jujutsu_kaisen_7",
+    "name": "Inumaki, Toge",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/521636.jpg?s=ef7b20ebe6e134fc94303c86e5cd1268"
+  },
+  {
+    "id": "jujutsu_kaisen_8",
+    "name": "Okkotsu, Yuuta",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/461503.jpg?s=dda1109b054b3b2e6198d91527cfc7ac"
+  },
+  {
+    "id": "jujutsu_kaisen_9",
+    "name": "Getou, Suguru",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/617691.jpg?s=30f738df75fd150b3eb14a788c6780fd"
+  }
+]
