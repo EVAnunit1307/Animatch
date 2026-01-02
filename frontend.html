@@ -19,11 +19,12 @@
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      padding: 24px;
+      padding: 20px;
       font-family: "Inter", "Segoe UI", sans-serif;
       background: linear-gradient(135deg, #0b1221, #0f172a);
       color: var(--text);
     }
+    .container { max-width: 1200px; margin: 0 auto; }
     h1 { margin: 0 0 12px; }
     .app {
       display: grid;
@@ -99,15 +100,42 @@
       border-radius: 10px;
       border: 1px solid rgba(255,255,255,0.08);
     }
+    .legend {
+      margin: 6px 0 8px;
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      align-items: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 12px;
+      color: #0f172a;
+    }
+    .badge.good { background: var(--ok); }
+    .badge.ok { background: var(--warn); color: #1f2937; }
+    .badge.weak { background: #475569; color: #e2e8f0; }
+    .info { font-size: 13px; color: var(--muted); margin-top: 4px; }
     @media (max-width: 960px) {
       .app { grid-template-columns: 1fr; }
+      .card { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .panel { padding: 12px; }
       .card { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
-  <h1>Animatch</h1>
-  <div class="app">
+  <div class="container">
+    <h1>Animatch</h1>
+    <div class="app">
     <div class="panel">
       <label>Upload an image</label><br>
       <input type="file" id="file" accept="image/*"><br>
@@ -122,6 +150,12 @@
     </div>
     <div class="panel">
       <h3 style="margin:0 0 8px;">Matches</h3>
+      <div class="legend">
+        <div><span class="badge good" title="≥60% is a strong facial-shape match">Good</span> ≥ 60%</div>
+        <div><span class="badge ok" title="40–59% is a reasonable match">OK</span> 40–59%</div>
+        <div><span class="badge weak" title="Below 40%: weak similarity">Weak</span> &lt; 40%</div>
+      </div>
+      <div class="info">Similarity uses normalized face ratios (eyes, jaw, chin, brow). Higher = closer.</div>
       <div id="compare" style="display:none; margin-bottom:12px;">
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
           <div>
@@ -138,9 +172,10 @@
       <div class="matches" id="matches"></div>
     </div>
   </div>
-
+  </div>
   <script>
     const api = "http://127.0.0.1:8000/match";
+    const BADGE_THRESH = { good: 60, ok: 40 };
     const go = document.getElementById("go");
     const statusEl = document.getElementById("status");
     const qualityEl = document.getElementById("quality");
@@ -187,9 +222,13 @@
       }
       list.forEach((m, idx) => {
         const pct = m.similarity_pct !== undefined ? m.similarity_pct : Math.min(100, Math.max(0, (m.similarity || 0) * 100));
-        const reasons = (m.reasons || []).map(r => `<li>${r.reason} (Δ ${r.difference})</li>`).join("");
+        const reasons = (m.reasons || []).map(r => {
+          const delta = r.difference !== undefined ? ` (Δ ${r.difference})` : "";
+          return `<li>${r.reason}${delta}</li>`;
+        }).join("");
         const img = m.image_url ? `<img src="${m.image_url}" alt="${m.name}" style="width:120px;border-radius:8px;border:1px solid rgba(255,255,255,0.08);">` : "";
-        const badge = pct >= 60 ? "Good" : pct >= 40 ? "OK" : "Weak";
+        const badge = pct >= BADGE_THRESH.good ? "Good" : pct >= BADGE_THRESH.ok ? "OK" : "Weak";
+        const badgeClass = badge === "Good" ? "good" : badge === "OK" ? "ok" : "weak";
         const card = `
           <div class="card">
             ${img || "<div style='width:120px;height:120px;background:rgba(255,255,255,0.05);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted);'>No image</div>"}
@@ -197,7 +236,7 @@
               <div style="font-weight:700;font-size:16px;">${m.name || m.id}</div>
               <div style="color:var(--muted);font-size:13px;">${m.series || ""}</div>
               <div class="bar"><span style="width:${pct}%;"></span></div>
-              <div style="font-size:13px;color:var(--muted);">Similarity: ${pct.toFixed(1)}% (${badge})</div>
+              <div style="font-size:13px;color:var(--muted);">Similarity: ${pct.toFixed(1)}% <span class="badge ${badgeClass}" style="margin-left:6px;">${badge}</span></div>
               <ul class="reasons">${reasons}</ul>
               <button class="view-btn" data-idx="${idx}" style="margin-top:6px;padding:6px 10px;border-radius:6px;background:var(--accent-2);color:white;border:none;cursor:pointer;">View side-by-side</button>
             </div>
