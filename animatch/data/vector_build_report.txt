@@ -1,6 +1,6 @@
-Total entries: 34
+Total entries: 20
 Successful: 20
-Failed: 14
-No face: naruto_2, naruto_3, naruto_8, naruto_10, one_piece_0, one_piece_2, one_piece_5, one_piece_7, one_piece_8, one_piece_9, one_piece_10, one_piece_11, jujutsu_kaisen_1, jujutsu_kaisen_7
+Failed: 0
+No face: -
 Errors:
   -
