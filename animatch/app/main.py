@@ -1,5 +1,6 @@
 import base64
 from fastapi import FastAPI, UploadFile, File, Body, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 import numpy as np 
 import cv2
 from animatch.app.services.explain import explain_match
@@ -8,6 +9,15 @@ from animatch.app.services.landmarks import extract_landmarks, draw_landmarks_on
 from animatch.app.services.features import landmarks_to_features
 from animatch.app.services.match import load_characters
 app = FastAPI(title="Animatch")
+
+# Allow local files and simple dev servers to call the API
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/health")
 def health():
