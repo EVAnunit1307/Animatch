@@ -100,7 +100,7 @@ def main() -> None:
                 vector = landmarks_to_features(landmarks)
                 overlay_url = None
                 try:
-                    overlay_bytes = draw_landmarks_on_image(img_bytes, landmarks, radius=4)
+                    overlay_bytes = draw_landmarks_on_image(img_bytes, landmarks, radius=2)
                     overlay_path = OVERLAY_DIR / f"{c['id']}.png"
                     overlay_path.write_bytes(overlay_bytes)
                     overlay_url = f"/static/overlays/{overlay_path.name}"
