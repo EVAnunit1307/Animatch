@@ -64,7 +64,8 @@ def match_characters (user_features, top_k=3): #gets top 3
             "name": c["name"],
             "series": c["series"],
             "similarity": round(sim, 4),
-            "vector": c["vector"]
+            "vector": c["vector"],
+            "image_url": c.get("image_url"),
         })
 
     return results

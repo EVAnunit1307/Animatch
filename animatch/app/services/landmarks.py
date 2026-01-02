@@ -154,7 +154,7 @@ def angle_ok_from_landmarks(landmarks: List[Tuple[float, float, float]]) -> bool
 
 
 def draw_landmarks_on_image(
-    image_bytes: bytes, landmarks: List[Tuple[float, float, float]], radius: int = 2
+    image_bytes: bytes, landmarks: List[Tuple[float, float, float]], radius: int = 4
 ) -> bytes:
     """
     Draw landmarks on the input image and return PNG bytes.
