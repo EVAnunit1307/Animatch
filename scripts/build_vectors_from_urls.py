@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from animatch.app.services.landmarks import extract_landmarks
+from animatch.app.services.landmarks import extract_landmarks, draw_landmarks_on_image
 from animatch.app.services.features import landmarks_to_features
 
 
@@ -21,6 +21,7 @@ OUT_DEFAULT = Path("animatch/app/data/anime_vectors.json")
 SAVE_FAILED = True
 FAILED_DIR = Path("animatch/data/failed_images")
 REPORT = Path("animatch/data/vector_build_report.txt")
+OVERLAY_DIR = Path("animatch/data/overlays")
 
 
 def download_bytes(url: str) -> bytes:
@@ -69,6 +70,7 @@ def main() -> None:
 
     if SAVE_FAILED:
         FAILED_DIR.mkdir(parents=True, exist_ok=True)
+    OVERLAY_DIR.mkdir(parents=True, exist_ok=True)
 
     for c in items:
         urls_to_try = []
@@ -96,6 +98,15 @@ def main() -> None:
                     continue
 
                 vector = landmarks_to_features(landmarks)
+                overlay_url = None
+                try:
+                    overlay_bytes = draw_landmarks_on_image(img_bytes, landmarks, radius=4)
+                    overlay_path = OVERLAY_DIR / f"{c['id']}.png"
+                    overlay_path.write_bytes(overlay_bytes)
+                    overlay_url = f"/static/overlays/{overlay_path.name}"
+                except Exception:
+                    overlay_url = None
+
                 record = {
                     "id": c["id"],
                     "name": c.get("name"),
@@ -103,6 +114,7 @@ def main() -> None:
                     "tags": c.get("tags", []),
                     "vector": vector,
                     "image_url": url,
+                    "overlay_url": overlay_url,
                 }
                 results.append(record)
                 print("OK:", c["id"])

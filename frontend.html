@@ -131,6 +131,7 @@
           <div>
             <div style="color:var(--muted); font-size:13px; margin-bottom:4px;">Selected match</div>
             <img id="matchCompare" class="overlay" style="display:none" alt="Match image">
+            <img id="matchOverlayCompare" class="overlay" style="display:none; margin-top:6px;" alt="Match overlay">
           </div>
         </div>
       </div>
@@ -147,6 +148,7 @@
     const overlayEl = document.getElementById("overlay");
     const overlayCompare = document.getElementById("overlayCompare");
     const matchCompare = document.getElementById("matchCompare");
+    const matchOverlayCompare = document.getElementById("matchOverlayCompare");
     const compareBlock = document.getElementById("compare");
 
     function qualityItem(label, value, ok=true) {
@@ -218,6 +220,7 @@
       overlayEl.src = "";
       overlayCompare.style.display = "none";
       matchCompare.style.display = "none";
+      matchOverlayCompare.style.display = "none";
       compareBlock.style.display = "none";
       qualityEl.innerHTML = "";
       matchesEl.innerHTML = "";
@@ -245,9 +248,17 @@
             if (m && m.image_url) {
               matchCompare.src = m.image_url;
               matchCompare.style.display = "block";
-              compareBlock.style.display = "block";
             } else {
               matchCompare.style.display = "none";
+            }
+            if (m && m.overlay_url) {
+              matchOverlayCompare.src = m.overlay_url;
+              matchOverlayCompare.style.display = "block";
+            } else {
+              matchOverlayCompare.style.display = "none";
+            }
+            if (matchCompare.style.display === "block" || matchOverlayCompare.style.display === "block") {
+              compareBlock.style.display = "block";
             }
           };
         });

@@ -1,6 +1,7 @@
 import base64
 from fastapi import FastAPI, UploadFile, File, Body, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 import numpy as np 
 import cv2
 from animatch.app.services.explain import explain_match
@@ -17,6 +18,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.mount("/static", StaticFiles(directory="animatch/data"), name="static")
 
 @app.get("/health")
 def health():

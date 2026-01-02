@@ -80,6 +80,7 @@ def match_characters (user_features, top_k=3): #gets top 3
             "similarity_pct": round(pct, 1),
             "vector": c["vector"],
             "image_url": c.get("image_url"),
+            "overlay_url": c.get("overlay_url"),
         })
 
     return results

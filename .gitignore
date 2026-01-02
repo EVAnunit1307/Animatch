@@ -11,6 +11,8 @@ scripts/models/
 animatch/app/models/
 animatch/data/images/
 animatch/data/jikan/
+animatch/data/overlays/
+animatch/data/batch_vectors/
 
 # Editor/IDE
 .vscode/
