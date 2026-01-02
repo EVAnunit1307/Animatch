@@ -9,6 +9,8 @@ dist/
 .venv/
 scripts/models/
 animatch/app/models/
+animatch/data/images/
+animatch/data/jikan/
 
 # Editor/IDE
 .vscode/
