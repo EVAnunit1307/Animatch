@@ -34,6 +34,7 @@ SERIES_TO_ID = {
     "Blue Lock": 49596,
     "Vinland Saga": 37521,
     "Code Geass": 1575,
+    "Neon Genesis Evangelion": 30,
 }
 
 # Adjust these if you want more/fewer per series
