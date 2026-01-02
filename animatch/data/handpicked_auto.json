@@ -108,6 +108,24 @@
     "image_url": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c"
   },
   {
+    "id": "naruto_12",
+    "name": "Hyuuga, Neji",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/105538.jpg?s=7603e3986722997b66259d9fea83a3b2"
+  },
+  {
+    "id": "naruto_13",
+    "name": "Deidara",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/131319.jpg?s=02bd30a045b2aaabf13e22a0149845e2"
+  },
+  {
     "id": "one_piece_0",
     "name": "Monkey D., Luffy",
     "series": "One Piece",
@@ -216,6 +234,60 @@
     "image_url": "https://cdn.myanimelist.net/images/characters/13/210053.jpg?s=58f71be3af78384ac43869b8c681efaf"
   },
   {
+    "id": "one_piece_12",
+    "name": "Shanks",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/307639.jpg?s=175776bc9b9338bdc8f64520b1699548"
+  },
+  {
+    "id": "one_piece_13",
+    "name": "Edward, Newgate",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/100236.jpg?s=7d8b2cff3cdb3b4cae84ff79ddf906cf"
+  },
+  {
+    "id": "one_piece_14",
+    "name": "Donquixote, Doflamingo",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/349513.jpg?s=d4c15f9b8af8e82e7c05e30b4d1453b8"
+  },
+  {
+    "id": "one_piece_15",
+    "name": "Jinbe",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/307148.jpg?s=20f8bf1d3a9854be84b67367849b1322"
+  },
+  {
+    "id": "one_piece_16",
+    "name": "Boa, Hancock",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/146013.jpg?s=cb2628e503ecea60dc2619b4aedf3247"
+  },
+  {
+    "id": "one_piece_17",
+    "name": "Donquixote, Rosinante",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/288038.jpg?s=82d48aa53e9927a25f7f0384e4beca67"
+  },
+  {
     "id": "jujutsu_kaisen_0",
     "name": "Gojou, Satoru",
     "series": "Jujutsu Kaisen",
@@ -304,5 +376,941 @@
       "anime"
     ],
     "image_url": "https://cdn.myanimelist.net/images/characters/6/617691.jpg?s=30f738df75fd150b3eb14a788c6780fd"
+  },
+  {
+    "id": "jujutsu_kaisen_10",
+    "name": "Toudou, Aoi",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/427604.jpg?s=4471dfaee135cd387a053f4b6556b2b2"
+  },
+  {
+    "id": "demon_slayer_0",
+    "name": "Kamado, Tanjirou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/386735.jpg?s=7327e90f2310ececd18696cd4aa2ff4e"
+  },
+  {
+    "id": "demon_slayer_1",
+    "name": "Agatsuma, Zenitsu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/459689.jpg?s=d5ccecc4a7b9e2118acb849a2062a84c"
+  },
+  {
+    "id": "demon_slayer_2",
+    "name": "Hashibira, Inosuke",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/329560.jpg?s=5ef0629d3641cd02eaeaf7d4df9ea4c2"
+  },
+  {
+    "id": "demon_slayer_3",
+    "name": "Rengoku, Kyoujurou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/423443.jpg?s=2f06005562d13647b1a8280b93db9d54"
+  },
+  {
+    "id": "demon_slayer_4",
+    "name": "Kamado, Nezuko",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/378254.jpg?s=c3cdc50f2d9f3b30e4453c8ca1f8460f"
+  },
+  {
+    "id": "demon_slayer_5",
+    "name": "Kochou, Shinobu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/386591.jpg?s=3c18dc65ee6cd3a032214d6a6e49ac9e"
+  },
+  {
+    "id": "demon_slayer_6",
+    "name": "Tomioka, Giyuu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/423445.jpg?s=a049de02a43de100a4b68b759a95fa41"
+  },
+  {
+    "id": "demon_slayer_7",
+    "name": "Uzui, Tengen",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/387706.jpg?s=c761782087650f5a1e98a21aa7635280"
+  },
+  {
+    "id": "demon_slayer_8",
+    "name": "Kanroji, Mitsuri",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/514229.jpg?s=8bbf40b3cfa80df52f3eccce022146ea"
+  },
+  {
+    "id": "demon_slayer_9",
+    "name": "Tokitou, Muichirou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/464903.jpg?s=8a4c1a500e00fe55746dd8d259401513"
+  },
+  {
+    "id": "attack_on_titan_0",
+    "name": "Levi",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/241413.jpg?s=1a789f9d4c7a441881e4b06a75bd91db"
+  },
+  {
+    "id": "attack_on_titan_1",
+    "name": "Yeager, Eren",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/216895.jpg?s=ccb6539cbfc5462df97d61a48c52af93"
+  },
+  {
+    "id": "attack_on_titan_2",
+    "name": "Ackerman, Mikasa",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/215563.jpg?s=5b0650bb09a7e053afc6bad84ab48947"
+  },
+  {
+    "id": "attack_on_titan_3",
+    "name": "Smith, Erwin",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/559023.jpg?s=148a0689d341e23cae536207d030f3fc"
+  },
+  {
+    "id": "attack_on_titan_4",
+    "name": "Arlert, Armin",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/220267.jpg?s=afa2751e2201aba1f5179544e787ba1a"
+  },
+  {
+    "id": "attack_on_titan_5",
+    "name": "Zoë, Hange",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/208637.jpg?s=3cfdcb5ec72bf4fbd01291026f8c955c"
+  },
+  {
+    "id": "attack_on_titan_6",
+    "name": "Blouse, Sasha",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/251937.jpg?s=3fa60ed09de9a2a8e46d30099e50e6c4"
+  },
+  {
+    "id": "attack_on_titan_7",
+    "name": "Braun, Reiner",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/206489.jpg?s=e48695a419dc6e71c831d7481a5fc86f"
+  },
+  {
+    "id": "attack_on_titan_8",
+    "name": "Kirstein, Jean",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/216893.jpg?s=e0558332ed9959c09ddd0c65e90212e9"
+  },
+  {
+    "id": "attack_on_titan_9",
+    "name": "Leonhart, Annie",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/206357.jpg?s=3a853fc7177a3eeaefbecb530d590a4a"
+  },
+  {
+    "id": "my_hero_academia_0",
+    "name": "Midoriya, Izuku",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.jpg?s=6a448d3702c1d3185ed7ad8f0b8484f0"
+  },
+  {
+    "id": "my_hero_academia_1",
+    "name": "Todoroki, Shouto",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/332527.jpg?s=575a733f7d22b2b94a12194e051932de"
+  },
+  {
+    "id": "my_hero_academia_2",
+    "name": "Bakugou, Katsuki",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/299406.jpg?s=7ce7f3b38b2ebe0fd31b3a313fa14fe9"
+  },
+  {
+    "id": "my_hero_academia_3",
+    "name": "All Might",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/310613.jpg?s=2bb273c38247c38003176367645e6488"
+  },
+  {
+    "id": "my_hero_academia_4",
+    "name": "Aizawa, Shouta",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/301855.jpg?s=30bde8aa7f840805f22ab894a1eca521"
+  },
+  {
+    "id": "my_hero_academia_5",
+    "name": "Kirishima, Eijirou",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/329529.jpg?s=cbfca4fce697447408c68a94d519b1b0"
+  },
+  {
+    "id": "my_hero_academia_6",
+    "name": "Uraraka, Ochako",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/299421.jpg?s=5c7499bacd3f2c8f4238253a5877c757"
+  },
+  {
+    "id": "my_hero_academia_7",
+    "name": "Asui, Tsuyu",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/299409.jpg?s=007a26c2a56f15a578815945d1bb2d53"
+  },
+  {
+    "id": "my_hero_academia_8",
+    "name": "Shigaraki, Tomura",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/272139.jpg?s=ee7d051f5ff04bd4fe6830e0d268cb10"
+  },
+  {
+    "id": "my_hero_academia_9",
+    "name": "Iida, Tenya",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/299417.jpg?s=ae97d822ef7c4cdbe392766389c3f5f1"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_0",
+    "name": "Elric, Edward",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/72533.jpg?s=d38cf4e2e5cbb46ddaf2b23345a03eae"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_1",
+    "name": "Mustang, Roy",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/510227.jpg?s=a9880198a26475fa0555f4690bab8cd3"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_2",
+    "name": "Elric, Alphonse",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/54265.jpg?s=65c1a674adae3d7c5740d5711517285a"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_3",
+    "name": "Hughes, Maes",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/73469.jpg?s=049daccbf5014073c0c8933c5388258a"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_4",
+    "name": "Greed",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/78721.jpg?s=b19bb6258904972030cb3f41917f8a60"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_5",
+    "name": "Hawkeye, Riza",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/451785.jpg?s=11bc1988772e66c4fce2ff3dee08b8da"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_6",
+    "name": "Yao, Ling",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/62602.jpg?s=c1c34cb6b91640be0fc8a4c4aadc14a1"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_7",
+    "name": "Rockbell, Winry",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/84336.jpg?s=b176965399deaee17a8c6304240a18f8"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_8",
+    "name": "Armstrong, Alex Louis",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/71066.jpg?s=c20e0eaade03719e6637e381a63c8154"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_9",
+    "name": "Armstrong, Olivier Mira",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/83953.jpg?s=616c3cbf0f0a02068ac4f9bf7e52c746"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_10",
+    "name": "Envy",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/79027.jpg?s=4bcce514aa7b51d229ffd84a0a4976d5"
+  },
+  {
+    "id": "bleach_0",
+    "name": "Kurosaki, Ichigo",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/512788.jpg?s=55ff462576b32a74758448436f35dcbb"
+  },
+  {
+    "id": "bleach_1",
+    "name": "Zaraki, Kenpachi",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/150265.jpg?s=a7bda35cc8518a68480cd334baa5e12a"
+  },
+  {
+    "id": "bleach_2",
+    "name": "Urahara, Kisuke",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/149491.jpg?s=0f14e8fbbf14dde646817cb8552e8908"
+  },
+  {
+    "id": "bleach_3",
+    "name": "Aizen, Sousuke",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/73909.jpg?s=1a450d31fd432b46314048dbb3915fc4"
+  },
+  {
+    "id": "bleach_4",
+    "name": "Cifer, Ulquiorra",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/529323.jpg?s=701d2f9aa034abda278ca33c96b54030"
+  },
+  {
+    "id": "bleach_5",
+    "name": "Kuchiki, Rukia",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/78215.jpg?s=2a0f7f516f3e5b213833e9f9a9de4a51"
+  },
+  {
+    "id": "bleach_6",
+    "name": "Hitsugaya, Toushirou",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/36579.jpg?s=fec37a5d08dbe1f8e806d3f9ce9d7f4f"
+  },
+  {
+    "id": "bleach_7",
+    "name": "Kuchiki, Byakuya",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/100098.jpg?s=c184bfa12ef0b29cc48d31e986d011ad"
+  },
+  {
+    "id": "bleach_8",
+    "name": "Jaegerjaquez, Grimmjow",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/529459.jpg?s=b984373cc69a540db053b3516cf46dcc"
+  },
+  {
+    "id": "bleach_9",
+    "name": "Shihouin, Yoruichi",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/536084.jpg?s=328558550e2e5c85394d1982471151a5"
+  },
+  {
+    "id": "bleach_10",
+    "name": "Ichimaru, Gin",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/98077.jpg?s=1c0bf6a253287b0c1ed77d8d9530cd42"
+  },
+  {
+    "id": "bleach_11",
+    "name": "Kyouraku, Shunsui Jirou Sakuranosuke",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/33242.jpg?s=7445a3128d9b5e325c2c49b7a7e6ab92"
+  },
+  {
+    "id": "bleach_12",
+    "name": "Inoue, Orihime",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/505076.jpg?s=bf526e705495c0698997a2f8b9e3d6f9"
+  },
+  {
+    "id": "bleach_13",
+    "name": "Abarai, Renji",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/171877.jpg?s=e4fb4773c11884cd26a4eaed44ca3f6d"
+  },
+  {
+    "id": "bleach_14",
+    "name": "Ishida, Uryuu",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/139189.jpg?s=c45c92f3d197dbbe891cfd266f487c2f"
+  },
+  {
+    "id": "bleach_15",
+    "name": "Sado, Yasutora",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/102739.jpg?s=62a1f21a246934b22b8e46a8db7259bf"
+  },
+  {
+    "id": "one_punch_man_0",
+    "name": "Saitama",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/294388.jpg?s=a56fc5484b23811f3308aad1dc7b8b2e"
+  },
+  {
+    "id": "one_punch_man_1",
+    "name": "Garou",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/381817.jpg?s=746f6c6dee054abbdcd26108816ace87"
+  },
+  {
+    "id": "one_punch_man_2",
+    "name": "Genos",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/297329.jpg?s=1dd6cf2edbb45d8bd1e654541226901d"
+  },
+  {
+    "id": "one_punch_man_3",
+    "name": "Tatsumaki",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/543830.jpg?s=3858a5427b608eacb5f5d689906711f1"
+  },
+  {
+    "id": "one_punch_man_4",
+    "name": "Mumen Rider",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/344059.jpg?s=a1f8f15abb64c481887dd4368e71f82d"
+  },
+  {
+    "id": "death_note_0",
+    "name": "Lawliet, L",
+    "series": "Death Note",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/249647.jpg?s=95cecc21f3db10318c68a0863f0132c8"
+  },
+  {
+    "id": "death_note_1",
+    "name": "Yagami, Light",
+    "series": "Death Note",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/63870.jpg?s=3adaed92c13123a9649ccc0cc6551f7d"
+  },
+  {
+    "id": "death_note_2",
+    "name": "Ryuk",
+    "series": "Death Note",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/59125.jpg?s=e258ccc6e6f6ed00c837b5ae8bced941"
+  },
+  {
+    "id": "death_note_3",
+    "name": "Amane, Misa",
+    "series": "Death Note",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/30971.jpg?s=0af596d087b34f6e05942dcae60aebae"
+  },
+  {
+    "id": "death_note_4",
+    "name": "River, Nate",
+    "series": "Death Note",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/77339.jpg?s=e045ccd8110b534c2668b4e7a02ac22f"
+  },
+  {
+    "id": "death_note_5",
+    "name": "Keehl, Mihael",
+    "series": "Death Note",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/31498.jpg?s=021fbd3f7ad05577fbbcd8cfb52e402b"
+  },
+  {
+    "id": "dragon_ball_z_0",
+    "name": "Son, Gokuu",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/72546.jpg?s=c434a442d8ad1212885a8d02dbcbbee0"
+  },
+  {
+    "id": "dragon_ball_z_1",
+    "name": "Vegeta",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/86185.jpg?s=145f25d852734f70db55a92cab54b27b"
+  },
+  {
+    "id": "dragon_ball_z_2",
+    "name": "Son, Gohan",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/72715.jpg?s=886561eebbd32941685b470ff9ed78a2"
+  },
+  {
+    "id": "dragon_ball_z_3",
+    "name": "Piccolo",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/45628.jpg?s=7f3263916ca42434072fb20a7590c277"
+  },
+  {
+    "id": "dragon_ball_z_4",
+    "name": "Future Trunks",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/375125.jpg?s=dfee723daa759ba6480fa09fe6903b00"
+  },
+  {
+    "id": "dragon_ball_z_5",
+    "name": "Kuririn",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/48517.jpg?s=19014a6433cd36c32f3661b21b38dad3"
+  },
+  {
+    "id": "hunter_x_hunter_0",
+    "name": "Zoldyck, Killua",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/327920.jpg?s=afd533ace6e7ce81ccf877d3d97880bb"
+  },
+  {
+    "id": "hunter_x_hunter_1",
+    "name": "Morow, Hisoka",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/174561.jpg?s=74fd92ebbe0d14dec69aeba8eff36bb9"
+  },
+  {
+    "id": "hunter_x_hunter_2",
+    "name": "Kurapika",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/549312.jpg?s=fc4bb9699591fdf742c7fee5593c961e"
+  },
+  {
+    "id": "hunter_x_hunter_3",
+    "name": "Freecss, Gon",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/174517.jpg?s=c8133cf450dc6bf13ba52d6781759101"
+  },
+  {
+    "id": "hunter_x_hunter_4",
+    "name": "Meruem",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/243861.jpg?s=7d6b962cafaeb5d6ae91fa8b3d9d38a0"
+  },
+  {
+    "id": "hunter_x_hunter_5",
+    "name": "Lucilfer, Chrollo",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/182387.jpg?s=82532b8deca18069b86e7f598e0ca914"
+  },
+  {
+    "id": "hunter_x_hunter_6",
+    "name": "Paladiknight, Leorio",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/549311.jpg?s=ba86161de766b11580c7fbdf23849cbc"
+  },
+  {
+    "id": "hunter_x_hunter_7",
+    "name": "Netero, Isaac",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/257355.jpg?s=1371e4c5acb62a73bf7843b25b58d25d"
+  },
+  {
+    "id": "hunter_x_hunter_8",
+    "name": "Neferpitou",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/253673.jpg?s=1800b6a0931f971d9c6d47b9ca1cae1c"
+  },
+  {
+    "id": "hunter_x_hunter_9",
+    "name": "Portor, Feitan",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/174721.jpg?s=bf0a62d8405521bfb141e131c363f73d"
+  },
+  {
+    "id": "chainsaw_man_0",
+    "name": "Power",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/494969.jpg?s=02622d6ffa487b8d6d7503af4792a106"
+  },
+  {
+    "id": "chainsaw_man_1",
+    "name": "Denji",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/492407.jpg?s=4d8e9a01dac6a5d891c3ed434187fba9"
+  },
+  {
+    "id": "chainsaw_man_2",
+    "name": "Makima",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/489561.jpg?s=6593bd49704ffb415d3fd9d40e5dc183"
+  },
+  {
+    "id": "chainsaw_man_3",
+    "name": "Hayakawa, Aki",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/395003.jpg?s=d0d59f9d3f6d5aa89534c8b16433cf74"
+  },
+  {
+    "id": "chainsaw_man_4",
+    "name": "Reze",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/412779.jpg?s=1d5a374681e5d13be3aed859cf44af22"
+  },
+  {
+    "id": "chainsaw_man_5",
+    "name": "Higashiyama, Kobeni",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/467961.jpg?s=62b404edd1edcea21a0fb16f230f3916"
+  },
+  {
+    "id": "chainsaw_man_6",
+    "name": "Pochita",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/391655.jpg?s=98a1bd67048600807f26dd709b70b7cc"
+  },
+  {
+    "id": "chainsaw_man_7",
+    "name": "Himeno",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/386392.jpg?s=587b426444b95d23293c9b8f1aa38450"
+  },
+  {
+    "id": "spy_x_family_0",
+    "name": "Forger, Anya",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/457933.jpg?s=ba4caa5a44905138cd83d5972982664c"
+  },
+  {
+    "id": "spy_x_family_1",
+    "name": "Forger, Yor",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/457934.jpg?s=95b00e4e699e5120bad0e4d20a148aa8"
+  },
+  {
+    "id": "spy_x_family_2",
+    "name": "Forger, Loid",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/580250.jpg?s=c98a9197f089df9132bc1c657bb6c131"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_0",
+    "name": "Joestar, Joseph",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/316615.jpg?s=c52eb11c56af357b8775e288bd5bd13e"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_1",
+    "name": "Brando, Dio",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/330539.jpg?s=2e40251bbb48a09a41d2c89016da80f4"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_2",
+    "name": "Speedwagon, Robert E. O.",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/196031.jpg?s=fa364d3f051a2a73e4c7c4726182a687"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_3",
+    "name": "Joestar, Jonathan",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/182715.jpg?s=d87c934286168a792851f4c46effc8e5"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_4",
+    "name": "Zeppeli, Caesar Anthonio",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/372612.jpg?s=2f2faeab6ed57598879fa6a5cb053481"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_5",
+    "name": "Kars",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/615607.jpg?s=fb8021bd67110d42f20e2e09addb91a7"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_6",
+    "name": "Lisa Lisa",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/196391.jpg?s=d4ae9b7d78b30c4d6031d04e0a99c941"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_7",
+    "name": "Zeppeli, Will A.",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/275118.jpg?s=9f95016c3c4ef0ea7968c6917bc21064"
   }
 ]

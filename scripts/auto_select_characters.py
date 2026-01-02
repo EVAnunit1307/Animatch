@@ -7,10 +7,23 @@ SERIES_TO_ID = {
     "Naruto": 20,
     "One Piece": 21,
     "Jujutsu Kaisen": 40748,
+    "Demon Slayer": 38000,
+    "Attack on Titan": 16498,
+    "My Hero Academia": 31964,
+    "Fullmetal Alchemist: Brotherhood": 5114,
+    "Bleach": 269,
+    "One Punch Man": 30276,
+    "Death Note": 1535,
+    "Dragon Ball Z": 813,
+    "Hunter x Hunter": 11061,
+    "Chainsaw Man": 44511,
+    "Spy x Family": 50265,
+    "JoJo's Bizarre Adventure": 14719,
 }
 
-MIN_FAVS = 5000
-MAX_PER_SERIES = 12
+# Adjust these if you want more/fewer per series
+MIN_FAVS = 3000
+MAX_PER_SERIES = 20
 
 DATA_DIR = Path("animatch/data")
 JIKAN_DIR = DATA_DIR / "jikan"
