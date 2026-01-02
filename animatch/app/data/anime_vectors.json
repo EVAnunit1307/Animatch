@@ -1,7 +1,7 @@
 [
   {
-    "id": "naruto_uzumaki",
-    "name": "Naruto Uzumaki",
+    "id": "naruto_0",
+    "name": "Uzumaki, Naruto",
     "series": "Naruto",
     "tags": [
       "anime"
@@ -17,41 +17,41 @@
     "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469"
   },
   {
-    "id": "naruto_sakura",
-    "name": "Sakura Haruno",
+    "id": "naruto_1",
+    "name": "Uchiha, Itachi",
     "series": "Naruto",
     "tags": [
       "anime"
     ],
     "vector": {
-      "face_ratio": 1.4548,
-      "eye_spacing": 0.2612,
-      "eye_openness": 0.2733,
-      "jaw_angle": 0.1058,
-      "chin_ratio": 0.5866,
-      "brow_height": 0.1091
+      "face_ratio": 1.3445,
+      "eye_spacing": 0.2538,
+      "eye_openness": 0.2749,
+      "jaw_angle": 0.133,
+      "chin_ratio": 0.5113,
+      "brow_height": 0.0827
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c"
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.jpg?s=11eac9672b208175831a0da62f188622"
   },
   {
-    "id": "naruto_gaara",
-    "name": "Gaara",
+    "id": "naruto_4",
+    "name": "Nara, Shikamaru",
     "series": "Naruto",
     "tags": [
       "anime"
     ],
     "vector": {
-      "face_ratio": 1.5245,
-      "eye_spacing": 0.259,
-      "eye_openness": 0.191,
-      "jaw_angle": 0.0966,
-      "chin_ratio": 0.4642,
-      "brow_height": 0.1348
+      "face_ratio": 1.4856,
+      "eye_spacing": 0.2649,
+      "eye_openness": 0.2591,
+      "jaw_angle": 0.1781,
+      "chin_ratio": 0.46,
+      "brow_height": 0.0758
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/293375.jpg?s=ceeb8ed1578737104c8e347ab7a52101"
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/131315.jpg?s=a800fe970f638eae38b1e50d3471121d"
   },
   {
-    "id": "naruto_jiraiya",
+    "id": "naruto_5",
     "name": "Jiraiya",
     "series": "Naruto",
     "tags": [
@@ -68,24 +68,126 @@
     "image_url": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7"
   },
   {
-    "id": "naruto_tsunade",
-    "name": "Tsunade",
+    "id": "naruto_6",
+    "name": "Gaara",
     "series": "Naruto",
     "tags": [
       "anime"
     ],
     "vector": {
-      "face_ratio": 1.428,
-      "eye_spacing": 0.2729,
-      "eye_openness": 0.2224,
-      "jaw_angle": 0.1181,
-      "chin_ratio": 0.5094,
-      "brow_height": 0.096
+      "face_ratio": 1.5245,
+      "eye_spacing": 0.259,
+      "eye_openness": 0.191,
+      "jaw_angle": 0.0966,
+      "chin_ratio": 0.4642,
+      "brow_height": 0.1348
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/12/523646.jpg?s=6e76b1e4adef34cd1698c91947542cc5"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/293375.jpg?s=ceeb8ed1578737104c8e347ab7a52101"
   },
   {
-    "id": "onepiece_nami",
+    "id": "naruto_7",
+    "name": "Hyuuga, Hinata",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.526,
+      "eye_spacing": 0.2778,
+      "eye_openness": 0.2214,
+      "jaw_angle": 0.0961,
+      "chin_ratio": 0.5249,
+      "brow_height": 0.1172
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/278736.jpg?s=efc87a537d323edc47900cb08e1722c9"
+  },
+  {
+    "id": "naruto_9",
+    "name": "Pain",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5491,
+      "eye_spacing": 0.2649,
+      "eye_openness": 0.2288,
+      "jaw_angle": 0.1052,
+      "chin_ratio": 0.5365,
+      "brow_height": 0.1057
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/73473.jpg?s=5c41288db6aa7a2339a4ff90ea211d49"
+  },
+  {
+    "id": "naruto_11",
+    "name": "Haruno, Sakura",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4548,
+      "eye_spacing": 0.2612,
+      "eye_openness": 0.2733,
+      "jaw_angle": 0.1058,
+      "chin_ratio": 0.5866,
+      "brow_height": 0.1091
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c"
+  },
+  {
+    "id": "one_piece_1",
+    "name": "Roronoa, Zoro",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4956,
+      "eye_spacing": 0.2627,
+      "eye_openness": 0.2184,
+      "jaw_angle": 0.0954,
+      "chin_ratio": 0.5134,
+      "brow_height": 0.0924
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/100534.jpg?s=4a00840eacc26e9ad86bae6f505e4826"
+  },
+  {
+    "id": "one_piece_3",
+    "name": "Nico, Robin",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4911,
+      "eye_spacing": 0.2624,
+      "eye_openness": 0.1183,
+      "jaw_angle": 0.1199,
+      "chin_ratio": 0.5121,
+      "brow_height": 0.1486
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/363700.jpg?s=3e7fa6074c0d30c8bede3905680e983c"
+  },
+  {
+    "id": "one_piece_4",
+    "name": "Trafalgar, Law",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.7146,
+      "eye_spacing": 0.2228,
+      "eye_openness": 0.2653,
+      "jaw_angle": 0.1026,
+      "chin_ratio": 0.4227,
+      "brow_height": 0.0873
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/258757.jpg?s=a537201b5cb91a6905765fee2de00012"
+  },
+  {
+    "id": "one_piece_6",
     "name": "Nami",
     "series": "One Piece",
     "tags": [
@@ -102,59 +204,8 @@
     "image_url": "https://cdn.myanimelist.net/images/characters/6/59914.jpg?s=302fa4565e9cbd5368b6ca4da51e1a0c"
   },
   {
-    "id": "onepiece_robin",
-    "name": "Nico Robin",
-    "series": "One Piece",
-    "tags": [
-      "anime"
-    ],
-    "vector": {
-      "face_ratio": 1.4911,
-      "eye_spacing": 0.2624,
-      "eye_openness": 0.1183,
-      "jaw_angle": 0.1199,
-      "chin_ratio": 0.5121,
-      "brow_height": 0.1486
-    },
-    "image_url": "https://cdn.myanimelist.net/images/characters/16/363700.jpg?s=3e7fa6074c0d30c8bede3905680e983c"
-  },
-  {
-    "id": "jjk_fushiguro",
-    "name": "Megumi Fushiguro",
-    "series": "Jujutsu Kaisen",
-    "tags": [
-      "anime"
-    ],
-    "vector": {
-      "face_ratio": 1.5739,
-      "eye_spacing": 0.2347,
-      "eye_openness": 0.2338,
-      "jaw_angle": 0.0535,
-      "chin_ratio": 0.6782,
-      "brow_height": 0.1329
-    },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/392689.jpg?s=2395a10b59bb54ec9891c74ef214fea1"
-  },
-  {
-    "id": "jjk_kugisaki",
-    "name": "Nobara Kugisaki",
-    "series": "Jujutsu Kaisen",
-    "tags": [
-      "anime"
-    ],
-    "vector": {
-      "face_ratio": 1.4145,
-      "eye_spacing": 0.1694,
-      "eye_openness": 0.2828,
-      "jaw_angle": 0.1488,
-      "chin_ratio": 0.4683,
-      "brow_height": 0.1064
-    },
-    "image_url": "https://cdn.myanimelist.net/images/characters/12/422313.jpg?s=053db48815610ce7fdc280f62a3499ce"
-  },
-  {
-    "id": "jjk_gojo",
-    "name": "Satoru Gojo",
+    "id": "jujutsu_kaisen_0",
+    "name": "Gojou, Satoru",
     "series": "Jujutsu Kaisen",
     "tags": [
       "anime"
@@ -170,8 +221,8 @@
     "image_url": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01"
   },
   {
-    "id": "jjk_nanami",
-    "name": "Kento Nanami",
+    "id": "jujutsu_kaisen_2",
+    "name": "Nanami, Kento",
     "series": "Jujutsu Kaisen",
     "tags": [
       "anime"
@@ -187,8 +238,59 @@
     "image_url": "https://cdn.myanimelist.net/images/characters/16/581424.jpg?s=78de007092c9e32f3555753de4999ee6"
   },
   {
-    "id": "jjk_maki",
-    "name": "Maki Zenin",
+    "id": "jujutsu_kaisen_3",
+    "name": "Fushiguro, Megumi",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5739,
+      "eye_spacing": 0.2347,
+      "eye_openness": 0.2338,
+      "jaw_angle": 0.0535,
+      "chin_ratio": 0.6782,
+      "brow_height": 0.1329
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/392689.jpg?s=2395a10b59bb54ec9891c74ef214fea1"
+  },
+  {
+    "id": "jujutsu_kaisen_4",
+    "name": "Ryoumen, Sukuna",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4982,
+      "eye_spacing": 0.242,
+      "eye_openness": 0.1815,
+      "jaw_angle": 0.0893,
+      "chin_ratio": 0.6095,
+      "brow_height": 0.0979
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/431152.jpg?s=776045fc0fe9f2ecf8923f0f9c20f288"
+  },
+  {
+    "id": "jujutsu_kaisen_5",
+    "name": "Kugisaki, Nobara",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4145,
+      "eye_spacing": 0.1694,
+      "eye_openness": 0.2828,
+      "jaw_angle": 0.1488,
+      "chin_ratio": 0.4683,
+      "brow_height": 0.1064
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/422313.jpg?s=053db48815610ce7fdc280f62a3499ce"
+  },
+  {
+    "id": "jujutsu_kaisen_6",
+    "name": "Zenin, Maki",
     "series": "Jujutsu Kaisen",
     "tags": [
       "anime"
@@ -204,25 +306,25 @@
     "image_url": "https://cdn.myanimelist.net/images/characters/15/423949.jpg?s=72edfa936ac89421e8d16970762d8b5b"
   },
   {
-    "id": "jjk_sukuna",
-    "name": "Ryomen Sukuna",
+    "id": "jujutsu_kaisen_8",
+    "name": "Okkotsu, Yuuta",
     "series": "Jujutsu Kaisen",
     "tags": [
       "anime"
     ],
     "vector": {
-      "face_ratio": 1.4982,
-      "eye_spacing": 0.242,
-      "eye_openness": 0.1815,
-      "jaw_angle": 0.0893,
-      "chin_ratio": 0.6095,
-      "brow_height": 0.0979
+      "face_ratio": 1.5241,
+      "eye_spacing": 0.2425,
+      "eye_openness": 0.3179,
+      "jaw_angle": 0.1096,
+      "chin_ratio": 0.4609,
+      "brow_height": 0.1194
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/431152.jpg"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/461503.jpg?s=dda1109b054b3b2e6198d91527cfc7ac"
   },
   {
-    "id": "jjk_geto",
-    "name": "Suguru Geto",
+    "id": "jujutsu_kaisen_9",
+    "name": "Getou, Suguru",
     "series": "Jujutsu Kaisen",
     "tags": [
       "anime"

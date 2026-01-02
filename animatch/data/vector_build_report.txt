@@ -1,17 +1,6 @@
-Total entries: 28
-Successful: 14
+Total entries: 34
+Successful: 20
 Failed: 14
-No face: onepiece_luffy, jjk_panda
+No face: naruto_2, naruto_3, naruto_8, naruto_10, one_piece_0, one_piece_2, one_piece_5, one_piece_7, one_piece_8, one_piece_9, one_piece_10, one_piece_11, jujutsu_kaisen_1, jujutsu_kaisen_7
 Errors:
-  naruto_sasuke: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/13/124929.jpg
-  naruto_kakashi: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/4/50995.jpg
-  naruto_itachi: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/4/93201.jpg
-  onepiece_zoro: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/14/274737.jpg
-  onepiece_usopp: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/15/312020.jpg
-  onepiece_sanji: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/8/159943.jpg
-  onepiece_chopper: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/7/143138.jpg
-  onepiece_franky: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/11/311981.jpg
-  onepiece_brook: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/5/311908.jpg
-  onepiece_jinbe: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/15/316567.jpg
-  jjk_itadori: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/3/345333.jpg
-  jjk_inumaki: 404 Client Error: Not Found for url: https://cdn.myanimelist.net/images/characters/5/394984.jpg
+  -

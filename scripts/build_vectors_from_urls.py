@@ -1,4 +1,5 @@
 
+import argparse
 import json
 import sys
 import time
@@ -15,7 +16,7 @@ from animatch.app.services.landmarks import extract_landmarks
 from animatch.app.services.features import landmarks_to_features
 
 
-HANDPICKED = Path("animatch/data/handpicked_characters.json")
+HANDPICKED_DEFAULT = Path("animatch/data/handpicked_characters.json")
 OUT = Path("animatch/app/data/anime_vectors.json")
 SAVE_FAILED = True
 FAILED_DIR = Path("animatch/data/failed_images")
@@ -29,7 +30,16 @@ def download_bytes(url: str) -> bytes:
 
 
 def main() -> None:
-    items = json.loads(HANDPICKED.read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--handpicked",
+        default=str(HANDPICKED_DEFAULT),
+        help="Path to handpicked JSON (default: animatch/data/handpicked_characters.json)",
+    )
+    args = parser.parse_args()
+
+    handpicked_path = Path(args.handpicked)
+    items = json.loads(handpicked_path.read_text(encoding="utf-8"))
     results = []
     failed = 0
     noface = []
