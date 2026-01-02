@@ -1,0 +1,123 @@
+[
+  {
+    "id": "demon_slayer_0",
+    "name": "Kamado, Tanjirou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/386735.jpg?s=7327e90f2310ececd18696cd4aa2ff4e",
+    "image_small": "",
+    "char_id": 146156
+  },
+  {
+    "id": "demon_slayer_1",
+    "name": "Agatsuma, Zenitsu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/459689.jpg?s=d5ccecc4a7b9e2118acb849a2062a84c",
+    "image_small": "",
+    "char_id": 146158
+  },
+  {
+    "id": "demon_slayer_2",
+    "name": "Hashibira, Inosuke",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/329560.jpg?s=5ef0629d3641cd02eaeaf7d4df9ea4c2",
+    "image_small": "",
+    "char_id": 146159
+  },
+  {
+    "id": "demon_slayer_3",
+    "name": "Rengoku, Kyoujurou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/423443.jpg?s=2f06005562d13647b1a8280b93db9d54",
+    "image_small": "",
+    "char_id": 151143
+  },
+  {
+    "id": "demon_slayer_4",
+    "name": "Kamado, Nezuko",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/378254.jpg?s=c3cdc50f2d9f3b30e4453c8ca1f8460f",
+    "image_small": "",
+    "char_id": 146157
+  },
+  {
+    "id": "demon_slayer_5",
+    "name": "Kochou, Shinobu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/386591.jpg?s=3c18dc65ee6cd3a032214d6a6e49ac9e",
+    "image_small": "",
+    "char_id": 146736
+  },
+  {
+    "id": "demon_slayer_6",
+    "name": "Tomioka, Giyuu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/423445.jpg?s=a049de02a43de100a4b68b759a95fa41",
+    "image_small": "",
+    "char_id": 146735
+  },
+  {
+    "id": "demon_slayer_7",
+    "name": "Uzui, Tengen",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/387706.jpg?s=c761782087650f5a1e98a21aa7635280",
+    "image_small": "",
+    "char_id": 151144
+  },
+  {
+    "id": "demon_slayer_8",
+    "name": "Kanroji, Mitsuri",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/514229.jpg?s=8bbf40b3cfa80df52f3eccce022146ea",
+    "image_small": "",
+    "char_id": 151145
+  },
+  {
+    "id": "demon_slayer_9",
+    "name": "Tokitou, Muichirou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/464903.jpg?s=8a4c1a500e00fe55746dd8d259401513",
+    "image_small": "",
+    "char_id": 151147
+  },
+  {
+    "id": "demon_slayer_10",
+    "name": "Tsuyuri, Kanao",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/384712.jpg?s=efa0d88902b290fa7a72e6287eaa3e2b",
+    "image_small": "",
+    "char_id": 151142
+  }
+]

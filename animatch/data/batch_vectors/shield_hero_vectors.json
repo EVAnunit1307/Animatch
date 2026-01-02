@@ -1,0 +1,19 @@
+[
+  {
+    "id": "shield_hero_1",
+    "name": "Iwatani, Naofumi",
+    "series": "Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5298,
+      "eye_spacing": 0.2823,
+      "eye_openness": 0.2351,
+      "jaw_angle": 0.1038,
+      "chin_ratio": 0.459,
+      "brow_height": 0.1112
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/266009.jpg?s=a4dfc8f03f7bff330d44786960862379"
+  }
+]

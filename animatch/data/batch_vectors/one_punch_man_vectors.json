@@ -1,0 +1,19 @@
+[
+  {
+    "id": "one_punch_man_5",
+    "name": "Fubuki",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3843,
+      "eye_spacing": 0.2531,
+      "eye_openness": 0.2866,
+      "jaw_angle": 0.1695,
+      "chin_ratio": 0.4242,
+      "brow_height": 0.1105
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/473637.jpg?s=7ed26a04a631d8f3175a8ee4b29932fa"
+  }
+]

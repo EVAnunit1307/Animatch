@@ -1,0 +1,70 @@
+[
+  {
+    "id": "kuroko's_basketball_1",
+    "name": "Aomine, Daiki",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4261,
+      "eye_spacing": 0.2416,
+      "eye_openness": 0.2134,
+      "jaw_angle": 0.1251,
+      "chin_ratio": 0.4396,
+      "brow_height": 0.1109
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/246745.jpg?s=d52cc81c1470ab893dd2b389070a871e"
+  },
+  {
+    "id": "kuroko's_basketball_2",
+    "name": "Akashi, Seijuurou",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4367,
+      "eye_spacing": 0.2593,
+      "eye_openness": 0.2406,
+      "jaw_angle": 0.1078,
+      "chin_ratio": 0.4523,
+      "brow_height": 0.0818
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/275813.jpg?s=516396f259b08c9bdcd400f0ac86afde"
+  },
+  {
+    "id": "kuroko's_basketball_3",
+    "name": "Kise, Ryouta",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4158,
+      "eye_spacing": 0.218,
+      "eye_openness": 0.242,
+      "jaw_angle": 0.1072,
+      "chin_ratio": 0.4766,
+      "brow_height": 0.0947
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/246753.jpg?s=e5810a9688d84690e4934ad9084be6b1"
+  },
+  {
+    "id": "kuroko's_basketball_4",
+    "name": "Kagami, Taiga",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.273,
+      "eye_spacing": 0.2676,
+      "eye_openness": 0.2596,
+      "jaw_angle": 0.1342,
+      "chin_ratio": 0.495,
+      "brow_height": 0.0841
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/169361.jpg?s=f512a9ee4fc65da1f7a472c5880a252b"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "one_piece_0",
+    "name": "Monkey D., Luffy",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/310307.jpg?s=3a27ab33bee665febfba970f24f203ba",
+    "image_small": "",
+    "char_id": 40
+  },
+  {
+    "id": "one_piece_1",
+    "name": "Roronoa, Zoro",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/100534.jpg?s=4a00840eacc26e9ad86bae6f505e4826",
+    "image_small": "",
+    "char_id": 62
+  },
+  {
+    "id": "one_piece_2",
+    "name": "Sanji",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/136769.jpg?s=52b8fdfc38114a389d83dd5301842556",
+    "image_small": "",
+    "char_id": 305
+  },
+  {
+    "id": "one_piece_3",
+    "name": "Nico, Robin",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/363700.jpg?s=3e7fa6074c0d30c8bede3905680e983c",
+    "image_small": "",
+    "char_id": 61
+  },
+  {
+    "id": "one_piece_4",
+    "name": "Trafalgar, Law",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/258757.jpg?s=a537201b5cb91a6905765fee2de00012",
+    "image_small": "",
+    "char_id": 13767
+  },
+  {
+    "id": "one_piece_5",
+    "name": "Tony Tony, Chopper",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/100536.jpg?s=9536cd3e6fe65064a110b8d8b2f2808e",
+    "image_small": "",
+    "char_id": 309
+  },
+  {
+    "id": "one_piece_6",
+    "name": "Nami",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/59914.jpg?s=302fa4565e9cbd5368b6ca4da51e1a0c",
+    "image_small": "",
+    "char_id": 723
+  },
+  {
+    "id": "one_piece_7",
+    "name": "Usopp",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/188076.jpg?s=f24eccad7d76e7747895a9a945d8a3ed",
+    "image_small": "",
+    "char_id": 724
+  },
+  {
+    "id": "one_piece_8",
+    "name": "Portgas D., Ace",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/72220.jpg?s=e92b075a899b3b5d3cdac70615d8853b",
+    "image_small": "",
+    "char_id": 2072
+  },
+  {
+    "id": "one_piece_9",
+    "name": "Brook",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/161005.jpg?s=8e3191d4d9691fffe3dafaefaf086014",
+    "image_small": "",
+    "char_id": 5627
+  },
+  {
+    "id": "one_piece_10",
+    "name": "Charlotte, Katakuri",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/342776.jpg?s=f470538ebc96929c2d1ba1e27b7a9f63",
+    "image_small": "",
+    "char_id": 150775
+  },
+  {
+    "id": "one_piece_11",
+    "name": "Franky",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/210053.jpg?s=58f71be3af78384ac43869b8c681efaf",
+    "image_small": "",
+    "char_id": 64
+  },
+  {
+    "id": "one_piece_12",
+    "name": "Shanks",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/307639.jpg?s=175776bc9b9338bdc8f64520b1699548",
+    "image_small": "",
+    "char_id": 727
+  },
+  {
+    "id": "one_piece_13",
+    "name": "Edward, Newgate",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/100236.jpg?s=7d8b2cff3cdb3b4cae84ff79ddf906cf",
+    "image_small": "",
+    "char_id": 2751
+  },
+  {
+    "id": "one_piece_14",
+    "name": "Donquixote, Doflamingo",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/349513.jpg?s=d4c15f9b8af8e82e7c05e30b4d1453b8",
+    "image_small": "",
+    "char_id": 2754
+  },
+  {
+    "id": "one_piece_15",
+    "name": "Jinbe",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/307148.jpg?s=20f8bf1d3a9854be84b67367849b1322",
+    "image_small": "",
+    "char_id": 18938
+  },
+  {
+    "id": "one_piece_16",
+    "name": "Boa, Hancock",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/146013.jpg?s=cb2628e503ecea60dc2619b4aedf3247",
+    "image_small": "",
+    "char_id": 16342
+  },
+  {
+    "id": "one_piece_17",
+    "name": "Donquixote, Rosinante",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/288038.jpg?s=82d48aa53e9927a25f7f0384e4beca67",
+    "image_small": "",
+    "char_id": 113609
+  }
+]

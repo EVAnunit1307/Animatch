@@ -1,0 +1,57 @@
+[
+  {
+    "id": "blue_lock_0",
+    "name": "Bachira, Meguru",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/491180.jpg?s=c67709cd053126060a5e06f7ec54e3fb",
+    "image_small": "",
+    "char_id": 178716
+  },
+  {
+    "id": "blue_lock_1",
+    "name": "Isagi, Yoichi",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/558080.jpg?s=21af46581c2e005669a00b52c40ab6cf",
+    "image_small": "",
+    "char_id": 177491
+  },
+  {
+    "id": "blue_lock_2",
+    "name": "Nagi, Seishirou",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/509663.jpg?s=a2cca2c1666393b99f824a91acbb1cdd",
+    "image_small": "",
+    "char_id": 178722
+  },
+  {
+    "id": "blue_lock_3",
+    "name": "Chigiri, Hyouma",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/401567.jpg?s=c1229f13d2d88c13a89dd839a1db1f92",
+    "image_small": "",
+    "char_id": 178712
+  },
+  {
+    "id": "blue_lock_4",
+    "name": "Kunigami, Rensuke",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/467112.jpg?s=94f0d87f8fd85d8f5a2e53db8662c419",
+    "image_small": "",
+    "char_id": 178718
+  }
+]

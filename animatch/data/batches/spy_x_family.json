@@ -1,0 +1,35 @@
+[
+  {
+    "id": "spy_x_family_0",
+    "name": "Forger, Anya",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/457933.jpg?s=ba4caa5a44905138cd83d5972982664c",
+    "image_small": "",
+    "char_id": 170256
+  },
+  {
+    "id": "spy_x_family_1",
+    "name": "Forger, Yor",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/457934.jpg?s=95b00e4e699e5120bad0e4d20a148aa8",
+    "image_small": "",
+    "char_id": 170329
+  },
+  {
+    "id": "spy_x_family_2",
+    "name": "Forger, Loid",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/580250.jpg?s=c98a9197f089df9132bc1c657bb6c131",
+    "image_small": "",
+    "char_id": 170258
+  }
+]

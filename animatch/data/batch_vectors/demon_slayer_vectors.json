@@ -1,0 +1,138 @@
+[
+  {
+    "id": "demon_slayer_0",
+    "name": "Kamado, Tanjirou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4585,
+      "eye_spacing": 0.2764,
+      "eye_openness": 0.3473,
+      "jaw_angle": 0.0963,
+      "chin_ratio": 0.5313,
+      "brow_height": 0.1157
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/386735.jpg?s=7327e90f2310ececd18696cd4aa2ff4e"
+  },
+  {
+    "id": "demon_slayer_1",
+    "name": "Agatsuma, Zenitsu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6887,
+      "eye_spacing": 0.2909,
+      "eye_openness": 0.2662,
+      "jaw_angle": 0.1018,
+      "chin_ratio": 0.5175,
+      "brow_height": 0.1058
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/459689.jpg?s=d5ccecc4a7b9e2118acb849a2062a84c"
+  },
+  {
+    "id": "demon_slayer_4",
+    "name": "Kamado, Nezuko",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4527,
+      "eye_spacing": 0.2779,
+      "eye_openness": 0.2833,
+      "jaw_angle": 0.1067,
+      "chin_ratio": 0.5158,
+      "brow_height": 0.1082
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/378254.jpg?s=c3cdc50f2d9f3b30e4453c8ca1f8460f"
+  },
+  {
+    "id": "demon_slayer_5",
+    "name": "Kochou, Shinobu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5728,
+      "eye_spacing": 0.2008,
+      "eye_openness": 0.1529,
+      "jaw_angle": 0.1271,
+      "chin_ratio": 0.4173,
+      "brow_height": 0.1224
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/386591.jpg?s=3c18dc65ee6cd3a032214d6a6e49ac9e"
+  },
+  {
+    "id": "demon_slayer_7",
+    "name": "Uzui, Tengen",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4787,
+      "eye_spacing": 0.2861,
+      "eye_openness": 0.1716,
+      "jaw_angle": 0.0889,
+      "chin_ratio": 0.6097,
+      "brow_height": 0.0955
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/387706.jpg?s=c761782087650f5a1e98a21aa7635280"
+  },
+  {
+    "id": "demon_slayer_8",
+    "name": "Kanroji, Mitsuri",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5812,
+      "eye_spacing": 0.29,
+      "eye_openness": 0.2365,
+      "jaw_angle": 0.0771,
+      "chin_ratio": 0.5712,
+      "brow_height": 0.1343
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/514229.jpg?s=8bbf40b3cfa80df52f3eccce022146ea"
+  },
+  {
+    "id": "demon_slayer_9",
+    "name": "Tokitou, Muichirou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5628,
+      "eye_spacing": 0.2669,
+      "eye_openness": 0.2076,
+      "jaw_angle": 0.1353,
+      "chin_ratio": 0.4585,
+      "brow_height": 0.1361
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/464903.jpg?s=8a4c1a500e00fe55746dd8d259401513"
+  },
+  {
+    "id": "demon_slayer_10",
+    "name": "Tsuyuri, Kanao",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6886,
+      "eye_spacing": 0.2501,
+      "eye_openness": 0.1785,
+      "jaw_angle": 0.089,
+      "chin_ratio": 0.5395,
+      "brow_height": 0.1352
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/384712.jpg?s=efa0d88902b290fa7a72e6287eaa3e2b"
+  }
+]

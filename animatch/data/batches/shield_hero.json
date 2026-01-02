@@ -1,0 +1,35 @@
+[
+  {
+    "id": "shield_hero_0",
+    "name": "Raphtalia",
+    "series": "Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/374252.jpg?s=92b906e14895133129d6d1c505f201f5",
+    "image_small": "",
+    "char_id": 112893
+  },
+  {
+    "id": "shield_hero_1",
+    "name": "Iwatani, Naofumi",
+    "series": "Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/266009.jpg?s=a4dfc8f03f7bff330d44786960862379",
+    "image_small": "",
+    "char_id": 112891
+  },
+  {
+    "id": "shield_hero_2",
+    "name": "Filo",
+    "series": "Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/464618.jpg?s=b1b04148bb9fb87062f5911945f06866",
+    "image_small": "",
+    "char_id": 112909
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "chainsaw_man_0",
+    "name": "Power",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3843,
+      "eye_spacing": 0.2909,
+      "eye_openness": 0.242,
+      "jaw_angle": 0.1237,
+      "chin_ratio": 0.5074,
+      "brow_height": 0.1055
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/494969.jpg?s=02622d6ffa487b8d6d7503af4792a106"
+  },
+  {
+    "id": "chainsaw_man_1",
+    "name": "Denji",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4338,
+      "eye_spacing": 0.2022,
+      "eye_openness": 0.2543,
+      "jaw_angle": 0.1252,
+      "chin_ratio": 0.4258,
+      "brow_height": 0.0857
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/492407.jpg?s=4d8e9a01dac6a5d891c3ed434187fba9"
+  },
+  {
+    "id": "chainsaw_man_2",
+    "name": "Makima",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3167,
+      "eye_spacing": 0.2428,
+      "eye_openness": 0.225,
+      "jaw_angle": 0.0911,
+      "chin_ratio": 0.5282,
+      "brow_height": 0.099
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/489561.jpg?s=6593bd49704ffb415d3fd9d40e5dc183"
+  },
+  {
+    "id": "chainsaw_man_8",
+    "name": "Angel Devil",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5039,
+      "eye_spacing": 0.2465,
+      "eye_openness": 0.2497,
+      "jaw_angle": 0.0983,
+      "chin_ratio": 0.481,
+      "brow_height": 0.1043
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/586726.jpg?s=aff903523f5ae6598fa12678b20e8b1f"
+  }
+]

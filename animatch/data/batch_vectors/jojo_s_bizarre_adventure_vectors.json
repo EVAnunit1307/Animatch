@@ -1,0 +1,70 @@
+[
+  {
+    "id": "jojo's_bizarre_adventure_2",
+    "name": "Speedwagon, Robert E. O.",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.299,
+      "eye_spacing": 0.2745,
+      "eye_openness": 0.3128,
+      "jaw_angle": 0.1301,
+      "chin_ratio": 0.596,
+      "brow_height": 0.0702
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/196031.jpg?s=fa364d3f051a2a73e4c7c4726182a687"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_3",
+    "name": "Joestar, Jonathan",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3328,
+      "eye_spacing": 0.2396,
+      "eye_openness": 0.3188,
+      "jaw_angle": 0.1003,
+      "chin_ratio": 0.5505,
+      "brow_height": 0.0992
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/182715.jpg?s=d87c934286168a792851f4c46effc8e5"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_6",
+    "name": "Lisa Lisa",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3339,
+      "eye_spacing": 0.2509,
+      "eye_openness": 0.2626,
+      "jaw_angle": 0.1163,
+      "chin_ratio": 0.5524,
+      "brow_height": 0.1018
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/196391.jpg?s=d4ae9b7d78b30c4d6031d04e0a99c941"
+  },
+  {
+    "id": "jojo's_bizarre_adventure_7",
+    "name": "Zeppeli, Will A.",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3791,
+      "eye_spacing": 0.2461,
+      "eye_openness": 0.2355,
+      "jaw_angle": 0.1117,
+      "chin_ratio": 0.4848,
+      "brow_height": 0.0895
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/275118.jpg?s=9f95016c3c4ef0ea7968c6917bc21064"
+  }
+]

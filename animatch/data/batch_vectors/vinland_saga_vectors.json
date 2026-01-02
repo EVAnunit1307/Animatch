@@ -1,0 +1,36 @@
+[
+  {
+    "id": "vinland_saga_0",
+    "name": "Thorfinn",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.461,
+      "eye_spacing": 0.262,
+      "eye_openness": 0.2495,
+      "jaw_angle": 0.092,
+      "chin_ratio": 0.5028,
+      "brow_height": 0.0919
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/309871.jpg?s=faa6eee1fc55878afbc1625baf0c9f3e"
+  },
+  {
+    "id": "vinland_saga_3",
+    "name": "Canute",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4606,
+      "eye_spacing": 0.2717,
+      "eye_openness": 0.2611,
+      "jaw_angle": 0.1257,
+      "chin_ratio": 0.471,
+      "brow_height": 0.1004
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/395761.jpg?s=ba1d071951451fa1a7e25bef19c94f79"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "my_hero_academia_0",
+    "name": "Midoriya, Izuku",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4346,
+      "eye_spacing": 0.2768,
+      "eye_openness": 0.2526,
+      "jaw_angle": 0.0728,
+      "chin_ratio": 0.6541,
+      "brow_height": 0.1202
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.jpg?s=6a448d3702c1d3185ed7ad8f0b8484f0"
+  },
+  {
+    "id": "my_hero_academia_1",
+    "name": "Todoroki, Shouto",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4912,
+      "eye_spacing": 0.2453,
+      "eye_openness": 0.2359,
+      "jaw_angle": 0.1177,
+      "chin_ratio": 0.509,
+      "brow_height": 0.0989
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/332527.jpg?s=575a733f7d22b2b94a12194e051932de"
+  },
+  {
+    "id": "my_hero_academia_5",
+    "name": "Kirishima, Eijirou",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6059,
+      "eye_spacing": 0.2464,
+      "eye_openness": 0.2141,
+      "jaw_angle": 0.1095,
+      "chin_ratio": 0.5111,
+      "brow_height": 0.1143
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/329529.jpg?s=cbfca4fce697447408c68a94d519b1b0"
+  },
+  {
+    "id": "my_hero_academia_6",
+    "name": "Uraraka, Ochako",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4386,
+      "eye_spacing": 0.2644,
+      "eye_openness": 0.2864,
+      "jaw_angle": 0.0995,
+      "chin_ratio": 0.631,
+      "brow_height": 0.1175
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/299421.jpg?s=5c7499bacd3f2c8f4238253a5877c757"
+  },
+  {
+    "id": "my_hero_academia_9",
+    "name": "Kaminari, Denki",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.467,
+      "eye_spacing": 0.2443,
+      "eye_openness": 0.2388,
+      "jaw_angle": 0.1001,
+      "chin_ratio": 0.5428,
+      "brow_height": 0.097
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/329527.jpg?s=bdd623918f5fa850d8f2e877318a4a0b"
+  },
+  {
+    "id": "my_hero_academia_10",
+    "name": "Iida, Tenya",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.395,
+      "eye_spacing": 0.2672,
+      "eye_openness": 0.251,
+      "jaw_angle": 0.108,
+      "chin_ratio": 0.5409,
+      "brow_height": 0.1001
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/299417.jpg?s=ae97d822ef7c4cdbe392766389c3f5f1"
+  }
+]

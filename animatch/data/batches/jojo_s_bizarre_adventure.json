@@ -1,0 +1,90 @@
+[
+  {
+    "id": "jojo's_bizarre_adventure_0",
+    "name": "Joestar, Joseph",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/316615.jpg?s=c52eb11c56af357b8775e288bd5bd13e",
+    "image_small": "",
+    "char_id": 6356
+  },
+  {
+    "id": "jojo's_bizarre_adventure_1",
+    "name": "Brando, Dio",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/330539.jpg?s=2e40251bbb48a09a41d2c89016da80f4",
+    "image_small": "",
+    "char_id": 4004
+  },
+  {
+    "id": "jojo's_bizarre_adventure_2",
+    "name": "Speedwagon, Robert E. O.",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/196031.jpg?s=fa364d3f051a2a73e4c7c4726182a687",
+    "image_small": "",
+    "char_id": 21938
+  },
+  {
+    "id": "jojo's_bizarre_adventure_3",
+    "name": "Joestar, Jonathan",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/182715.jpg?s=d87c934286168a792851f4c46effc8e5",
+    "image_small": "",
+    "char_id": 8087
+  },
+  {
+    "id": "jojo's_bizarre_adventure_4",
+    "name": "Zeppeli, Caesar Anthonio",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/372612.jpg?s=2f2faeab6ed57598879fa6a5cb053481",
+    "image_small": "",
+    "char_id": 21959
+  },
+  {
+    "id": "jojo's_bizarre_adventure_5",
+    "name": "Kars",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/615607.jpg?s=fb8021bd67110d42f20e2e09addb91a7",
+    "image_small": "",
+    "char_id": 21966
+  },
+  {
+    "id": "jojo's_bizarre_adventure_6",
+    "name": "Lisa Lisa",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/196391.jpg?s=d4ae9b7d78b30c4d6031d04e0a99c941",
+    "image_small": "",
+    "char_id": 21960
+  },
+  {
+    "id": "jojo's_bizarre_adventure_7",
+    "name": "Zeppeli, Will A.",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/275118.jpg?s=9f95016c3c4ef0ea7968c6917bc21064",
+    "image_small": "",
+    "char_id": 18062
+  }
+]

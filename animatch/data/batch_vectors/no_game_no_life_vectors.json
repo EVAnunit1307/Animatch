@@ -1,0 +1,19 @@
+[
+  {
+    "id": "no_game_no_life_0",
+    "name": "Sora",
+    "series": "No Game No Life",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3802,
+      "eye_spacing": 0.2662,
+      "eye_openness": 0.2701,
+      "jaw_angle": 0.1441,
+      "chin_ratio": 0.4389,
+      "brow_height": 0.1305
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/274345.jpg?s=06eb61af436f33e257186eec28ba3490"
+  }
+]

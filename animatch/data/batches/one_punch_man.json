@@ -1,0 +1,68 @@
+[
+  {
+    "id": "one_punch_man_0",
+    "name": "Saitama",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/294388.jpg?s=a56fc5484b23811f3308aad1dc7b8b2e",
+    "image_small": "",
+    "char_id": 73935
+  },
+  {
+    "id": "one_punch_man_1",
+    "name": "Garou",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/381817.jpg?s=746f6c6dee054abbdcd26108816ace87",
+    "image_small": "",
+    "char_id": 112889
+  },
+  {
+    "id": "one_punch_man_2",
+    "name": "Genos",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/297329.jpg?s=1dd6cf2edbb45d8bd1e654541226901d",
+    "image_small": "",
+    "char_id": 73979
+  },
+  {
+    "id": "one_punch_man_3",
+    "name": "Tatsumaki",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/543830.jpg?s=3858a5427b608eacb5f5d689906711f1",
+    "image_small": "",
+    "char_id": 81929
+  },
+  {
+    "id": "one_punch_man_4",
+    "name": "Mumen Rider",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/344059.jpg?s=a1f8f15abb64c481887dd4368e71f82d",
+    "image_small": "",
+    "char_id": 81935
+  },
+  {
+    "id": "one_punch_man_5",
+    "name": "Fubuki",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/473637.jpg?s=7ed26a04a631d8f3175a8ee4b29932fa",
+    "image_small": "",
+    "char_id": 81931
+  }
+]

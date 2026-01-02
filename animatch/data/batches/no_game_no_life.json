@@ -1,0 +1,46 @@
+[
+  {
+    "id": "no_game_no_life_0",
+    "name": "Sora",
+    "series": "No Game No Life",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/274345.jpg?s=06eb61af436f33e257186eec28ba3490",
+    "image_small": "",
+    "char_id": 82523
+  },
+  {
+    "id": "no_game_no_life_1",
+    "name": "Shiro",
+    "series": "No Game No Life",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/246723.jpg?s=f4157cfba8d5f968e2762c7c45d9bed6",
+    "image_small": "",
+    "char_id": 82525
+  },
+  {
+    "id": "no_game_no_life_2",
+    "name": "Jibril",
+    "series": "No Game No Life",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/248121.jpg?s=8a45ecdadeb3860396ac6eb6af6b278e",
+    "image_small": "",
+    "char_id": 97761
+  },
+  {
+    "id": "no_game_no_life_3",
+    "name": "Dola, Stephanie",
+    "series": "No Game No Life",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/274341.jpg?s=f3790b1ee7e0fdbc48e0efc33ea1d8a8",
+    "image_small": "",
+    "char_id": 82527
+  }
+]

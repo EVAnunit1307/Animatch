@@ -1,0 +1,19 @@
+[
+  {
+    "id": "spy_x_family_2",
+    "name": "Forger, Loid",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4597,
+      "eye_spacing": 0.2264,
+      "eye_openness": 0.2734,
+      "jaw_angle": 0.1321,
+      "chin_ratio": 0.4311,
+      "brow_height": 0.0853
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/580250.jpg?s=c98a9197f089df9132bc1c657bb6c131"
+  }
+]

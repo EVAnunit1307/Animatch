@@ -1,0 +1,178 @@
+[
+  {
+    "id": "bleach_0",
+    "name": "Kurosaki, Ichigo",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/512788.jpg?s=55ff462576b32a74758448436f35dcbb",
+    "image_small": "",
+    "char_id": 5
+  },
+  {
+    "id": "bleach_1",
+    "name": "Zaraki, Kenpachi",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/150265.jpg?s=a7bda35cc8518a68480cd334baa5e12a",
+    "image_small": "",
+    "char_id": 909
+  },
+  {
+    "id": "bleach_2",
+    "name": "Urahara, Kisuke",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/149491.jpg?s=0f14e8fbbf14dde646817cb8552e8908",
+    "image_small": "",
+    "char_id": 210
+  },
+  {
+    "id": "bleach_3",
+    "name": "Aizen, Sousuke",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/73909.jpg?s=1a450d31fd432b46314048dbb3915fc4",
+    "image_small": "",
+    "char_id": 1086
+  },
+  {
+    "id": "bleach_4",
+    "name": "Cifer, Ulquiorra",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/529323.jpg?s=701d2f9aa034abda278ca33c96b54030",
+    "image_small": "",
+    "char_id": 1081
+  },
+  {
+    "id": "bleach_5",
+    "name": "Kuchiki, Rukia",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/78215.jpg?s=2a0f7f516f3e5b213833e9f9a9de4a51",
+    "image_small": "",
+    "char_id": 6
+  },
+  {
+    "id": "bleach_6",
+    "name": "Hitsugaya, Toushirou",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/36579.jpg?s=fec37a5d08dbe1f8e806d3f9ce9d7f4f",
+    "image_small": "",
+    "char_id": 245
+  },
+  {
+    "id": "bleach_7",
+    "name": "Kuchiki, Byakuya",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/100098.jpg?s=c184bfa12ef0b29cc48d31e986d011ad",
+    "image_small": "",
+    "char_id": 907
+  },
+  {
+    "id": "bleach_8",
+    "name": "Jaegerjaquez, Grimmjow",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/529459.jpg?s=b984373cc69a540db053b3516cf46dcc",
+    "image_small": "",
+    "char_id": 1080
+  },
+  {
+    "id": "bleach_9",
+    "name": "Shihouin, Yoruichi",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/536084.jpg?s=328558550e2e5c85394d1982471151a5",
+    "image_small": "",
+    "char_id": 908
+  },
+  {
+    "id": "bleach_10",
+    "name": "Ichimaru, Gin",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/98077.jpg?s=1c0bf6a253287b0c1ed77d8d9530cd42",
+    "image_small": "",
+    "char_id": 1087
+  },
+  {
+    "id": "bleach_11",
+    "name": "Kyouraku, Shunsui Jirou Sakuranosuke",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/33242.jpg?s=7445a3128d9b5e325c2c49b7a7e6ab92",
+    "image_small": "",
+    "char_id": 1088
+  },
+  {
+    "id": "bleach_12",
+    "name": "Inoue, Orihime",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/505076.jpg?s=bf526e705495c0698997a2f8b9e3d6f9",
+    "image_small": "",
+    "char_id": 7
+  },
+  {
+    "id": "bleach_13",
+    "name": "Abarai, Renji",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/171877.jpg?s=e4fb4773c11884cd26a4eaed44ca3f6d",
+    "image_small": "",
+    "char_id": 906
+  },
+  {
+    "id": "bleach_14",
+    "name": "Ishida, Uryuu",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/139189.jpg?s=c45c92f3d197dbbe891cfd266f487c2f",
+    "image_small": "",
+    "char_id": 564
+  },
+  {
+    "id": "bleach_15",
+    "name": "Sado, Yasutora",
+    "series": "Bleach",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/102739.jpg?s=62a1f21a246934b22b8e46a8db7259bf",
+    "image_small": "",
+    "char_id": 575
+  }
+]

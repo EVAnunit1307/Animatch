@@ -17,7 +17,7 @@ from animatch.app.services.features import landmarks_to_features
 
 
 HANDPICKED_DEFAULT = Path("animatch/data/handpicked_characters.json")
-OUT = Path("animatch/app/data/anime_vectors.json")
+OUT_DEFAULT = Path("animatch/app/data/anime_vectors.json")
 SAVE_FAILED = True
 FAILED_DIR = Path("animatch/data/failed_images")
 REPORT = Path("animatch/data/vector_build_report.txt")
@@ -52,9 +52,15 @@ def main() -> None:
         default=str(HANDPICKED_DEFAULT),
         help="Path to handpicked JSON (default: animatch/data/handpicked_characters.json)",
     )
+    parser.add_argument(
+        "--out",
+        default=str(OUT_DEFAULT),
+        help="Output path for vectors (default: animatch/app/data/anime_vectors.json)",
+    )
     args = parser.parse_args()
 
     handpicked_path = Path(args.handpicked)
+    out_path = Path(args.out)
     items = json.loads(handpicked_path.read_text(encoding="utf-8"))
     results = []
     failed = 0
@@ -72,6 +78,9 @@ def main() -> None:
             urls_to_try.append(c["image_small"])
         if c.get("char_id"):
             urls_to_try.extend(fetch_char_detail_image(c["char_id"]))
+        # de-dupe while preserving order
+        seen = set()
+        urls_to_try = [u for u in urls_to_try if not (u in seen or seen.add(u))]
 
         tried = False
         success = False
@@ -119,7 +128,7 @@ def main() -> None:
                     except Exception:
                         pass
 
-    OUT.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
+    out_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
     report_lines = [
         f"Total entries: {len(items)}",
         f"Successful: {len(results)}",
@@ -134,7 +143,7 @@ def main() -> None:
 
     REPORT.write_text("\n".join(report_lines), encoding="utf-8")
 
-    print(f"Done. Wrote {len(results)} entries to {OUT}. Failed: {failed}. See report: {REPORT}")
+    print(f"Done. Wrote {len(results)} entries to {out_path}. Failed: {failed}. See report: {REPORT}")
 
 
 if __name__ == "__main__":

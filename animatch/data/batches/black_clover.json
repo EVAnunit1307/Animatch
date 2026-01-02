@@ -1,0 +1,57 @@
+[
+  {
+    "id": "black_clover_0",
+    "name": "Sukehiro, Yami",
+    "series": "Black Clover",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/599705.jpg?s=e01f9c1a77c582bb0e67e5b80f87d9c1",
+    "image_small": "",
+    "char_id": 127764
+  },
+  {
+    "id": "black_clover_1",
+    "name": "Asta",
+    "series": "Black Clover",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/312836.jpg?s=f4ea6f575c53db8908baf0f874e33e70",
+    "image_small": "",
+    "char_id": 124731
+  },
+  {
+    "id": "black_clover_2",
+    "name": "Silva, Noelle",
+    "series": "Black Clover",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/338844.jpg?s=37d6d1f99de07821983285b9a3ac2614",
+    "image_small": "",
+    "char_id": 127141
+  },
+  {
+    "id": "black_clover_3",
+    "name": "Vermillion, Mereoleona",
+    "series": "Black Clover",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/375601.jpg?s=3525fb9f55d4920a4679eb2458f42973",
+    "image_small": "",
+    "char_id": 151247
+  },
+  {
+    "id": "black_clover_4",
+    "name": "Yuno",
+    "series": "Black Clover",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/318765.jpg?s=dbc2307d86d0e001e31b9aad6f12b21c",
+    "image_small": "",
+    "char_id": 124732
+  }
+]

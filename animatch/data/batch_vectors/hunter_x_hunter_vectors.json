@@ -1,0 +1,53 @@
+[
+  {
+    "id": "hunter_x_hunter_3",
+    "name": "Freecss, Gon",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5631,
+      "eye_spacing": 0.2613,
+      "eye_openness": 0.2757,
+      "jaw_angle": 0.086,
+      "chin_ratio": 0.5907,
+      "brow_height": 0.0943
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/174517.jpg?s=c8133cf450dc6bf13ba52d6781759101"
+  },
+  {
+    "id": "hunter_x_hunter_5",
+    "name": "Lucilfer, Chrollo",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4171,
+      "eye_spacing": 0.2532,
+      "eye_openness": 0.3422,
+      "jaw_angle": 0.111,
+      "chin_ratio": 0.4297,
+      "brow_height": 0.1031
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/182387.jpg?s=82532b8deca18069b86e7f598e0ca914"
+  },
+  {
+    "id": "hunter_x_hunter_6",
+    "name": "Paladiknight, Leorio",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.2968,
+      "eye_spacing": 0.2343,
+      "eye_openness": 0.3665,
+      "jaw_angle": 0.0808,
+      "chin_ratio": 0.6157,
+      "brow_height": 0.0733
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/549311.jpg?s=ba86161de766b11580c7fbdf23849cbc"
+  }
+]

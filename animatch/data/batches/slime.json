@@ -1,0 +1,35 @@
+[
+  {
+    "id": "slime_0",
+    "name": "Tempest, Rimuru",
+    "series": "Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/495795.jpg?s=4862dd29931674ce7accd715ff3c4a7d",
+    "image_small": "",
+    "char_id": 131549
+  },
+  {
+    "id": "slime_1",
+    "name": "Nava, Milim",
+    "series": "Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/447552.jpg?s=934801fa140aded774c7497110641c65",
+    "image_small": "",
+    "char_id": 131936
+  },
+  {
+    "id": "slime_2",
+    "name": "Diablo",
+    "series": "Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/476920.jpg?s=5803922f7222876fd34e948f38f130f3",
+    "image_small": "",
+    "char_id": 131941
+  }
+]

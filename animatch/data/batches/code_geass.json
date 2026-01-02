@@ -1,0 +1,46 @@
+[
+  {
+    "id": "code_geass_0",
+    "name": "Lamperouge, Lelouch",
+    "series": "Code Geass",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/406163.jpg?s=e69a97cba35bb909a56523e14212524e",
+    "image_small": "",
+    "char_id": 417
+  },
+  {
+    "id": "code_geass_1",
+    "name": "C.C.",
+    "series": "Code Geass",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/33815.jpg?s=b6688e8e5cd4e025e35f617da7a802d5",
+    "image_small": "",
+    "char_id": 1111
+  },
+  {
+    "id": "code_geass_2",
+    "name": "Stadtfeld, Kallen",
+    "series": "Code Geass",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/603839.jpg?s=5ed4bab52b91194208d024d7c2743d4a",
+    "image_small": "",
+    "char_id": 558
+  },
+  {
+    "id": "code_geass_3",
+    "name": "Kururugi, Suzaku",
+    "series": "Code Geass",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/31564.jpg?s=cb64797d0f0647df7c2e85ac3331d3c7",
+    "image_small": "",
+    "char_id": 559
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "fairy_tail_0",
+    "name": "Dragneel, Natsu",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/594274.jpg?s=f1ff02a766b85bd0623f4ee539c1b7a4",
+    "image_small": "",
+    "char_id": 5187
+  },
+  {
+    "id": "fairy_tail_1",
+    "name": "Scarlet, Erza",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/492254.jpg?s=7e17a45b638c2b7f12bf1f699b2b5c82",
+    "image_small": "",
+    "char_id": 5189
+  },
+  {
+    "id": "fairy_tail_2",
+    "name": "Heartfilia, Lucy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/67774.jpg?s=a5aa66540ec3bb6463bda909781da36a",
+    "image_small": "",
+    "char_id": 5186
+  },
+  {
+    "id": "fairy_tail_3",
+    "name": "Fullbuster, Gray",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/278602.jpg?s=87553874d5dd1b8ffcaeee57b777cd9c",
+    "image_small": "",
+    "char_id": 4839
+  },
+  {
+    "id": "fairy_tail_4",
+    "name": "Happy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/365287.jpg?s=9bd8f1ed7cf392d689238608f13286a7",
+    "image_small": "",
+    "char_id": 5188
+  },
+  {
+    "id": "fairy_tail_5",
+    "name": "Lockser, Juvia",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/262225.jpg?s=2c5b0e04b609b523739e948a83632899",
+    "image_small": "",
+    "char_id": 9719
+  },
+  {
+    "id": "fairy_tail_6",
+    "name": "Fernandes, Jellal",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/80782.jpg?s=3cfa9e107e76c8708736fe90dbecde14",
+    "image_small": "",
+    "char_id": 22751
+  },
+  {
+    "id": "fairy_tail_7",
+    "name": "Redfox, Gajeel",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/99350.jpg?s=9d43e35fdbbf7e6f78e877669167a3a9",
+    "image_small": "",
+    "char_id": 16893
+  },
+  {
+    "id": "fairy_tail_8",
+    "name": "Marvell, Wendy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/196497.jpg?s=dd93974ccb821624cc71eb789025b7cf",
+    "image_small": "",
+    "char_id": 28886
+  },
+  {
+    "id": "fairy_tail_9",
+    "name": "Charlés",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/365290.jpg?s=eefd5fe0dca97c356d0d5448f25c7561",
+    "image_small": "",
+    "char_id": 22723
+  }
+]

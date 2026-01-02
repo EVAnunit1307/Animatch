@@ -1,0 +1,35 @@
+[
+  {
+    "id": "sword_art_online_0",
+    "name": "Kirigaya, Kazuto",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/204821.jpg?s=6a96a832b35d0ff3af9292bdb082546e",
+    "image_small": "",
+    "char_id": 36765
+  },
+  {
+    "id": "sword_art_online_1",
+    "name": "Yuuki, Asuna",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/262053.jpg?s=449153df46cce80307c9f8ae622b4514",
+    "image_small": "",
+    "char_id": 36828
+  },
+  {
+    "id": "sword_art_online_2",
+    "name": "Kirigaya, Suguha",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/192515.jpg?s=61eedc4ceb95b186ae903a1e00e2bbea",
+    "image_small": "",
+    "char_id": 36831
+  }
+]

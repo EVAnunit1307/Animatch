@@ -1,0 +1,36 @@
+[
+  {
+    "id": "blue_lock_0",
+    "name": "Bachira, Meguru",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.444,
+      "eye_spacing": 0.2801,
+      "eye_openness": 0.2685,
+      "jaw_angle": 0.1065,
+      "chin_ratio": 0.5831,
+      "brow_height": 0.1027
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/491180.jpg?s=c67709cd053126060a5e06f7ec54e3fb"
+  },
+  {
+    "id": "blue_lock_1",
+    "name": "Isagi, Yoichi",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4663,
+      "eye_spacing": 0.2665,
+      "eye_openness": 0.2775,
+      "jaw_angle": 0.1165,
+      "chin_ratio": 0.4919,
+      "brow_height": 0.0934
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/558080.jpg?s=21af46581c2e005669a00b52c40ab6cf"
+  }
+]

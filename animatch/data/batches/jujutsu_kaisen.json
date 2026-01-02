@@ -1,0 +1,134 @@
+[
+  {
+    "id": "jujutsu_kaisen_0",
+    "name": "Gojou, Satoru",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01",
+    "image_small": "",
+    "char_id": 164471
+  },
+  {
+    "id": "jujutsu_kaisen_1",
+    "name": "Itadori, Yuuji",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/467646.jpg?s=9e1cb7b0c6c7f145661e8ee93f32215d",
+    "image_small": "",
+    "char_id": 163847
+  },
+  {
+    "id": "jujutsu_kaisen_2",
+    "name": "Nanami, Kento",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/581424.jpg?s=78de007092c9e32f3555753de4999ee6",
+    "image_small": "",
+    "char_id": 164473
+  },
+  {
+    "id": "jujutsu_kaisen_3",
+    "name": "Fushiguro, Megumi",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/392689.jpg?s=2395a10b59bb54ec9891c74ef214fea1",
+    "image_small": "",
+    "char_id": 164470
+  },
+  {
+    "id": "jujutsu_kaisen_4",
+    "name": "Ryoumen, Sukuna",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/431152.jpg?s=776045fc0fe9f2ecf8923f0f9c20f288",
+    "image_small": "",
+    "char_id": 175198
+  },
+  {
+    "id": "jujutsu_kaisen_5",
+    "name": "Kugisaki, Nobara",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/422313.jpg?s=053db48815610ce7fdc280f62a3499ce",
+    "image_small": "",
+    "char_id": 164472
+  },
+  {
+    "id": "jujutsu_kaisen_6",
+    "name": "Zenin, Maki",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/423949.jpg?s=72edfa936ac89421e8d16970762d8b5b",
+    "image_small": "",
+    "char_id": 164482
+  },
+  {
+    "id": "jujutsu_kaisen_7",
+    "name": "Inumaki, Toge",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/521636.jpg?s=ef7b20ebe6e134fc94303c86e5cd1268",
+    "image_small": "",
+    "char_id": 164478
+  },
+  {
+    "id": "jujutsu_kaisen_8",
+    "name": "Okkotsu, Yuuta",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/461503.jpg?s=dda1109b054b3b2e6198d91527cfc7ac",
+    "image_small": "",
+    "char_id": 168067
+  },
+  {
+    "id": "jujutsu_kaisen_9",
+    "name": "Getou, Suguru",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/617691.jpg?s=30f738df75fd150b3eb14a788c6780fd",
+    "image_small": "",
+    "char_id": 175542
+  },
+  {
+    "id": "jujutsu_kaisen_10",
+    "name": "Toudou, Aoi",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/427604.jpg?s=4471dfaee135cd387a053f4b6556b2b2",
+    "image_small": "",
+    "char_id": 164484
+  },
+  {
+    "id": "jujutsu_kaisen_11",
+    "name": "Chousou",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/524177.jpg?s=91bbde7d801299f3ff1fb5d8388cc133",
+    "image_small": "",
+    "char_id": 180764
+  }
+]

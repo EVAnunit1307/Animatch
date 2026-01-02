@@ -1,0 +1,53 @@
+[
+  {
+    "id": "fullmetal_alchemist:_brotherhood_1",
+    "name": "Mustang, Roy",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.492,
+      "eye_spacing": 0.2471,
+      "eye_openness": 0.1863,
+      "jaw_angle": 0.0849,
+      "chin_ratio": 0.5932,
+      "brow_height": 0.0851
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/510227.jpg?s=a9880198a26475fa0555f4690bab8cd3"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_3",
+    "name": "Hughes, Maes",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3599,
+      "eye_spacing": 0.2547,
+      "eye_openness": 0.2664,
+      "jaw_angle": 0.1255,
+      "chin_ratio": 0.4604,
+      "brow_height": 0.0945
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/73469.jpg?s=049daccbf5014073c0c8933c5388258a"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_5",
+    "name": "Hawkeye, Riza",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4996,
+      "eye_spacing": 0.2642,
+      "eye_openness": 0.2407,
+      "jaw_angle": 0.1044,
+      "chin_ratio": 0.5521,
+      "brow_height": 0.1212
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/451785.jpg?s=11bc1988772e66c4fce2ff3dee08b8da"
+  }
+]

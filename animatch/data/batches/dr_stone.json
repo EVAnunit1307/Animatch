@@ -1,0 +1,57 @@
+[
+  {
+    "id": "dr._stone_0",
+    "name": "Ishigami, Senkuu",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/478454.jpg?s=b4354922dd152f6674c9ded03acc09aa",
+    "image_small": "",
+    "char_id": 148984
+  },
+  {
+    "id": "dr._stone_1",
+    "name": "Asagiri, Gen",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/398561.jpg?s=97542e56711f3b76b030125a4ba8e991",
+    "image_small": "",
+    "char_id": 153843
+  },
+  {
+    "id": "dr._stone_2",
+    "name": "Chrome",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/387866.jpg?s=a39bb4dd08368c9a96ee2328a9a6fb56",
+    "image_small": "",
+    "char_id": 153528
+  },
+  {
+    "id": "dr._stone_3",
+    "name": "Kohaku",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/385325.jpg?s=f0f490ac707a6cdfa9464727ea64819e",
+    "image_small": "",
+    "char_id": 153846
+  },
+  {
+    "id": "dr._stone_4",
+    "name": "Ooki, Taiju",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/524648.jpg?s=355af7bb5f7e0fffc7ed5dd604e85df1",
+    "image_small": "",
+    "char_id": 148992
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dragon_ball_z_0",
+    "name": "Son, Gokuu",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/72546.jpg?s=c434a442d8ad1212885a8d02dbcbbee0",
+    "image_small": "",
+    "char_id": 246
+  },
+  {
+    "id": "dragon_ball_z_1",
+    "name": "Vegeta",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/86185.jpg?s=145f25d852734f70db55a92cab54b27b",
+    "image_small": "",
+    "char_id": 913
+  },
+  {
+    "id": "dragon_ball_z_2",
+    "name": "Son, Gohan",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/72715.jpg?s=886561eebbd32941685b470ff9ed78a2",
+    "image_small": "",
+    "char_id": 2093
+  },
+  {
+    "id": "dragon_ball_z_3",
+    "name": "Piccolo",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/45628.jpg?s=7f3263916ca42434072fb20a7590c277",
+    "image_small": "",
+    "char_id": 914
+  },
+  {
+    "id": "dragon_ball_z_4",
+    "name": "Future Trunks",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/375125.jpg?s=dfee723daa759ba6480fa09fe6903b00",
+    "image_small": "",
+    "char_id": 143844
+  },
+  {
+    "id": "dragon_ball_z_5",
+    "name": "Kuririn",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/48517.jpg?s=19014a6433cd36c32f3661b21b38dad3",
+    "image_small": "",
+    "char_id": 2159
+  }
+]

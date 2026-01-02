@@ -1,0 +1,57 @@
+[
+  {
+    "id": "slam_dunk_0",
+    "name": "Sakuragi, Hanamichi",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/314546.jpg?s=18194f37df5a252b1290803c5927d579",
+    "image_small": "",
+    "char_id": 310
+  },
+  {
+    "id": "slam_dunk_1",
+    "name": "Mitsui, Hisashi",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/95008.jpg?s=61a3c39c99ac0674f51477d82408196e",
+    "image_small": "",
+    "char_id": 313
+  },
+  {
+    "id": "slam_dunk_2",
+    "name": "Miyagi, Ryouta",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/58146.jpg?s=46138fac56cace72bced38bae8051ef2",
+    "image_small": "",
+    "char_id": 312
+  },
+  {
+    "id": "slam_dunk_3",
+    "name": "Rukawa, Kaede",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/47093.jpg?s=16352e58c8241b74f20eae8dceb1de7d",
+    "image_small": "",
+    "char_id": 311
+  },
+  {
+    "id": "slam_dunk_4",
+    "name": "Akagi, Takenori",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/512342.jpg?s=c89119576332c12a04505c20c09bf15a",
+    "image_small": "",
+    "char_id": 314
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "dragon_ball_z_2",
+    "name": "Son, Gohan",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6651,
+      "eye_spacing": 0.2286,
+      "eye_openness": 0.2002,
+      "jaw_angle": 0.0767,
+      "chin_ratio": 0.4629,
+      "brow_height": 0.1112
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/72715.jpg?s=886561eebbd32941685b470ff9ed78a2"
+  }
+]

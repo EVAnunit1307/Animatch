@@ -1,0 +1,70 @@
+[
+  {
+    "id": "fairy_tail_1",
+    "name": "Scarlet, Erza",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4936,
+      "eye_spacing": 0.2951,
+      "eye_openness": 0.2758,
+      "jaw_angle": 0.1099,
+      "chin_ratio": 0.5123,
+      "brow_height": 0.0908
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/492254.jpg?s=7e17a45b638c2b7f12bf1f699b2b5c82"
+  },
+  {
+    "id": "fairy_tail_3",
+    "name": "Fullbuster, Gray",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4316,
+      "eye_spacing": 0.2651,
+      "eye_openness": 0.295,
+      "jaw_angle": 0.0744,
+      "chin_ratio": 0.6191,
+      "brow_height": 0.0872
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/278602.jpg?s=87553874d5dd1b8ffcaeee57b777cd9c"
+  },
+  {
+    "id": "fairy_tail_6",
+    "name": "Fernandes, Jellal",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6097,
+      "eye_spacing": 0.2686,
+      "eye_openness": 0.2484,
+      "jaw_angle": 0.1082,
+      "chin_ratio": 0.4952,
+      "brow_height": 0.1091
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/80782.jpg?s=3cfa9e107e76c8708736fe90dbecde14"
+  },
+  {
+    "id": "fairy_tail_8",
+    "name": "Marvell, Wendy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5126,
+      "eye_spacing": 0.2627,
+      "eye_openness": 0.2657,
+      "jaw_angle": 0.0796,
+      "chin_ratio": 0.6086,
+      "brow_height": 0.098
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/196497.jpg?s=dd93974ccb821624cc71eb789025b7cf"
+  }
+]

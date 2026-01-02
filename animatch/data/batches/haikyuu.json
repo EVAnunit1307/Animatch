@@ -1,0 +1,90 @@
+[
+  {
+    "id": "haikyuu!!_0",
+    "name": "Hinata, Shouyou",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/243919.jpg?s=09776694ad2bd2ab65f422b7b0139cb9",
+    "image_small": "",
+    "char_id": 64769
+  },
+  {
+    "id": "haikyuu!!_1",
+    "name": "Kageyama, Tobio",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/417874.jpg?s=5bf547fd1fe8438f59ffd68166c7a432",
+    "image_small": "",
+    "char_id": 64771
+  },
+  {
+    "id": "haikyuu!!_2",
+    "name": "Oikawa, Tooru",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/245977.jpg?s=c2d3c2b3070b35099b36a3456f9d5c24",
+    "image_small": "",
+    "char_id": 71611
+  },
+  {
+    "id": "haikyuu!!_3",
+    "name": "Nishinoya, Yuu",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/238027.jpg?s=2890f8c34d34351a4fc3746e7cad8aa5",
+    "image_small": "",
+    "char_id": 67327
+  },
+  {
+    "id": "haikyuu!!_4",
+    "name": "Kozume, Kenma",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/417885.jpg?s=1a028b5b9518d5a4c6f72ec19ce1d12a",
+    "image_small": "",
+    "char_id": 71267
+  },
+  {
+    "id": "haikyuu!!_5",
+    "name": "Tsukishima, Kei",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/417859.jpg?s=414720f12796e51db5bd88dcf639477a",
+    "image_small": "",
+    "char_id": 67329
+  },
+  {
+    "id": "haikyuu!!_6",
+    "name": "Kuroo, Tetsurou",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/417887.jpg?s=f54ad71c00316d23c3a878bf7d0669db",
+    "image_small": "",
+    "char_id": 71269
+  },
+  {
+    "id": "haikyuu!!_7",
+    "name": "Sugawara, Koushi",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/285904.jpg?s=b6c32ac6da7351a9b0dbc989c1d1414f",
+    "image_small": "",
+    "char_id": 67321
+  }
+]

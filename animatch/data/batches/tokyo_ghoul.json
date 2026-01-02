@@ -1,0 +1,68 @@
+[
+  {
+    "id": "tokyo_ghoul_0",
+    "name": "Kaneki, Ken",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/307255.jpg?s=a3b352a4950d3231677668626b1a95f4",
+    "image_small": "",
+    "char_id": 87275
+  },
+  {
+    "id": "tokyo_ghoul_1",
+    "name": "Suzuya, Juuzou",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/275843.jpg?s=a56227409808edb48f5e9cb3c85211b0",
+    "image_small": "",
+    "char_id": 104437
+  },
+  {
+    "id": "tokyo_ghoul_2",
+    "name": "Kirishima, Touka",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/234699.jpg?s=10ef474344779135236911013b0925fc",
+    "image_small": "",
+    "char_id": 87277
+  },
+  {
+    "id": "tokyo_ghoul_3",
+    "name": "Uta",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/259327.jpg?s=aa8d9d2ead39a6add9b0c2cc36bb69b5",
+    "image_small": "",
+    "char_id": 93343
+  },
+  {
+    "id": "tokyo_ghoul_4",
+    "name": "Nagachika, Hideyoshi",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/290838.jpg?s=631b2803bd832aab25b443203e05e4d2",
+    "image_small": "",
+    "char_id": 103415
+  },
+  {
+    "id": "tokyo_ghoul_5",
+    "name": "Tsukiyama, Shuu",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/296873.jpg?s=775d67102b007899c75d8d76490bd0c7",
+    "image_small": "",
+    "char_id": 104059
+  }
+]

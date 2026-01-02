@@ -1,0 +1,87 @@
+[
+  {
+    "id": "slam_dunk_0",
+    "name": "Sakuragi, Hanamichi",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.256,
+      "eye_spacing": 0.2281,
+      "eye_openness": 0.2704,
+      "jaw_angle": 0.1161,
+      "chin_ratio": 0.5323,
+      "brow_height": 0.0832
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/314546.jpg?s=18194f37df5a252b1290803c5927d579"
+  },
+  {
+    "id": "slam_dunk_1",
+    "name": "Mitsui, Hisashi",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.2981,
+      "eye_spacing": 0.2283,
+      "eye_openness": 0.2513,
+      "jaw_angle": 0.1483,
+      "chin_ratio": 0.5202,
+      "brow_height": 0.0736
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/95008.jpg?s=61a3c39c99ac0674f51477d82408196e"
+  },
+  {
+    "id": "slam_dunk_2",
+    "name": "Miyagi, Ryouta",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3944,
+      "eye_spacing": 0.2566,
+      "eye_openness": 0.172,
+      "jaw_angle": 0.111,
+      "chin_ratio": 0.7222,
+      "brow_height": 0.1052
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/58146.jpg?s=46138fac56cace72bced38bae8051ef2"
+  },
+  {
+    "id": "slam_dunk_3",
+    "name": "Rukawa, Kaede",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3296,
+      "eye_spacing": 0.2224,
+      "eye_openness": 0.2112,
+      "jaw_angle": 0.1452,
+      "chin_ratio": 0.4688,
+      "brow_height": 0.088
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/47093.jpg?s=16352e58c8241b74f20eae8dceb1de7d"
+  },
+  {
+    "id": "slam_dunk_4",
+    "name": "Akagi, Takenori",
+    "series": "Slam Dunk",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.2596,
+      "eye_spacing": 0.2384,
+      "eye_openness": 0.2385,
+      "jaw_angle": 0.0946,
+      "chin_ratio": 0.6727,
+      "brow_height": 0.0705
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/512342.jpg?s=c89119576332c12a04505c20c09bf15a"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "attack_on_titan_0",
+    "name": "Levi",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/241413.jpg?s=1a789f9d4c7a441881e4b06a75bd91db",
+    "image_small": "",
+    "char_id": 45627
+  },
+  {
+    "id": "attack_on_titan_1",
+    "name": "Yeager, Eren",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/216895.jpg?s=ccb6539cbfc5462df97d61a48c52af93",
+    "image_small": "",
+    "char_id": 40882
+  },
+  {
+    "id": "attack_on_titan_2",
+    "name": "Ackerman, Mikasa",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/215563.jpg?s=5b0650bb09a7e053afc6bad84ab48947",
+    "image_small": "",
+    "char_id": 40881
+  },
+  {
+    "id": "attack_on_titan_3",
+    "name": "Smith, Erwin",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/559023.jpg?s=148a0689d341e23cae536207d030f3fc",
+    "image_small": "",
+    "char_id": 46496
+  },
+  {
+    "id": "attack_on_titan_4",
+    "name": "Arlert, Armin",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/220267.jpg?s=afa2751e2201aba1f5179544e787ba1a",
+    "image_small": "",
+    "char_id": 46494
+  },
+  {
+    "id": "attack_on_titan_5",
+    "name": "Zoë, Hange",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/208637.jpg?s=3cfdcb5ec72bf4fbd01291026f8c955c",
+    "image_small": "",
+    "char_id": 71121
+  },
+  {
+    "id": "attack_on_titan_6",
+    "name": "Blouse, Sasha",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/251937.jpg?s=3fa60ed09de9a2a8e46d30099e50e6c4",
+    "image_small": "",
+    "char_id": 45887
+  },
+  {
+    "id": "attack_on_titan_7",
+    "name": "Braun, Reiner",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/206489.jpg?s=e48695a419dc6e71c831d7481a5fc86f",
+    "image_small": "",
+    "char_id": 46484
+  },
+  {
+    "id": "attack_on_titan_8",
+    "name": "Kirstein, Jean",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/216893.jpg?s=e0558332ed9959c09ddd0c65e90212e9",
+    "image_small": "",
+    "char_id": 46498
+  },
+  {
+    "id": "attack_on_titan_9",
+    "name": "Leonhart, Annie",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/206357.jpg?s=3a853fc7177a3eeaefbecb530d590a4a",
+    "image_small": "",
+    "char_id": 46490
+  }
+]

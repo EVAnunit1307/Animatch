@@ -1,0 +1,19 @@
+[
+  {
+    "id": "slime_2",
+    "name": "Diablo",
+    "series": "Slime",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.326,
+      "eye_spacing": 0.26,
+      "eye_openness": 0.2307,
+      "jaw_angle": 0.1099,
+      "chin_ratio": 0.4834,
+      "brow_height": 0.1192
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/476920.jpg?s=5803922f7222876fd34e948f38f130f3"
+  }
+]

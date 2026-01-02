@@ -1,0 +1,53 @@
+[
+  {
+    "id": "tokyo_ghoul_2",
+    "name": "Kirishima, Touka",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 2.0578,
+      "eye_spacing": 0.1399,
+      "eye_openness": 0.5416,
+      "jaw_angle": 0.0637,
+      "chin_ratio": 0.5642,
+      "brow_height": 0.0278
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/234699.jpg?s=10ef474344779135236911013b0925fc"
+  },
+  {
+    "id": "tokyo_ghoul_4",
+    "name": "Nagachika, Hideyoshi",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4337,
+      "eye_spacing": 0.263,
+      "eye_openness": 0.2757,
+      "jaw_angle": 0.1256,
+      "chin_ratio": 0.4737,
+      "brow_height": 0.1132
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/290838.jpg?s=631b2803bd832aab25b443203e05e4d2"
+  },
+  {
+    "id": "tokyo_ghoul_5",
+    "name": "Tsukiyama, Shuu",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3402,
+      "eye_spacing": 0.1774,
+      "eye_openness": 0.2928,
+      "jaw_angle": 0.1273,
+      "chin_ratio": 0.3809,
+      "brow_height": 0.0954
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/296873.jpg?s=775d67102b007899c75d8d76490bd0c7"
+  }
+]

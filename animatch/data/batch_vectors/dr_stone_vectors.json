@@ -1,0 +1,36 @@
+[
+  {
+    "id": "dr._stone_2",
+    "name": "Chrome",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4177,
+      "eye_spacing": 0.274,
+      "eye_openness": 0.2511,
+      "jaw_angle": 0.0567,
+      "chin_ratio": 0.6021,
+      "brow_height": 0.0946
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/387866.jpg?s=a39bb4dd08368c9a96ee2328a9a6fb56"
+  },
+  {
+    "id": "dr._stone_4",
+    "name": "Ooki, Taiju",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4527,
+      "eye_spacing": 0.2565,
+      "eye_openness": 0.3132,
+      "jaw_angle": 0.1084,
+      "chin_ratio": 0.5068,
+      "brow_height": 0.1114
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/524648.jpg?s=355af7bb5f7e0fffc7ed5dd604e85df1"
+  }
+]
