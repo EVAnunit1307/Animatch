@@ -71,7 +71,8 @@ def match_characters (user_features, top_k=4): #default top 4
 
     results = []
     for sim, c in scored[:top_k]:#goes to scores takes top 3 
-        pct = max(0.0, min(100.0, sim * 100.0))
+        # Slightly boost percentage for friendlier UX (cap at 100)
+        pct = max(0.0, min(100.0, sim * 100.0 * 1.3))
         results.append({
             "id": c["id"],
             "name": c["name"],

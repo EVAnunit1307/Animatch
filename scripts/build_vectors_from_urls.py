@@ -74,6 +74,9 @@ def main() -> None:
 
     for c in items:
         urls_to_try = []
+        # Prefer largest image first, then fall back
+        if c.get("image_large"):
+            urls_to_try.append(c["image_large"])
         if c.get("image_url"):
             urls_to_try.append(c["image_url"])
         if c.get("image_small"):

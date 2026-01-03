@@ -77,6 +77,7 @@ def main():
             ch = c.get("character", {})
             img = ch.get("images", {}).get("jpg", {}).get("image_url")
             img_small = ch.get("images", {}).get("jpg", {}).get("small_image_url")
+            img_large = ch.get("images", {}).get("jpg", {}).get("large_image_url")
             char_id = ch.get("mal_id")
             name = ch.get("name", "")
             cid = f"{series.lower().replace(' ', '_')}_{idx}"
@@ -88,6 +89,7 @@ def main():
                     "tags": ["anime"],
                     "image_url": img or "",
                     "image_small": img_small or "",
+                    "image_large": img_large or "",
                     "char_id": char_id,
                 }
             )
