@@ -45,6 +45,21 @@ def fetch_char_detail_image(char_id: int) -> list[str]:
         pass
     return urls
 
+def fetch_char_pictures(char_id: int) -> list[str]:
+    """Fetch additional pictures from Jikan character pictures endpoint."""
+    urls = []
+    try:
+        resp = requests.get(f"https://api.jikan.moe/v4/characters/{char_id}/pictures", timeout=20)
+        resp.raise_for_status()
+        data = resp.json().get("data", [])
+        for item in data:
+            img = item.get("jpg", {}).get("image_url")
+            if img:
+                urls.append(img)
+    except Exception:
+        pass
+    return urls
+
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -83,6 +98,7 @@ def main() -> None:
             urls_to_try.append(c["image_small"])
         if c.get("char_id"):
             urls_to_try.extend(fetch_char_detail_image(c["char_id"]))
+            urls_to_try.extend(fetch_char_pictures(c["char_id"]))
         # de-dupe while preserving order
         seen = set()
         urls_to_try = [u for u in urls_to_try if not (u in seen or seen.add(u))]

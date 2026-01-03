@@ -14,7 +14,8 @@
       "chin_ratio": 0.6541,
       "brow_height": 0.1202
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.jpg?s=6a448d3702c1d3185ed7ad8f0b8484f0"
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.jpg?s=6a448d3702c1d3185ed7ad8f0b8484f0",
+    "overlay_url": "/static/overlays/my_hero_academia_0.png"
   },
   {
     "id": "my_hero_academia_1",
@@ -31,7 +32,26 @@
       "chin_ratio": 0.509,
       "brow_height": 0.0989
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/12/332527.jpg?s=575a733f7d22b2b94a12194e051932de"
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/332527.jpg?s=575a733f7d22b2b94a12194e051932de",
+    "overlay_url": "/static/overlays/my_hero_academia_1.png"
+  },
+  {
+    "id": "my_hero_academia_4",
+    "name": "Aizawa, Shouta",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5416,
+      "eye_spacing": 0.254,
+      "eye_openness": 0.1087,
+      "jaw_angle": 0.1145,
+      "chin_ratio": 0.512,
+      "brow_height": 0.1005
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/301856.jpg",
+    "overlay_url": "/static/overlays/my_hero_academia_4.png"
   },
   {
     "id": "my_hero_academia_5",
@@ -48,7 +68,8 @@
       "chin_ratio": 0.5111,
       "brow_height": 0.1143
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/11/329529.jpg?s=cbfca4fce697447408c68a94d519b1b0"
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/329529.jpg?s=cbfca4fce697447408c68a94d519b1b0",
+    "overlay_url": "/static/overlays/my_hero_academia_5.png"
   },
   {
     "id": "my_hero_academia_6",
@@ -65,7 +86,44 @@
       "chin_ratio": 0.631,
       "brow_height": 0.1175
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/9/299421.jpg?s=5c7499bacd3f2c8f4238253a5877c757"
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/299421.jpg?s=5c7499bacd3f2c8f4238253a5877c757",
+    "overlay_url": "/static/overlays/my_hero_academia_6.png"
+  },
+  {
+    "id": "my_hero_academia_7",
+    "name": "Asui, Tsuyu",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4356,
+      "eye_spacing": 0.26,
+      "eye_openness": 0.2652,
+      "jaw_angle": 0.085,
+      "chin_ratio": 0.6612,
+      "brow_height": 0.1374
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/335539.jpg",
+    "overlay_url": "/static/overlays/my_hero_academia_7.png"
+  },
+  {
+    "id": "my_hero_academia_8",
+    "name": "Shigaraki, Tomura",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5198,
+      "eye_spacing": 0.2806,
+      "eye_openness": 0.1886,
+      "jaw_angle": 0.1018,
+      "chin_ratio": 0.4483,
+      "brow_height": 0.113
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/614822.jpg",
+    "overlay_url": "/static/overlays/my_hero_academia_8.png"
   },
   {
     "id": "my_hero_academia_9",
@@ -82,7 +140,8 @@
       "chin_ratio": 0.5428,
       "brow_height": 0.097
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/329527.jpg?s=bdd623918f5fa850d8f2e877318a4a0b"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/329527.jpg?s=bdd623918f5fa850d8f2e877318a4a0b",
+    "overlay_url": "/static/overlays/my_hero_academia_9.png"
   },
   {
     "id": "my_hero_academia_10",
@@ -99,6 +158,7 @@
       "chin_ratio": 0.5409,
       "brow_height": 0.1001
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/9/299417.jpg?s=ae97d822ef7c4cdbe392766389c3f5f1"
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/299417.jpg?s=ae97d822ef7c4cdbe392766389c3f5f1",
+    "overlay_url": "/static/overlays/my_hero_academia_10.png"
   }
 ]

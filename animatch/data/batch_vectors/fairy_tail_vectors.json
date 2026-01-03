@@ -1,5 +1,23 @@
 [
   {
+    "id": "fairy_tail_0",
+    "name": "Dragneel, Natsu",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.7186,
+      "eye_spacing": 0.2764,
+      "eye_openness": 0.123,
+      "jaw_angle": 0.0883,
+      "chin_ratio": 0.5136,
+      "brow_height": 0.1396
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/73303.jpg",
+    "overlay_url": "/static/overlays/fairy_tail_0.png"
+  },
+  {
     "id": "fairy_tail_1",
     "name": "Scarlet, Erza",
     "series": "Fairy Tail",
@@ -14,7 +32,26 @@
       "chin_ratio": 0.5123,
       "brow_height": 0.0908
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/12/492254.jpg?s=7e17a45b638c2b7f12bf1f699b2b5c82"
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/492254.jpg?s=7e17a45b638c2b7f12bf1f699b2b5c82",
+    "overlay_url": "/static/overlays/fairy_tail_1.png"
+  },
+  {
+    "id": "fairy_tail_2",
+    "name": "Heartfilia, Lucy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6132,
+      "eye_spacing": 0.2745,
+      "eye_openness": 0.2079,
+      "jaw_angle": 0.0873,
+      "chin_ratio": 0.496,
+      "brow_height": 0.1209
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/244711.jpg",
+    "overlay_url": "/static/overlays/fairy_tail_2.png"
   },
   {
     "id": "fairy_tail_3",
@@ -31,7 +68,26 @@
       "chin_ratio": 0.6191,
       "brow_height": 0.0872
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/11/278602.jpg?s=87553874d5dd1b8ffcaeee57b777cd9c"
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/278602.jpg?s=87553874d5dd1b8ffcaeee57b777cd9c",
+    "overlay_url": "/static/overlays/fairy_tail_3.png"
+  },
+  {
+    "id": "fairy_tail_5",
+    "name": "Lockser, Juvia",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5996,
+      "eye_spacing": 0.2945,
+      "eye_openness": 0.228,
+      "jaw_angle": 0.1047,
+      "chin_ratio": 0.5081,
+      "brow_height": 0.1384
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/66306.jpg",
+    "overlay_url": "/static/overlays/fairy_tail_5.png"
   },
   {
     "id": "fairy_tail_6",
@@ -48,7 +104,26 @@
       "chin_ratio": 0.4952,
       "brow_height": 0.1091
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/11/80782.jpg?s=3cfa9e107e76c8708736fe90dbecde14"
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/80782.jpg?s=3cfa9e107e76c8708736fe90dbecde14",
+    "overlay_url": "/static/overlays/fairy_tail_6.png"
+  },
+  {
+    "id": "fairy_tail_7",
+    "name": "Redfox, Gajeel",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3719,
+      "eye_spacing": 0.2624,
+      "eye_openness": 0.2267,
+      "jaw_angle": 0.1145,
+      "chin_ratio": 0.5137,
+      "brow_height": 0.0997
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/337498.jpg",
+    "overlay_url": "/static/overlays/fairy_tail_7.png"
   },
   {
     "id": "fairy_tail_8",
@@ -65,6 +140,25 @@
       "chin_ratio": 0.6086,
       "brow_height": 0.098
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/11/196497.jpg?s=dd93974ccb821624cc71eb789025b7cf"
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/196497.jpg?s=dd93974ccb821624cc71eb789025b7cf",
+    "overlay_url": "/static/overlays/fairy_tail_8.png"
+  },
+  {
+    "id": "fairy_tail_9",
+    "name": "Charlés",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.792,
+      "eye_spacing": 0.2323,
+      "eye_openness": 0.2876,
+      "jaw_angle": 0.0768,
+      "chin_ratio": 0.7409,
+      "brow_height": 0.1133
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/104251.jpg",
+    "overlay_url": "/static/overlays/fairy_tail_9.png"
   }
 ]

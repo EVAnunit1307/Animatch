@@ -1,5 +1,41 @@
 [
   {
+    "id": "dr._stone_0",
+    "name": "Ishigami, Senkuu",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6697,
+      "eye_spacing": 0.2631,
+      "eye_openness": 0.2695,
+      "jaw_angle": 0.1057,
+      "chin_ratio": 0.4465,
+      "brow_height": 0.09
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/388506.jpg",
+    "overlay_url": "/static/overlays/dr._stone_0.png"
+  },
+  {
+    "id": "dr._stone_1",
+    "name": "Asagiri, Gen",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.7231,
+      "eye_spacing": 0.2949,
+      "eye_openness": 0.221,
+      "jaw_angle": 0.1005,
+      "chin_ratio": 0.4748,
+      "brow_height": 0.1368
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/388332.jpg",
+    "overlay_url": "/static/overlays/dr._stone_1.png"
+  },
+  {
     "id": "dr._stone_2",
     "name": "Chrome",
     "series": "Dr. Stone",
@@ -14,7 +50,26 @@
       "chin_ratio": 0.6021,
       "brow_height": 0.0946
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/387866.jpg?s=a39bb4dd08368c9a96ee2328a9a6fb56"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/387866.jpg?s=a39bb4dd08368c9a96ee2328a9a6fb56",
+    "overlay_url": "/static/overlays/dr._stone_2.png"
+  },
+  {
+    "id": "dr._stone_3",
+    "name": "Kohaku",
+    "series": "Dr. Stone",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5261,
+      "eye_spacing": 0.2936,
+      "eye_openness": 0.2504,
+      "jaw_angle": 0.0848,
+      "chin_ratio": 0.5742,
+      "brow_height": 0.1242
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/413297.jpg",
+    "overlay_url": "/static/overlays/dr._stone_3.png"
   },
   {
     "id": "dr._stone_4",
@@ -31,6 +86,7 @@
       "chin_ratio": 0.5068,
       "brow_height": 0.1114
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/4/524648.jpg?s=355af7bb5f7e0fffc7ed5dd604e85df1"
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/524648.jpg?s=355af7bb5f7e0fffc7ed5dd604e85df1",
+    "overlay_url": "/static/overlays/dr._stone_4.png"
   }
 ]

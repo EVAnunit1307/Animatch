@@ -1,5 +1,23 @@
 [
   {
+    "id": "one_piece_0",
+    "name": "Monkey D., Luffy",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5403,
+      "eye_spacing": 0.2797,
+      "eye_openness": 0.2411,
+      "jaw_angle": 0.082,
+      "chin_ratio": 0.5775,
+      "brow_height": 0.1215
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/55741.jpg",
+    "overlay_url": "/static/overlays/one_piece_0.png"
+  },
+  {
     "id": "one_piece_1",
     "name": "Roronoa, Zoro",
     "series": "One Piece",
@@ -14,7 +32,26 @@
       "chin_ratio": 0.5134,
       "brow_height": 0.0924
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/3/100534.jpg?s=4a00840eacc26e9ad86bae6f505e4826"
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/100534.jpg?s=4a00840eacc26e9ad86bae6f505e4826",
+    "overlay_url": "/static/overlays/one_piece_1.png"
+  },
+  {
+    "id": "one_piece_2",
+    "name": "Sanji",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6052,
+      "eye_spacing": 0.2228,
+      "eye_openness": 0.2298,
+      "jaw_angle": 0.0689,
+      "chin_ratio": 0.5767,
+      "brow_height": 0.0943
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/41143.jpg",
+    "overlay_url": "/static/overlays/one_piece_2.png"
   },
   {
     "id": "one_piece_3",
@@ -31,7 +68,8 @@
       "chin_ratio": 0.5121,
       "brow_height": 0.1486
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/16/363700.jpg?s=3e7fa6074c0d30c8bede3905680e983c"
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/363700.jpg?s=3e7fa6074c0d30c8bede3905680e983c",
+    "overlay_url": "/static/overlays/one_piece_3.png"
   },
   {
     "id": "one_piece_4",
@@ -48,7 +86,8 @@
       "chin_ratio": 0.4227,
       "brow_height": 0.0873
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/258757.jpg?s=a537201b5cb91a6905765fee2de00012"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/258757.jpg?s=a537201b5cb91a6905765fee2de00012",
+    "overlay_url": "/static/overlays/one_piece_4.png"
   },
   {
     "id": "one_piece_6",
@@ -65,7 +104,80 @@
       "chin_ratio": 0.5056,
       "brow_height": 0.1021
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/59914.jpg?s=302fa4565e9cbd5368b6ca4da51e1a0c"
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/59914.jpg?s=302fa4565e9cbd5368b6ca4da51e1a0c",
+    "overlay_url": "/static/overlays/one_piece_6.png"
+  },
+  {
+    "id": "one_piece_8",
+    "name": "Portgas D., Ace",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6357,
+      "eye_spacing": 0.2721,
+      "eye_openness": 0.2726,
+      "jaw_angle": 0.1211,
+      "chin_ratio": 0.5387,
+      "brow_height": 0.0709
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/365923.jpg",
+    "overlay_url": "/static/overlays/one_piece_8.png"
+  },
+  {
+    "id": "one_piece_12",
+    "name": "Shanks",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4864,
+      "eye_spacing": 0.2911,
+      "eye_openness": 0.2066,
+      "jaw_angle": 0.0918,
+      "chin_ratio": 0.5424,
+      "brow_height": 0.1163
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/48657.jpg",
+    "overlay_url": "/static/overlays/one_piece_12.png"
+  },
+  {
+    "id": "one_piece_13",
+    "name": "Edward, Newgate",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4738,
+      "eye_spacing": 0.2475,
+      "eye_openness": 0.0864,
+      "jaw_angle": 0.0874,
+      "chin_ratio": 0.5953,
+      "brow_height": 0.1097
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/49737.jpg",
+    "overlay_url": "/static/overlays/one_piece_13.png"
+  },
+  {
+    "id": "one_piece_14",
+    "name": "Donquixote, Doflamingo",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4231,
+      "eye_spacing": 0.2717,
+      "eye_openness": 0.134,
+      "jaw_angle": 0.1173,
+      "chin_ratio": 0.554,
+      "brow_height": 0.1073
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/91660.jpg",
+    "overlay_url": "/static/overlays/one_piece_14.png"
   },
   {
     "id": "one_piece_16",
@@ -82,6 +194,25 @@
       "chin_ratio": 0.6451,
       "brow_height": 0.1135
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/14/146013.jpg?s=cb2628e503ecea60dc2619b4aedf3247"
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/146013.jpg?s=cb2628e503ecea60dc2619b4aedf3247",
+    "overlay_url": "/static/overlays/one_piece_16.png"
+  },
+  {
+    "id": "one_piece_17",
+    "name": "Donquixote, Rosinante",
+    "series": "One Piece",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6449,
+      "eye_spacing": 0.2882,
+      "eye_openness": 0.1555,
+      "jaw_angle": 0.1028,
+      "chin_ratio": 0.489,
+      "brow_height": 0.1074
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/288716.jpg",
+    "overlay_url": "/static/overlays/one_piece_17.png"
   }
 ]

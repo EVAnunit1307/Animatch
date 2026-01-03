@@ -1,5 +1,23 @@
 [
   {
+    "id": "fullmetal_alchemist:_brotherhood_0",
+    "name": "Elric, Edward",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4834,
+      "eye_spacing": 0.2468,
+      "eye_openness": 0.2441,
+      "jaw_angle": 0.1082,
+      "chin_ratio": 0.5447,
+      "brow_height": 0.1042
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/281574.jpg",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_0.png"
+  },
+  {
     "id": "fullmetal_alchemist:_brotherhood_1",
     "name": "Mustang, Roy",
     "series": "Fullmetal Alchemist: Brotherhood",
@@ -14,7 +32,26 @@
       "chin_ratio": 0.5932,
       "brow_height": 0.0851
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/11/510227.jpg?s=a9880198a26475fa0555f4690bab8cd3"
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/510227.jpg?s=a9880198a26475fa0555f4690bab8cd3",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_1.png"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_2",
+    "name": "Elric, Alphonse",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.2946,
+      "eye_spacing": 0.26,
+      "eye_openness": 0.2826,
+      "jaw_angle": 0.1306,
+      "chin_ratio": 0.5159,
+      "brow_height": 0.1059
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/374245.jpg",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_2.png"
   },
   {
     "id": "fullmetal_alchemist:_brotherhood_3",
@@ -31,7 +68,26 @@
       "chin_ratio": 0.4604,
       "brow_height": 0.0945
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/13/73469.jpg?s=049daccbf5014073c0c8933c5388258a"
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/73469.jpg?s=049daccbf5014073c0c8933c5388258a",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_3.png"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_4",
+    "name": "Greed",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3879,
+      "eye_spacing": 0.2183,
+      "eye_openness": 0.1812,
+      "jaw_angle": 0.1064,
+      "chin_ratio": 0.6095,
+      "brow_height": 0.0982
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/79208.jpg",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_4.png"
   },
   {
     "id": "fullmetal_alchemist:_brotherhood_5",
@@ -48,6 +104,97 @@
       "chin_ratio": 0.5521,
       "brow_height": 0.1212
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/3/451785.jpg?s=11bc1988772e66c4fce2ff3dee08b8da"
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/451785.jpg?s=11bc1988772e66c4fce2ff3dee08b8da",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_5.png"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_6",
+    "name": "Yao, Ling",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3271,
+      "eye_spacing": 0.2817,
+      "eye_openness": 0.1476,
+      "jaw_angle": 0.0811,
+      "chin_ratio": 0.6403,
+      "brow_height": 0.1082
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/58067.jpg",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_6.png"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_7",
+    "name": "Rockbell, Winry",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.349,
+      "eye_spacing": 0.2777,
+      "eye_openness": 0.303,
+      "jaw_angle": 0.077,
+      "chin_ratio": 0.5795,
+      "brow_height": 0.1245
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/39613.jpg",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_7.png"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_8",
+    "name": "Armstrong, Alex Louis",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5719,
+      "eye_spacing": 0.2106,
+      "eye_openness": 0.2318,
+      "jaw_angle": 0.0899,
+      "chin_ratio": 0.6152,
+      "brow_height": 0.0588
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/344521.jpg",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_8.png"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_10",
+    "name": "Envy",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.696,
+      "eye_spacing": 0.2364,
+      "eye_openness": 0.204,
+      "jaw_angle": 0.0751,
+      "chin_ratio": 0.6081,
+      "brow_height": 0.1039
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/73470.jpg",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_10.png"
+  },
+  {
+    "id": "fullmetal_alchemist:_brotherhood_11",
+    "name": "Hohenheim, Van",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5157,
+      "eye_spacing": 0.2514,
+      "eye_openness": 0.2006,
+      "jaw_angle": 0.1199,
+      "chin_ratio": 0.5005,
+      "brow_height": 0.1005
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/68760.jpg",
+    "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_11.png"
   }
 ]

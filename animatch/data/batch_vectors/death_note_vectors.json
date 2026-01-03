@@ -14,7 +14,8 @@
       "chin_ratio": 0.5686,
       "brow_height": 0.0938
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/249647.jpg?s=95cecc21f3db10318c68a0863f0132c8"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/249647.jpg?s=95cecc21f3db10318c68a0863f0132c8",
+    "overlay_url": "/static/overlays/death_note_0.png"
   },
   {
     "id": "death_note_1",
@@ -31,7 +32,8 @@
       "chin_ratio": 0.4486,
       "brow_height": 0.083
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/63870.jpg?s=3adaed92c13123a9649ccc0cc6551f7d"
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/63870.jpg?s=3adaed92c13123a9649ccc0cc6551f7d",
+    "overlay_url": "/static/overlays/death_note_1.png"
   },
   {
     "id": "death_note_3",
@@ -48,7 +50,8 @@
       "chin_ratio": 0.4971,
       "brow_height": 0.1171
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/5/30971.jpg?s=0af596d087b34f6e05942dcae60aebae"
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/30971.jpg?s=0af596d087b34f6e05942dcae60aebae",
+    "overlay_url": "/static/overlays/death_note_3.png"
   },
   {
     "id": "death_note_4",
@@ -65,7 +68,8 @@
       "chin_ratio": 0.4692,
       "brow_height": 0.0986
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/13/77339.jpg?s=e045ccd8110b534c2668b4e7a02ac22f"
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/77339.jpg?s=e045ccd8110b534c2668b4e7a02ac22f",
+    "overlay_url": "/static/overlays/death_note_4.png"
   },
   {
     "id": "death_note_5",
@@ -82,6 +86,7 @@
       "chin_ratio": 0.4797,
       "brow_height": 0.1244
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/31498.jpg?s=021fbd3f7ad05577fbbcd8cfb52e402b"
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/31498.jpg?s=021fbd3f7ad05577fbbcd8cfb52e402b",
+    "overlay_url": "/static/overlays/death_note_5.png"
   }
 ]

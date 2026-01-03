@@ -1,5 +1,23 @@
 [
   {
+    "id": "kuroko's_basketball_0",
+    "name": "Kuroko, Tetsuya",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3629,
+      "eye_spacing": 0.284,
+      "eye_openness": 0.3017,
+      "jaw_angle": 0.1199,
+      "chin_ratio": 0.5099,
+      "brow_height": 0.1063
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/168697.jpg",
+    "overlay_url": "/static/overlays/kuroko's_basketball_0.png"
+  },
+  {
     "id": "kuroko's_basketball_1",
     "name": "Aomine, Daiki",
     "series": "Kuroko's Basketball",
@@ -14,7 +32,8 @@
       "chin_ratio": 0.4396,
       "brow_height": 0.1109
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/9/246745.jpg?s=d52cc81c1470ab893dd2b389070a871e"
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/246745.jpg?s=d52cc81c1470ab893dd2b389070a871e",
+    "overlay_url": "/static/overlays/kuroko's_basketball_1.png"
   },
   {
     "id": "kuroko's_basketball_2",
@@ -31,7 +50,8 @@
       "chin_ratio": 0.4523,
       "brow_height": 0.0818
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/4/275813.jpg?s=516396f259b08c9bdcd400f0ac86afde"
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/275813.jpg?s=516396f259b08c9bdcd400f0ac86afde",
+    "overlay_url": "/static/overlays/kuroko's_basketball_2.png"
   },
   {
     "id": "kuroko's_basketball_3",
@@ -48,7 +68,8 @@
       "chin_ratio": 0.4766,
       "brow_height": 0.0947
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/16/246753.jpg?s=e5810a9688d84690e4934ad9084be6b1"
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/246753.jpg?s=e5810a9688d84690e4934ad9084be6b1",
+    "overlay_url": "/static/overlays/kuroko's_basketball_3.png"
   },
   {
     "id": "kuroko's_basketball_4",
@@ -65,6 +86,7 @@
       "chin_ratio": 0.495,
       "brow_height": 0.0841
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/169361.jpg?s=f512a9ee4fc65da1f7a472c5880a252b"
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/169361.jpg?s=f512a9ee4fc65da1f7a472c5880a252b",
+    "overlay_url": "/static/overlays/kuroko's_basketball_4.png"
   }
 ]

@@ -1,5 +1,59 @@
 [
   {
+    "id": "hunter_x_hunter_0",
+    "name": "Zoldyck, Killua",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4704,
+      "eye_spacing": 0.2742,
+      "eye_openness": 0.2571,
+      "jaw_angle": 0.0617,
+      "chin_ratio": 0.7217,
+      "brow_height": 0.1148
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/176263.jpg",
+    "overlay_url": "/static/overlays/hunter_x_hunter_0.png"
+  },
+  {
+    "id": "hunter_x_hunter_1",
+    "name": "Morow, Hisoka",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.33,
+      "eye_spacing": 0.2423,
+      "eye_openness": 0.189,
+      "jaw_angle": 0.1109,
+      "chin_ratio": 0.4768,
+      "brow_height": 0.0823
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/84493.jpg",
+    "overlay_url": "/static/overlays/hunter_x_hunter_1.png"
+  },
+  {
+    "id": "hunter_x_hunter_2",
+    "name": "Kurapika",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6039,
+      "eye_spacing": 0.3111,
+      "eye_openness": 0.1683,
+      "jaw_angle": 0.0896,
+      "chin_ratio": 0.5766,
+      "brow_height": 0.1233
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/120684.jpg",
+    "overlay_url": "/static/overlays/hunter_x_hunter_2.png"
+  },
+  {
     "id": "hunter_x_hunter_3",
     "name": "Freecss, Gon",
     "series": "Hunter x Hunter",
@@ -14,7 +68,26 @@
       "chin_ratio": 0.5907,
       "brow_height": 0.0943
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/11/174517.jpg?s=c8133cf450dc6bf13ba52d6781759101"
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/174517.jpg?s=c8133cf450dc6bf13ba52d6781759101",
+    "overlay_url": "/static/overlays/hunter_x_hunter_3.png"
+  },
+  {
+    "id": "hunter_x_hunter_4",
+    "name": "Meruem",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4472,
+      "eye_spacing": 0.2539,
+      "eye_openness": 0.2274,
+      "jaw_angle": 0.155,
+      "chin_ratio": 0.5283,
+      "brow_height": 0.1047
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/77599.jpg",
+    "overlay_url": "/static/overlays/hunter_x_hunter_4.png"
   },
   {
     "id": "hunter_x_hunter_5",
@@ -31,7 +104,8 @@
       "chin_ratio": 0.4297,
       "brow_height": 0.1031
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/4/182387.jpg?s=82532b8deca18069b86e7f598e0ca914"
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/182387.jpg?s=82532b8deca18069b86e7f598e0ca914",
+    "overlay_url": "/static/overlays/hunter_x_hunter_5.png"
   },
   {
     "id": "hunter_x_hunter_6",
@@ -48,6 +122,43 @@
       "chin_ratio": 0.6157,
       "brow_height": 0.0733
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/11/549311.jpg?s=ba86161de766b11580c7fbdf23849cbc"
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/549311.jpg?s=ba86161de766b11580c7fbdf23849cbc",
+    "overlay_url": "/static/overlays/hunter_x_hunter_6.png"
+  },
+  {
+    "id": "hunter_x_hunter_7",
+    "name": "Netero, Isaac",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4473,
+      "eye_spacing": 0.2369,
+      "eye_openness": 0.2389,
+      "jaw_angle": 0.1032,
+      "chin_ratio": 0.5934,
+      "brow_height": 0.1477
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/113832.jpg",
+    "overlay_url": "/static/overlays/hunter_x_hunter_7.png"
+  },
+  {
+    "id": "hunter_x_hunter_8",
+    "name": "Neferpitou",
+    "series": "Hunter x Hunter",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5323,
+      "eye_spacing": 0.2899,
+      "eye_openness": 0.2542,
+      "jaw_angle": 0.1033,
+      "chin_ratio": 0.5326,
+      "brow_height": 0.1216
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/210411.jpg",
+    "overlay_url": "/static/overlays/hunter_x_hunter_8.png"
   }
 ]

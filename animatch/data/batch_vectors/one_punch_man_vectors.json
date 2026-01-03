@@ -1,5 +1,95 @@
 [
   {
+    "id": "one_punch_man_0",
+    "name": "Saitama",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5701,
+      "eye_spacing": 0.1945,
+      "eye_openness": 0.325,
+      "jaw_angle": 0.1008,
+      "chin_ratio": 0.434,
+      "brow_height": 0.0308
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/198559.jpg",
+    "overlay_url": "/static/overlays/one_punch_man_0.png"
+  },
+  {
+    "id": "one_punch_man_1",
+    "name": "Garou",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4758,
+      "eye_spacing": 0.2415,
+      "eye_openness": 0.2338,
+      "jaw_angle": 0.0868,
+      "chin_ratio": 0.5928,
+      "brow_height": 0.0917
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/295048.jpg",
+    "overlay_url": "/static/overlays/one_punch_man_1.png"
+  },
+  {
+    "id": "one_punch_man_2",
+    "name": "Genos",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4174,
+      "eye_spacing": 0.2529,
+      "eye_openness": 0.2056,
+      "jaw_angle": 0.1076,
+      "chin_ratio": 0.5477,
+      "brow_height": 0.1065
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/295762.jpg",
+    "overlay_url": "/static/overlays/one_punch_man_2.png"
+  },
+  {
+    "id": "one_punch_man_3",
+    "name": "Tatsumaki",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4888,
+      "eye_spacing": 0.2787,
+      "eye_openness": 0.2464,
+      "jaw_angle": 0.1002,
+      "chin_ratio": 0.4724,
+      "brow_height": 0.1199
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/296298.jpg",
+    "overlay_url": "/static/overlays/one_punch_man_3.png"
+  },
+  {
+    "id": "one_punch_man_4",
+    "name": "Mumen Rider",
+    "series": "One Punch Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6045,
+      "eye_spacing": 0.2598,
+      "eye_openness": 0.1239,
+      "jaw_angle": 0.124,
+      "chin_ratio": 0.4172,
+      "brow_height": 0.1329
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/290361.jpg",
+    "overlay_url": "/static/overlays/one_punch_man_4.png"
+  },
+  {
     "id": "one_punch_man_5",
     "name": "Fubuki",
     "series": "One Punch Man",
@@ -14,6 +104,7 @@
       "chin_ratio": 0.4242,
       "brow_height": 0.1105
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/473637.jpg?s=7ed26a04a631d8f3175a8ee4b29932fa"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/473637.jpg?s=7ed26a04a631d8f3175a8ee4b29932fa",
+    "overlay_url": "/static/overlays/one_punch_man_5.png"
   }
 ]

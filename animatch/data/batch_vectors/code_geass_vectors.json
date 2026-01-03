@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": "code_geass_0",
+    "name": "Lamperouge, Lelouch",
+    "series": "Code Geass",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4458,
+      "eye_spacing": 0.2752,
+      "eye_openness": 0.2119,
+      "jaw_angle": 0.1096,
+      "chin_ratio": 0.459,
+      "brow_height": 0.1229
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/274017.jpg",
+    "overlay_url": "/static/overlays/code_geass_0.png"
+  },
+  {
+    "id": "code_geass_3",
+    "name": "Kururugi, Suzaku",
+    "series": "Code Geass",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6743,
+      "eye_spacing": 0.2543,
+      "eye_openness": 0.2794,
+      "jaw_angle": 0.1061,
+      "chin_ratio": 0.3933,
+      "brow_height": 0.1154
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/31532.jpg",
+    "overlay_url": "/static/overlays/code_geass_3.png"
+  }
+]

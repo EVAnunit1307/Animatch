@@ -14,7 +14,8 @@
       "chin_ratio": 0.5313,
       "brow_height": 0.1157
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/386735.jpg?s=7327e90f2310ececd18696cd4aa2ff4e"
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/386735.jpg?s=7327e90f2310ececd18696cd4aa2ff4e",
+    "overlay_url": "/static/overlays/demon_slayer_0.png"
   },
   {
     "id": "demon_slayer_1",
@@ -31,7 +32,44 @@
       "chin_ratio": 0.5175,
       "brow_height": 0.1058
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/459689.jpg?s=d5ccecc4a7b9e2118acb849a2062a84c"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/459689.jpg?s=d5ccecc4a7b9e2118acb849a2062a84c",
+    "overlay_url": "/static/overlays/demon_slayer_1.png"
+  },
+  {
+    "id": "demon_slayer_2",
+    "name": "Hashibira, Inosuke",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4688,
+      "eye_spacing": 0.2841,
+      "eye_openness": 0.2308,
+      "jaw_angle": 0.1102,
+      "chin_ratio": 0.5366,
+      "brow_height": 0.1135
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/388990.jpg",
+    "overlay_url": "/static/overlays/demon_slayer_2.png"
+  },
+  {
+    "id": "demon_slayer_3",
+    "name": "Rengoku, Kyoujurou",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5754,
+      "eye_spacing": 0.2695,
+      "eye_openness": 0.2718,
+      "jaw_angle": 0.121,
+      "chin_ratio": 0.455,
+      "brow_height": 0.114
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/356105.jpg",
+    "overlay_url": "/static/overlays/demon_slayer_3.png"
   },
   {
     "id": "demon_slayer_4",
@@ -48,7 +86,8 @@
       "chin_ratio": 0.5158,
       "brow_height": 0.1082
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/378254.jpg?s=c3cdc50f2d9f3b30e4453c8ca1f8460f"
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/378254.jpg?s=c3cdc50f2d9f3b30e4453c8ca1f8460f",
+    "overlay_url": "/static/overlays/demon_slayer_4.png"
   },
   {
     "id": "demon_slayer_5",
@@ -65,7 +104,26 @@
       "chin_ratio": 0.4173,
       "brow_height": 0.1224
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/3/386591.jpg?s=3c18dc65ee6cd3a032214d6a6e49ac9e"
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/386591.jpg?s=3c18dc65ee6cd3a032214d6a6e49ac9e",
+    "overlay_url": "/static/overlays/demon_slayer_5.png"
+  },
+  {
+    "id": "demon_slayer_6",
+    "name": "Tomioka, Giyuu",
+    "series": "Demon Slayer",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4756,
+      "eye_spacing": 0.2278,
+      "eye_openness": 0.2038,
+      "jaw_angle": 0.0931,
+      "chin_ratio": 0.595,
+      "brow_height": 0.1457
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/318285.jpg",
+    "overlay_url": "/static/overlays/demon_slayer_6.png"
   },
   {
     "id": "demon_slayer_7",
@@ -82,7 +140,8 @@
       "chin_ratio": 0.6097,
       "brow_height": 0.0955
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/16/387706.jpg?s=c761782087650f5a1e98a21aa7635280"
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/387706.jpg?s=c761782087650f5a1e98a21aa7635280",
+    "overlay_url": "/static/overlays/demon_slayer_7.png"
   },
   {
     "id": "demon_slayer_8",
@@ -99,7 +158,8 @@
       "chin_ratio": 0.5712,
       "brow_height": 0.1343
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/11/514229.jpg?s=8bbf40b3cfa80df52f3eccce022146ea"
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/514229.jpg?s=8bbf40b3cfa80df52f3eccce022146ea",
+    "overlay_url": "/static/overlays/demon_slayer_8.png"
   },
   {
     "id": "demon_slayer_9",
@@ -116,7 +176,8 @@
       "chin_ratio": 0.4585,
       "brow_height": 0.1361
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/5/464903.jpg?s=8a4c1a500e00fe55746dd8d259401513"
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/464903.jpg?s=8a4c1a500e00fe55746dd8d259401513",
+    "overlay_url": "/static/overlays/demon_slayer_9.png"
   },
   {
     "id": "demon_slayer_10",
@@ -133,6 +194,7 @@
       "chin_ratio": 0.5395,
       "brow_height": 0.1352
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/384712.jpg?s=efa0d88902b290fa7a72e6287eaa3e2b"
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/384712.jpg?s=efa0d88902b290fa7a72e6287eaa3e2b",
+    "overlay_url": "/static/overlays/demon_slayer_10.png"
   }
 ]

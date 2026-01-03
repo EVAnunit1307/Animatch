@@ -1,5 +1,41 @@
 [
   {
+    "id": "dragon_ball_z_0",
+    "name": "Son, Gokuu",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4796,
+      "eye_spacing": 0.2377,
+      "eye_openness": 0.145,
+      "jaw_angle": 0.1076,
+      "chin_ratio": 0.4518,
+      "brow_height": 0.12
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/357761.jpg",
+    "overlay_url": "/static/overlays/dragon_ball_z_0.png"
+  },
+  {
+    "id": "dragon_ball_z_1",
+    "name": "Vegeta",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6499,
+      "eye_spacing": 0.2097,
+      "eye_openness": 0.1192,
+      "jaw_angle": 0.1145,
+      "chin_ratio": 0.417,
+      "brow_height": 0.1468
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/584579.jpg",
+    "overlay_url": "/static/overlays/dragon_ball_z_1.png"
+  },
+  {
     "id": "dragon_ball_z_2",
     "name": "Son, Gohan",
     "series": "Dragon Ball Z",
@@ -14,6 +50,61 @@
       "chin_ratio": 0.4629,
       "brow_height": 0.1112
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/72715.jpg?s=886561eebbd32941685b470ff9ed78a2"
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/72715.jpg?s=886561eebbd32941685b470ff9ed78a2",
+    "overlay_url": "/static/overlays/dragon_ball_z_2.png"
+  },
+  {
+    "id": "dragon_ball_z_3",
+    "name": "Piccolo",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.492,
+      "eye_spacing": 0.2265,
+      "eye_openness": 0.2068,
+      "jaw_angle": 0.0949,
+      "chin_ratio": 0.4805,
+      "brow_height": 0.1301
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/358437.jpg",
+    "overlay_url": "/static/overlays/dragon_ball_z_3.png"
+  },
+  {
+    "id": "dragon_ball_z_4",
+    "name": "Future Trunks",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5523,
+      "eye_spacing": 0.2539,
+      "eye_openness": 0.2093,
+      "jaw_angle": 0.0756,
+      "chin_ratio": 0.5768,
+      "brow_height": 0.0928
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/358541.jpg",
+    "overlay_url": "/static/overlays/dragon_ball_z_4.png"
+  },
+  {
+    "id": "dragon_ball_z_5",
+    "name": "Kuririn",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4863,
+      "eye_spacing": 0.2811,
+      "eye_openness": 0.194,
+      "jaw_angle": 0.0571,
+      "chin_ratio": 0.774,
+      "brow_height": 0.1106
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/316662.jpg",
+    "overlay_url": "/static/overlays/dragon_ball_z_5.png"
   }
 ]

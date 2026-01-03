@@ -14,7 +14,8 @@
       "chin_ratio": 0.5831,
       "brow_height": 0.1027
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/14/491180.jpg?s=c67709cd053126060a5e06f7ec54e3fb"
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/491180.jpg?s=c67709cd053126060a5e06f7ec54e3fb",
+    "overlay_url": "/static/overlays/blue_lock_0.png"
   },
   {
     "id": "blue_lock_1",
@@ -31,6 +32,43 @@
       "chin_ratio": 0.4919,
       "brow_height": 0.0934
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/558080.jpg?s=21af46581c2e005669a00b52c40ab6cf"
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/558080.jpg?s=21af46581c2e005669a00b52c40ab6cf",
+    "overlay_url": "/static/overlays/blue_lock_1.png"
+  },
+  {
+    "id": "blue_lock_2",
+    "name": "Nagi, Seishirou",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5163,
+      "eye_spacing": 0.2453,
+      "eye_openness": 0.224,
+      "jaw_angle": 0.0631,
+      "chin_ratio": 0.5598,
+      "brow_height": 0.0862
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/437167.jpg",
+    "overlay_url": "/static/overlays/blue_lock_2.png"
+  },
+  {
+    "id": "blue_lock_4",
+    "name": "Kunigami, Rensuke",
+    "series": "Blue Lock",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4515,
+      "eye_spacing": 0.2671,
+      "eye_openness": 0.2658,
+      "jaw_angle": 0.1282,
+      "chin_ratio": 0.4191,
+      "brow_height": 0.1142
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/498283.jpg",
+    "overlay_url": "/static/overlays/blue_lock_4.png"
   }
 ]

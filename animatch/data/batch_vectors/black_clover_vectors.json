@@ -14,7 +14,8 @@
       "chin_ratio": 0.5249,
       "brow_height": 0.0885
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/599705.jpg?s=e01f9c1a77c582bb0e67e5b80f87d9c1"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/599705.jpg?s=e01f9c1a77c582bb0e67e5b80f87d9c1",
+    "overlay_url": "/static/overlays/black_clover_0.png"
   },
   {
     "id": "black_clover_1",
@@ -31,7 +32,8 @@
       "chin_ratio": 0.5057,
       "brow_height": 0.1171
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/8/312836.jpg?s=f4ea6f575c53db8908baf0f874e33e70"
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/312836.jpg?s=f4ea6f575c53db8908baf0f874e33e70",
+    "overlay_url": "/static/overlays/black_clover_1.png"
   },
   {
     "id": "black_clover_2",
@@ -48,7 +50,26 @@
       "chin_ratio": 0.5015,
       "brow_height": 0.1317
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/14/338844.jpg?s=37d6d1f99de07821983285b9a3ac2614"
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/338844.jpg?s=37d6d1f99de07821983285b9a3ac2614",
+    "overlay_url": "/static/overlays/black_clover_2.png"
+  },
+  {
+    "id": "black_clover_3",
+    "name": "Vermillion, Mereoleona",
+    "series": "Black Clover",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3617,
+      "eye_spacing": 0.196,
+      "eye_openness": 0.2308,
+      "jaw_angle": 0.1138,
+      "chin_ratio": 0.4969,
+      "brow_height": 0.1019
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/483500.jpg",
+    "overlay_url": "/static/overlays/black_clover_3.png"
   },
   {
     "id": "black_clover_4",
@@ -65,6 +86,7 @@
       "chin_ratio": 0.4504,
       "brow_height": 0.0992
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/318765.jpg?s=dbc2307d86d0e001e31b9aad6f12b21c"
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/318765.jpg?s=dbc2307d86d0e001e31b9aad6f12b21c",
+    "overlay_url": "/static/overlays/black_clover_4.png"
   }
 ]

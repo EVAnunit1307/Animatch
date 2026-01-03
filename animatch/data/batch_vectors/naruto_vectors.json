@@ -14,7 +14,8 @@
       "chin_ratio": 0.5217,
       "brow_height": 0.1202
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469"
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469",
+    "overlay_url": "/static/overlays/naruto_0.png"
   },
   {
     "id": "naruto_1",
@@ -31,7 +32,26 @@
       "chin_ratio": 0.5113,
       "brow_height": 0.0827
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.jpg?s=11eac9672b208175831a0da62f188622"
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.jpg?s=11eac9672b208175831a0da62f188622",
+    "overlay_url": "/static/overlays/naruto_1.png"
+  },
+  {
+    "id": "naruto_3",
+    "name": "Uchiha, Sasuke",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3455,
+      "eye_spacing": 0.2671,
+      "eye_openness": 0.2557,
+      "jaw_angle": 0.1088,
+      "chin_ratio": 0.4915,
+      "brow_height": 0.0955
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/346520.jpg",
+    "overlay_url": "/static/overlays/naruto_3.png"
   },
   {
     "id": "naruto_4",
@@ -48,7 +68,8 @@
       "chin_ratio": 0.46,
       "brow_height": 0.0758
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/3/131315.jpg?s=a800fe970f638eae38b1e50d3471121d"
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/131315.jpg?s=a800fe970f638eae38b1e50d3471121d",
+    "overlay_url": "/static/overlays/naruto_4.png"
   },
   {
     "id": "naruto_5",
@@ -65,7 +86,8 @@
       "chin_ratio": 0.5466,
       "brow_height": 0.0815
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7"
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7",
+    "overlay_url": "/static/overlays/naruto_5.png"
   },
   {
     "id": "naruto_6",
@@ -82,7 +104,8 @@
       "chin_ratio": 0.4642,
       "brow_height": 0.1348
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/293375.jpg?s=ceeb8ed1578737104c8e347ab7a52101"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/293375.jpg?s=ceeb8ed1578737104c8e347ab7a52101",
+    "overlay_url": "/static/overlays/naruto_6.png"
   },
   {
     "id": "naruto_7",
@@ -99,7 +122,26 @@
       "chin_ratio": 0.5249,
       "brow_height": 0.1172
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/278736.jpg?s=efc87a537d323edc47900cb08e1722c9"
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/278736.jpg?s=efc87a537d323edc47900cb08e1722c9",
+    "overlay_url": "/static/overlays/naruto_7.png"
+  },
+  {
+    "id": "naruto_8",
+    "name": "Namikaze, Minato",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5743,
+      "eye_spacing": 0.2205,
+      "eye_openness": 0.3514,
+      "jaw_angle": 0.1027,
+      "chin_ratio": 0.4473,
+      "brow_height": 0.0792
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/63244.jpg",
+    "overlay_url": "/static/overlays/naruto_8.png"
   },
   {
     "id": "naruto_9",
@@ -116,7 +158,26 @@
       "chin_ratio": 0.5365,
       "brow_height": 0.1057
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/8/73473.jpg?s=5c41288db6aa7a2339a4ff90ea211d49"
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/73473.jpg?s=5c41288db6aa7a2339a4ff90ea211d49",
+    "overlay_url": "/static/overlays/naruto_9.png"
+  },
+  {
+    "id": "naruto_10",
+    "name": "Lee, Rock",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.6906,
+      "eye_spacing": 0.2728,
+      "eye_openness": 0.2154,
+      "jaw_angle": 0.1005,
+      "chin_ratio": 0.4941,
+      "brow_height": 0.1289
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/34781.jpg",
+    "overlay_url": "/static/overlays/naruto_10.png"
   },
   {
     "id": "naruto_11",
@@ -133,7 +194,8 @@
       "chin_ratio": 0.5866,
       "brow_height": 0.1091
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c"
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c",
+    "overlay_url": "/static/overlays/naruto_11.png"
   },
   {
     "id": "naruto_12",
@@ -150,6 +212,43 @@
       "chin_ratio": 0.5584,
       "brow_height": 0.1054
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/105538.jpg?s=7603e3986722997b66259d9fea83a3b2"
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/105538.jpg?s=7603e3986722997b66259d9fea83a3b2",
+    "overlay_url": "/static/overlays/naruto_12.png"
+  },
+  {
+    "id": "naruto_13",
+    "name": "Deidara",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4922,
+      "eye_spacing": 0.2514,
+      "eye_openness": 0.2222,
+      "jaw_angle": 0.0518,
+      "chin_ratio": 0.7061,
+      "brow_height": 0.0925
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/72869.jpg",
+    "overlay_url": "/static/overlays/naruto_13.png"
+  },
+  {
+    "id": "naruto_14",
+    "name": "Orochimaru",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5235,
+      "eye_spacing": 0.2818,
+      "eye_openness": 0.2457,
+      "jaw_angle": 0.102,
+      "chin_ratio": 0.534,
+      "brow_height": 0.1156
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/74073.jpg",
+    "overlay_url": "/static/overlays/naruto_14.png"
   }
 ]

@@ -14,7 +14,8 @@
       "chin_ratio": 0.5074,
       "brow_height": 0.1055
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/7/494969.jpg?s=02622d6ffa487b8d6d7503af4792a106"
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/494969.jpg?s=02622d6ffa487b8d6d7503af4792a106",
+    "overlay_url": "/static/overlays/chainsaw_man_0.png"
   },
   {
     "id": "chainsaw_man_1",
@@ -31,7 +32,8 @@
       "chin_ratio": 0.4258,
       "brow_height": 0.0857
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/3/492407.jpg?s=4d8e9a01dac6a5d891c3ed434187fba9"
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/492407.jpg?s=4d8e9a01dac6a5d891c3ed434187fba9",
+    "overlay_url": "/static/overlays/chainsaw_man_1.png"
   },
   {
     "id": "chainsaw_man_2",
@@ -48,7 +50,62 @@
       "chin_ratio": 0.5282,
       "brow_height": 0.099
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/4/489561.jpg?s=6593bd49704ffb415d3fd9d40e5dc183"
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/489561.jpg?s=6593bd49704ffb415d3fd9d40e5dc183",
+    "overlay_url": "/static/overlays/chainsaw_man_2.png"
+  },
+  {
+    "id": "chainsaw_man_3",
+    "name": "Hayakawa, Aki",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.355,
+      "eye_spacing": 0.2307,
+      "eye_openness": 0.2551,
+      "jaw_angle": 0.0693,
+      "chin_ratio": 0.7181,
+      "brow_height": 0.1134
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/381868.jpg",
+    "overlay_url": "/static/overlays/chainsaw_man_3.png"
+  },
+  {
+    "id": "chainsaw_man_5",
+    "name": "Higashiyama, Kobeni",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4419,
+      "eye_spacing": 0.2749,
+      "eye_openness": 0.3246,
+      "jaw_angle": 0.1237,
+      "chin_ratio": 0.4983,
+      "brow_height": 0.1036
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/488482.jpg",
+    "overlay_url": "/static/overlays/chainsaw_man_5.png"
+  },
+  {
+    "id": "chainsaw_man_7",
+    "name": "Himeno",
+    "series": "Chainsaw Man",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3745,
+      "eye_spacing": 0.2422,
+      "eye_openness": 0.2851,
+      "jaw_angle": 0.0993,
+      "chin_ratio": 0.5326,
+      "brow_height": 0.1108
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/492411.jpg",
+    "overlay_url": "/static/overlays/chainsaw_man_7.png"
   },
   {
     "id": "chainsaw_man_8",
@@ -65,6 +122,7 @@
       "chin_ratio": 0.481,
       "brow_height": 0.1043
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/13/586726.jpg?s=aff903523f5ae6598fa12678b20e8b1f"
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/586726.jpg?s=aff903523f5ae6598fa12678b20e8b1f",
+    "overlay_url": "/static/overlays/chainsaw_man_8.png"
   }
 ]
