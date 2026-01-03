@@ -12,7 +12,9 @@
       "eye_openness": 0.1534,
       "jaw_angle": 0.1093,
       "chin_ratio": 0.5249,
-      "brow_height": 0.0885
+      "brow_height": 0.0885,
+      "mouth_width": 0.2317,
+      "nose_length": 0.2185
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/599705.jpg?s=e01f9c1a77c582bb0e67e5b80f87d9c1",
     "overlay_url": "/static/overlays/black_clover_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2136,
       "jaw_angle": 0.0907,
       "chin_ratio": 0.5057,
-      "brow_height": 0.1171
+      "brow_height": 0.1171,
+      "mouth_width": 0.4342,
+      "nose_length": 0.2427
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/8/312836.jpg?s=f4ea6f575c53db8908baf0f874e33e70",
     "overlay_url": "/static/overlays/black_clover_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2502,
       "jaw_angle": 0.1075,
       "chin_ratio": 0.5015,
-      "brow_height": 0.1317
+      "brow_height": 0.1317,
+      "mouth_width": 0.2593,
+      "nose_length": 0.2177
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/338844.jpg?s=37d6d1f99de07821983285b9a3ac2614",
     "overlay_url": "/static/overlays/black_clover_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2308,
       "jaw_angle": 0.1138,
       "chin_ratio": 0.4969,
-      "brow_height": 0.1019
+      "brow_height": 0.1019,
+      "mouth_width": 0.3692,
+      "nose_length": 0.198
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/483500.jpg",
     "overlay_url": "/static/overlays/black_clover_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.2328,
       "jaw_angle": 0.1191,
       "chin_ratio": 0.4504,
-      "brow_height": 0.0992
+      "brow_height": 0.0992,
+      "mouth_width": 0.3299,
+      "nose_length": 0.2623
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/318765.jpg?s=dbc2307d86d0e001e31b9aad6f12b21c",
     "overlay_url": "/static/overlays/black_clover_4.png"

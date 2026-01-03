@@ -12,7 +12,9 @@
       "eye_openness": 0.2571,
       "jaw_angle": 0.0617,
       "chin_ratio": 0.7217,
-      "brow_height": 0.1148
+      "brow_height": 0.1148,
+      "mouth_width": 0.2327,
+      "nose_length": 0.2539
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/176263.jpg",
     "overlay_url": "/static/overlays/hunter_x_hunter_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.189,
       "jaw_angle": 0.1109,
       "chin_ratio": 0.4768,
-      "brow_height": 0.0823
+      "brow_height": 0.0823,
+      "mouth_width": 0.3047,
+      "nose_length": 0.2184
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/84493.jpg",
     "overlay_url": "/static/overlays/hunter_x_hunter_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.1683,
       "jaw_angle": 0.0896,
       "chin_ratio": 0.5766,
-      "brow_height": 0.1233
+      "brow_height": 0.1233,
+      "mouth_width": 0.2872,
+      "nose_length": 0.233
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/120684.jpg",
     "overlay_url": "/static/overlays/hunter_x_hunter_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2757,
       "jaw_angle": 0.086,
       "chin_ratio": 0.5907,
-      "brow_height": 0.0943
+      "brow_height": 0.0943,
+      "mouth_width": 0.3552,
+      "nose_length": 0.1709
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/174517.jpg?s=c8133cf450dc6bf13ba52d6781759101",
     "overlay_url": "/static/overlays/hunter_x_hunter_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.2274,
       "jaw_angle": 0.155,
       "chin_ratio": 0.5283,
-      "brow_height": 0.1047
+      "brow_height": 0.1047,
+      "mouth_width": 0.289,
+      "nose_length": 0.1868
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/77599.jpg",
     "overlay_url": "/static/overlays/hunter_x_hunter_4.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.3422,
       "jaw_angle": 0.111,
       "chin_ratio": 0.4297,
-      "brow_height": 0.1031
+      "brow_height": 0.1031,
+      "mouth_width": 0.299,
+      "nose_length": 0.255
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/4/182387.jpg?s=82532b8deca18069b86e7f598e0ca914",
     "overlay_url": "/static/overlays/hunter_x_hunter_5.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.3665,
       "jaw_angle": 0.0808,
       "chin_ratio": 0.6157,
-      "brow_height": 0.0733
+      "brow_height": 0.0733,
+      "mouth_width": 0.3145,
+      "nose_length": 0.2519
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/549311.jpg?s=ba86161de766b11580c7fbdf23849cbc",
     "overlay_url": "/static/overlays/hunter_x_hunter_6.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.2389,
       "jaw_angle": 0.1032,
       "chin_ratio": 0.5934,
-      "brow_height": 0.1477
+      "brow_height": 0.1477,
+      "mouth_width": 0.3317,
+      "nose_length": 0.239
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/113832.jpg",
     "overlay_url": "/static/overlays/hunter_x_hunter_7.png"
@@ -156,7 +172,9 @@
       "eye_openness": 0.2542,
       "jaw_angle": 0.1033,
       "chin_ratio": 0.5326,
-      "brow_height": 0.1216
+      "brow_height": 0.1216,
+      "mouth_width": 0.2984,
+      "nose_length": 0.2387
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/210411.jpg",
     "overlay_url": "/static/overlays/hunter_x_hunter_8.png"

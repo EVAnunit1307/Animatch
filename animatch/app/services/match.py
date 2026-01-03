@@ -19,7 +19,16 @@ def load_characters():
     _CHAR_CACHE = (chars, stats)
     return _CHAR_CACHE
 
-features = ["face_ratio", "eye_spacing", "eye_openness", "jaw_angle", "chin_ratio", "brow_height"]
+features = [
+    "face_ratio",
+    "eye_spacing",
+    "eye_openness",
+    "jaw_angle",
+    "chin_ratio",
+    "brow_height",
+    "mouth_width",
+    "nose_length",
+]
 
 def compute_stats(characters):
     """Compute mean and std for each feature across the dataset."""
@@ -71,8 +80,8 @@ def match_characters (user_features, top_k=4): #default top 4
 
     results = []
     for sim, c in scored[:top_k]:#goes to scores takes top 3 
-        # Slightly boost percentage for friendlier UX (cap at 100)
-        pct = max(0.0, min(100.0, sim * 100.0 * 1.3))
+        # Mild boost for friendly UX (cap at 100)
+        pct = max(0.0, min(100.0, sim * 100.0 * 1.15))
         results.append({
             "id": c["id"],
             "name": c["name"],

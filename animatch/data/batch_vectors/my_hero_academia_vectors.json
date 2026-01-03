@@ -12,7 +12,9 @@
       "eye_openness": 0.2526,
       "jaw_angle": 0.0728,
       "chin_ratio": 0.6541,
-      "brow_height": 0.1202
+      "brow_height": 0.1202,
+      "mouth_width": 0.4311,
+      "nose_length": 0.2004
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.jpg?s=6a448d3702c1d3185ed7ad8f0b8484f0",
     "overlay_url": "/static/overlays/my_hero_academia_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2359,
       "jaw_angle": 0.1177,
       "chin_ratio": 0.509,
-      "brow_height": 0.0989
+      "brow_height": 0.0989,
+      "mouth_width": 0.2718,
+      "nose_length": 0.2179
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/12/332527.jpg?s=575a733f7d22b2b94a12194e051932de",
     "overlay_url": "/static/overlays/my_hero_academia_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.1087,
       "jaw_angle": 0.1145,
       "chin_ratio": 0.512,
-      "brow_height": 0.1005
+      "brow_height": 0.1005,
+      "mouth_width": 0.2981,
+      "nose_length": 0.2451
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/301856.jpg",
     "overlay_url": "/static/overlays/my_hero_academia_4.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2141,
       "jaw_angle": 0.1095,
       "chin_ratio": 0.5111,
-      "brow_height": 0.1143
+      "brow_height": 0.1143,
+      "mouth_width": 0.4483,
+      "nose_length": 0.2178
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/329529.jpg?s=cbfca4fce697447408c68a94d519b1b0",
     "overlay_url": "/static/overlays/my_hero_academia_5.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.2864,
       "jaw_angle": 0.0995,
       "chin_ratio": 0.631,
-      "brow_height": 0.1175
+      "brow_height": 0.1175,
+      "mouth_width": 0.4297,
+      "nose_length": 0.1561
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/299421.jpg?s=5c7499bacd3f2c8f4238253a5877c757",
     "overlay_url": "/static/overlays/my_hero_academia_6.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2652,
       "jaw_angle": 0.085,
       "chin_ratio": 0.6612,
-      "brow_height": 0.1374
+      "brow_height": 0.1374,
+      "mouth_width": 0.3344,
+      "nose_length": 0.2378
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/7/335539.jpg",
     "overlay_url": "/static/overlays/my_hero_academia_7.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.1886,
       "jaw_angle": 0.1018,
       "chin_ratio": 0.4483,
-      "brow_height": 0.113
+      "brow_height": 0.113,
+      "mouth_width": 0.3328,
+      "nose_length": 0.2727
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/4/614822.jpg",
     "overlay_url": "/static/overlays/my_hero_academia_8.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.2388,
       "jaw_angle": 0.1001,
       "chin_ratio": 0.5428,
-      "brow_height": 0.097
+      "brow_height": 0.097,
+      "mouth_width": 0.4483,
+      "nose_length": 0.1953
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/329527.jpg?s=bdd623918f5fa850d8f2e877318a4a0b",
     "overlay_url": "/static/overlays/my_hero_academia_9.png"
@@ -156,7 +172,9 @@
       "eye_openness": 0.251,
       "jaw_angle": 0.108,
       "chin_ratio": 0.5409,
-      "brow_height": 0.1001
+      "brow_height": 0.1001,
+      "mouth_width": 0.3777,
+      "nose_length": 0.2195
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/299417.jpg?s=ae97d822ef7c4cdbe392766389c3f5f1",
     "overlay_url": "/static/overlays/my_hero_academia_10.png"

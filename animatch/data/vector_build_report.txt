@@ -1,5 +1,5 @@
-Total entries: 6
-Successful: 6
+Total entries: 4
+Successful: 4
 Failed: 0
 No face: -
 Errors:

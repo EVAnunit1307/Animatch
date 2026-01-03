@@ -12,7 +12,9 @@
       "eye_openness": 0.2915,
       "jaw_angle": 0.1075,
       "chin_ratio": 0.5217,
-      "brow_height": 0.1202
+      "brow_height": 0.1202,
+      "mouth_width": 0.4427,
+      "nose_length": 0.2614
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469",
     "overlay_url": "/static/overlays/naruto_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2749,
       "jaw_angle": 0.133,
       "chin_ratio": 0.5113,
-      "brow_height": 0.0827
+      "brow_height": 0.0827,
+      "mouth_width": 0.2559,
+      "nose_length": 0.2218
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.jpg?s=11eac9672b208175831a0da62f188622",
     "overlay_url": "/static/overlays/naruto_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2557,
       "jaw_angle": 0.1088,
       "chin_ratio": 0.4915,
-      "brow_height": 0.0955
+      "brow_height": 0.0955,
+      "mouth_width": 0.3254,
+      "nose_length": 0.2628
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/346520.jpg",
     "overlay_url": "/static/overlays/naruto_3.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2591,
       "jaw_angle": 0.1781,
       "chin_ratio": 0.46,
-      "brow_height": 0.0758
+      "brow_height": 0.0758,
+      "mouth_width": 0.3145,
+      "nose_length": 0.266
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/131315.jpg?s=a800fe970f638eae38b1e50d3471121d",
     "overlay_url": "/static/overlays/naruto_4.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.2393,
       "jaw_angle": 0.1129,
       "chin_ratio": 0.5466,
-      "brow_height": 0.0815
+      "brow_height": 0.0815,
+      "mouth_width": 0.373,
+      "nose_length": 0.2278
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7",
     "overlay_url": "/static/overlays/naruto_5.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.191,
       "jaw_angle": 0.0966,
       "chin_ratio": 0.4642,
-      "brow_height": 0.1348
+      "brow_height": 0.1348,
+      "mouth_width": 0.2858,
+      "nose_length": 0.2569
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/293375.jpg?s=ceeb8ed1578737104c8e347ab7a52101",
     "overlay_url": "/static/overlays/naruto_6.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.2214,
       "jaw_angle": 0.0961,
       "chin_ratio": 0.5249,
-      "brow_height": 0.1172
+      "brow_height": 0.1172,
+      "mouth_width": 0.2935,
+      "nose_length": 0.2387
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/278736.jpg?s=efc87a537d323edc47900cb08e1722c9",
     "overlay_url": "/static/overlays/naruto_7.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.3514,
       "jaw_angle": 0.1027,
       "chin_ratio": 0.4473,
-      "brow_height": 0.0792
+      "brow_height": 0.0792,
+      "mouth_width": 0.2687,
+      "nose_length": 0.2565
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/7/63244.jpg",
     "overlay_url": "/static/overlays/naruto_8.png"
@@ -156,7 +172,9 @@
       "eye_openness": 0.2288,
       "jaw_angle": 0.1052,
       "chin_ratio": 0.5365,
-      "brow_height": 0.1057
+      "brow_height": 0.1057,
+      "mouth_width": 0.2839,
+      "nose_length": 0.2461
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/8/73473.jpg?s=5c41288db6aa7a2339a4ff90ea211d49",
     "overlay_url": "/static/overlays/naruto_9.png"
@@ -174,7 +192,9 @@
       "eye_openness": 0.2154,
       "jaw_angle": 0.1005,
       "chin_ratio": 0.4941,
-      "brow_height": 0.1289
+      "brow_height": 0.1289,
+      "mouth_width": 0.285,
+      "nose_length": 0.2654
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/34781.jpg",
     "overlay_url": "/static/overlays/naruto_10.png"
@@ -192,7 +212,9 @@
       "eye_openness": 0.2733,
       "jaw_angle": 0.1058,
       "chin_ratio": 0.5866,
-      "brow_height": 0.1091
+      "brow_height": 0.1091,
+      "mouth_width": 0.318,
+      "nose_length": 0.2027
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c",
     "overlay_url": "/static/overlays/naruto_11.png"
@@ -210,7 +232,9 @@
       "eye_openness": 0.2055,
       "jaw_angle": 0.114,
       "chin_ratio": 0.5584,
-      "brow_height": 0.1054
+      "brow_height": 0.1054,
+      "mouth_width": 0.3182,
+      "nose_length": 0.2411
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/105538.jpg?s=7603e3986722997b66259d9fea83a3b2",
     "overlay_url": "/static/overlays/naruto_12.png"
@@ -228,7 +252,9 @@
       "eye_openness": 0.2222,
       "jaw_angle": 0.0518,
       "chin_ratio": 0.7061,
-      "brow_height": 0.0925
+      "brow_height": 0.0925,
+      "mouth_width": 0.4343,
+      "nose_length": 0.1813
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/7/72869.jpg",
     "overlay_url": "/static/overlays/naruto_13.png"
@@ -246,7 +272,9 @@
       "eye_openness": 0.2457,
       "jaw_angle": 0.102,
       "chin_ratio": 0.534,
-      "brow_height": 0.1156
+      "brow_height": 0.1156,
+      "mouth_width": 0.3007,
+      "nose_length": 0.2397
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/8/74073.jpg",
     "overlay_url": "/static/overlays/naruto_14.png"

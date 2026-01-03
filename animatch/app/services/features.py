@@ -14,6 +14,10 @@ RIGHT_LOWER_LID = 374
 
 LEFT_BROW = [70, 63, 105, 66, 107]
 RIGHT_BROW = [300, 293, 334, 296, 336]
+MOUTH_LEFT = 61
+MOUTH_RIGHT = 291
+NOSE_TIP = 1
+NOSE_BRIDGE = 6
 
 
 def dist2d(a, b):
@@ -119,6 +123,17 @@ def landmarks_to_features(landmarks):
 
     brow_height = (left_gap + right_gap) / 2
 
+    mouth_left = pts[MOUTH_LEFT]
+    mouth_right = pts[MOUTH_RIGHT]
+    mouth_width_raw = dist2d(mouth_left, mouth_right)
+    if face_width == 0:
+        face_width = 1e-6
+    mouth_width = mouth_width_raw / face_width
+
+    nose_tip = pts[NOSE_TIP]
+    nose_bridge = pts[NOSE_BRIDGE]
+    nose_len_raw = dist2d(nose_tip, nose_bridge)
+    nose_length = nose_len_raw / face_height
 
 
     return {
@@ -127,5 +142,7 @@ def landmarks_to_features(landmarks):
     "eye_openness": round(eye_openness, 4),
     "jaw_angle": round(jaw_angle, 4),
     "chin_ratio": round(chin_ratio, 4),
-    "brow_height": round(brow_height, 4) 
+    "brow_height": round(brow_height, 4),
+    "mouth_width": round(mouth_width, 4),
+    "nose_length": round(nose_length, 4),
 }

@@ -12,7 +12,9 @@
       "eye_openness": 0.2441,
       "jaw_angle": 0.1082,
       "chin_ratio": 0.5447,
-      "brow_height": 0.1042
+      "brow_height": 0.1042,
+      "mouth_width": 0.2798,
+      "nose_length": 0.2283
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/281574.jpg",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.1863,
       "jaw_angle": 0.0849,
       "chin_ratio": 0.5932,
-      "brow_height": 0.0851
+      "brow_height": 0.0851,
+      "mouth_width": 0.3017,
+      "nose_length": 0.235
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/510227.jpg?s=a9880198a26475fa0555f4690bab8cd3",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2826,
       "jaw_angle": 0.1306,
       "chin_ratio": 0.5159,
-      "brow_height": 0.1059
+      "brow_height": 0.1059,
+      "mouth_width": 0.3515,
+      "nose_length": 0.2561
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/5/374245.jpg",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2664,
       "jaw_angle": 0.1255,
       "chin_ratio": 0.4604,
-      "brow_height": 0.0945
+      "brow_height": 0.0945,
+      "mouth_width": 0.3064,
+      "nose_length": 0.2992
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/73469.jpg?s=049daccbf5014073c0c8933c5388258a",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.1812,
       "jaw_angle": 0.1064,
       "chin_ratio": 0.6095,
-      "brow_height": 0.0982
+      "brow_height": 0.0982,
+      "mouth_width": 0.3837,
+      "nose_length": 0.2427
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/79208.jpg",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_4.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2407,
       "jaw_angle": 0.1044,
       "chin_ratio": 0.5521,
-      "brow_height": 0.1212
+      "brow_height": 0.1212,
+      "mouth_width": 0.3135,
+      "nose_length": 0.2366
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/451785.jpg?s=11bc1988772e66c4fce2ff3dee08b8da",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_5.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.1476,
       "jaw_angle": 0.0811,
       "chin_ratio": 0.6403,
-      "brow_height": 0.1082
+      "brow_height": 0.1082,
+      "mouth_width": 0.4477,
+      "nose_length": 0.1921
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/58067.jpg",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_6.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.303,
       "jaw_angle": 0.077,
       "chin_ratio": 0.5795,
-      "brow_height": 0.1245
+      "brow_height": 0.1245,
+      "mouth_width": 0.3722,
+      "nose_length": 0.228
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/39613.jpg",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_7.png"
@@ -156,7 +172,9 @@
       "eye_openness": 0.2318,
       "jaw_angle": 0.0899,
       "chin_ratio": 0.6152,
-      "brow_height": 0.0588
+      "brow_height": 0.0588,
+      "mouth_width": 0.2862,
+      "nose_length": 0.2326
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/344521.jpg",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_8.png"
@@ -174,7 +192,9 @@
       "eye_openness": 0.204,
       "jaw_angle": 0.0751,
       "chin_ratio": 0.6081,
-      "brow_height": 0.1039
+      "brow_height": 0.1039,
+      "mouth_width": 0.3616,
+      "nose_length": 0.1703
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/73470.jpg",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_10.png"
@@ -192,7 +212,9 @@
       "eye_openness": 0.2006,
       "jaw_angle": 0.1199,
       "chin_ratio": 0.5005,
-      "brow_height": 0.1005
+      "brow_height": 0.1005,
+      "mouth_width": 0.3373,
+      "nose_length": 0.2646
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/4/68760.jpg",
     "overlay_url": "/static/overlays/fullmetal_alchemist:_brotherhood_11.png"

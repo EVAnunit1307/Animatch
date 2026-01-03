@@ -12,7 +12,9 @@
       "eye_openness": 0.2411,
       "jaw_angle": 0.082,
       "chin_ratio": 0.5775,
-      "brow_height": 0.1215
+      "brow_height": 0.1215,
+      "mouth_width": 0.4556,
+      "nose_length": 0.2004
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/55741.jpg",
     "overlay_url": "/static/overlays/one_piece_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2184,
       "jaw_angle": 0.0954,
       "chin_ratio": 0.5134,
-      "brow_height": 0.0924
+      "brow_height": 0.0924,
+      "mouth_width": 0.3822,
+      "nose_length": 0.2373
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/100534.jpg?s=4a00840eacc26e9ad86bae6f505e4826",
     "overlay_url": "/static/overlays/one_piece_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2298,
       "jaw_angle": 0.0689,
       "chin_ratio": 0.5767,
-      "brow_height": 0.0943
+      "brow_height": 0.0943,
+      "mouth_width": 0.3578,
+      "nose_length": 0.2983
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/41143.jpg",
     "overlay_url": "/static/overlays/one_piece_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.1183,
       "jaw_angle": 0.1199,
       "chin_ratio": 0.5121,
-      "brow_height": 0.1486
+      "brow_height": 0.1486,
+      "mouth_width": 0.3051,
+      "nose_length": 0.2522
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/363700.jpg?s=3e7fa6074c0d30c8bede3905680e983c",
     "overlay_url": "/static/overlays/one_piece_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.2653,
       "jaw_angle": 0.1026,
       "chin_ratio": 0.4227,
-      "brow_height": 0.0873
+      "brow_height": 0.0873,
+      "mouth_width": 0.3357,
+      "nose_length": 0.265
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/258757.jpg?s=a537201b5cb91a6905765fee2de00012",
     "overlay_url": "/static/overlays/one_piece_4.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2315,
       "jaw_angle": 0.0981,
       "chin_ratio": 0.5056,
-      "brow_height": 0.1021
+      "brow_height": 0.1021,
+      "mouth_width": 0.2964,
+      "nose_length": 0.1954
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/59914.jpg?s=302fa4565e9cbd5368b6ca4da51e1a0c",
     "overlay_url": "/static/overlays/one_piece_6.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.2726,
       "jaw_angle": 0.1211,
       "chin_ratio": 0.5387,
-      "brow_height": 0.0709
+      "brow_height": 0.0709,
+      "mouth_width": 0.4459,
+      "nose_length": 0.2891
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/365923.jpg",
     "overlay_url": "/static/overlays/one_piece_8.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.2066,
       "jaw_angle": 0.0918,
       "chin_ratio": 0.5424,
-      "brow_height": 0.1163
+      "brow_height": 0.1163,
+      "mouth_width": 0.3972,
+      "nose_length": 0.2176
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/7/48657.jpg",
     "overlay_url": "/static/overlays/one_piece_12.png"
@@ -156,7 +172,9 @@
       "eye_openness": 0.0864,
       "jaw_angle": 0.0874,
       "chin_ratio": 0.5953,
-      "brow_height": 0.1097
+      "brow_height": 0.1097,
+      "mouth_width": 0.3947,
+      "nose_length": 0.2288
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/49737.jpg",
     "overlay_url": "/static/overlays/one_piece_13.png"
@@ -174,7 +192,9 @@
       "eye_openness": 0.134,
       "jaw_angle": 0.1173,
       "chin_ratio": 0.554,
-      "brow_height": 0.1073
+      "brow_height": 0.1073,
+      "mouth_width": 0.3969,
+      "nose_length": 0.233
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/91660.jpg",
     "overlay_url": "/static/overlays/one_piece_14.png"
@@ -192,7 +212,9 @@
       "eye_openness": 0.2271,
       "jaw_angle": 0.0644,
       "chin_ratio": 0.6451,
-      "brow_height": 0.1135
+      "brow_height": 0.1135,
+      "mouth_width": 0.2712,
+      "nose_length": 0.2058
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/146013.jpg?s=cb2628e503ecea60dc2619b4aedf3247",
     "overlay_url": "/static/overlays/one_piece_16.png"
@@ -210,7 +232,9 @@
       "eye_openness": 0.1555,
       "jaw_angle": 0.1028,
       "chin_ratio": 0.489,
-      "brow_height": 0.1074
+      "brow_height": 0.1074,
+      "mouth_width": 0.3966,
+      "nose_length": 0.2356
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/288716.jpg",
     "overlay_url": "/static/overlays/one_piece_17.png"

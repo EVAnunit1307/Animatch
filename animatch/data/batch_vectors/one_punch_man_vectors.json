@@ -12,7 +12,9 @@
       "eye_openness": 0.325,
       "jaw_angle": 0.1008,
       "chin_ratio": 0.434,
-      "brow_height": 0.0308
+      "brow_height": 0.0308,
+      "mouth_width": 0.1834,
+      "nose_length": 0.2459
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/4/198559.jpg",
     "overlay_url": "/static/overlays/one_punch_man_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2338,
       "jaw_angle": 0.0868,
       "chin_ratio": 0.5928,
-      "brow_height": 0.0917
+      "brow_height": 0.0917,
+      "mouth_width": 0.2415,
+      "nose_length": 0.2375
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/295048.jpg",
     "overlay_url": "/static/overlays/one_punch_man_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2056,
       "jaw_angle": 0.1076,
       "chin_ratio": 0.5477,
-      "brow_height": 0.1065
+      "brow_height": 0.1065,
+      "mouth_width": 0.229,
+      "nose_length": 0.2059
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/295762.jpg",
     "overlay_url": "/static/overlays/one_punch_man_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2464,
       "jaw_angle": 0.1002,
       "chin_ratio": 0.4724,
-      "brow_height": 0.1199
+      "brow_height": 0.1199,
+      "mouth_width": 0.2576,
+      "nose_length": 0.2302
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/296298.jpg",
     "overlay_url": "/static/overlays/one_punch_man_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.1239,
       "jaw_angle": 0.124,
       "chin_ratio": 0.4172,
-      "brow_height": 0.1329
+      "brow_height": 0.1329,
+      "mouth_width": 0.3096,
+      "nose_length": 0.2189
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/290361.jpg",
     "overlay_url": "/static/overlays/one_punch_man_4.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2866,
       "jaw_angle": 0.1695,
       "chin_ratio": 0.4242,
-      "brow_height": 0.1105
+      "brow_height": 0.1105,
+      "mouth_width": 0.2492,
+      "nose_length": 0.2567
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/473637.jpg?s=7ed26a04a631d8f3175a8ee4b29932fa",
     "overlay_url": "/static/overlays/one_punch_man_5.png"

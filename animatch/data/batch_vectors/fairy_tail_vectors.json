@@ -12,7 +12,9 @@
       "eye_openness": 0.123,
       "jaw_angle": 0.0883,
       "chin_ratio": 0.5136,
-      "brow_height": 0.1396
+      "brow_height": 0.1396,
+      "mouth_width": 0.321,
+      "nose_length": 0.2712
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/73303.jpg",
     "overlay_url": "/static/overlays/fairy_tail_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2758,
       "jaw_angle": 0.1099,
       "chin_ratio": 0.5123,
-      "brow_height": 0.0908
+      "brow_height": 0.0908,
+      "mouth_width": 0.288,
+      "nose_length": 0.2144
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/12/492254.jpg?s=7e17a45b638c2b7f12bf1f699b2b5c82",
     "overlay_url": "/static/overlays/fairy_tail_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2079,
       "jaw_angle": 0.0873,
       "chin_ratio": 0.496,
-      "brow_height": 0.1209
+      "brow_height": 0.1209,
+      "mouth_width": 0.3203,
+      "nose_length": 0.2148
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/244711.jpg",
     "overlay_url": "/static/overlays/fairy_tail_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.295,
       "jaw_angle": 0.0744,
       "chin_ratio": 0.6191,
-      "brow_height": 0.0872
+      "brow_height": 0.0872,
+      "mouth_width": 0.3125,
+      "nose_length": 0.2617
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/278602.jpg?s=87553874d5dd1b8ffcaeee57b777cd9c",
     "overlay_url": "/static/overlays/fairy_tail_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.228,
       "jaw_angle": 0.1047,
       "chin_ratio": 0.5081,
-      "brow_height": 0.1384
+      "brow_height": 0.1384,
+      "mouth_width": 0.344,
+      "nose_length": 0.2267
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/66306.jpg",
     "overlay_url": "/static/overlays/fairy_tail_5.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2484,
       "jaw_angle": 0.1082,
       "chin_ratio": 0.4952,
-      "brow_height": 0.1091
+      "brow_height": 0.1091,
+      "mouth_width": 0.3414,
+      "nose_length": 0.2571
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/80782.jpg?s=3cfa9e107e76c8708736fe90dbecde14",
     "overlay_url": "/static/overlays/fairy_tail_6.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.2267,
       "jaw_angle": 0.1145,
       "chin_ratio": 0.5137,
-      "brow_height": 0.0997
+      "brow_height": 0.0997,
+      "mouth_width": 0.3231,
+      "nose_length": 0.2253
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/337498.jpg",
     "overlay_url": "/static/overlays/fairy_tail_7.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.2657,
       "jaw_angle": 0.0796,
       "chin_ratio": 0.6086,
-      "brow_height": 0.098
+      "brow_height": 0.098,
+      "mouth_width": 0.3586,
+      "nose_length": 0.1962
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/196497.jpg?s=dd93974ccb821624cc71eb789025b7cf",
     "overlay_url": "/static/overlays/fairy_tail_8.png"
@@ -156,7 +172,9 @@
       "eye_openness": 0.2876,
       "jaw_angle": 0.0768,
       "chin_ratio": 0.7409,
-      "brow_height": 0.1133
+      "brow_height": 0.1133,
+      "mouth_width": 0.3007,
+      "nose_length": 0.2014
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/104251.jpg",
     "overlay_url": "/static/overlays/fairy_tail_9.png"

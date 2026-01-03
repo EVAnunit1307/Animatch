@@ -12,7 +12,9 @@
       "eye_openness": 0.3473,
       "jaw_angle": 0.0963,
       "chin_ratio": 0.5313,
-      "brow_height": 0.1157
+      "brow_height": 0.1157,
+      "mouth_width": 0.2638,
+      "nose_length": 0.211
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/386735.jpg?s=7327e90f2310ececd18696cd4aa2ff4e",
     "overlay_url": "/static/overlays/demon_slayer_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2662,
       "jaw_angle": 0.1018,
       "chin_ratio": 0.5175,
-      "brow_height": 0.1058
+      "brow_height": 0.1058,
+      "mouth_width": 0.2349,
+      "nose_length": 0.2273
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/459689.jpg?s=d5ccecc4a7b9e2118acb849a2062a84c",
     "overlay_url": "/static/overlays/demon_slayer_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2308,
       "jaw_angle": 0.1102,
       "chin_ratio": 0.5366,
-      "brow_height": 0.1135
+      "brow_height": 0.1135,
+      "mouth_width": 0.4055,
+      "nose_length": 0.2496
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/388990.jpg",
     "overlay_url": "/static/overlays/demon_slayer_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2718,
       "jaw_angle": 0.121,
       "chin_ratio": 0.455,
-      "brow_height": 0.114
+      "brow_height": 0.114,
+      "mouth_width": 0.3594,
+      "nose_length": 0.2539
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/4/356105.jpg",
     "overlay_url": "/static/overlays/demon_slayer_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.2833,
       "jaw_angle": 0.1067,
       "chin_ratio": 0.5158,
-      "brow_height": 0.1082
+      "brow_height": 0.1082,
+      "mouth_width": 0.3489,
+      "nose_length": 0.2548
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/378254.jpg?s=c3cdc50f2d9f3b30e4453c8ca1f8460f",
     "overlay_url": "/static/overlays/demon_slayer_4.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.1529,
       "jaw_angle": 0.1271,
       "chin_ratio": 0.4173,
-      "brow_height": 0.1224
+      "brow_height": 0.1224,
+      "mouth_width": 0.2687,
+      "nose_length": 0.2464
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/386591.jpg?s=3c18dc65ee6cd3a032214d6a6e49ac9e",
     "overlay_url": "/static/overlays/demon_slayer_5.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.2038,
       "jaw_angle": 0.0931,
       "chin_ratio": 0.595,
-      "brow_height": 0.1457
+      "brow_height": 0.1457,
+      "mouth_width": 0.2713,
+      "nose_length": 0.2081
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/318285.jpg",
     "overlay_url": "/static/overlays/demon_slayer_6.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.1716,
       "jaw_angle": 0.0889,
       "chin_ratio": 0.6097,
-      "brow_height": 0.0955
+      "brow_height": 0.0955,
+      "mouth_width": 0.4287,
+      "nose_length": 0.1984
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/387706.jpg?s=c761782087650f5a1e98a21aa7635280",
     "overlay_url": "/static/overlays/demon_slayer_7.png"
@@ -156,7 +172,9 @@
       "eye_openness": 0.2365,
       "jaw_angle": 0.0771,
       "chin_ratio": 0.5712,
-      "brow_height": 0.1343
+      "brow_height": 0.1343,
+      "mouth_width": 0.2885,
+      "nose_length": 0.2011
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/514229.jpg?s=8bbf40b3cfa80df52f3eccce022146ea",
     "overlay_url": "/static/overlays/demon_slayer_8.png"
@@ -174,7 +192,9 @@
       "eye_openness": 0.2076,
       "jaw_angle": 0.1353,
       "chin_ratio": 0.4585,
-      "brow_height": 0.1361
+      "brow_height": 0.1361,
+      "mouth_width": 0.2876,
+      "nose_length": 0.2392
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/5/464903.jpg?s=8a4c1a500e00fe55746dd8d259401513",
     "overlay_url": "/static/overlays/demon_slayer_9.png"
@@ -192,7 +212,9 @@
       "eye_openness": 0.1785,
       "jaw_angle": 0.089,
       "chin_ratio": 0.5395,
-      "brow_height": 0.1352
+      "brow_height": 0.1352,
+      "mouth_width": 0.2687,
+      "nose_length": 0.2325
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/384712.jpg?s=efa0d88902b290fa7a72e6287eaa3e2b",
     "overlay_url": "/static/overlays/demon_slayer_10.png"

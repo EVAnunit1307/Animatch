@@ -12,7 +12,9 @@
       "eye_openness": 0.2898,
       "jaw_angle": 0.1381,
       "chin_ratio": 0.5686,
-      "brow_height": 0.0938
+      "brow_height": 0.0938,
+      "mouth_width": 0.2998,
+      "nose_length": 0.1987
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/249647.jpg?s=95cecc21f3db10318c68a0863f0132c8",
     "overlay_url": "/static/overlays/death_note_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.3109,
       "jaw_angle": 0.1813,
       "chin_ratio": 0.4486,
-      "brow_height": 0.083
+      "brow_height": 0.083,
+      "mouth_width": 0.2326,
+      "nose_length": 0.2545
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/63870.jpg?s=3adaed92c13123a9649ccc0cc6551f7d",
     "overlay_url": "/static/overlays/death_note_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.1563,
       "jaw_angle": 0.1219,
       "chin_ratio": 0.4971,
-      "brow_height": 0.1171
+      "brow_height": 0.1171,
+      "mouth_width": 0.1881,
+      "nose_length": 0.2163
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/5/30971.jpg?s=0af596d087b34f6e05942dcae60aebae",
     "overlay_url": "/static/overlays/death_note_3.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2562,
       "jaw_angle": 0.1001,
       "chin_ratio": 0.4692,
-      "brow_height": 0.0986
+      "brow_height": 0.0986,
+      "mouth_width": 0.2658,
+      "nose_length": 0.2719
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/77339.jpg?s=e045ccd8110b534c2668b4e7a02ac22f",
     "overlay_url": "/static/overlays/death_note_4.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.1055,
       "jaw_angle": 0.0973,
       "chin_ratio": 0.4797,
-      "brow_height": 0.1244
+      "brow_height": 0.1244,
+      "mouth_width": 0.3563,
+      "nose_length": 0.2577
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/31498.jpg?s=021fbd3f7ad05577fbbcd8cfb52e402b",
     "overlay_url": "/static/overlays/death_note_5.png"

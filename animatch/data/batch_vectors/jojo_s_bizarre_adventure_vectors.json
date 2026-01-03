@@ -12,7 +12,9 @@
       "eye_openness": 0.23,
       "jaw_angle": 0.1488,
       "chin_ratio": 0.4449,
-      "brow_height": 0.0822
+      "brow_height": 0.0822,
+      "mouth_width": 0.3025,
+      "nose_length": 0.2416
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/12/335965.jpg",
     "overlay_url": "/static/overlays/jojo's_bizarre_adventure_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2074,
       "jaw_angle": 0.0632,
       "chin_ratio": 0.7197,
-      "brow_height": 0.1109
+      "brow_height": 0.1109,
+      "mouth_width": 0.3611,
+      "nose_length": 0.1682
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/606751.jpg",
     "overlay_url": "/static/overlays/jojo's_bizarre_adventure_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.3128,
       "jaw_angle": 0.1301,
       "chin_ratio": 0.596,
-      "brow_height": 0.0702
+      "brow_height": 0.0702,
+      "mouth_width": 0.36,
+      "nose_length": 0.2249
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/7/196031.jpg?s=fa364d3f051a2a73e4c7c4726182a687",
     "overlay_url": "/static/overlays/jojo's_bizarre_adventure_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.3188,
       "jaw_angle": 0.1003,
       "chin_ratio": 0.5505,
-      "brow_height": 0.0992
+      "brow_height": 0.0992,
+      "mouth_width": 0.3143,
+      "nose_length": 0.2396
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/182715.jpg?s=d87c934286168a792851f4c46effc8e5",
     "overlay_url": "/static/overlays/jojo's_bizarre_adventure_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.2701,
       "jaw_angle": 0.1534,
       "chin_ratio": 0.549,
-      "brow_height": 0.0996
+      "brow_height": 0.0996,
+      "mouth_width": 0.3187,
+      "nose_length": 0.2531
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/441959.jpg",
     "overlay_url": "/static/overlays/jojo's_bizarre_adventure_4.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2687,
       "jaw_angle": 0.0965,
       "chin_ratio": 0.4757,
-      "brow_height": 0.0959
+      "brow_height": 0.0959,
+      "mouth_width": 0.3042,
+      "nose_length": 0.2675
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/211509.jpg",
     "overlay_url": "/static/overlays/jojo's_bizarre_adventure_5.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.2626,
       "jaw_angle": 0.1163,
       "chin_ratio": 0.5524,
-      "brow_height": 0.1018
+      "brow_height": 0.1018,
+      "mouth_width": 0.3239,
+      "nose_length": 0.22
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/196391.jpg?s=d4ae9b7d78b30c4d6031d04e0a99c941",
     "overlay_url": "/static/overlays/jojo's_bizarre_adventure_6.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.2355,
       "jaw_angle": 0.1117,
       "chin_ratio": 0.4848,
-      "brow_height": 0.0895
+      "brow_height": 0.0895,
+      "mouth_width": 0.292,
+      "nose_length": 0.2475
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/275118.jpg?s=9f95016c3c4ef0ea7968c6917bc21064",
     "overlay_url": "/static/overlays/jojo's_bizarre_adventure_7.png"

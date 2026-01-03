@@ -12,7 +12,9 @@
       "eye_openness": 0.2695,
       "jaw_angle": 0.1057,
       "chin_ratio": 0.4465,
-      "brow_height": 0.09
+      "brow_height": 0.09,
+      "mouth_width": 0.3749,
+      "nose_length": 0.2391
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/388506.jpg",
     "overlay_url": "/static/overlays/dr._stone_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.221,
       "jaw_angle": 0.1005,
       "chin_ratio": 0.4748,
-      "brow_height": 0.1368
+      "brow_height": 0.1368,
+      "mouth_width": 0.3392,
+      "nose_length": 0.2596
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/388332.jpg",
     "overlay_url": "/static/overlays/dr._stone_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2511,
       "jaw_angle": 0.0567,
       "chin_ratio": 0.6021,
-      "brow_height": 0.0946
+      "brow_height": 0.0946,
+      "mouth_width": 0.3276,
+      "nose_length": 0.1896
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/387866.jpg?s=a39bb4dd08368c9a96ee2328a9a6fb56",
     "overlay_url": "/static/overlays/dr._stone_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2504,
       "jaw_angle": 0.0848,
       "chin_ratio": 0.5742,
-      "brow_height": 0.1242
+      "brow_height": 0.1242,
+      "mouth_width": 0.2561,
+      "nose_length": 0.2198
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/413297.jpg",
     "overlay_url": "/static/overlays/dr._stone_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.3132,
       "jaw_angle": 0.1084,
       "chin_ratio": 0.5068,
-      "brow_height": 0.1114
+      "brow_height": 0.1114,
+      "mouth_width": 0.4255,
+      "nose_length": 0.2069
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/4/524648.jpg?s=355af7bb5f7e0fffc7ed5dd604e85df1",
     "overlay_url": "/static/overlays/dr._stone_4.png"

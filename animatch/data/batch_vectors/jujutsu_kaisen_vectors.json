@@ -12,7 +12,9 @@
       "eye_openness": 0.1336,
       "jaw_angle": 0.1328,
       "chin_ratio": 0.4489,
-      "brow_height": 0.1374
+      "brow_height": 0.1374,
+      "mouth_width": 0.3353,
+      "nose_length": 0.2727
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01",
     "overlay_url": "/static/overlays/jujutsu_kaisen_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2192,
       "jaw_angle": 0.066,
       "chin_ratio": 0.6217,
-      "brow_height": 0.0973
+      "brow_height": 0.0973,
+      "mouth_width": 0.2751,
+      "nose_length": 0.2566
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/392688.jpg",
     "overlay_url": "/static/overlays/jujutsu_kaisen_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2303,
       "jaw_angle": 0.1256,
       "chin_ratio": 0.4899,
-      "brow_height": 0.1019
+      "brow_height": 0.1019,
+      "mouth_width": 0.2935,
+      "nose_length": 0.2682
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/581424.jpg?s=78de007092c9e32f3555753de4999ee6",
     "overlay_url": "/static/overlays/jujutsu_kaisen_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2338,
       "jaw_angle": 0.0535,
       "chin_ratio": 0.6782,
-      "brow_height": 0.1329
+      "brow_height": 0.1329,
+      "mouth_width": 0.2549,
+      "nose_length": 0.2698
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/392689.jpg?s=2395a10b59bb54ec9891c74ef214fea1",
     "overlay_url": "/static/overlays/jujutsu_kaisen_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.1815,
       "jaw_angle": 0.0893,
       "chin_ratio": 0.6095,
-      "brow_height": 0.0979
+      "brow_height": 0.0979,
+      "mouth_width": 0.3338,
+      "nose_length": 0.2118
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/431152.jpg?s=776045fc0fe9f2ecf8923f0f9c20f288",
     "overlay_url": "/static/overlays/jujutsu_kaisen_4.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2828,
       "jaw_angle": 0.1488,
       "chin_ratio": 0.4683,
-      "brow_height": 0.1064
+      "brow_height": 0.1064,
+      "mouth_width": 0.2296,
+      "nose_length": 0.1818
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/12/422313.jpg?s=053db48815610ce7fdc280f62a3499ce",
     "overlay_url": "/static/overlays/jujutsu_kaisen_5.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.2773,
       "jaw_angle": 0.1309,
       "chin_ratio": 0.4369,
-      "brow_height": 0.1156
+      "brow_height": 0.1156,
+      "mouth_width": 0.2609,
+      "nose_length": 0.2651
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/423949.jpg?s=72edfa936ac89421e8d16970762d8b5b",
     "overlay_url": "/static/overlays/jujutsu_kaisen_6.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.3179,
       "jaw_angle": 0.1096,
       "chin_ratio": 0.4609,
-      "brow_height": 0.1194
+      "brow_height": 0.1194,
+      "mouth_width": 0.2908,
+      "nose_length": 0.2587
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/461503.jpg?s=dda1109b054b3b2e6198d91527cfc7ac",
     "overlay_url": "/static/overlays/jujutsu_kaisen_8.png"
@@ -156,7 +172,9 @@
       "eye_openness": 0.1739,
       "jaw_angle": 0.1446,
       "chin_ratio": 0.4909,
-      "brow_height": 0.1197
+      "brow_height": 0.1197,
+      "mouth_width": 0.3926,
+      "nose_length": 0.2233
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/617691.jpg?s=30f738df75fd150b3eb14a788c6780fd",
     "overlay_url": "/static/overlays/jujutsu_kaisen_9.png"
@@ -174,7 +192,9 @@
       "eye_openness": 0.2363,
       "jaw_angle": 0.1109,
       "chin_ratio": 0.5749,
-      "brow_height": 0.0624
+      "brow_height": 0.0624,
+      "mouth_width": 0.3171,
+      "nose_length": 0.2191
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/5/427604.jpg?s=4471dfaee135cd387a053f4b6556b2b2",
     "overlay_url": "/static/overlays/jujutsu_kaisen_10.png"
@@ -192,7 +212,9 @@
       "eye_openness": 0.1963,
       "jaw_angle": 0.1037,
       "chin_ratio": 0.561,
-      "brow_height": 0.1059
+      "brow_height": 0.1059,
+      "mouth_width": 0.3255,
+      "nose_length": 0.2308
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/8/524177.jpg?s=91bbde7d801299f3ff1fb5d8388cc133",
     "overlay_url": "/static/overlays/jujutsu_kaisen_11.png"

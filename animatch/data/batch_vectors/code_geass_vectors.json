@@ -12,10 +12,32 @@
       "eye_openness": 0.2119,
       "jaw_angle": 0.1096,
       "chin_ratio": 0.459,
-      "brow_height": 0.1229
+      "brow_height": 0.1229,
+      "mouth_width": 0.2747,
+      "nose_length": 0.2065
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/5/274017.jpg",
     "overlay_url": "/static/overlays/code_geass_0.png"
+  },
+  {
+    "id": "code_geass_2",
+    "name": "Stadtfeld, Kallen",
+    "series": "Code Geass",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.5841,
+      "eye_spacing": 0.3053,
+      "eye_openness": 0.3149,
+      "jaw_angle": 0.0939,
+      "chin_ratio": 0.5203,
+      "brow_height": 0.1358,
+      "mouth_width": 0.2894,
+      "nose_length": 0.2498
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/74343.jpg",
+    "overlay_url": "/static/overlays/code_geass_2.png"
   },
   {
     "id": "code_geass_3",
@@ -30,7 +52,9 @@
       "eye_openness": 0.2794,
       "jaw_angle": 0.1061,
       "chin_ratio": 0.3933,
-      "brow_height": 0.1154
+      "brow_height": 0.1154,
+      "mouth_width": 0.2437,
+      "nose_length": 0.2649
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/31532.jpg",
     "overlay_url": "/static/overlays/code_geass_3.png"

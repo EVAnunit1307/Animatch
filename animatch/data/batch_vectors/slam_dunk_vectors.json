@@ -12,9 +12,12 @@
       "eye_openness": 0.2704,
       "jaw_angle": 0.1161,
       "chin_ratio": 0.5323,
-      "brow_height": 0.0832
+      "brow_height": 0.0832,
+      "mouth_width": 0.386,
+      "nose_length": 0.1606
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/7/314546.jpg?s=18194f37df5a252b1290803c5927d579"
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/314546.jpg?s=18194f37df5a252b1290803c5927d579",
+    "overlay_url": "/static/overlays/slam_dunk_0.png"
   },
   {
     "id": "slam_dunk_1",
@@ -29,9 +32,12 @@
       "eye_openness": 0.2513,
       "jaw_angle": 0.1483,
       "chin_ratio": 0.5202,
-      "brow_height": 0.0736
+      "brow_height": 0.0736,
+      "mouth_width": 0.2952,
+      "nose_length": 0.2296
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/10/95008.jpg?s=61a3c39c99ac0674f51477d82408196e"
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/95008.jpg?s=61a3c39c99ac0674f51477d82408196e",
+    "overlay_url": "/static/overlays/slam_dunk_1.png"
   },
   {
     "id": "slam_dunk_2",
@@ -46,9 +52,12 @@
       "eye_openness": 0.172,
       "jaw_angle": 0.111,
       "chin_ratio": 0.7222,
-      "brow_height": 0.1052
+      "brow_height": 0.1052,
+      "mouth_width": 0.4046,
+      "nose_length": 0.1911
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/3/58146.jpg?s=46138fac56cace72bced38bae8051ef2"
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/58146.jpg?s=46138fac56cace72bced38bae8051ef2",
+    "overlay_url": "/static/overlays/slam_dunk_2.png"
   },
   {
     "id": "slam_dunk_3",
@@ -63,9 +72,12 @@
       "eye_openness": 0.2112,
       "jaw_angle": 0.1452,
       "chin_ratio": 0.4688,
-      "brow_height": 0.088
+      "brow_height": 0.088,
+      "mouth_width": 0.263,
+      "nose_length": 0.202
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/3/47093.jpg?s=16352e58c8241b74f20eae8dceb1de7d"
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/47093.jpg?s=16352e58c8241b74f20eae8dceb1de7d",
+    "overlay_url": "/static/overlays/slam_dunk_3.png"
   },
   {
     "id": "slam_dunk_4",
@@ -80,8 +92,11 @@
       "eye_openness": 0.2385,
       "jaw_angle": 0.0946,
       "chin_ratio": 0.6727,
-      "brow_height": 0.0705
+      "brow_height": 0.0705,
+      "mouth_width": 0.4899,
+      "nose_length": 0.1541
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/512342.jpg?s=c89119576332c12a04505c20c09bf15a"
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/512342.jpg?s=c89119576332c12a04505c20c09bf15a",
+    "overlay_url": "/static/overlays/slam_dunk_4.png"
   }
 ]

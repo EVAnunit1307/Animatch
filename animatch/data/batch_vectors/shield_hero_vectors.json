@@ -1,5 +1,25 @@
 [
   {
+    "id": "shield_hero_0",
+    "name": "Raphtalia",
+    "series": "Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.58,
+      "eye_spacing": 0.2712,
+      "eye_openness": 0.2577,
+      "jaw_angle": 0.1071,
+      "chin_ratio": 0.4953,
+      "brow_height": 0.1278,
+      "mouth_width": 0.2971,
+      "nose_length": 0.2758
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/266013.jpg",
+    "overlay_url": "/static/overlays/shield_hero_0.png"
+  },
+  {
     "id": "shield_hero_1",
     "name": "Iwatani, Naofumi",
     "series": "Shield Hero",
@@ -12,8 +32,31 @@
       "eye_openness": 0.2351,
       "jaw_angle": 0.1038,
       "chin_ratio": 0.459,
-      "brow_height": 0.1112
+      "brow_height": 0.1112,
+      "mouth_width": 0.2591,
+      "nose_length": 0.2695
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/6/266009.jpg?s=a4dfc8f03f7bff330d44786960862379"
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/266009.jpg?s=a4dfc8f03f7bff330d44786960862379",
+    "overlay_url": "/static/overlays/shield_hero_1.png"
+  },
+  {
+    "id": "shield_hero_2",
+    "name": "Filo",
+    "series": "Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.4807,
+      "eye_spacing": 0.297,
+      "eye_openness": 0.3202,
+      "jaw_angle": 0.0769,
+      "chin_ratio": 0.6496,
+      "brow_height": 0.0964,
+      "mouth_width": 0.3509,
+      "nose_length": 0.1587
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/266011.jpg",
+    "overlay_url": "/static/overlays/shield_hero_2.png"
   }
 ]

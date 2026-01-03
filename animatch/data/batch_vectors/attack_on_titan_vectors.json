@@ -12,7 +12,9 @@
       "eye_openness": 0.2213,
       "jaw_angle": 0.1153,
       "chin_ratio": 0.5345,
-      "brow_height": 0.1113
+      "brow_height": 0.1113,
+      "mouth_width": 0.2342,
+      "nose_length": 0.253
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/2/241413.jpg?s=1a789f9d4c7a441881e4b06a75bd91db",
     "overlay_url": "/static/overlays/attack_on_titan_0.png"
@@ -30,10 +32,32 @@
       "eye_openness": 0.2855,
       "jaw_angle": 0.0869,
       "chin_ratio": 0.4822,
-      "brow_height": 0.1066
+      "brow_height": 0.1066,
+      "mouth_width": 0.3091,
+      "nose_length": 0.251
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/216895.jpg?s=ccb6539cbfc5462df97d61a48c52af93",
     "overlay_url": "/static/overlays/attack_on_titan_1.png"
+  },
+  {
+    "id": "attack_on_titan_2",
+    "name": "Ackerman, Mikasa",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.2512,
+      "eye_spacing": 0.2485,
+      "eye_openness": 0.2525,
+      "jaw_angle": 0.1449,
+      "chin_ratio": 0.5297,
+      "brow_height": 0.1074,
+      "mouth_width": 0.2825,
+      "nose_length": 0.2172
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/206369.jpg",
+    "overlay_url": "/static/overlays/attack_on_titan_2.png"
   },
   {
     "id": "attack_on_titan_3",
@@ -48,7 +72,9 @@
       "eye_openness": 0.2665,
       "jaw_angle": 0.1552,
       "chin_ratio": 0.4966,
-      "brow_height": 0.0838
+      "brow_height": 0.0838,
+      "mouth_width": 0.2382,
+      "nose_length": 0.1841
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/559023.jpg?s=148a0689d341e23cae536207d030f3fc",
     "overlay_url": "/static/overlays/attack_on_titan_3.png"
@@ -66,7 +92,9 @@
       "eye_openness": 0.1926,
       "jaw_angle": 0.105,
       "chin_ratio": 0.4855,
-      "brow_height": 0.1001
+      "brow_height": 0.1001,
+      "mouth_width": 0.2953,
+      "nose_length": 0.2329
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/202267.jpg",
     "overlay_url": "/static/overlays/attack_on_titan_4.png"
@@ -84,10 +112,32 @@
       "eye_openness": 0.2807,
       "jaw_angle": 0.108,
       "chin_ratio": 0.5143,
-      "brow_height": 0.119
+      "brow_height": 0.119,
+      "mouth_width": 0.3303,
+      "nose_length": 0.2245
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/208637.jpg?s=3cfdcb5ec72bf4fbd01291026f8c955c",
     "overlay_url": "/static/overlays/attack_on_titan_5.png"
+  },
+  {
+    "id": "attack_on_titan_6",
+    "name": "Blouse, Sasha",
+    "series": "Attack on Titan",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.334,
+      "eye_spacing": 0.207,
+      "eye_openness": 0.3068,
+      "jaw_angle": 0.1116,
+      "chin_ratio": 0.4914,
+      "brow_height": 0.1134,
+      "mouth_width": 0.1962,
+      "nose_length": 0.2343
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/206503.jpg",
+    "overlay_url": "/static/overlays/attack_on_titan_6.png"
   },
   {
     "id": "attack_on_titan_7",
@@ -102,7 +152,9 @@
       "eye_openness": 0.2207,
       "jaw_angle": 0.122,
       "chin_ratio": 0.5667,
-      "brow_height": 0.0703
+      "brow_height": 0.0703,
+      "mouth_width": 0.3164,
+      "nose_length": 0.2368
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/16/206489.jpg?s=e48695a419dc6e71c831d7481a5fc86f",
     "overlay_url": "/static/overlays/attack_on_titan_7.png"
@@ -120,7 +172,9 @@
       "eye_openness": 0.2072,
       "jaw_angle": 0.0934,
       "chin_ratio": 0.522,
-      "brow_height": 0.0809
+      "brow_height": 0.0809,
+      "mouth_width": 0.3846,
+      "nose_length": 0.2303
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/216893.jpg?s=e0558332ed9959c09ddd0c65e90212e9",
     "overlay_url": "/static/overlays/attack_on_titan_8.png"
@@ -138,7 +192,9 @@
       "eye_openness": 0.2861,
       "jaw_angle": 0.1023,
       "chin_ratio": 0.5471,
-      "brow_height": 0.1031
+      "brow_height": 0.1031,
+      "mouth_width": 0.2555,
+      "nose_length": 0.2511
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/206357.jpg?s=3a853fc7177a3eeaefbecb530d590a4a",
     "overlay_url": "/static/overlays/attack_on_titan_9.png"

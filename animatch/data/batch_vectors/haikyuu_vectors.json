@@ -12,7 +12,9 @@
       "eye_openness": 0.2703,
       "jaw_angle": 0.1224,
       "chin_ratio": 0.5738,
-      "brow_height": 0.1325
+      "brow_height": 0.1325,
+      "mouth_width": 0.358,
+      "nose_length": 0.203
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/11/243919.jpg?s=09776694ad2bd2ab65f422b7b0139cb9",
     "overlay_url": "/static/overlays/haikyuu!!_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2825,
       "jaw_angle": 0.1119,
       "chin_ratio": 0.4777,
-      "brow_height": 0.1044
+      "brow_height": 0.1044,
+      "mouth_width": 0.2884,
+      "nose_length": 0.2326
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/417874.jpg?s=5bf547fd1fe8438f59ffd68166c7a432",
     "overlay_url": "/static/overlays/haikyuu!!_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.2607,
       "jaw_angle": 0.1072,
       "chin_ratio": 0.5259,
-      "brow_height": 0.1154
+      "brow_height": 0.1154,
+      "mouth_width": 0.3405,
+      "nose_length": 0.2619
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/245977.jpg?s=c2d3c2b3070b35099b36a3456f9d5c24",
     "overlay_url": "/static/overlays/haikyuu!!_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2711,
       "jaw_angle": 0.0916,
       "chin_ratio": 0.4361,
-      "brow_height": 0.1342
+      "brow_height": 0.1342,
+      "mouth_width": 0.2666,
+      "nose_length": 0.2771
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/238027.jpg?s=2890f8c34d34351a4fc3746e7cad8aa5",
     "overlay_url": "/static/overlays/haikyuu!!_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.3209,
       "jaw_angle": 0.1174,
       "chin_ratio": 0.497,
-      "brow_height": 0.1359
+      "brow_height": 0.1359,
+      "mouth_width": 0.2469,
+      "nose_length": 0.2142
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/10/417885.jpg?s=1a028b5b9518d5a4c6f72ec19ce1d12a",
     "overlay_url": "/static/overlays/haikyuu!!_4.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2373,
       "jaw_angle": 0.0711,
       "chin_ratio": 0.6133,
-      "brow_height": 0.1224
+      "brow_height": 0.1224,
+      "mouth_width": 0.2589,
+      "nose_length": 0.2093
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/14/417859.jpg?s=414720f12796e51db5bd88dcf639477a",
     "overlay_url": "/static/overlays/haikyuu!!_5.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.2067,
       "jaw_angle": 0.1177,
       "chin_ratio": 0.4487,
-      "brow_height": 0.1158
+      "brow_height": 0.1158,
+      "mouth_width": 0.2762,
+      "nose_length": 0.292
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/9/250903.jpg",
     "overlay_url": "/static/overlays/haikyuu!!_6.png"
@@ -138,7 +152,9 @@
       "eye_openness": 0.3208,
       "jaw_angle": 0.1137,
       "chin_ratio": 0.4948,
-      "brow_height": 0.1307
+      "brow_height": 0.1307,
+      "mouth_width": 0.3246,
+      "nose_length": 0.2456
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/15/285904.jpg?s=b6c32ac6da7351a9b0dbc989c1d1414f",
     "overlay_url": "/static/overlays/haikyuu!!_7.png"

@@ -12,7 +12,9 @@
       "eye_openness": 0.242,
       "jaw_angle": 0.1237,
       "chin_ratio": 0.5074,
-      "brow_height": 0.1055
+      "brow_height": 0.1055,
+      "mouth_width": 0.3846,
+      "nose_length": 0.2309
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/7/494969.jpg?s=02622d6ffa487b8d6d7503af4792a106",
     "overlay_url": "/static/overlays/chainsaw_man_0.png"
@@ -30,7 +32,9 @@
       "eye_openness": 0.2543,
       "jaw_angle": 0.1252,
       "chin_ratio": 0.4258,
-      "brow_height": 0.0857
+      "brow_height": 0.0857,
+      "mouth_width": 0.3456,
+      "nose_length": 0.1768
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/492407.jpg?s=4d8e9a01dac6a5d891c3ed434187fba9",
     "overlay_url": "/static/overlays/chainsaw_man_1.png"
@@ -48,7 +52,9 @@
       "eye_openness": 0.225,
       "jaw_angle": 0.0911,
       "chin_ratio": 0.5282,
-      "brow_height": 0.099
+      "brow_height": 0.099,
+      "mouth_width": 0.3328,
+      "nose_length": 0.2055
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/4/489561.jpg?s=6593bd49704ffb415d3fd9d40e5dc183",
     "overlay_url": "/static/overlays/chainsaw_man_2.png"
@@ -66,7 +72,9 @@
       "eye_openness": 0.2551,
       "jaw_angle": 0.0693,
       "chin_ratio": 0.7181,
-      "brow_height": 0.1134
+      "brow_height": 0.1134,
+      "mouth_width": 0.2757,
+      "nose_length": 0.1949
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/8/381868.jpg",
     "overlay_url": "/static/overlays/chainsaw_man_3.png"
@@ -84,7 +92,9 @@
       "eye_openness": 0.3246,
       "jaw_angle": 0.1237,
       "chin_ratio": 0.4983,
-      "brow_height": 0.1036
+      "brow_height": 0.1036,
+      "mouth_width": 0.2485,
+      "nose_length": 0.2395
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/6/488482.jpg",
     "overlay_url": "/static/overlays/chainsaw_man_5.png"
@@ -102,7 +112,9 @@
       "eye_openness": 0.2851,
       "jaw_angle": 0.0993,
       "chin_ratio": 0.5326,
-      "brow_height": 0.1108
+      "brow_height": 0.1108,
+      "mouth_width": 0.3125,
+      "nose_length": 0.2351
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/3/492411.jpg",
     "overlay_url": "/static/overlays/chainsaw_man_7.png"
@@ -120,7 +132,9 @@
       "eye_openness": 0.2497,
       "jaw_angle": 0.0983,
       "chin_ratio": 0.481,
-      "brow_height": 0.1043
+      "brow_height": 0.1043,
+      "mouth_width": 0.2997,
+      "nose_length": 0.2333
     },
     "image_url": "https://cdn.myanimelist.net/images/characters/13/586726.jpg?s=aff903523f5ae6598fa12678b20e8b1f",
     "overlay_url": "/static/overlays/chainsaw_man_8.png"

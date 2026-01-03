@@ -12,9 +12,52 @@
       "eye_openness": 0.2495,
       "jaw_angle": 0.092,
       "chin_ratio": 0.5028,
-      "brow_height": 0.0919
+      "brow_height": 0.0919,
+      "mouth_width": 0.2529,
+      "nose_length": 0.2419
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/9/309871.jpg?s=faa6eee1fc55878afbc1625baf0c9f3e"
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/309871.jpg?s=faa6eee1fc55878afbc1625baf0c9f3e",
+    "overlay_url": "/static/overlays/vinland_saga_0.png"
+  },
+  {
+    "id": "vinland_saga_1",
+    "name": "Askeladd",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3638,
+      "eye_spacing": 0.2513,
+      "eye_openness": 0.1967,
+      "jaw_angle": 0.1091,
+      "chin_ratio": 0.5358,
+      "brow_height": 0.1215,
+      "mouth_width": 0.3501,
+      "nose_length": 0.2365
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/153315.jpg",
+    "overlay_url": "/static/overlays/vinland_saga_1.png"
+  },
+  {
+    "id": "vinland_saga_2",
+    "name": "Thorkell",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "vector": {
+      "face_ratio": 1.3435,
+      "eye_spacing": 0.2488,
+      "eye_openness": 0.3366,
+      "jaw_angle": 0.0865,
+      "chin_ratio": 0.6316,
+      "brow_height": 0.1099,
+      "mouth_width": 0.4285,
+      "nose_length": 0.2218
+    },
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/389773.jpg",
+    "overlay_url": "/static/overlays/vinland_saga_2.png"
   },
   {
     "id": "vinland_saga_3",
@@ -29,8 +72,11 @@
       "eye_openness": 0.2611,
       "jaw_angle": 0.1257,
       "chin_ratio": 0.471,
-      "brow_height": 0.1004
+      "brow_height": 0.1004,
+      "mouth_width": 0.2269,
+      "nose_length": 0.2641
     },
-    "image_url": "https://cdn.myanimelist.net/images/characters/2/395761.jpg?s=ba1d071951451fa1a7e25bef19c94f79"
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/395761.jpg?s=ba1d071951451fa1a7e25bef19c94f79",
+    "overlay_url": "/static/overlays/vinland_saga_3.png"
   }
 ]
