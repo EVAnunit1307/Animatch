@@ -1,0 +1,662 @@
+[
+  {
+    "id": "spy_x_family_2",
+    "name": "Forger, Loid",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/580250.jpg?s=c98a9197f089df9132bc1c657bb6c131",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 170258
+  },
+  {
+    "id": "spy_x_family_3",
+    "name": "Forger, Bond",
+    "series": "Spy x Family",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/490843.jpg?s=177548c82f6ac4427dd2a711de153821",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 203871
+  },
+  {
+    "id": "steins_gate_0",
+    "name": "Okabe, Rintarou",
+    "series": "Steins;Gate",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/122643.jpg?s=b5ae0b297aefb93f19186e9edfdaee83",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 35252
+  },
+  {
+    "id": "steins_gate_1",
+    "name": "Makise, Kurisu",
+    "series": "Steins;Gate",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/492885.jpg?s=b041df34b5f02990fd154cc8e8f9e3b9",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 34470
+  },
+  {
+    "id": "steins_gate_2",
+    "name": "Shiina, Mayuri",
+    "series": "Steins;Gate",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/131329.jpg?s=ff82135c773b4903f6cae50c1d43ca26",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 35253
+  },
+  {
+    "id": "steins_gate_3",
+    "name": "Amane, Suzuha",
+    "series": "Steins;Gate",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/148223.jpg?s=1d567952db9e3f19cae8a855c788835e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 35255
+  },
+  {
+    "id": "steins_gate_4",
+    "name": "Urushibara, Ruka",
+    "series": "Steins;Gate",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/133805.jpg?s=b90c31d40d8386a2dbad760ce2fcef14",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 30919
+  },
+  {
+    "id": "steins_gate_5",
+    "name": "Hashida, Itaru",
+    "series": "Steins;Gate",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/113767.jpg?s=5d160f99286a0891c5e32413a5438622",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 35258
+  },
+  {
+    "id": "steins_gate_6",
+    "name": "Akiha, Rumiho",
+    "series": "Steins;Gate",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/142621.jpg?s=778aca012f3b10c8b8e115ad240538a0",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 35256
+  },
+  {
+    "id": "sword_art_online_0",
+    "name": "Kirigaya, Kazuto",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/204821.jpg?s=6a96a832b35d0ff3af9292bdb082546e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 36765
+  },
+  {
+    "id": "sword_art_online_1",
+    "name": "Yuuki, Asuna",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/262053.jpg?s=449153df46cce80307c9f8ae622b4514",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 36828
+  },
+  {
+    "id": "sword_art_online_2",
+    "name": "Yui",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/264165.jpg?s=56e6fe02305973c72bfa7f3d91e9d806",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 43892
+  },
+  {
+    "id": "sword_art_online_3",
+    "name": "Kirigaya, Suguha",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/192515.jpg?s=61eedc4ceb95b186ae903a1e00e2bbea",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 36831
+  },
+  {
+    "id": "sword_art_online_4",
+    "name": "Tsuboi, Ryoutarou",
+    "series": "Sword Art Online",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/177109.jpg?s=422a9f89a2e8e9d99a4742be2cd41b05",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 36830
+  },
+  {
+    "id": "that_time_i_got_reincarnated_as_a_slime_0",
+    "name": "Tempest, Rimuru",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/495795.jpg?s=4862dd29931674ce7accd715ff3c4a7d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 131549
+  },
+  {
+    "id": "that_time_i_got_reincarnated_as_a_slime_1",
+    "name": "Nava, Milim",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/447552.jpg?s=934801fa140aded774c7497110641c65",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 131936
+  },
+  {
+    "id": "that_time_i_got_reincarnated_as_a_slime_2",
+    "name": "Diablo",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/476920.jpg?s=5803922f7222876fd34e948f38f130f3",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 131941
+  },
+  {
+    "id": "that_time_i_got_reincarnated_as_a_slime_3",
+    "name": "Shuna",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/384887.jpg?s=5f1594e8544d3cd0fd8bf9302c329bc2",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 131943
+  },
+  {
+    "id": "that_time_i_got_reincarnated_as_a_slime_4",
+    "name": "Shion",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/381150.jpg?s=28bfa2d00305977ee431672ea5d9b70d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 131937
+  },
+  {
+    "id": "that_time_i_got_reincarnated_as_a_slime_5",
+    "name": "Tempest, Veldora",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/360786.jpg?s=ca56ee0da0ffbd3caf253e768e34360b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 131932
+  },
+  {
+    "id": "that_time_i_got_reincarnated_as_a_slime_6",
+    "name": "Benimaru",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/447550.jpg?s=65fbfe60f4c15c52e52e2f3b77b67573",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 131944
+  },
+  {
+    "id": "that_time_i_got_reincarnated_as_a_slime_7",
+    "name": "Izawa, Shizue",
+    "series": "That Time I Got Reincarnated as a Slime",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/606996.jpg?s=ff84cc4296deba323134c82a54e1266d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 131934
+  },
+  {
+    "id": "the_promised_neverland_0",
+    "name": "Ray",
+    "series": "The Promised Neverland",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/360042.jpg?s=018058ee2209d07a1f74d60dbaad491b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 144919
+  },
+  {
+    "id": "the_promised_neverland_1",
+    "name": "Norman",
+    "series": "The Promised Neverland",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/323859.jpg?s=c3993cbe61c7a846aae452b3afff9986",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 144916
+  },
+  {
+    "id": "the_promised_neverland_2",
+    "name": "Emma",
+    "series": "The Promised Neverland",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/455009.jpg?s=363bd72f371bd6db12391fd7cc490560",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 144337
+  },
+  {
+    "id": "the_promised_neverland_3",
+    "name": "Phil",
+    "series": "The Promised Neverland",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/436435.jpg?s=e74fbfaab50d8bad35c9c3d2062d30d5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 150888
+  },
+  {
+    "id": "the_promised_neverland_4",
+    "name": "Isabella",
+    "series": "The Promised Neverland",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/462007.jpg?s=9d553d2adcedc35c70982c95a3c3ad13",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 144999
+  },
+  {
+    "id": "the_rising_of_the_shield_hero_0",
+    "name": "Raphtalia",
+    "series": "The Rising of the Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/374252.jpg?s=92b906e14895133129d6d1c505f201f5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 112893
+  },
+  {
+    "id": "the_rising_of_the_shield_hero_1",
+    "name": "Iwatani, Naofumi",
+    "series": "The Rising of the Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/266009.jpg?s=a4dfc8f03f7bff330d44786960862379",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 112891
+  },
+  {
+    "id": "the_rising_of_the_shield_hero_2",
+    "name": "Filo",
+    "series": "The Rising of the Shield Hero",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/464618.jpg?s=b1b04148bb9fb87062f5911945f06866",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 112909
+  },
+  {
+    "id": "tokyo_ghoul_0",
+    "name": "Kaneki, Ken",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/307255.jpg?s=a3b352a4950d3231677668626b1a95f4",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 87275
+  },
+  {
+    "id": "tokyo_ghoul_1",
+    "name": "Suzuya, Juuzou",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/275843.jpg?s=a56227409808edb48f5e9cb3c85211b0",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 104437
+  },
+  {
+    "id": "tokyo_ghoul_2",
+    "name": "Kirishima, Touka",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/234699.jpg?s=10ef474344779135236911013b0925fc",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 87277
+  },
+  {
+    "id": "tokyo_ghoul_3",
+    "name": "Uta",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/259327.jpg?s=aa8d9d2ead39a6add9b0c2cc36bb69b5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 93343
+  },
+  {
+    "id": "tokyo_ghoul_4",
+    "name": "Nagachika, Hideyoshi",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/290838.jpg?s=631b2803bd832aab25b443203e05e4d2",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 103415
+  },
+  {
+    "id": "tokyo_ghoul_5",
+    "name": "Tsukiyama, Shuu",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/296873.jpg?s=775d67102b007899c75d8d76490bd0c7",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 104059
+  },
+  {
+    "id": "tokyo_ghoul_6",
+    "name": "Eto",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/276501.jpg?s=6bd3d1eda8082217b36d0e2ff2d8775f",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 112997
+  },
+  {
+    "id": "tokyo_ghoul_7",
+    "name": "Arima, Kishou",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/257935.jpg?s=774409608456392dcaca31f53234bb53",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 111767
+  },
+  {
+    "id": "tokyo_ghoul_8",
+    "name": "Kamishiro, Rize",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/251965.jpg?s=57d66947438e9fc0d9935c61be760a70",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 103409
+  },
+  {
+    "id": "tokyo_ghoul_9",
+    "name": "Kirishima, Ayato",
+    "series": "Tokyo Ghoul",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/258501.jpg?s=c45a7939e0741dcc583be3cf50b1adca",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 105231
+  },
+  {
+    "id": "vinland_saga_0",
+    "name": "Thorfinn",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/309871.jpg?s=faa6eee1fc55878afbc1625baf0c9f3e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 10138
+  },
+  {
+    "id": "vinland_saga_1",
+    "name": "Askeladd",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/401940.jpg?s=738c36550f7afd3f402a32a5bbef66c8",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 13020
+  },
+  {
+    "id": "vinland_saga_2",
+    "name": "Thorkell",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/437129.jpg?s=a2c17d0cf02f0cc1130d51be481c1c03",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 17440
+  },
+  {
+    "id": "vinland_saga_3",
+    "name": "Canute",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/395761.jpg?s=ba1d071951451fa1a7e25bef19c94f79",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 17438
+  },
+  {
+    "id": "vinland_saga_4",
+    "name": "Thors",
+    "series": "Vinland Saga",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/437128.jpg?s=ef26b679c2fbabc18bd5da445fd34c17",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 13021
+  },
+  {
+    "id": "violet_evergarden_0",
+    "name": "Evergarden, Violet",
+    "series": "Violet Evergarden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/345616.jpg?s=3e82e3a6e4bd2efe2336746f9fe70bfb",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 141354
+  },
+  {
+    "id": "violet_evergarden_1",
+    "name": "Bougainvillea, Gilbert",
+    "series": "Violet Evergarden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/409286.jpg?s=f7f6a0f36f771c0f306b9644cbce34d2",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 152271
+  },
+  {
+    "id": "weathering_with_you_0",
+    "name": "Amano, Hina",
+    "series": "Weathering With You",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/408525.jpg?s=ac94c1770c9964f0b87c8d076c64e786",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 167172
+  },
+  {
+    "id": "weathering_with_you_1",
+    "name": "Morishima, Hodaka",
+    "series": "Weathering With You",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/441133.jpg?s=b1c7b8cadbcbb21b68e7ed4b310c2bf7",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 167173
+  },
+  {
+    "id": "your_lie_in_april_0",
+    "name": "Miyazono, Kaori",
+    "series": "Your Lie in April",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/269375.jpg?s=ca7fba292e1adbbaa8ad265b61e02c4a",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 69411
+  },
+  {
+    "id": "your_lie_in_april_1",
+    "name": "Arima, Kousei",
+    "series": "Your Lie in April",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/273755.jpg?s=54c2ead60f32bf3313c7f006cafc5e7e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 69407
+  },
+  {
+    "id": "your_lie_in_april_2",
+    "name": "Sawabe, Tsubaki",
+    "series": "Your Lie in April",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/252841.jpg?s=106765e2eb5c7fe4a5170bed847a0baa",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 69409
+  },
+  {
+    "id": "your_lie_in_april_3",
+    "name": "Watari, Ryouta",
+    "series": "Your Lie in April",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/252843.jpg?s=230f8c89c94a929c6a07f9efec4a0ff1",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 69405
+  },
+  {
+    "id": "your_name_0",
+    "name": "Miyamizu, Mitsuha",
+    "series": "Your Name",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/336342.jpg?s=510abbc33f4a3f2c635165096ac82bd8",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 137467
+  },
+  {
+    "id": "your_name_1",
+    "name": "Tachibana, Taki",
+    "series": "Your Name",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/311593.jpg?s=a702e30f451ed4f2baf8d4167ac16c32",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 136805
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "haikyuu_4",
+    "name": "Kozume, Kenma",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/417885.jpg?s=1a028b5b9518d5a4c6f72ec19ce1d12a",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 71267
+  },
+  {
+    "id": "haikyuu_5",
+    "name": "Tsukishima, Kei",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/273847.jpg?s=f23767af6e31fdd7fc9daf7d2fd63e04",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 67329
+  },
+  {
+    "id": "haikyuu_6",
+    "name": "Kuroo, Tetsurou",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/417887.jpg?s=f54ad71c00316d23c3a878bf7d0669db",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 71269
+  },
+  {
+    "id": "haikyuu_7",
+    "name": "Sugawara, Koushi",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/285904.jpg?s=b6c32ac6da7351a9b0dbc989c1d1414f",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 67321
+  },
+  {
+    "id": "haikyuu_8",
+    "name": "Tanaka, Ryuunosuke",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/417860.jpg?s=edb184ef440a886520c0c055e0b70343",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 67325
+  },
+  {
+    "id": "haikyuu_9",
+    "name": "Yamaguchi, Tadashi",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/417857.jpg?s=499a41cc56955974fc486237d32eb04b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 71609
+  },
+  {
+    "id": "haikyuu_10",
+    "name": "Azumane, Asahi",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/250885.jpg?s=f880c7d8edbe33d09ade34c34d09e72c",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 67333
+  },
+  {
+    "id": "haikyuu_11",
+    "name": "Sawamura, Daichi",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/417864.jpg?s=541768b2cccfc28aee8924cdfd124442",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 67323
+  },
+  {
+    "id": "haikyuu_12",
+    "name": "Ushijima, Wakatoshi",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/417889.jpg?s=c130220fe6cee5c8f6fc19cb379a7829",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 76816
+  },
+  {
+    "id": "haikyuu_13",
+    "name": "Iwaizumi, Hajime",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/258959.jpg?s=446e30711f947f25a4100852bc180feb",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 75636
+  },
+  {
+    "id": "howl_s_moving_castle_0",
+    "name": "Howl",
+    "series": "Howl's Moving Castle",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/83512.jpg?s=39f534db0da48577b000b40c53f1b8b5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 507
+  },
+  {
+    "id": "howl_s_moving_castle_1",
+    "name": "Calcifer",
+    "series": "Howl's Moving Castle",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/64076.jpg?s=94a9ed01e067f3381fec59739a276e9e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 6752
+  },
+  {
+    "id": "howl_s_moving_castle_2",
+    "name": "Hatter, Sophie",
+    "series": "Howl's Moving Castle",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/129315.jpg?s=a4b4643b70c7d1f3450e528c5064d9cd",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 508
+  },
+  {
+    "id": "hunter_x_hunter_2011_0",
+    "name": "Zoldyck, Killua",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/327920.jpg?s=afd533ace6e7ce81ccf877d3d97880bb",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 27
+  },
+  {
+    "id": "hunter_x_hunter_2011_1",
+    "name": "Morow, Hisoka",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/174561.jpg?s=74fd92ebbe0d14dec69aeba8eff36bb9",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 31
+  },
+  {
+    "id": "hunter_x_hunter_2011_2",
+    "name": "Kurapika",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/549312.jpg?s=fc4bb9699591fdf742c7fee5593c961e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 28
+  },
+  {
+    "id": "hunter_x_hunter_2011_3",
+    "name": "Freecss, Gon",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/174517.jpg?s=c8133cf450dc6bf13ba52d6781759101",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 30
+  },
+  {
+    "id": "hunter_x_hunter_2011_4",
+    "name": "Meruem",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/243861.jpg?s=7d6b962cafaeb5d6ae91fa8b3d9d38a0",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 23277
+  },
+  {
+    "id": "hunter_x_hunter_2011_5",
+    "name": "Lucilfer, Chrollo",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/182387.jpg?s=82532b8deca18069b86e7f598e0ca914",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 58
+  },
+  {
+    "id": "hunter_x_hunter_2011_6",
+    "name": "Paladiknight, Leorio",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/549311.jpg?s=ba86161de766b11580c7fbdf23849cbc",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 29
+  },
+  {
+    "id": "hunter_x_hunter_2011_7",
+    "name": "Netero, Isaac",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/257355.jpg?s=1371e4c5acb62a73bf7843b25b58d25d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 14489
+  },
+  {
+    "id": "hunter_x_hunter_2011_8",
+    "name": "Neferpitou",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/253673.jpg?s=1800b6a0931f971d9c6d47b9ca1cae1c",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 12300
+  },
+  {
+    "id": "hunter_x_hunter_2011_9",
+    "name": "Portor, Feitan",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/174721.jpg?s=bf0a62d8405521bfb141e131c363f73d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 3195
+  },
+  {
+    "id": "hunter_x_hunter_2011_10",
+    "name": "Kite",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/203429.jpg?s=682fcc486dc7f39ddb369bc7f69e4e2e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 20594
+  },
+  {
+    "id": "hunter_x_hunter_2011_11",
+    "name": "Zoldyck, Illumi",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/174521.jpg?s=3b9c5ccadb580670fc0942edd8d06a6d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 57
+  },
+  {
+    "id": "hunter_x_hunter_2011_12",
+    "name": "Zoldyck, Alluka",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/294552.jpg?s=b16da6ceef71780ab111310463ae0815",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 52425
+  },
+  {
+    "id": "hunter_x_hunter_2011_13",
+    "name": "Komugi",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/243865.jpg?s=ba3e72a4decf1f8b6bcc191e2ca6e265",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 14313
+  },
+  {
+    "id": "hunter_x_hunter_2011_14",
+    "name": "Freecss, Ging",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/231795.jpg?s=a02e50645c7dc0816f3e7108cbef2c42",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 26
+  },
+  {
+    "id": "hunter_x_hunter_2011_15",
+    "name": "Murasaki, Shizuku",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/178469.jpg?s=427e08a13cdc14d8cd4fc2410c7bbf9e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 5833
+  },
+  {
+    "id": "hunter_x_hunter_2011_16",
+    "name": "Bine, Knuckle",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/572043.jpg?s=cf8198f5dc0f99572f017a5de720c4f7",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 29809
+  },
+  {
+    "id": "hunter_x_hunter_2011_17",
+    "name": "Krueger, Biscuit",
+    "series": "Hunter x Hunter (2011)",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/194667.jpg?s=b2a4def7e985c1ca4f4aac63a511ffc5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 13898
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_0",
+    "name": "Joestar, Joseph",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/316615.jpg?s=c52eb11c56af357b8775e288bd5bd13e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 6356
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_1",
+    "name": "Brando, Dio",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/330539.jpg?s=2e40251bbb48a09a41d2c89016da80f4",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 4004
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_2",
+    "name": "Speedwagon, Robert E. O.",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/196031.jpg?s=fa364d3f051a2a73e4c7c4726182a687",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 21938
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_3",
+    "name": "Joestar, Jonathan",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/182715.jpg?s=d87c934286168a792851f4c46effc8e5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 8087
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_4",
+    "name": "Zeppeli, Caesar Anthonio",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/372612.jpg?s=2f2faeab6ed57598879fa6a5cb053481",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 21959
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_5",
+    "name": "von Stroheim, Rudol",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/191600.jpg?s=6240bd9323a2d8801679a0e7f7e043cd",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 21958
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_6",
+    "name": "Kars",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/615607.jpg?s=fb8021bd67110d42f20e2e09addb91a7",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 21966
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_7",
+    "name": "Lisa Lisa",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/196391.jpg?s=d4ae9b7d78b30c4d6031d04e0a99c941",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 21960
+  },
+  {
+    "id": "jojo_s_bizarre_adventure_8",
+    "name": "Zeppeli, Will A.",
+    "series": "JoJo's Bizarre Adventure",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/275118.jpg?s=9f95016c3c4ef0ea7968c6917bc21064",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 18062
+  },
+  {
+    "id": "jujutsu_kaisen_0",
+    "name": "Gojou, Satoru",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164471
+  },
+  {
+    "id": "jujutsu_kaisen_1",
+    "name": "Itadori, Yuuji",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/467646.jpg?s=9e1cb7b0c6c7f145661e8ee93f32215d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 163847
+  },
+  {
+    "id": "jujutsu_kaisen_2",
+    "name": "Nanami, Kento",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/581424.jpg?s=78de007092c9e32f3555753de4999ee6",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164473
+  },
+  {
+    "id": "jujutsu_kaisen_3",
+    "name": "Fushiguro, Megumi",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/392689.jpg?s=2395a10b59bb54ec9891c74ef214fea1",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164470
+  },
+  {
+    "id": "jujutsu_kaisen_4",
+    "name": "Ryoumen, Sukuna",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/431152.jpg?s=776045fc0fe9f2ecf8923f0f9c20f288",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 175198
+  },
+  {
+    "id": "jujutsu_kaisen_5",
+    "name": "Kugisaki, Nobara",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/422313.jpg?s=053db48815610ce7fdc280f62a3499ce",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164472
+  },
+  {
+    "id": "jujutsu_kaisen_6",
+    "name": "Zenin, Maki",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/423949.jpg?s=72edfa936ac89421e8d16970762d8b5b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164482
+  },
+  {
+    "id": "jujutsu_kaisen_7",
+    "name": "Inumaki, Toge",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/521636.jpg?s=ef7b20ebe6e134fc94303c86e5cd1268",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164478
+  },
+  {
+    "id": "jujutsu_kaisen_8",
+    "name": "Okkotsu, Yuuta",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/461503.jpg?s=dda1109b054b3b2e6198d91527cfc7ac",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 168067
+  },
+  {
+    "id": "jujutsu_kaisen_9",
+    "name": "Getou, Suguru",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/617691.jpg?s=30f738df75fd150b3eb14a788c6780fd",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 175542
+  },
+  {
+    "id": "jujutsu_kaisen_10",
+    "name": "Toudou, Aoi",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/427604.jpg?s=4471dfaee135cd387a053f4b6556b2b2",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164484
+  },
+  {
+    "id": "jujutsu_kaisen_11",
+    "name": "Chousou",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/524177.jpg?s=91bbde7d801299f3ff1fb5d8388cc133",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 180764
+  },
+  {
+    "id": "jujutsu_kaisen_12",
+    "name": "Mahito",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/446508.jpg?s=8cfa45381097f1e9a720982061ec087d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164481
+  },
+  {
+    "id": "jujutsu_kaisen_13",
+    "name": "Panda",
+    "series": "Jujutsu Kaisen",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/423950.jpg?s=d898dc5a3174aee1cdcd4108cbdb36c6",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 164476
+  },
+  {
+    "id": "kill_la_kill_0",
+    "name": "Matoi, Ryuuko",
+    "series": "Kill la Kill",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/454530.jpg?s=c7e21f636699e46d4126b1162eaa27ef",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 83797
+  },
+  {
+    "id": "kill_la_kill_1",
+    "name": "Kiryuuin, Satsuki",
+    "series": "Kill la Kill",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/219863.jpg?s=a2bc2bdbfa17a25d50c3071f201365aa",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 83799
+  },
+  {
+    "id": "kill_la_kill_2",
+    "name": "Mankanshoku, Mako",
+    "series": "Kill la Kill",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/232905.jpg?s=70396a57d140450c1c7ce453f39fdae7",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 91675
+  },
+  {
+    "id": "kill_la_kill_3",
+    "name": "Jakuzure, Nonon",
+    "series": "Kill la Kill",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/285556.jpg?s=2f640cb99d5662b429e47bf9b11ab92f",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 87693
+  },
+  {
+    "id": "kill_la_kill_4",
+    "name": "Senketsu",
+    "series": "Kill la Kill",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/224171.jpg?s=385920f1dccbcc87976a4a4480a2303a",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 93303
+  },
+  {
+    "id": "kill_la_kill_5",
+    "name": "Harime, Nui",
+    "series": "Kill la Kill",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/229073.jpg?s=5962a48c36a36c8422fd53e35cdd8acf",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 96719
+  }
+]

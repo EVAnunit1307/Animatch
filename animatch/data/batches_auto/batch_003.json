@@ -1,0 +1,722 @@
+[
+  {
+    "id": "dragon_ball_z_2",
+    "name": "Son, Gohan",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/72715.jpg?s=886561eebbd32941685b470ff9ed78a2",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2093
+  },
+  {
+    "id": "dragon_ball_z_3",
+    "name": "Piccolo",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/45628.jpg?s=7f3263916ca42434072fb20a7590c277",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 914
+  },
+  {
+    "id": "dragon_ball_z_4",
+    "name": "Future Trunks",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/375125.jpg?s=dfee723daa759ba6480fa09fe6903b00",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 143844
+  },
+  {
+    "id": "dragon_ball_z_5",
+    "name": "Freeza",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/359258.jpg?s=9283da1c6156a10c96ca75d71522d62d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 3694
+  },
+  {
+    "id": "dragon_ball_z_6",
+    "name": "Trunks",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/312402.jpg?s=efbeab2505cea4065c04d7cb9c313e31",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2707
+  },
+  {
+    "id": "dragon_ball_z_7",
+    "name": "Bulma",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/280893.jpg?s=2b0fdc4d608cdb9f6ca28d6192cb9251",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 678
+  },
+  {
+    "id": "dragon_ball_z_8",
+    "name": "Muten-Roushi",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/359001.jpg?s=b0f6c285cdf733f32738264f42ebdd2f",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 6167
+  },
+  {
+    "id": "dragon_ball_z_9",
+    "name": "Kuririn",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/48517.jpg?s=19014a6433cd36c32f3661b21b38dad3",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2159
+  },
+  {
+    "id": "dragon_ball_z_10",
+    "name": "Bardock",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/103847.jpg?s=c38c133a809e886e0b01fec8e6bb13ee",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 6122
+  },
+  {
+    "id": "dragon_ball_z_11",
+    "name": "Cell",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/108594.jpg?s=11c75ff4c82ecb2c957dfebede7ab260",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 3908
+  },
+  {
+    "id": "dragon_ball_z_12",
+    "name": "Jinzouningen 18-gou",
+    "series": "Dragon Ball Z",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/357828.jpg?s=f07a58b451c4312cece1db2aa84ebdf8",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 4318
+  },
+  {
+    "id": "fairy_tail_0",
+    "name": "Dragneel, Natsu",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/594274.jpg?s=f1ff02a766b85bd0623f4ee539c1b7a4",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 5187
+  },
+  {
+    "id": "fairy_tail_1",
+    "name": "Scarlet, Erza",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/492254.jpg?s=7e17a45b638c2b7f12bf1f699b2b5c82",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 5189
+  },
+  {
+    "id": "fairy_tail_2",
+    "name": "Heartfilia, Lucy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/67774.jpg?s=a5aa66540ec3bb6463bda909781da36a",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 5186
+  },
+  {
+    "id": "fairy_tail_3",
+    "name": "Fullbuster, Gray",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/278602.jpg?s=87553874d5dd1b8ffcaeee57b777cd9c",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 4839
+  },
+  {
+    "id": "fairy_tail_4",
+    "name": "Happy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/365287.jpg?s=9bd8f1ed7cf392d689238608f13286a7",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 5188
+  },
+  {
+    "id": "fairy_tail_5",
+    "name": "Lockser, Juvia",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/262225.jpg?s=2c5b0e04b609b523739e948a83632899",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 9719
+  },
+  {
+    "id": "fairy_tail_6",
+    "name": "Fernandes, Jellal",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/80782.jpg?s=3cfa9e107e76c8708736fe90dbecde14",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 22751
+  },
+  {
+    "id": "fairy_tail_7",
+    "name": "Redfox, Gajeel",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/99350.jpg?s=9d43e35fdbbf7e6f78e877669167a3a9",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 16893
+  },
+  {
+    "id": "fairy_tail_8",
+    "name": "Dreyar, Laxus",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/294797.jpg?s=afdb45936b79508131e16919d50ffb90",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 8294
+  },
+  {
+    "id": "fairy_tail_9",
+    "name": "Zeref",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/327914.jpg?s=c9c1cd0a58d71f457abcd7dcda32d567",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 37720
+  },
+  {
+    "id": "fairy_tail_10",
+    "name": "Marvell, Wendy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/196497.jpg?s=dd93974ccb821624cc71eb789025b7cf",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 28886
+  },
+  {
+    "id": "fairy_tail_11",
+    "name": "Strauss, Mirajane",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/196491.jpg?s=58aaaff21992e90d5604a05543709193",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 5190
+  },
+  {
+    "id": "fairy_tail_12",
+    "name": "Vermillion, Mavis",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/204797.jpg?s=7965307fc37ad33c9488c90e348689f2",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 50163
+  },
+  {
+    "id": "fairy_tail_13",
+    "name": "Clive, Gildarts",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/196483.jpg?s=4aa74f40d6ffa2e59da3120996cd7333",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 29502
+  },
+  {
+    "id": "fairy_tail_14",
+    "name": "McGarden, Levy",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/186859.jpg?s=068b6c8dd82cd65706d9d09e2593d232",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 29493
+  },
+  {
+    "id": "fairy_tail_15",
+    "name": "Mystogan",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/54444.jpg?s=8eba65465be199307f4fe10cbf7c7a12",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 8297
+  },
+  {
+    "id": "fairy_tail_16",
+    "name": "Charlés",
+    "series": "Fairy Tail",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/365290.jpg?s=eefd5fe0dca97c356d0d5448f25c7561",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 22723
+  },
+  {
+    "id": "frieren_beyond_journey_s_end_0",
+    "name": "Frieren",
+    "series": "Frieren: Beyond Journey's End",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/525105.jpg?s=1706604ec2ca141a172526b8dedf3177",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 184947
+  },
+  {
+    "id": "frieren_beyond_journey_s_end_1",
+    "name": "Fern",
+    "series": "Frieren: Beyond Journey's End",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/519083.jpg?s=b280b410b588ebcd3fd30ac6fad02978",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 188176
+  },
+  {
+    "id": "frieren_beyond_journey_s_end_2",
+    "name": "Himmel",
+    "series": "Frieren: Beyond Journey's End",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/523295.jpg?s=4c35fb5c18a7f9544c077a4526b20512",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 186854
+  },
+  {
+    "id": "frieren_beyond_journey_s_end_3",
+    "name": "Stark",
+    "series": "Frieren: Beyond Journey's End",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/523292.jpg?s=ea781ce6864ae29a56f5ce3d223d9496",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 188177
+  },
+  {
+    "id": "frieren_beyond_journey_s_end_4",
+    "name": "Übel",
+    "series": "Frieren: Beyond Journey's End",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/543072.jpg?s=8a1e7b1b5acb4d902a9f39147e4209af",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 206725
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_0",
+    "name": "Elric, Edward",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/72533.jpg?s=d38cf4e2e5cbb46ddaf2b23345a03eae",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 11
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_1",
+    "name": "Mustang, Roy",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/510227.jpg?s=a9880198a26475fa0555f4690bab8cd3",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 68
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_2",
+    "name": "Elric, Alphonse",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/54265.jpg?s=65c1a674adae3d7c5740d5711517285a",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 12
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_3",
+    "name": "Hughes, Maes",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/73469.jpg?s=049daccbf5014073c0c8933c5388258a",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 69
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_4",
+    "name": "Greed",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/78721.jpg?s=b19bb6258904972030cb3f41917f8a60",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 351
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_5",
+    "name": "Hawkeye, Riza",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/451785.jpg?s=11bc1988772e66c4fce2ff3dee08b8da",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 70
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_6",
+    "name": "Yao, Ling",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/62602.jpg?s=c1c34cb6b91640be0fc8a4c4aadc14a1",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 3293
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_7",
+    "name": "Rockbell, Winry",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/84336.jpg?s=b176965399deaee17a8c6304240a18f8",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 63
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_8",
+    "name": "Armstrong, Alex Louis",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/71066.jpg?s=c20e0eaade03719e6637e381a63c8154",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2079
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_9",
+    "name": "Armstrong, Olivier Mira",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/83953.jpg?s=616c3cbf0f0a02068ac4f9bf7e52c746",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 3934
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_10",
+    "name": "Envy",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/79027.jpg?s=4bcce514aa7b51d229ffd84a0a4976d5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 651
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_11",
+    "name": "Hohenheim, Van",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/80676.jpg?s=9ea1723c8b75fa22716cabfd858d2497",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 9792
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_12",
+    "name": "Bradley, King",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/62053.jpg?s=181ba72d4c6ba5605bbfb63f1812f876",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 5103
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_13",
+    "name": "Scar",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/31591.jpg?s=0f4cfb335f3a86eede76abc630a3fe9e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 66
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_14",
+    "name": "Kimblee, Solf J.",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/73900.jpg?s=4e06a2216ff671ee62226717168af70e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 6590
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_15",
+    "name": "Curtis, Izumi",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/85257.jpg?s=5e70b5c47afc7e05e9e5398bc8d2ea50",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 67
+  },
+  {
+    "id": "fullmetal_alchemist_brotherhood_16",
+    "name": "Lust",
+    "series": "Fullmetal Alchemist: Brotherhood",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/81112.jpg?s=6d83fc7c4b8426d92bd5ab0779ff263d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 650
+  },
+  {
+    "id": "gurren_lagann_0",
+    "name": "Kamina",
+    "series": "Gurren Lagann",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/83946.jpg?s=504dd0dd6df3298a0183ed525a5d5014",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2075
+  },
+  {
+    "id": "gurren_lagann_1",
+    "name": "Simon",
+    "series": "Gurren Lagann",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/28353.jpg?s=7aa0374e57c83ba547deabe9c6003d4b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2257
+  },
+  {
+    "id": "gurren_lagann_2",
+    "name": "Littner, Yoko",
+    "series": "Gurren Lagann",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/603817.jpg?s=4885f34f91fd6e3e63b9e33275e6ed3d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2063
+  },
+  {
+    "id": "gurren_lagann_3",
+    "name": "Teppelin, Nia",
+    "series": "Gurren Lagann",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/50690.jpg?s=80ef76a7ab89077dbb7a1b9aaa6d5af4",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2761
+  },
+  {
+    "id": "gurren_lagann_4",
+    "name": "Viral",
+    "series": "Gurren Lagann",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/153853.jpg?s=2423c2df627bfe4a35d423c0328590db",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2378
+  },
+  {
+    "id": "gurren_lagann_5",
+    "name": "Bachika, Kittan",
+    "series": "Gurren Lagann",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/70781.jpg?s=8690eef4663a471e1a50edc4c7724b88",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 3434
+  },
+  {
+    "id": "haikyuu_0",
+    "name": "Hinata, Shouyou",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/243919.jpg?s=09776694ad2bd2ab65f422b7b0139cb9",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 64769
+  },
+  {
+    "id": "haikyuu_1",
+    "name": "Kageyama, Tobio",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/417874.jpg?s=5bf547fd1fe8438f59ffd68166c7a432",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 64771
+  },
+  {
+    "id": "haikyuu_2",
+    "name": "Oikawa, Tooru",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/245977.jpg?s=c2d3c2b3070b35099b36a3456f9d5c24",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 71611
+  },
+  {
+    "id": "haikyuu_3",
+    "name": "Nishinoya, Yuu",
+    "series": "Haikyuu!!",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/238027.jpg?s=2890f8c34d34351a4fc3746e7cad8aa5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 67327
+  }
+]

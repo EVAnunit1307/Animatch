@@ -1,0 +1,722 @@
+[
+  {
+    "id": "kill_la_kill_6",
+    "name": "Gamagoori, Ira",
+    "series": "Kill la Kill",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/239865.jpg?s=6b77a641ed522052cd34af9eb93c657f",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 87689
+  },
+  {
+    "id": "kuroko_s_basketball_0",
+    "name": "Kuroko, Tetsuya",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/258381.jpg?s=48b1c05a2e426be1ad1726cbbb5e210b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 18769
+  },
+  {
+    "id": "kuroko_s_basketball_1",
+    "name": "Aomine, Daiki",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/246745.jpg?s=d52cc81c1470ab893dd2b389070a871e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 36820
+  },
+  {
+    "id": "kuroko_s_basketball_2",
+    "name": "Akashi, Seijuurou",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/275813.jpg?s=516396f259b08c9bdcd400f0ac86afde",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 42038
+  },
+  {
+    "id": "kuroko_s_basketball_3",
+    "name": "Kise, Ryouta",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/246753.jpg?s=e5810a9688d84690e4934ad9084be6b1",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 21332
+  },
+  {
+    "id": "kuroko_s_basketball_4",
+    "name": "Kagami, Taiga",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/169361.jpg?s=f512a9ee4fc65da1f7a472c5880a252b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 18770
+  },
+  {
+    "id": "kuroko_s_basketball_5",
+    "name": "Midorima, Shintarou",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/165835.jpg?s=6814a00169479efd70d34f471952f01a",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 22253
+  },
+  {
+    "id": "kuroko_s_basketball_6",
+    "name": "Murasakibara, Atsushi",
+    "series": "Kuroko's Basketball",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/246755.jpg?s=e1b9d35502872e8ae682ed00e0af233a",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 36976
+  },
+  {
+    "id": "made_in_abyss_0",
+    "name": "Nanachi",
+    "series": "Made in Abyss",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/350283.jpg?s=7516570c59e5202c303bdb546b3d3f0b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 140060
+  },
+  {
+    "id": "made_in_abyss_1",
+    "name": "Bondrewd",
+    "series": "Made in Abyss",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/471436.jpg?s=c63fc6eeba7d96ca5f156610153a2969",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 151195
+  },
+  {
+    "id": "made_in_abyss_2",
+    "name": "Ouzen",
+    "series": "Made in Abyss",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/358342.jpg?s=058b4e463cc3d07f298ad9396026b029",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 140106
+  },
+  {
+    "id": "made_in_abyss_3",
+    "name": "Reg",
+    "series": "Made in Abyss",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/326001.jpg?s=ad9743f65002c677dd3cc12643318906",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 140046
+  },
+  {
+    "id": "made_in_abyss_4",
+    "name": "Riko",
+    "series": "Made in Abyss",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/326000.jpg?s=a7a70843c313b910afad4ced29a947f3",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 137239
+  },
+  {
+    "id": "mob_psycho_100_0",
+    "name": "Reigen, Arataka",
+    "series": "Mob Psycho 100",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/308364.jpg?s=3fd34b01685c150ebd8572b2fcd26f40",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 109931
+  },
+  {
+    "id": "mob_psycho_100_1",
+    "name": "Kageyama, Shigeo",
+    "series": "Mob Psycho 100",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/343344.jpg?s=3e76e9f00b1e67cc81c526e89f162bf8",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 109929
+  },
+  {
+    "id": "mob_psycho_100_2",
+    "name": "Ekubo",
+    "series": "Mob Psycho 100",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/299395.jpg?s=0857c68f6e2810f1c79eb22f9f8b9fa1",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 125034
+  },
+  {
+    "id": "mob_psycho_100_3",
+    "name": "Hanazawa, Teruki",
+    "series": "Mob Psycho 100",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/342630.jpg?s=e822b769c37a513c85ca38024f825f1b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 124795
+  },
+  {
+    "id": "mob_psycho_100_4",
+    "name": "Kageyama, Ritsu",
+    "series": "Mob Psycho 100",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/306672.jpg?s=0865960b46255cb77b31097c14e8fbbf",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 124788
+  },
+  {
+    "id": "my_hero_academia_0",
+    "name": "Midoriya, Izuku",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/299404.jpg?s=6a448d3702c1d3185ed7ad8f0b8484f0",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 117909
+  },
+  {
+    "id": "my_hero_academia_1",
+    "name": "Todoroki, Shouto",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/332527.jpg?s=575a733f7d22b2b94a12194e051932de",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 118489
+  },
+  {
+    "id": "my_hero_academia_2",
+    "name": "Bakugou, Katsuki",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/299406.jpg?s=7ce7f3b38b2ebe0fd31b3a313fa14fe9",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 117911
+  },
+  {
+    "id": "my_hero_academia_3",
+    "name": "All Might",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/310613.jpg?s=2bb273c38247c38003176367645e6488",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 117921
+  },
+  {
+    "id": "my_hero_academia_4",
+    "name": "Aizawa, Shouta",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/301855.jpg?s=30bde8aa7f840805f22ab894a1eca521",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 117915
+  },
+  {
+    "id": "my_hero_academia_5",
+    "name": "Kirishima, Eijirou",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/329529.jpg?s=cbfca4fce697447408c68a94d519b1b0",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 118487
+  },
+  {
+    "id": "my_hero_academia_6",
+    "name": "Uraraka, Ochako",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/299421.jpg?s=5c7499bacd3f2c8f4238253a5877c757",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 117917
+  },
+  {
+    "id": "my_hero_academia_7",
+    "name": "Asui, Tsuyu",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/299409.jpg?s=007a26c2a56f15a578815945d1bb2d53",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 119209
+  },
+  {
+    "id": "my_hero_academia_8",
+    "name": "Shigaraki, Tomura",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/272139.jpg?s=ee7d051f5ff04bd4fe6830e0d268cb10",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 122103
+  },
+  {
+    "id": "my_hero_academia_9",
+    "name": "Kaminari, Denki",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/329527.jpg?s=bdd623918f5fa850d8f2e877318a4a0b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 118657
+  },
+  {
+    "id": "my_hero_academia_10",
+    "name": "Tokoyami, Fumikage",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/299402.jpg?s=d73e716fbb2763b3ba1a77289939bf12",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 129826
+  },
+  {
+    "id": "my_hero_academia_11",
+    "name": "Jirou, Kyouka",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/300745.jpg?s=c0e7c66c088b06ea9d3806ce852e84f4",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 138638
+  },
+  {
+    "id": "my_hero_academia_12",
+    "name": "Yaoyorozu, Momo",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/562316.jpg?s=bd0f31951d784f77f2d5b78e568b6115",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 119321
+  },
+  {
+    "id": "my_hero_academia_13",
+    "name": "Iida, Tenya",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/299417.jpg?s=ae97d822ef7c4cdbe392766389c3f5f1",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 117913
+  },
+  {
+    "id": "my_hero_academia_14",
+    "name": "Ashido, Mina",
+    "series": "My Hero Academia",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/329525.jpg?s=9d19261a645b157c6533a9c883b4a2df",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 125318
+  },
+  {
+    "id": "naruto_0",
+    "name": "Uzumaki, Naruto",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 17
+  },
+  {
+    "id": "naruto_1",
+    "name": "Uchiha, Itachi",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.jpg?s=11eac9672b208175831a0da62f188622",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 14
+  },
+  {
+    "id": "naruto_2",
+    "name": "Hatake, Kakashi",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/284129.jpg?s=b0a6b941fd427cbfd85657f316c0e309",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 85
+  },
+  {
+    "id": "naruto_3",
+    "name": "Uchiha, Sasuke",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/131317.jpg?s=9705c17dba36c2edebded3a72dc1a46e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 13
+  },
+  {
+    "id": "naruto_4",
+    "name": "Nara, Shikamaru",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/131315.jpg?s=a800fe970f638eae38b1e50d3471121d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2007
+  },
+  {
+    "id": "naruto_5",
+    "name": "Jiraiya",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2423
+  },
+  {
+    "id": "naruto_6",
+    "name": "Gaara",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/293375.jpg?s=ceeb8ed1578737104c8e347ab7a52101",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 1662
+  },
+  {
+    "id": "naruto_7",
+    "name": "Hyuuga, Hinata",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/278736.jpg?s=efc87a537d323edc47900cb08e1722c9",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 1555
+  },
+  {
+    "id": "naruto_8",
+    "name": "Namikaze, Minato",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/128074.jpg?s=3c25d6b03a654401141036f32b6e9b8b",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2535
+  },
+  {
+    "id": "naruto_9",
+    "name": "Pain",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/73473.jpg?s=5c41288db6aa7a2339a4ff90ea211d49",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 3180
+  },
+  {
+    "id": "naruto_10",
+    "name": "Lee, Rock",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/433353.jpg?s=c2099a6532ecf14f4cf233c4cbd6532f",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 306
+  },
+  {
+    "id": "naruto_11",
+    "name": "Haruno, Sakura",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 145
+  },
+  {
+    "id": "naruto_12",
+    "name": "Hyuuga, Neji",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/105538.jpg?s=7603e3986722997b66259d9fea83a3b2",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 1694
+  },
+  {
+    "id": "naruto_13",
+    "name": "Deidara",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/131319.jpg?s=02bd30a045b2aaabf13e22a0149845e2",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 1902
+  },
+  {
+    "id": "naruto_14",
+    "name": "Orochimaru",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/162089.jpg?s=77b65c6a4dfa133ef211d805af39d986",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2455
+  },
+  {
+    "id": "naruto_15",
+    "name": "Might, Guy",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/103576.jpg?s=5da52d3d6d0b921506ffe65a8ff3288f",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 307
+  },
+  {
+    "id": "naruto_16",
+    "name": "Tsunade",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/523646.jpg?s=6e76b1e4adef34cd1698c91947542cc5",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2767
+  },
+  {
+    "id": "naruto_17",
+    "name": "Hidan",
+    "series": "Naruto",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/103578.jpg?s=389d90926039f796c2095de3c61a8d62",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2792
+  },
+  {
+    "id": "naruto_shippuden_0",
+    "name": "Uzumaki, Naruto",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 17
+  },
+  {
+    "id": "naruto_shippuden_1",
+    "name": "Uchiha, Itachi",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/284122.jpg?s=11eac9672b208175831a0da62f188622",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 14
+  },
+  {
+    "id": "naruto_shippuden_2",
+    "name": "Hatake, Kakashi",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/284129.jpg?s=b0a6b941fd427cbfd85657f316c0e309",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 85
+  },
+  {
+    "id": "naruto_shippuden_3",
+    "name": "Uchiha, Sasuke",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/131317.jpg?s=9705c17dba36c2edebded3a72dc1a46e",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 13
+  },
+  {
+    "id": "naruto_shippuden_4",
+    "name": "Nara, Shikamaru",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/3/131315.jpg?s=a800fe970f638eae38b1e50d3471121d",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2007
+  },
+  {
+    "id": "naruto_shippuden_5",
+    "name": "Jiraiya",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 2423
+  },
+  {
+    "id": "naruto_shippuden_6",
+    "name": "Uchiha, Madara",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/450359.jpg?s=40bd9ba9baf6061b3f394b6c4b9978bc",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 53901
+  },
+  {
+    "id": "naruto_shippuden_7",
+    "name": "Gaara",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/293375.jpg?s=ceeb8ed1578737104c8e347ab7a52101",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 1662
+  },
+  {
+    "id": "naruto_shippuden_8",
+    "name": "Hyuuga, Hinata",
+    "series": "Naruto: Shippuden",
+    "tags": [
+      "anime"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/278736.jpg?s=efc87a537d323edc47900cb08e1722c9",
+    "image_small": "",
+    "image_large": "",
+    "char_id": 1555
+  }
+]

@@ -1,6 +1,6 @@
-Total entries: 4
-Successful: 4
-Failed: 0
-No face: -
+Total entries: 55
+Successful: 49
+Failed: 6
+No face: spy_x_family_3, steins_gate_4, that_time_i_got_reincarnated_as_a_slime_1, that_time_i_got_reincarnated_as_a_slime_3, that_time_i_got_reincarnated_as_a_slime_5, your_lie_in_april_2
 Errors:
   -

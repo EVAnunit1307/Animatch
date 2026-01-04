@@ -1,9 +1,10 @@
 
 import json
+import re
 from pathlib import Path
 
-# Map series name -> MAL anime id (must match your downloaded files)
-SERIES_TO_ID = {
+# Map series name -> MAL anime id (fallback if series_posters.json is missing)
+DEFAULT_SERIES_TO_ID = {
     "Naruto": 20,
     "One Piece": 21,
     "Jujutsu Kaisen": 40748,
@@ -39,12 +40,34 @@ SERIES_TO_ID = {
 
 # Adjust these if you want more/fewer per series
 # Lowered favorites threshold to widen pool; bumped cap for bigger series.
-MIN_FAVS = 1500
-MAX_PER_SERIES = 30
+MIN_FAVS = 800
+MAX_PER_SERIES = 18
 
 DATA_DIR = Path("animatch/data")
 JIKAN_DIR = DATA_DIR / "jikan"
-OUT = DATA_DIR / "handpicked_auto.json"
+SERIES_POSTERS = Path("animatch/app/data/series_posters.json")
+OUT = DATA_DIR / "handpicked_characters.json"
+
+
+def slugify(text: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
+    return slug or "series"
+
+
+def load_series_to_id() -> dict:
+    if SERIES_POSTERS.exists():
+        data = json.loads(SERIES_POSTERS.read_text(encoding="utf-8"))
+        series_to_id = {}
+        for item in data:
+            url = item.get("url", "")
+            match = re.search(r"/anime/(\d+)", url)
+            if not match:
+                continue
+            series_name = item.get("series") or url
+            series_to_id[series_name] = int(match.group(1))
+        if series_to_id:
+            return series_to_id
+    return DEFAULT_SERIES_TO_ID
 
 
 def load_characters(anime_id: int):
@@ -68,7 +91,8 @@ def pick_top(chars, max_n):
 
 def main():
     results = []
-    for series, aid in SERIES_TO_ID.items():
+    series_to_id = load_series_to_id()
+    for series, aid in series_to_id.items():
         data = load_characters(aid)
         # sort by favorites desc
         data.sort(key=lambda x: x.get("favorites", 0) or 0, reverse=True)
@@ -80,7 +104,7 @@ def main():
             img_large = ch.get("images", {}).get("jpg", {}).get("large_image_url")
             char_id = ch.get("mal_id")
             name = ch.get("name", "")
-            cid = f"{series.lower().replace(' ', '_')}_{idx}"
+            cid = f"{slugify(series)}_{idx}"
             results.append(
                 {
                     "id": cid,

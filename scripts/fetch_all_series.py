@@ -15,7 +15,10 @@ if str(ROOT) not in sys.path:
 
 def main():
     auto_mod = importlib.import_module("scripts.auto_select_characters")
-    series_to_id = getattr(auto_mod, "SERIES_TO_ID", {})
+    if hasattr(auto_mod, "load_series_to_id"):
+        series_to_id = auto_mod.load_series_to_id()
+    else:
+        series_to_id = getattr(auto_mod, "SERIES_TO_ID", {})
     for series, aid in series_to_id.items():
         print(f"Fetching {series} ({aid})")
         subprocess.check_call([sys.executable, "scripts/jikan_get_characters.py", str(aid)])
