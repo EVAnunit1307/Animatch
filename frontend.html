@@ -730,6 +730,49 @@
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
+    .stats-panel {
+      margin-top: 16px;
+      display: grid;
+      gap: 12px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .stat {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      padding: 12px;
+      display: grid;
+      gap: 6px;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+    }
+    .stat-value {
+      font-size: 22px;
+      font-weight: 700;
+      font-family: "JetBrains Mono", "Inter", sans-serif;
+      letter-spacing: 0.04em;
+      color: #eaf5f0;
+    }
+    .stat-value.small {
+      font-size: 16px;
+      font-family: "Inter", "Helvetica Neue", sans-serif;
+      letter-spacing: 0.02em;
+      font-weight: 600;
+    }
+    .stat-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+    .stat-note {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.03em;
+    }
     .pill {
       display: inline-flex;
       align-items: center;
@@ -922,6 +965,28 @@
       </div>
     </div>
   </div>
+  <div class="panel stats-panel" id="statsPanel">
+    <div class="eyebrow">Stats</div>
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-value" id="statCharacters">329+</div>
+        <div class="stat-label">Characters</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="statSeries">50</div>
+        <div class="stat-label">Series</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">468</div>
+        <div class="stat-label">Landmarks</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value small">MediaPipe FaceMesh</div>
+        <div class="stat-label">Engine</div>
+      </div>
+    </div>
+    <div class="stat-note">All processing is local. Images are not stored.</div>
+  </div>
   <button class="how-toggle" id="howToggle">How it works</button>
   <aside class="how-panel" id="howPanel">
     <button class="how-close" id="howClose">Close</button>
@@ -988,6 +1053,8 @@
     const cameraModal = document.getElementById("cameraModal");
     const cameraVideo = document.getElementById("cameraVideo");
     const fileNameLabel = document.getElementById("fileName");
+    const statCharacters = document.getElementById("statCharacters");
+    const statSeries = document.getElementById("statSeries");
     let selectedFile = null;
     let cameraStream = null;
     if (fileInput) {
@@ -1141,6 +1208,9 @@ const logos = [
           }).join("");
           vCarousel.innerHTML = track;
         }
+        if (statCharacters) {
+          statCharacters.textContent = `${data.length}+`;
+        }
       } catch (e) {
         // ignore preview errors
       }
@@ -1165,8 +1235,14 @@ const logos = [
         const res = await fetch("http://127.0.0.1:8000/series");
         const data = await res.json();
         buildLogos(data);
+        if (statSeries) {
+          statSeries.textContent = data.length.toString();
+        }
       } catch (e) {
         buildLogos([]);
+        if (statSeries) {
+          statSeries.textContent = posters.length.toString();
+        }
       }
     }
 
