@@ -1,4 +1,6 @@
 import base64
+import json
+from pathlib import Path
 from fastapi import FastAPI, UploadFile, File, Body, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -23,6 +25,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.mount("/static", StaticFiles(directory="animatch/data"), name="static")
+SERIES_POSTERS_PATH = Path("animatch/app/data/series_posters.json")
 
 @app.get("/health")
 def health():
@@ -60,6 +63,13 @@ async def inspect(file: UploadFile = File(...)):
 def characters():
     chars, _, _ = load_characters()
     return [{"id": c["id"], "name": c["name"], "series": c["series"], "tags": c.get("tags", []), "image_url": c.get("image_url")} for c in chars]
+
+
+@app.get("/series")
+def series():
+    if SERIES_POSTERS_PATH.exists():
+        return json.loads(SERIES_POSTERS_PATH.read_text(encoding="utf-8"))
+    return []
 
 @app.post("/match")
 async def match(

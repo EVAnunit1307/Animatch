@@ -509,15 +509,14 @@
     }
     .feature-grid {
       display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 14px;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
       align-items: start;
     }
     .feature-right {
       justify-self: end;
-      width: 260px;
-      margin-left: 24px;
-      justify-self: end;
+      width: 280px;
+      margin-left: 40px;
     }
     .v-carousel {
       position: relative;
@@ -546,7 +545,7 @@
     .v-card img {
       width: 100%;
       border-radius: 10px;
-      height: 170px;
+      height: 150px;
       object-fit: cover;
       background: #0b1221;
     }
@@ -556,6 +555,53 @@
       0% { transform: translateY(0); }
       100% { transform: translateY(-50%); }
     }
+    .how-toggle {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 120;
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(10,12,18,0.92);
+      color: #eaf5f0;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    }
+    .how-panel {
+      position: fixed;
+      top: 0;
+      right: -360px;
+      height: 100%;
+      width: 340px;
+      background: rgba(8,10,16,0.98);
+      border-left: 1px solid rgba(255,255,255,0.06);
+      box-shadow: -14px 0 30px rgba(0,0,0,0.4);
+      padding: 20px;
+      z-index: 121;
+      transition: right 200ms ease;
+      display: grid;
+      gap: 12px;
+    }
+    .how-panel.open { right: 0; }
+    .how-panel h4 { margin: 0; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+    .how-panel p { margin: 0; color: #dfe4ec; font-size: 13px; line-height: 1.6; }
+    .how-close {
+      align-self: start;
+      justify-self: end;
+      background: none;
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #eaf5f0;
+      padding: 6px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .how-section { padding: 10px 0; border-top: 1px solid rgba(255,255,255,0.06); }
+    .how-section:first-of-type { border-top: none; }
+    .how-section h5 { margin: 0 0 6px; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #9fb0c0; }
+    .how-section ul { margin: 0; padding-left: 16px; color: #dfe4ec; font-size: 13px; line-height: 1.6; }
     .series-card {
       position: relative;
       border-radius: 14px;
@@ -724,6 +770,7 @@
           <label><input type="checkbox" id="returnImage" checked> return landmarks</label>
         </div>
         <div class="upload-actions">
+          <button type="button" onclick="startCamera()" style="min-width:160px;">Take Photo</button>
           <button id="go" style="min-width:160px;">Match</button>
           <div class="status" id="status"><span class="dot"></span><span id="statusText">Idle</span></div>
         </div>
@@ -775,16 +822,39 @@
       </div>
     </div>
   </div>
-    <div class="hero-card" style="position:relative; z-index:1; margin-top:16px;">
-      <div class="hero-metric">
-        <div class="metric-label">Quality tips</div>
-        <div class="metric-text">Bright / frontal / sharp.</div>
-      </div>
-    <div class="hero-metric">
-      <div class="metric-label">How it works</div>
-      <div class="metric-text">Face ratios: eyes / jaw / chin / brow.</div>
+  <button class="how-toggle" id="howToggle">How it works</button>
+  <aside class="how-panel" id="howPanel">
+    <button class="how-close" id="howClose">Close</button>
+    <h4>How it works</h4>
+    <div class="how-section">
+      <h5>Input</h5>
+      <ul>
+        <li>Upload a JPG/PNG or capture with your camera.</li>
+        <li>Face front-on, even light, image sharp.</li>
+      </ul>
     </div>
-  </div>
+    <div class="how-section">
+      <h5>Landmarks</h5>
+      <ul>
+        <li>FaceMesh detects ~468 points on the face.</li>
+        <li>If no face is found, you get a clear error.</li>
+      </ul>
+    </div>
+    <div class="how-section">
+      <h5>Ratios</h5>
+      <ul>
+        <li>We normalize to face size to stay scale-safe.</li>
+        <li>Features: eye spacing, brow height, jaw angle, chin ratio, mouth width, nose length.</li>
+      </ul>
+    </div>
+    <div class="how-section">
+      <h5>Match</h5>
+      <ul>
+        <li>Compare against the anime vectors.</li>
+        <li>Return top results with similarity + visuals.</li>
+      </ul>
+    </div>
+  </aside>
   <!-- Camera modal -->
   <div class="camera-modal" id="cameraModal">
     <div class="camera-box">
@@ -940,28 +1010,28 @@ const logos = [
         const res = await fetch("http://127.0.0.1:8000/characters");
         const data = await res.json();
         charactersData = data;
-        buildLogos();
         // Duplicate list for seamless marquee
         const shuffled = data.slice(0, 80).sort(() => Math.random() - 0.5);
         const list = [...shuffled, ...shuffled, ...shuffled];
         if (posterCarousel) {
           posterCarousel.innerHTML = "";
-        list.forEach(c => {
-          const img = c.image_url ? `<img src="${c.image_url}" alt="${c.name}">` : `<div style="height:180px;background:rgba(255,255,255,0.05);border-radius:10px;"></div>`;
-          posterCarousel.insertAdjacentHTML("beforeend", `
-            <div class="card-preview">
-              ${img}
-              <div class="title">${c.name || c.id}</div>
-              <div class="series">${c.series || ""}</div>
-            </div>
-          `);
-        });
+          list.forEach(c => {
+            const img = c.image_url ? `<img src="${c.image_url}" alt="${c.name}">` : `<div style="height:180px;background:rgba(255,255,255,0.05);border-radius:10px;"></div>`;
+            posterCarousel.insertAdjacentHTML("beforeend", `
+              <div class="card-preview">
+                ${img}
+                <div class="title">${c.name || c.id}</div>
+                <div class="series">${c.series || ""}</div>
+              </div>
+            `);
+          });
+        }
         if (vCarousel) {
           vCarousel.innerHTML = "";
-          const slice = data.slice(0, 40).sort(() => Math.random() - 0.5);
+          const slice = data.slice(0, 60).sort(() => Math.random() - 0.5);
           const doubled = [...slice, ...slice];
           const track = doubled.map(c => {
-            const img = c.image_url ? `<img src="${c.image_url}" alt="${c.name}">` : `<div style="height:170px;background:rgba(255,255,255,0.05);border-radius:10px;"></div>`;
+            const img = c.image_url ? `<img src="${c.image_url}" alt="${c.name}">` : `<div style="height:150px;background:rgba(255,255,255,0.05);border-radius:10px;"></div>`;
             return `
               <div class="v-card">
                 ${img}
@@ -971,45 +1041,33 @@ const logos = [
           }).join("");
           vCarousel.innerHTML = track;
         }
-        if (vCarousel) {
-          vCarousel.innerHTML = "";
-          const slice = data.slice(0, 24);
-          const doubled = [...slice, ...slice];
-          doubled.forEach(c => {
-            const img = c.image_url ? `<img src="${c.image_url}" alt="${c.name}">` : `<div style="height:170px;background:rgba(255,255,255,0.05);border-radius:10px;"></div>`;
-            vCarousel.insertAdjacentHTML("beforeend", `
-              <div class="v-card">
-                ${img}
-                <div class="title">${c.name || c.id}</div>
-                <div class="series">${c.series || ""}</div>
-              </div>
-            `);
-          });
-        }
-        }
-
       } catch (e) {
         // ignore preview errors
       }
     }
 
-    function buildLogos() {
+    function buildLogos(seriesList) {
       const logosBar = document.getElementById("logosBar");
       const logosCard = document.getElementById("logosCard");
       if (!logosBar || !logosCard) return;
-      if (!charactersData || charactersData.length === 0) return;
-      const posterMap = new Map(posters.map(p => [p.name, p.img]));
-      const seen = new Set();
-      const cards = [];
-      charactersData.forEach(c => {
-        if (!c.series || seen.has(c.series)) return;
-        const bg = posterMap.get(c.series) || c.image_url || "";
-        const style = bg ? `style="background-image:url('${bg}');"` : "";
-        cards.push(`<a class="series-card" href="#" ${style}><div class="name">${c.series}</div></a>`);
-        seen.add(c.series);
-      });
-      logosBar.innerHTML = cards.join("");
-      logosCard.style.display = cards.length ? "block" : "none";
+      const source = Array.isArray(seriesList) && seriesList.length ? seriesList : posters.map(p => ({ series: p.name, image_url: p.img, url: "#" }));
+      const cards = source.map(s => {
+        const style = s.image_url ? `style="background-image:url('${s.image_url}');"` : "";
+        const href = s.url || "#";
+        return `<a class="series-card" href="${href}" target="_blank" rel="noopener" ${style}><div class="name">${s.series}</div></a>`;
+      }).join("");
+      logosBar.innerHTML = cards;
+      logosCard.style.display = cards ? "block" : "none";
+    }
+
+    async function loadSeries() {
+      try {
+        const res = await fetch("http://127.0.0.1:8000/series");
+        const data = await res.json();
+        buildLogos(data);
+      } catch (e) {
+        buildLogos([]);
+      }
     }
 
 
@@ -1037,6 +1095,7 @@ const logos = [
       }).join("");
     }
 
+    loadSeries();
     loadPreviews();
     buildPosters();
 
@@ -1046,6 +1105,15 @@ const logos = [
       cursorShadow.style.left = `${e.clientX}px`;
       cursorShadow.style.top = `${e.clientY}px`;
     });
+    const howToggle = document.getElementById("howToggle");
+    const howPanel = document.getElementById("howPanel");
+    const howClose = document.getElementById("howClose");
+    if (howToggle && howPanel) {
+      howToggle.addEventListener("click", () => howPanel.classList.add("open"));
+    }
+    if (howClose && howPanel) {
+      howClose.addEventListener("click", () => howPanel.classList.remove("open"));
+    }
 
     function qualityItem(label, value, ok=true) {
       const cls = ok === true ? "ok" : ok === false ? "bad" : "warn";
