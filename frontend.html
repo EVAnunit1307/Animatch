@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Animatch</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap');
     :root {
       --bg: #060814;
       --panel: rgba(8,10,18,0.9);
@@ -97,104 +97,86 @@
       transition: all 160ms ease;
     }
     .ghost-btn:hover { border-color: rgba(255,255,255,0.15); background: rgba(255,255,255,0.04); }
-    h1 { margin: 0 0 8px; font-size: 48px; font-family: "Playfair Display", "Times New Roman", serif; font-weight: 800; letter-spacing: 0.02em; text-transform: uppercase; }
+    h1 { margin: 0 0 8px; font-size: 48px; font-family: "Orbitron", "Helvetica Neue", sans-serif; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
     .subtitle { color: #dfe4ec; margin: 0 0 6px; font-size: 14px; max-width: 640px; line-height: 1.4; font-family: "Inter", "Helvetica Neue", sans-serif; letter-spacing: 0.03em; text-transform: none; font-weight: 600; }
     .hero {
-      margin-bottom: 6px;
-      background: rgba(8,10,18,0.95);
-      border: 1px solid rgba(255,255,255,0.06);
-      border-radius: 24px;
-      padding: 36px 28px 32px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 12px;
       position: relative;
+      margin-bottom: 12px;
+      min-height: 70vh;
+      background: #030405;
+      border-radius: 24px;
       overflow: hidden;
-      box-shadow: 0 24px 56px rgba(0,0,0,0.55);
+      border: 1px solid rgba(255,255,255,0.05);
+      box-shadow: 0 30px 80px rgba(0,0,0,0.55);
     }
-    .hero::before {
-      content:"";
-      position: absolute;
-      inset: -20%;
-      background: radial-gradient(circle at 30% 30%, rgba(247,178,103,0.14), transparent 30%),
-                  radial-gradient(circle at 70% 60%, rgba(109,228,199,0.16), transparent 34%);
-      filter: blur(30px);
-      z-index: 0;
-    }
-    .hero-title {
-      font-family: "Playfair Display", "Times New Roman", serif;
-      font-size: 52px;
-      letter-spacing: 0.01em;
-      color: #eaf5f0;
-      text-shadow: 0 0 14px rgba(109,228,199,0.35);
-      margin: 0;
+    .hero-core {
       position: relative;
       z-index: 1;
+      display: grid;
+      place-items: center;
+      padding: 120px 24px 100px;
+      text-align: center;
+      gap: 14px;
+    }
+    .hero-title {
+      font-family: "Orbitron", "Helvetica Neue", sans-serif;
+      font-size: 80px;
+      letter-spacing: 0.1em;
+      color: #f3f4f7;
+      margin: 0;
       text-transform: uppercase;
-      font-weight: 800;
+      font-weight: 700;
     }
     .hero-sub {
       font-family: "Inter", "Helvetica Neue", sans-serif;
-      font-size: 15px;
-      color: #dfe4ec;
+      font-size: 16px;
+      color: #c5c9d2;
       letter-spacing: 0.04em;
-      margin: 0 0 10px;
-      position: relative;
-      z-index: 1;
+      margin: 0;
       text-transform: none;
       font-weight: 600;
     }
-    .cta-row {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    .neon-btn {
-      padding: 12px 18px;
+    .portal-btn {
+      padding: 14px 24px;
       border-radius: 999px;
-      border: 1px solid rgba(184,245,226,0.45);
-      background: linear-gradient(120deg, rgba(109,228,199,0.18), rgba(247,178,103,0.16));
-      color: #f8f9fb;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: linear-gradient(120deg, rgba(116,217,255,0.2), rgba(78,224,196,0.2));
+      color: #eaf5f0;
       font-weight: 800;
-      letter-spacing: 0.04em;
-      box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+      letter-spacing: 0.06em;
       cursor: pointer;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4), 0 0 18px rgba(109,228,199,0.25);
+      transition: transform 160ms ease, box-shadow 160ms ease;
     }
-    .neon-chips {
-      display: inline-flex;
-      gap: 6px;
-      justify-content: center;
-      align-items: center;
-      padding: 8px 12px;
-      border-radius: 999px;
-      border: 1px solid rgba(109,240,247,0.25);
-      background: rgba(255,255,255,0.03);
-      color: #e8f8fa;
-      font-weight: 600;
-      box-shadow: 0 0 18px rgba(109,228,199,0.2);
+    .portal-btn:hover { transform: translateY(-2px); box-shadow: 0 18px 50px rgba(0,0,0,0.5), 0 0 24px rgba(109,228,199,0.35); }
+    .poster-field {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
     }
-    .carousel-shell {
-      margin: 12px 0 0;
-      background: rgba(10,12,18,0.8);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 18px;
-      padding: 14px 10px;
+    .poster-stack {
+      position: absolute;
+      width: 126px;
+      aspect-ratio: 5/7;
+      border-radius: 12px;
       overflow: hidden;
-      position: relative;
-      box-shadow: 0 18px 40px rgba(0,0,0,0.45), 0 8px 20px rgba(0,0,0,0.35);
-      mask-image: linear-gradient(90deg, transparent 0%, #000 10%, #000 90%, transparent 100%);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.45);
+      opacity: 0.7;
+      animation: bounce 10s ease-in-out infinite;
+      mix-blend-mode: screen;
     }
-    .carousel {
-      display: inline-flex;
-      gap: 12px;
-      will-change: transform;
-      animation: marquee 26s linear infinite;
-      min-width: max-content;
+    .poster-stack img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(0.9);
     }
-    .carousel:hover { animation-play-state: running; }
+    @keyframes bounce {
+      0% { transform: translate3d(0,0,0) rotate(-4deg); opacity: 0.6; }
+      40% { transform: translate3d(8px,-16px,0) rotate(2deg); opacity: 0.95; }
+      70% { transform: translate3d(-6px,10px,0) rotate(-1deg); opacity: 0.8; }
+      100% { transform: translate3d(0,0,0) rotate(-4deg); opacity: 0.6; }
+    }
     @keyframes marquee {
       from { transform: translateX(0); }
       to { transform: translateX(-50%); }
@@ -469,6 +451,149 @@
       background: #0b1221;
       object-fit: contain;
     }
+    /* Camera modal */
+    .camera-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 20px;
+    }
+    .camera-box {
+      background: rgba(12,14,22,0.9);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 20px 48px rgba(0,0,0,0.6);
+      max-width: 480px;
+      width: 100%;
+      display: grid;
+      gap: 12px;
+    }
+    .camera-box video {
+      width: 100%;
+      border-radius: 14px;
+      background: #000;
+      min-height: 260px;
+    }
+    .camera-controls {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .camera-btn {
+      flex: 1;
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: linear-gradient(120deg, rgba(109,228,199,0.18), rgba(247,178,103,0.16));
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .camera-btn.cancel {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.12);
+    }
+    .series-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(170px, 1fr));
+      gap: 12px;
+      align-items: stretch;
+      max-height: 460px;
+      overflow: auto;
+      padding-right: 6px;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 14px;
+      align-items: start;
+    }
+    .feature-right {
+      justify-self: end;
+      width: 260px;
+      margin-left: 24px;
+      justify-self: end;
+    }
+    .v-carousel {
+      position: relative;
+      height: 440px;
+      overflow: hidden;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.06);
+      background: rgba(12,14,22,0.7);
+      mask-image: linear-gradient(180deg, transparent 0%, #000 12%, #000 88%, transparent 100%);
+    }
+    .v-track {
+      display: grid;
+      gap: 10px;
+      animation: scrollY 32s linear infinite;
+      will-change: transform;
+    }
+    .v-card {
+      display: grid;
+      gap: 6px;
+      padding: 10px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.28);
+    }
+    .v-card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 170px;
+      object-fit: cover;
+      background: #0b1221;
+    }
+    .v-card .title { font-weight: 700; font-size: 13px; }
+    .v-card .series { font-size: 12px; color: var(--muted); }
+    @keyframes scrollY {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-50%); }
+    }
+    .series-card {
+      position: relative;
+      border-radius: 14px;
+      overflow: hidden;
+      min-height: 180px;
+      background: linear-gradient(160deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.08);
+      color: #eaf5f0;
+      text-decoration: none;
+      display: grid;
+      align-content: end;
+      padding: 12px;
+      box-shadow: 0 14px 36px rgba(0,0,0,0.35);
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+      background-size: cover;
+      background-position: center;
+      isolation: isolate;
+    }
+    .series-card::before {
+      content:"";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 30%, rgba(0,0,0,0.65) 90%);
+      z-index: 0;
+    }
+    .series-card:hover {
+      transform: translateY(-6px) scale(1.02);
+      box-shadow: 0 18px 46px rgba(0,0,0,0.45);
+      border-color: rgba(109,228,199,0.2);
+    }
+    .series-card .name {
+      position: relative;
+      z-index: 1;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
     .pill {
       display: inline-flex;
       align-items: center;
@@ -571,21 +696,12 @@
   <div class="cursor-shadow" id="cursorShadow"></div>
   <div class="container" style="position:relative; z-index:1;">
     <div class="stars"></div>
-    <div class="topbar">
-      <div class="logo">Animatch</div>
-      <div class="top-actions">
-        <button class="ghost-btn" onclick="window.location.href='http://127.0.0.1:8000/docs'">API Docs</button>
-        <button class="ghost-btn" onclick="window.location.href='http://127.0.0.1:8000/health'">Health</button>
-      </div>
-    </div>
     <div class="hero">
-        <div style="position:relative; z-index:2; display:grid; gap:12px; justify-items:center;">
+      <div class="poster-field" id="posterField"></div>
+      <div class="hero-core">
         <h1 class="hero-title">ANIMATCH</h1>
-        <div class="cta-row">
-          <button class="neon-btn" onclick="document.getElementById('file').click()">Upload</button>
-          <button class="neon-btn" onclick="document.getElementById('cameraInput').click()">Take Photo</button>
-          <button class="neon-btn" onclick="window.scrollTo({top: document.body.scrollHeight, behavior:'smooth'})">See Matches</button>
-        </div>
+        <p class="hero-sub">Find your character match</p>
+        <button class="portal-btn" onclick="document.getElementById('file').click()">ENTER THE PORTAL</button>
       </div>
     </div>
     <div class="app">
@@ -595,6 +711,7 @@
         <label style="font-size:18px; font-weight:700;">Upload an image</label>
         <input type="file" id="file" accept="image/*" style="max-width: 300px;">
         <input type="file" id="cameraInput" accept="image/*" capture="environment" style="display:none;">
+        <div id="fileName" style="margin-top:6px; font-size:12px; color: var(--muted);">No file selected.</div>
         <div style="display:flex; align-items:center; gap:10px; margin-top:8px; color: var(--text);">
           <span style="font-size:13px;">Results:</span>
           <div style="display:flex; align-items:center; gap:8px; width:160px;">
@@ -610,7 +727,7 @@
           <button id="go" style="min-width:160px;">Match</button>
           <div class="status" id="status"><span class="dot"></span><span id="statusText">Idle</span></div>
         </div>
-        <div id="quality" style="width:100%; max-width:720px;"></div>
+        <div id="quality" style="width:100%; max-width:720px; display:none;"></div>
         <div class="face-preview" id="facePreview" style="display:none;">
           <div class="mini-stack" id="miniLeftStack"></div>
           <img id="overlay" class="overlay overlay-center" style="display:none; max-width:420px;" alt="Landmarks overlay">
@@ -640,14 +757,42 @@
       <div class="matches" id="matches"></div>
     </div>
   </div>
-  <div class="hero-card" style="position:relative; z-index:1; margin-top:16px;">
-    <div class="hero-metric">
-      <div class="metric-label">Quality tips</div>
-      <div class="metric-text">Bright / frontal / sharp.</div>
+  <div class="hero-card" id="logosCard" style="position:relative; z-index:1; margin-top:16px;">
+    <div class="feature-grid">
+      <div>
+        <div class="hero-metric" style="border:none; background:transparent; padding:4px 0 10px;">
+          <div class="metric-label">Featured series</div>
+        </div>
+        <div class="series-strip" id="logosBar"></div>
+      </div>
+      <div class="feature-right">
+        <div class="hero-metric" style="border:none; background:transparent; padding:4px 0 10px;">
+          <div class="metric-label">Characters</div>
+        </div>
+        <div class="v-carousel" aria-label="Character reel">
+          <div class="v-track" id="vCarousel"></div>
+        </div>
+      </div>
     </div>
+  </div>
+    <div class="hero-card" style="position:relative; z-index:1; margin-top:16px;">
+      <div class="hero-metric">
+        <div class="metric-label">Quality tips</div>
+        <div class="metric-text">Bright / frontal / sharp.</div>
+      </div>
     <div class="hero-metric">
       <div class="metric-label">How it works</div>
       <div class="metric-text">Face ratios: eyes / jaw / chin / brow.</div>
+    </div>
+  </div>
+  <!-- Camera modal -->
+  <div class="camera-modal" id="cameraModal">
+    <div class="camera-box">
+      <video id="cameraVideo" autoplay playsinline muted></video>
+      <div class="camera-controls">
+        <button class="camera-btn cancel" type="button" onclick="stopCamera()">Cancel</button>
+        <button class="camera-btn" type="button" onclick="snapPhoto()">Capture</button>
+      </div>
     </div>
   </div>
   </div>
@@ -664,21 +809,30 @@
     const matchCompare = document.getElementById("matchCompare");
     const matchOverlayCompare = document.getElementById("matchOverlayCompare");
     const compareBlock = document.getElementById("compare");
-    const previewCarousel = document.getElementById("previewCarousel");
+    const posterCarousel = document.getElementById("previewCarousel");
+    const vCarousel = document.getElementById("vCarousel");
     const topKRange = document.getElementById("topKRange");
     const topKValue = document.getElementById("topKValue");
     const fileInput = document.getElementById("file");
     const cameraInput = document.getElementById("cameraInput");
+    const cameraModal = document.getElementById("cameraModal");
+    const cameraVideo = document.getElementById("cameraVideo");
+    const fileNameLabel = document.getElementById("fileName");
     let selectedFile = null;
+    let cameraStream = null;
     if (fileInput) {
       fileInput.addEventListener("change", () => {
         selectedFile = fileInput.files[0] || null;
+        if (fileNameLabel) fileNameLabel.textContent = selectedFile ? selectedFile.name : "No file selected.";
       });
     }
     if (cameraInput) {
       cameraInput.addEventListener("change", () => {
         selectedFile = cameraInput.files[0] || null;
-        if (selectedFile) { statusText.textContent = "Ready"; }
+        if (selectedFile) {
+          statusText.textContent = "Ready";
+          if (fileNameLabel) fileNameLabel.textContent = selectedFile.name;
+        }
       });
     }
     if (topKRange && topKValue) {
@@ -692,6 +846,48 @@
       if (fileInput && fileInput.files[0]) return fileInput.files[0];
       return null;
     };
+
+    async function startCamera() {
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        // fallback to native file input
+        cameraInput?.click();
+        return;
+      }
+      try {
+        cameraStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" }, audio: false });
+        cameraVideo.srcObject = cameraStream;
+        cameraModal.style.display = "flex";
+      } catch (e) {
+        console.error("Camera error", e);
+        alert("Could not access camera. Please allow permissions or upload a photo.");
+        cameraInput?.click();
+      }
+    }
+
+    function stopCamera() {
+      if (cameraStream) {
+        cameraStream.getTracks().forEach(t => t.stop());
+        cameraStream = null;
+      }
+      if (cameraModal) cameraModal.style.display = "none";
+    }
+
+    function snapPhoto() {
+      if (!cameraVideo || !cameraVideo.videoWidth) return;
+      const canvas = document.createElement("canvas");
+      canvas.width = cameraVideo.videoWidth;
+      canvas.height = cameraVideo.videoHeight;
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(cameraVideo, 0, 0, canvas.width, canvas.height);
+      canvas.toBlob(blob => {
+        if (!blob) return;
+        selectedFile = new File([blob], "camera.jpg", { type: "image/jpeg" });
+        statusText.textContent = "Ready";
+        if (fileNameLabel) fileNameLabel.textContent = selectedFile.name;
+        stopCamera();
+        runMatch(); // auto-run after capture
+      }, "image/jpeg", 0.92);
+    }
     function renderSkeleton(n=6) {
       matchesEl.innerHTML = "";
       for (let i=0; i<n; i++) {
@@ -712,19 +908,47 @@
 let portalTimer = null;
 let portalIdx = 0;
 let charactersData = [];
+const posterField = document.getElementById("posterField");
+const posters = [
+  { name: "Attack on Titan", img: "https://cdn.myanimelist.net/images/anime/10/47347.jpg" },
+  { name: "Demon Slayer", img: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg" },
+  { name: "Jujutsu Kaisen", img: "https://cdn.myanimelist.net/images/anime/1171/109222.jpg" },
+  { name: "Naruto", img: "https://cdn.myanimelist.net/images/anime/13/17405.jpg" },
+  { name: "Bleach", img: "https://cdn.myanimelist.net/images/anime/3/40451.jpg" },
+  { name: "One Piece", img: "https://cdn.myanimelist.net/images/anime/6/73245.jpg" },
+  { name: "Chainsaw Man", img: "https://cdn.myanimelist.net/images/anime/1806/126216.jpg" },
+  { name: "Hunter x Hunter", img: "https://cdn.myanimelist.net/images/anime/1337/99013.jpg" },
+  { name: "Death Note", img: "https://cdn.myanimelist.net/images/anime/9/9453.jpg" },
+  { name: "Evangelion", img: "https://cdn.myanimelist.net/images/anime/1314/108941.jpg" }
+];
+const logos = [
+  { name: "Attack on Titan", url: "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin" },
+  { name: "Demon Slayer", url: "https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba" },
+  { name: "Jujutsu Kaisen", url: "https://myanimelist.net/anime/40748/Jujutsu_Kaisen" },
+  { name: "Naruto", url: "https://myanimelist.net/anime/20/Naruto" },
+  { name: "Bleach", url: "https://myanimelist.net/anime/269/Bleach" },
+  { name: "One Piece", url: "https://myanimelist.net/anime/21/One_Piece" },
+  { name: "Chainsaw Man", url: "https://myanimelist.net/anime/44511/Chainsaw_Man" },
+  { name: "Hunter x Hunter", url: "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011" },
+  { name: "Death Note", url: "https://myanimelist.net/anime/1535/Death_Note" },
+  { name: "Evangelion", url: "https://myanimelist.net/anime/30/Neon_Genesis_Evangelion" }
+];
 
     async function loadPreviews() {
       try {
+        if (!posterCarousel && !vCarousel) return;
         const res = await fetch("http://127.0.0.1:8000/characters");
         const data = await res.json();
         charactersData = data;
+        buildLogos();
         // Duplicate list for seamless marquee
-        const shuffled = data.slice(0, 50).sort(() => Math.random() - 0.5);
-        const list = [...shuffled, ...shuffled];
-        previewCarousel.innerHTML = "";
+        const shuffled = data.slice(0, 80).sort(() => Math.random() - 0.5);
+        const list = [...shuffled, ...shuffled, ...shuffled];
+        if (posterCarousel) {
+          posterCarousel.innerHTML = "";
         list.forEach(c => {
           const img = c.image_url ? `<img src="${c.image_url}" alt="${c.name}">` : `<div style="height:180px;background:rgba(255,255,255,0.05);border-radius:10px;"></div>`;
-          previewCarousel.insertAdjacentHTML("beforeend", `
+          posterCarousel.insertAdjacentHTML("beforeend", `
             <div class="card-preview">
               ${img}
               <div class="title">${c.name || c.id}</div>
@@ -732,12 +956,89 @@ let charactersData = [];
             </div>
           `);
         });
+        if (vCarousel) {
+          vCarousel.innerHTML = "";
+          const slice = data.slice(0, 40).sort(() => Math.random() - 0.5);
+          const doubled = [...slice, ...slice];
+          const track = doubled.map(c => {
+            const img = c.image_url ? `<img src="${c.image_url}" alt="${c.name}">` : `<div style="height:170px;background:rgba(255,255,255,0.05);border-radius:10px;"></div>`;
+            return `
+              <div class="v-card">
+                ${img}
+                <div class="title">${c.name || c.id}</div>
+                <div class="series">${c.series || ""}</div>
+              </div>`;
+          }).join("");
+          vCarousel.innerHTML = track;
+        }
+        if (vCarousel) {
+          vCarousel.innerHTML = "";
+          const slice = data.slice(0, 24);
+          const doubled = [...slice, ...slice];
+          doubled.forEach(c => {
+            const img = c.image_url ? `<img src="${c.image_url}" alt="${c.name}">` : `<div style="height:170px;background:rgba(255,255,255,0.05);border-radius:10px;"></div>`;
+            vCarousel.insertAdjacentHTML("beforeend", `
+              <div class="v-card">
+                ${img}
+                <div class="title">${c.name || c.id}</div>
+                <div class="series">${c.series || ""}</div>
+              </div>
+            `);
+          });
+        }
+        }
 
       } catch (e) {
         // ignore preview errors
       }
     }
+
+    function buildLogos() {
+      const logosBar = document.getElementById("logosBar");
+      const logosCard = document.getElementById("logosCard");
+      if (!logosBar || !logosCard) return;
+      if (!charactersData || charactersData.length === 0) return;
+      const posterMap = new Map(posters.map(p => [p.name, p.img]));
+      const seen = new Set();
+      const cards = [];
+      charactersData.forEach(c => {
+        if (!c.series || seen.has(c.series)) return;
+        const bg = posterMap.get(c.series) || c.image_url || "";
+        const style = bg ? `style="background-image:url('${bg}');"` : "";
+        cards.push(`<a class="series-card" href="#" ${style}><div class="name">${c.series}</div></a>`);
+        seen.add(c.series);
+      });
+      logosBar.innerHTML = cards.join("");
+      logosCard.style.display = cards.length ? "block" : "none";
+    }
+
+
+    function buildPosters() {
+      if (!posterField) return;
+      const positions = [
+        { top: "14%", left: "6%" },
+        { top: "12%", right: "8%" },
+        { top: "44%", left: "10%" },
+        { top: "50%", right: "12%" },
+        { bottom: "12%", left: "8%" },
+        { bottom: "12%", right: "10%" },
+        { top: "24%", left: "32%" },
+        { top: "26%", right: "32%" },
+        { bottom: "24%", left: "30%" },
+        { bottom: "26%", right: "30%" }
+      ];
+      posterField.innerHTML = posters.map((p, i) => {
+        const pos = positions[i % positions.length];
+        const stylePos = Object.entries(pos).map(([k,v]) => `${k}:${v};`).join("");
+        const delay = (i % 5) * 1.1;
+        return `<div class="poster-stack" style="${stylePos} animation-delay:${delay}s;">
+                  <img src="${p.img}" alt="${p.name}">
+                </div>`;
+      }).join("");
+    }
+
     loadPreviews();
+    buildPosters();
 
     // cursor shadow
     const cursorShadow = document.getElementById("cursorShadow");
@@ -752,26 +1053,8 @@ let charactersData = [];
     }
 
     function renderQuality(q) {
-      if (!q) { qualityEl.innerHTML = ""; return; }
-      const items = [];
-      items.push(qualityItem("Lighting", q.lighting_ok ? "OK" : "Low", q.lighting_ok));
-      items.push(qualityItem("Angle", q.angle_ok ? "OK" : "Off", q.angle_ok));
-      if (q.blur_score !== undefined) {
-        items.push(qualityItem("Sharpness", q.sharpness_ok ? `OK (${q.blur_score})` : `Low (${q.blur_score})`, q.sharpness_ok));
-      }
-      if (q.face_size_ok !== undefined) {
-        items.push(qualityItem("Face Size", q.face_size_ok ? "OK" : "Too small", q.face_size_ok));
-      }
-      if (q.brightness !== undefined) {
-        items.push(qualityItem("Brightness", q.brightness, q.lighting_ok));
-      }
-      if (q.confidence !== undefined) {
-        items.push(qualityItem("Confidence", q.confidence, q.confidence >= 0.5 ? true : false));
-      }
-      qualityEl.innerHTML = `<div class="quality">${items.join("")}</div>`;
-      if (q.warnings && q.warnings.length) {
-        qualityEl.innerHTML += `<div style="margin-top:8px;font-size:13px;color:var(--warn);">Warnings: ${q.warnings.join(", ")}</div>`;
-      }
+      qualityEl.innerHTML = "";
+      qualityEl.style.display = "none";
     }
 
     function renderMatches(list) {
@@ -781,7 +1064,8 @@ let charactersData = [];
         return;
       }
       list.forEach((m, idx) => {
-        const pct = m.similarity_pct !== undefined ? m.similarity_pct : Math.min(100, Math.max(0, (m.similarity || 0) * 100));
+        const raw = m.similarity_pct !== undefined ? m.similarity_pct : Math.min(100, Math.max(0, (m.similarity || 0) * 100));
+        const pct = Math.min(100, raw * 1.5);
         const reasons = (m.reasons || []).map(r => `<li>${r.reason}</li>`).join("");
         const img = m.image_url ? `<img src="${m.image_url}" alt="${m.name}" style="width:120px;border-radius:8px;border:1px solid rgba(255,255,255,0.08);">` : "";
         const badge = m.badge ? m.badge : pct >= BADGE_THRESH.good ? "Good" : pct >= BADGE_THRESH.ok ? "OK" : "Weak";
@@ -805,9 +1089,12 @@ let charactersData = [];
       });
     }
 
-    go.onclick = async () => {
+    async function runMatch() {
       const f = pickFile();
-      if (!f) return alert("Pick a file or take a photo");
+      if (!f) {
+        alert("Pick a file or take a photo");
+        return;
+      }
       const topKRange = document.getElementById("topKRange");
       const topKVal = topKRange ? topKRange.value : 8;
       const form = new FormData();
@@ -872,7 +1159,7 @@ let charactersData = [];
             <div>
               <div class="name">${m.name || m.id}</div>
               <div class="series">${m.series || ""}</div>
-              <div class="series">${(m.similarity_pct || 0).toFixed(1)}%</div>
+              <div class="series">${(Math.min(100, (m.similarity_pct || ((m.similarity||0)*100)) * 1.5)).toFixed(1)}%</div>
             </div>
           </div>
         `).join("");
@@ -882,7 +1169,7 @@ let charactersData = [];
             <div>
               <div class="name">${m.name || m.id}</div>
               <div class="series">${m.series || ""}</div>
-              <div class="series">${(m.similarity_pct || 0).toFixed(1)}%</div>
+              <div class="series">${(Math.min(100, (m.similarity_pct || ((m.similarity||0)*100)) * 1.5)).toFixed(1)}%</div>
             </div>
           </div>
         `).join("");
@@ -920,7 +1207,9 @@ let charactersData = [];
       } catch (e) {
         statusText.textContent = `Error: ${e}`;
       }
-    };
+    }
+
+    go.onclick = runMatch;
   </script>
 </body>
 </html>
