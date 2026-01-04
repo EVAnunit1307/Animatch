@@ -3,20 +3,25 @@ import math
 from pathlib import Path
 from typing import Tuple, List
 
-_CHAR_CACHE: Tuple[List[dict], dict] | None = None
+_CHAR_CACHE: Tuple[List[dict], dict, float] | None = None
 
 
 def load_characters():
-    """Load characters once and cache with precomputed stats."""
+    """Load characters once and cache with precomputed stats.
+    Auto-refreshes if the vectors file changes (mtime)."""
     global _CHAR_CACHE
-    if _CHAR_CACHE is not None:
-        return _CHAR_CACHE
-
     data_path = Path(__file__).resolve().parents[1] / "data" / "anime_vectors.json" #fetchs and appends anime vectors 
+    mtime = data_path.stat().st_mtime
+
+    if _CHAR_CACHE is not None:
+        cached_chars, cached_stats, cached_mtime = _CHAR_CACHE
+        if cached_mtime == mtime:
+            return _CHAR_CACHE
+
     with open(data_path, "r", encoding="utf-8") as file:
         chars = json.load(file)
     stats = compute_stats(chars)
-    _CHAR_CACHE = (chars, stats)
+    _CHAR_CACHE = (chars, stats, mtime)
     return _CHAR_CACHE
 
 features = [
@@ -66,11 +71,11 @@ def distance(user_vector, char_vector):
     return math.sqrt(total)
 
 def match_characters (user_features, top_k=4): #default top 4 
-    char, stats = load_characters()
+    chars, stats, _ = load_characters()
     user_norm = normalize(user_features, stats)
     scored = []
 
-    for c in char:
+    for c in chars:
         c_norm = normalize(c["vector"], stats)
         d = distance(user_norm, c_norm)
         sim = 1.0 / (1.0 + d)  # stay in (0,1]
@@ -82,12 +87,19 @@ def match_characters (user_features, top_k=4): #default top 4
     for sim, c in scored[:top_k]:#goes to scores takes top 3 
         # Mild boost for friendly UX (cap at 100)
         pct = max(0.0, min(100.0, sim * 100.0 * 1.15))
+        if pct >= 50:
+            badge = "Good"
+        elif pct >= 30:
+            badge = "OK"
+        else:
+            badge = "Weak"
         results.append({
             "id": c["id"],
             "name": c["name"],
             "series": c["series"],
             "similarity": round(sim, 4),
             "similarity_pct": round(pct, 1),
+            "badge": badge,
             "vector": c["vector"],
             "image_url": c.get("image_url"),
             "overlay_url": c.get("overlay_url"),

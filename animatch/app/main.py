@@ -9,6 +9,10 @@ from animatch.app.services.match import match_characters, load_characters
 from animatch.app.services.landmarks import extract_landmarks, draw_landmarks_on_image
 from animatch.app.services.features import landmarks_to_features
 app = FastAPI(title="Animatch")
+from animatch.app.services import landmarks as landmarks_service
+
+# preload model once at startup
+landmarks_service._get_landmarker()
 
 # Allow local files and simple dev servers to call the API
 app.add_middleware(
@@ -22,7 +26,12 @@ app.mount("/static", StaticFiles(directory="animatch/data"), name="static")
 
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    chars, _, mtime = load_characters()
+    return {
+        "status": "ok",
+        "characters": len(chars),
+        "dataset_mtime": mtime,
+    }
 
 @app.post("/inspect")#register a route that accepts post request 
 async def inspect(file: UploadFile = File(...)):
@@ -49,7 +58,7 @@ async def inspect(file: UploadFile = File(...)):
 
 @app.get("/characters")
 def characters():
-    chars, _ = load_characters()
+    chars, _, _ = load_characters()
     return [{"id": c["id"], "name": c["name"], "series": c["series"], "tags": c.get("tags", []), "image_url": c.get("image_url")} for c in chars]
 
 @app.post("/match")
