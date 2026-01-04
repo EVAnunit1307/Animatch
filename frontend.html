@@ -237,28 +237,106 @@
       overflow: hidden;
       padding: 22px;
       border-radius: 18px;
-      background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.06));
-      border: 1px solid rgba(255,255,255,0.1);
-      box-shadow: 0 20px 48px rgba(0,0,0,0.45);
+      background: var(--panel);
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 20px 48px rgba(0,0,0,0.4);
+      text-align: left;
+    }
+    .upload-content { position: relative; z-index: 1; display: grid; gap: 16px; }
+    .upload-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 220px;
+      gap: 18px;
+      align-items: start;
+    }
+    .upload-left { display: grid; gap: 12px; }
+    .upload-heading { display: grid; gap: 6px; }
+    .upload-title { font-size: 16px; font-weight: 700; letter-spacing: 0.04em; }
+    .upload-sub { font-size: 12px; color: var(--muted); }
+    .file-row {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    .file-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .file-name {
+      font-size: 12px;
+      color: var(--muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .file-input { display: none; }
+    .range-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text);
+    }
+    .range-row input[type="range"] { flex: 1; accent-color: var(--accent); }
+    .range-value {
+      width: 32px;
       text-align: center;
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--text);
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.04);
+      padding: 4px 0;
     }
-    .upload-ambient {
-      position: absolute;
-      inset: -30%;
-      background: radial-gradient(circle at 30% 30%, rgba(109,240,247,0.12), transparent 35%),
-                  radial-gradient(circle at 70% 40%, rgba(179,164,255,0.14), transparent 32%);
-      filter: blur(45px);
-      animation: ambientMove 18s linear infinite;
-      opacity: 0.8;
-      z-index: 0;
+    .toggle-row { display: flex; flex-wrap: wrap; gap: 10px; }
+    .toggle-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.06);
+      background: rgba(255,255,255,0.03);
+      font-size: 13px;
+      color: var(--text);
     }
-    @keyframes ambientMove {
-      0% { transform: translate(0,0) rotate(0deg); }
-      50% { transform: translate(6%, -4%) rotate(8deg); }
-      100% { transform: translate(0,0) rotate(0deg); }
+    .upload-right { display: grid; gap: 10px; align-content: center; }
+    .upload-actions { display: grid; gap: 10px; }
+    .btn {
+      border-radius: 12px;
+      padding: 11px 14px;
+      font-weight: 700;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      cursor: pointer;
+      margin-top: 0;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
     }
-    .upload-content { position: relative; z-index: 1; display: grid; gap: 12px; justify-items: center; }
-    .upload-actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+    .upload-actions .btn { width: 100%; }
+    .btn.primary {
+      background: var(--accent);
+      color: #081017;
+      border-color: rgba(109,228,199,0.5);
+      box-shadow: 0 12px 28px rgba(109,228,199,0.24);
+    }
+    .btn:hover:not(:disabled) { transform: translateY(-1px); }
+    .btn:disabled { opacity: 0.6; cursor: not-allowed; box-shadow: none; }
     label { font-size: 14px; color: var(--muted); }
     input[type=file] { color: var(--text); }
     button {
@@ -677,6 +755,7 @@
       .app { grid-template-columns: 1fr; }
       .card { grid-template-columns: 1fr; }
       .hero { grid-template-columns: 1fr; }
+      .upload-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 640px) {
       body { padding: 12px; }
@@ -752,27 +831,36 @@
     </div>
     <div class="app">
     <div class="panel upload-panel">
-      <div class="upload-ambient"></div>
       <div class="upload-content">
-        <label style="font-size:18px; font-weight:700;">Upload an image</label>
-        <input type="file" id="file" accept="image/*" style="max-width: 300px;">
-        <input type="file" id="cameraInput" accept="image/*" capture="environment" style="display:none;">
-        <div id="fileName" style="margin-top:6px; font-size:12px; color: var(--muted);">No file selected.</div>
-        <div style="display:flex; align-items:center; gap:10px; margin-top:8px; color: var(--text);">
-          <span style="font-size:13px;">Results:</span>
-          <div style="display:flex; align-items:center; gap:8px; width:160px;">
-            <input id="topKRange" type="range" min="4" max="12" step="2" value="8"
-              style="flex:1; accent-color: var(--accent);" />
-            <span id="topKValue" style="width:28px; text-align:center; font-weight:700;">8</span>
+        <div class="upload-grid">
+          <div class="upload-left">
+            <div class="upload-heading">
+              <div class="eyebrow">Upload</div>
+              <div class="upload-title">Upload an image</div>
+              <div class="upload-sub">JPG or PNG. Front-facing, even light.</div>
+            </div>
+            <div class="file-row">
+              <label class="file-button" for="file">Choose file</label>
+              <span id="fileName" class="file-name">No file selected.</span>
+            </div>
+            <input type="file" id="file" class="file-input" accept="image/*">
+            <input type="file" id="cameraInput" class="file-input" accept="image/*" capture="environment">
+            <div class="range-row">
+              <span style="font-size:13px; color: var(--muted);">Results</span>
+              <input id="topKRange" type="range" min="4" max="12" step="2" value="8" />
+              <span id="topKValue" class="range-value">8</span>
+            </div>
+            <div class="toggle-row">
+              <label class="toggle-pill"><input type="checkbox" id="returnImage" checked> Return landmarks</label>
+            </div>
           </div>
-        </div>
-        <div class="toggles">
-          <label><input type="checkbox" id="returnImage" checked> return landmarks</label>
-        </div>
-        <div class="upload-actions">
-          <button type="button" onclick="startCamera()" style="min-width:160px;">Take Photo</button>
-          <button id="go" style="min-width:160px;">Match</button>
-          <div class="status" id="status"><span class="dot"></span><span id="statusText">Idle</span></div>
+          <div class="upload-right">
+            <div class="upload-actions">
+              <button class="btn" type="button" onclick="startCamera()">Take Photo</button>
+              <button id="go" class="btn primary">Match</button>
+            </div>
+            <div class="status" id="status"><span class="dot"></span><span id="statusText">Idle</span></div>
+          </div>
         </div>
         <div id="quality" style="width:100%; max-width:720px; display:none;"></div>
         <div class="face-preview" id="facePreview" style="display:none;">
