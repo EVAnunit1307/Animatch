@@ -58,6 +58,24 @@ def decode_image(image_bytes: bytes) -> np.ndarray:
     return img
 
 
+def maybe_resize(img: np.ndarray, target_min: int = 480, max_dim: int = 1280) -> np.ndarray:
+    """Upscale small images to improve landmark stability."""
+    h, w = img.shape[:2]
+    min_dim = min(h, w)
+    if min_dim >= target_min:
+        return img
+
+    scale = target_min / float(min_dim)
+    new_w = int(w * scale)
+    new_h = int(h * scale)
+    if max(new_w, new_h) > max_dim:
+        scale = max_dim / float(max(new_w, new_h))
+        new_w = int(new_w * scale)
+        new_h = int(new_h * scale)
+
+    return cv2.resize(img, (new_w, new_h), interpolation=cv2.INTER_CUBIC)
+
+
 def get_brightness(img: np.ndarray) -> float:
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     return float(np.mean(gray))
@@ -82,6 +100,7 @@ def extract_landmarks(image_bytes: bytes) -> Tuple[Optional[List[Tuple[float, fl
     info contains brightness, lighting_ok, face_detected flags.
     """
     img = decode_image(image_bytes)
+    img = maybe_resize(img)
     info = {
         "face_detected": False,
         "lighting_ok": False,
