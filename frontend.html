@@ -6,9 +6,9 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap');
     :root {
-      --bg: #060814;
-      --panel: rgba(5,6,8,0.92);
-      --card: rgba(7,8,11,0.9);
+      --bg: #050607;
+      --panel: rgba(5,6,8,0.96);
+      --card: rgba(6,7,9,0.94);
       --text: #f5f7fb;
       --muted: #9fb0c0;
       --accent: #6de4c7;
@@ -53,7 +53,7 @@
       font-family: "Helvetica Neue", "Inter", "Segoe UI", sans-serif;
       letter-spacing: 0.01em;
       color: var(--text);
-      background: linear-gradient(135deg, #05070f, #070a14 60%, #05070f);
+      background: var(--bg);
       position: relative;
       overflow-x: hidden;
     }
@@ -62,12 +62,12 @@
       inset: 0;
       pointer-events: none;
       z-index: 0;
-      opacity: 0.22;
+      opacity: 0.06;
       mix-blend-mode: screen;
     }
     .network-bg svg { width: 100%; height: 100%; }
     .network-line {
-      stroke: rgba(255,255,255,0.08);
+      stroke: rgba(255,255,255,0.04);
       stroke-width: 1.2;
       fill: none;
       stroke-dasharray: 6 12;
@@ -76,7 +76,7 @@
     @keyframes dash {
       to { stroke-dashoffset: -200; }
     }
-    .network-dot { fill: rgba(255,255,255,0.18); }
+    .network-dot { fill: rgba(255,255,255,0.1); }
     .container { max-width: 1400px; margin: 0 auto; }
     .topbar {
       display: flex;
@@ -204,15 +204,15 @@
     .eyebrow { text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
     .hero-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
     .hero-card {
-      background: rgba(5,6,8,0.9);
-      border: 1px solid rgba(255,255,255,0.05);
+      background: rgba(5,6,8,0.95);
+      border: 1px solid rgba(255,255,255,0.04);
       border-radius: 18px;
       padding: 14px;
       display: grid;
       gap: 10px;
       max-width: 100%;
       width: 100%;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.45);
+      box-shadow: 0 22px 44px rgba(0,0,0,0.55);
     }
     .hero-metric { background: rgba(255,255,255,0.02); border-radius: 12px; padding: 10px; border: 1px solid rgba(255,255,255,0.04); }
     .metric-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
@@ -243,10 +243,10 @@
     }
     .panel {
       background: var(--panel);
-      border: 1px solid rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.04);
       border-radius: 16px;
       padding: 16px;
-      box-shadow: 0 18px 34px rgba(0,0,0,0.38);
+      box-shadow: 0 20px 38px rgba(0,0,0,0.5);
       backdrop-filter: blur(10px);
     }
     .upload-panel {
@@ -255,9 +255,9 @@
       overflow: hidden;
       padding: 22px;
       border-radius: 18px;
-      background: rgba(5,6,8,0.94);
-      border: 1px solid rgba(255,255,255,0.05);
-      box-shadow: 0 26px 64px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.03);
+      background: rgba(5,6,8,0.98);
+      border: 1px solid rgba(255,255,255,0.04);
+      box-shadow: 0 28px 70px rgba(0,0,0,0.62), inset 0 1px 0 rgba(255,255,255,0.02);
       text-align: left;
     }
     .upload-content { position: relative; z-index: 1; display: grid; gap: 16px; }
@@ -473,7 +473,7 @@
       position: absolute;
       inset: 0;
       pointer-events: none;
-      opacity: 0.04;
+      opacity: 0.015;
       background-image:
         radial-gradient(1.5px 1.5px at 20% 30%, rgba(255,255,255,0.6), transparent 60%),
         radial-gradient(1.5px 1.5px at 60% 70%, rgba(255,255,255,0.6), transparent 60%),
@@ -746,8 +746,8 @@
     .stat {
       position: relative;
       overflow: hidden;
-      background: rgba(5,6,8,0.92);
-      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(5,6,8,0.96);
+      border: 1px solid rgba(255,255,255,0.06);
       border-radius: 16px;
       padding: 16px;
       display: grid;
@@ -755,7 +755,7 @@
       min-height: 110px;
       text-align: center;
       align-content: center;
-      box-shadow: 0 14px 30px rgba(0,0,0,0.4);
+      box-shadow: 0 16px 36px rgba(0,0,0,0.5);
     }
     .stat-value {
       font-size: 22px;
@@ -857,12 +857,12 @@
     .cursor-shadow {
       position: fixed;
       pointer-events: none;
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
-      background: radial-gradient(circle, rgba(109,240,247,0.22), transparent 60%);
-      filter: blur(18px);
-      opacity: 0.6;
+      background: radial-gradient(circle, rgba(255,255,255,0.12), transparent 60%);
+      filter: blur(14px);
+      opacity: 0.25;
       transform: translate(-50%, -50%);
       z-index: 99;
       mix-blend-mode: screen;
