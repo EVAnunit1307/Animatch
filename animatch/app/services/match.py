@@ -70,6 +70,52 @@ def distance(user_vector, char_vector):
         total += diffrence * diffrence
     return math.sqrt(total)
 
+
+def center_distance(vec):
+    """Distance from the dataset mean in z-score space."""
+    total = 0.0
+    for f in features:
+        total += vec[f] * vec[f]
+    return math.sqrt(total)
+
+
+def select_diverse(scored, top_k, min_dist=0.55):
+    """Pick results with series and geometry diversity."""
+    selected = []
+    used_series = set()
+
+    for item in scored:
+        if len(selected) >= top_k:
+            break
+        series = item["char"].get("series")
+        if series in used_series:
+            continue
+        too_close = False
+        for s in selected:
+            if distance(item["norm"], s["norm"]) < min_dist:
+                too_close = True
+                break
+        if too_close:
+            continue
+        selected.append(item)
+        used_series.add(series)
+
+    if len(selected) < top_k:
+        for item in scored:
+            if len(selected) >= top_k:
+                break
+            too_close = False
+            for s in selected:
+                if distance(item["norm"], s["norm"]) < (min_dist * 0.6):
+                    too_close = True
+                    break
+            if too_close:
+                continue
+            selected.append(item)
+
+    return selected
+
+
 def match_characters (user_features, top_k=4): #default top 4 
     chars, stats, _ = load_characters()
     user_norm = normalize(user_features, stats)
@@ -79,12 +125,19 @@ def match_characters (user_features, top_k=4): #default top 4
         c_norm = normalize(c["vector"], stats)
         d = distance(user_norm, c_norm)
         sim = 1.0 / (1.0 + d)  # stay in (0,1]
-        scored.append((sim,c)) #ppends similarioty score and character 
+        # boost more distinctive faces so the "average" vector doesn't dominate
+        distinct = center_distance(c_norm)
+        boost = 1.0 + min(distinct / 3.0, 0.4)
+        sim_adj = sim * boost
+        scored.append({"sim": sim_adj, "raw": sim, "char": c, "norm": c_norm})
 
-    scored.sort(key=lambda x: x[0], reverse=True) #sorts by the first thing in tuple, from decending 
+    scored.sort(key=lambda x: x["sim"], reverse=True) #sorts by the first thing in tuple, from decending 
 
     results = []
-    for sim, c in scored[:top_k]:#goes to scores takes top 3 
+    final = select_diverse(scored, top_k)
+    for item in final:#goes to scores takes top 3 
+        sim = item["raw"]
+        c = item["char"]
         # Mild boost for friendly UX (cap at 100)
         pct = max(0.0, min(100.0, sim * 100.0 * 1.15))
         if pct >= 50:
