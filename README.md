@@ -92,3 +92,19 @@ Outputs:
 ## Notes
 - The API downloads the MediaPipe model to `animatch/app/models/face_landmarker.task` on first run.
 - If downloads are blocked, place the model at that path before starting the API.
+
+## Deployment (web app)
+This works as a simple web app as long as the dataset files are shipped with the deploy:
+- `animatch/app/data/anime_vectors.json`
+- `animatch/app/data/series_posters.json`
+
+If those are present, anyone can open the site, take a photo, and get matches without rebuilding the dataset.
+
+### Phone + camera access
+- Camera capture requires HTTPS. Local file paths won’t work.
+- When deployed, make sure your frontend is served over HTTPS and points to the live API URL.
+
+### Vercel
+Vercel is great for the static frontend, but the FastAPI backend and MediaPipe model download are better hosted on a Python server (Render, Railway, Fly.io, or a VPS). You can still deploy the UI on Vercel and point it to your API base URL.
+
+If you want a single-host setup on Vercel, we can package the API as a serverless function, but MediaPipe model size and cold starts may be limiting. For production, a dedicated Python host is smoother.
