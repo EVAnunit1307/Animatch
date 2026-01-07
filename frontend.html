@@ -827,13 +827,24 @@
       body { padding: 12px; }
       .panel { padding: 12px; }
       .card { grid-template-columns: 1fr; }
-      .hero { padding: 14px; }
+      .hero { padding: 14px; min-height: 52vh; }
+      .hero-core { padding: 72px 18px 64px; }
+      .hero-title { font-size: 44px; letter-spacing: 0.06em; }
+      .hero-sub { font-size: 13px; }
+      .poster-stack { width: 96px; opacity: 0.55; }
       .matches { grid-template-columns: 1fr; }
       .match-mini { min-width: 0; width: 100%; }
+      .match-mini { grid-template-columns: 64px 1fr; }
+      .match-mini img { width: 64px; height: 80px; }
       .overlay-frame { grid-template-columns: 1fr; }
+      .face-preview { flex-direction: column; align-items: stretch; }
+      .mini-stack { flex: 1 1 auto; width: 100%; }
+      .overlay { width: 100%; }
       .feature-grid { grid-template-columns: 1fr; }
       .feature-right { width: 100%; justify-self: stretch; }
       .series-strip { max-height: none; padding-right: 0; }
+      .v-carousel { height: 320px; }
+      .how-panel { width: 100%; right: -100%; }
     }
   </style>
 </head>
