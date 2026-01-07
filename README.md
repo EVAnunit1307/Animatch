@@ -1,5 +1,7 @@
 # Animatch
 
+Live demo: https://vercel.com/evans-projects-37167e00/animatch
+
 Local-first anime face matching. Upload a photo, extract MediaPipe FaceMesh landmarks, compare normalized face ratios against an anime character dataset, and return the closest matches with visuals.
 
 ## What it does
