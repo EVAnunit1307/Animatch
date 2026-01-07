@@ -101,10 +101,19 @@ This works as a simple web app as long as the dataset files are shipped with the
 If those are present, anyone can open the site, take a photo, and get matches without rebuilding the dataset.
 
 ### Phone + camera access
-- Camera capture requires HTTPS. Local file paths won’t work.
+- Camera capture requires HTTPS. Local file paths will not work.
 - When deployed, make sure your frontend is served over HTTPS and points to the live API URL.
 
-### Vercel
-Vercel is great for the static frontend, but the FastAPI backend and MediaPipe model download are better hosted on a Python server (Render, Railway, Fly.io, or a VPS). You can still deploy the UI on Vercel and point it to your API base URL.
+## Deploy to Railway (API)
+1) Create a new Railway project from this repo.
+2) Railway will use `railway.toml` / `Procfile` to start the API.
+3) Deploy and copy the public URL (e.g. `https://your-service.up.railway.app`).
 
-If you want a single-host setup on Vercel, we can package the API as a serverless function, but MediaPipe model size and cold starts may be limiting. For production, a dedicated Python host is smoother.
+## Deploy to Vercel (Frontend)
+1) Create a new Vercel project from this repo.
+2) Framework preset: Other.
+3) Build command: leave empty.
+4) Output directory: leave empty (Vercel serves `frontend.html`).
+5) After deploy, open the Vercel URL with `?api=` pointing to Railway:
+   - Example: `https://your-vercel-app.vercel.app/?api=https://your-service.up.railway.app`
+6) The `?api=` value is stored in `localStorage` as `ANIMATCH_API_BASE` for next visits.

@@ -1036,7 +1036,14 @@
   </div>
   </div>
   <script>
-    const api = "http://127.0.0.1:8000/match";
+    const DEFAULT_API_BASE = "https://YOUR-RAILWAY-URL";
+    const urlApi = new URLSearchParams(window.location.search).get("api");
+    const storedApi = localStorage.getItem("ANIMATCH_API_BASE");
+    const API_BASE = (urlApi || storedApi || DEFAULT_API_BASE).replace(/\/$/, "");
+    if (urlApi && urlApi !== storedApi) {
+      localStorage.setItem("ANIMATCH_API_BASE", urlApi);
+    }
+    const api = `${API_BASE}/match`;
     const BADGE_THRESH = { good: 50, ok: 30 };
     const go = document.getElementById("go");
     const statusEl = document.getElementById("status");
@@ -1178,7 +1185,7 @@ const logos = [
     async function loadPreviews() {
       try {
         if (!posterCarousel && !vCarousel) return;
-        const res = await fetch("http://127.0.0.1:8000/characters");
+        const res = await fetch(`${API_BASE}/characters`);
         const data = await res.json();
         charactersData = data;
         // Duplicate list for seamless marquee
@@ -1236,7 +1243,7 @@ const logos = [
 
     async function loadSeries() {
       try {
-        const res = await fetch("http://127.0.0.1:8000/series");
+        const res = await fetch(`${API_BASE}/series`);
         const data = await res.json();
         buildLogos(data);
         if (statSeries) {
