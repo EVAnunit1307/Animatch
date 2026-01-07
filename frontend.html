@@ -827,11 +827,11 @@
       body { padding: 12px; }
       .panel { padding: 12px; }
       .card { grid-template-columns: 1fr; }
-      .hero { padding: 14px; min-height: 52vh; }
+      .hero { padding: 14px; min-height: 56vh; }
       .hero-core { padding: 72px 18px 64px; }
       .hero-title { font-size: 44px; letter-spacing: 0.06em; }
       .hero-sub { font-size: 13px; }
-      .poster-stack { width: 96px; opacity: 0.55; }
+      .poster-stack { width: 88px; opacity: 0.5; }
       .matches { grid-template-columns: 1fr; }
       .match-mini { min-width: 0; width: 100%; }
       .match-mini { grid-template-columns: 64px 1fr; }
@@ -845,6 +845,7 @@
       .series-strip { max-height: none; padding-right: 0; }
       .v-carousel { height: 320px; }
       .how-panel { width: 100%; right: -100%; }
+      .reveal { opacity: 1; transform: none; }
     }
   </style>
 </head>
@@ -1278,7 +1279,13 @@ const logos = [
 
     function buildPosters() {
       if (!posterField) return;
-      const positions = [
+      const isMobile = window.matchMedia("(max-width: 640px)").matches;
+      const positions = isMobile ? [
+        { top: "18%", left: "10%" },
+        { top: "16%", right: "10%" },
+        { bottom: "18%", left: "12%" },
+        { bottom: "18%", right: "12%" }
+      ] : [
         { top: "14%", left: "6%" },
         { top: "12%", right: "8%" },
         { top: "44%", left: "10%" },
@@ -1290,7 +1297,8 @@ const logos = [
         { bottom: "24%", left: "30%" },
         { bottom: "26%", right: "30%" }
       ];
-      posterField.innerHTML = posters.map((p, i) => {
+      const list = isMobile ? posters.slice(0, 4) : posters;
+      posterField.innerHTML = list.map((p, i) => {
         const pos = positions[i % positions.length];
         const stylePos = Object.entries(pos).map(([k,v]) => `${k}:${v};`).join("");
         const delay = (i % 5) * 1.1;
@@ -1303,6 +1311,9 @@ const logos = [
     loadSeries();
     loadPreviews();
     buildPosters();
+    window.addEventListener("resize", () => {
+      buildPosters();
+    });
 
     const revealItems = document.querySelectorAll(".reveal");
     if (revealItems.length) {
