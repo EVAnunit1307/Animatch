@@ -139,7 +139,7 @@ def match_characters (user_features, top_k=4): #default top 4
         sim = item["raw"]
         c = item["char"]
         # Mild boost for friendly UX (cap at 100)
-        pct = max(0.0, min(100.0, sim * 100.0 * 1.45))
+        pct = max(0.0, min(100.0, sim * 100.0 * 1.75))
         if pct >= 50:
             badge = "Good"
         elif pct >= 30:
