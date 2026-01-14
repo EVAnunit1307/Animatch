@@ -71,6 +71,67 @@ def series():
         return json.loads(SERIES_POSTERS_PATH.read_text(encoding="utf-8"))
     return []
 
+def _run_match_pipeline(data: bytes, top_k: int, debug: bool, return_image: bool) -> dict:
+    landmarks, quality = extract_landmarks(data)
+    if landmarks is None:
+        raise HTTPException(status_code=400, detail="No face detected. Try better lighting and face the camera.")
+
+    features = landmarks_to_features(landmarks)
+
+    matches = match_characters(features, top_k=top_k)
+    for m in matches:
+        m["reasons"] = explain_match(features, m["vector"])
+
+    resp = {
+        "matches": matches,
+        "quality": {
+            "brightness": quality.get("brightness"),
+            "lighting_ok": quality.get("lighting_ok"),
+            "angle_ok": quality.get("angle_ok"),
+            "blur_score": quality.get("blur_score"),
+            "sharpness_ok": quality.get("sharpness_ok"),
+            "face_size_ok": quality.get("face_size_ok"),
+            "confidence": quality.get("confidence"),
+            "warnings": [],
+        },
+    }
+
+    if debug:
+        resp["debug"] = {
+            "features": features,
+            "landmark_count": len(landmarks),
+        }
+    if return_image:
+        overlay = draw_landmarks_on_image(data, landmarks)
+        resp["debug_image_b64"] = base64.b64encode(overlay).decode("ascii")
+
+    warnings = []
+    if not resp["quality"]["lighting_ok"]:
+        warnings.append("Lighting is low")
+    if not resp["quality"]["angle_ok"]:
+        warnings.append("Face angle is off")
+    if resp["quality"]["sharpness_ok"] is False:
+        warnings.append("Image looks blurry")
+    if resp["quality"]["face_size_ok"] is False:
+        warnings.append("Face region is small")
+    resp["quality"]["warnings"] = warnings
+
+    return resp
+
+
+async def _read_image_file(file: UploadFile) -> bytes:
+    if not file.content_type or not file.content_type.startswith("image/"):
+        raise HTTPException(status_code=400, detail="File must be an image (jpg/png).")
+
+    data = await file.read()
+    max_bytes = 5 * 1024 * 1024  # 5 MB
+    if len(data) == 0:
+        raise HTTPException(status_code=400, detail="Empty file.")
+    if len(data) > max_bytes:
+        raise HTTPException(status_code=400, detail="File too large (max 5MB).")
+    return data
+
+
 @app.post("/match")
 async def match(
     file: UploadFile = File(...),
@@ -79,68 +140,11 @@ async def match(
     return_image: bool = Query(False, description="Return base64 PNG with plotted landmarks"),
 ):
     try:
-        # Basic input validation
-        if not file.content_type or not file.content_type.startswith("image/"):
-            raise HTTPException(status_code=400, detail="File must be an image (jpg/png).")
-
-        data = await file.read()
-        max_bytes = 5 * 1024 * 1024  # 5 MB
-        if len(data) == 0:
-            raise HTTPException(status_code=400, detail="Empty file.")
-        if len(data) > max_bytes:
-            raise HTTPException(status_code=400, detail="File too large (max 5MB).")
-
-        landmarks, quality = extract_landmarks(data)
-        if landmarks is None:
-            raise HTTPException(status_code=400, detail="No face detected. Try better lighting and face the camera.")
-
-        features = landmarks_to_features(landmarks)
-
-        matches = match_characters(features, top_k=top_k)
-        for m in matches:
-            m["reasons"] = explain_match(features, m["vector"])
-
-        resp = {
-            "matches": matches,
-            "quality": {
-                "brightness": quality.get("brightness"),
-                "lighting_ok": quality.get("lighting_ok"),
-                "angle_ok": quality.get("angle_ok"),
-                "blur_score": quality.get("blur_score"),
-                "sharpness_ok": quality.get("sharpness_ok"),
-                "face_size_ok": quality.get("face_size_ok"),
-                "confidence": quality.get("confidence"),
-                "warnings": [],
-            },
-        }
-
-        if debug:
-            resp["debug"] = {
-                "features": features,
-                "landmark_count": len(landmarks)
-            }
-        if return_image:
-            overlay = draw_landmarks_on_image(data, landmarks)
-            resp["debug_image_b64"] = base64.b64encode(overlay).decode("ascii")
-
-        # build warnings
-        warnings = []
-        if not resp["quality"]["lighting_ok"]:
-            warnings.append("Lighting is low")
-        if not resp["quality"]["angle_ok"]:
-            warnings.append("Face angle is off")
-        if resp["quality"]["sharpness_ok"] is False:
-            warnings.append("Image looks blurry")
-        if resp["quality"]["face_size_ok"] is False:
-            warnings.append("Face region is small")
-        resp["quality"]["warnings"] = warnings
-
-        return resp
+        data = await _read_image_file(file)
+        return _run_match_pipeline(data, top_k=top_k, debug=debug, return_image=return_image)
     except HTTPException:
-        # already has status; just re-raise
         raise
     except Exception as exc:
-        # Surface the error instead of generic 500 to simplify debugging in Swagger
         raise HTTPException(status_code=500, detail=f"Match failed: {exc}")
 
 
