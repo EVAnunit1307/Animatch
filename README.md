@@ -5,7 +5,7 @@ Live demo: [https://vercel.com/evans-projects-37167e00/animatch](https://animatc
 Local-first anime face matching. Upload a photo, extract MediaPipe FaceMesh landmarks, compare normalized face ratios against an anime character dataset, and return the closest matches with visuals.
 
 # What it does
-- Extracts 468 face landmarks with MediaPipe Tasks Face Landmarker.
+- Extracts 500+ face landmarks with MediaPipe Tasks Face Landmarker.
 - Computes normalized facial ratios (eyes, jaw, chin, brow, mouth, nose).
 - Ranks against an anime character vector dataset.
 - Returns top matches plus optional landmark overlays.
