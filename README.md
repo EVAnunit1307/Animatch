@@ -106,6 +106,8 @@ If those are present, anyone can open the site, take a photo, and get matches wi
 - Camera capture requires HTTPS. Local file paths will not work.
 - When deployed, make sure your frontend is served over HTTPS and points to the live API URL.
 
+> Random edit: some random shit added here just to create commits and chaos.
+
 # Deploy to Railway (API)
 1) Create a new Railway project from this repo.
 2) Railway will use `railway.toml` / `Procfile` to start the API.
