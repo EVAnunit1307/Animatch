@@ -14,6 +14,7 @@ Local-first anime face matching. Upload a photo, extract MediaPipe FaceMesh land
 - FastAPI + Uvicorn
 - MediaPipe (Tasks Face Landmarker)
 - OpenCV + NumPy
+- React 
 
 # Requirements
 - Python 3.12
