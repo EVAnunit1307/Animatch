@@ -112,19 +112,25 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      z-index: 0;
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 1.2s ease;
+    }
+    .hero-video.loaded {
+      opacity: 1;
     }
     .hero-overlay {
       position: absolute;
       inset: 0;
-      z-index: 1;
+      z-index: 2;
       background: linear-gradient(
         180deg,
-        rgba(0,0,0,0.28) 0%,
-        transparent 40%,
-        rgba(12,11,16,0.55) 72%,
-        rgba(12,11,16,0.96) 92%,
-        rgba(12,11,16,1) 100%
+        rgba(5,8,16,0.35) 0%,
+        rgba(5,8,16,0.1) 25%,
+        transparent 45%,
+        rgba(5,8,16,0.15) 65%,
+        rgba(5,8,16,0.85) 88%,
+        rgba(5,8,16,1) 100%
       );
     }
     /* pill nav at top */
@@ -160,7 +166,7 @@
       bottom: 0;
       left: 0;
       right: 0;
-      z-index: 2;
+      z-index: 3;
       display: grid;
       grid-template-columns: 1fr auto;
       grid-template-rows: auto auto;
@@ -2177,7 +2183,7 @@
   <div class="container" style="position:relative; z-index:1;">
     <div class="stars"></div>
     <div class="hero">
-      <video class="hero-video" autoplay loop muted playsinline>
+      <video class="hero-video" autoplay loop muted playsinline preload="auto" id="heroVideo">
         <source src="https://res.cloudinary.com/dfonotyfb/video/upload/v1775585556/dds3_1_rqhg7x.mp4" type="video/mp4">
       </video>
       <div class="hero-overlay"></div>
@@ -2842,12 +2848,16 @@ const logos = [
     makeMagnetic(document.getElementById("go"), 0.22);
 
     // ── Ensure hero video plays (browser autoplay policy may pause it) ────
-    const _hv = document.querySelector(".hero-video");
+    const _hv = document.getElementById("heroVideo");
     if (_hv) {
-      _hv.play().catch(() => {});
-      document.addEventListener("visibilitychange", () => {
-        if (!document.hidden) _hv.play().catch(() => {});
-      });
+      const tryPlay = () => _hv.play().catch(() => {});
+      const markLoaded = () => _hv.classList.add("loaded");
+      _hv.addEventListener("canplay", () => { markLoaded(); tryPlay(); });
+      _hv.addEventListener("loadeddata", markLoaded);
+      if (_hv.readyState >= 3) markLoaded();
+      tryPlay();
+      document.addEventListener("visibilitychange", () => { if (!document.hidden) tryPlay(); });
+      document.addEventListener("click", tryPlay, { once: true });
     }
 
     // ── Letter pull-up on hero title lines ───────────────

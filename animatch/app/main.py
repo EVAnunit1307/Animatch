@@ -1,10 +1,11 @@
 import base64
 import json
+import os
 from pathlib import Path
 from fastapi import FastAPI, UploadFile, File, Body, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-import numpy as np 
+import numpy as np
 import cv2
 from animatch.app.services.explain import explain_match
 from animatch.app.services.match import match_characters, load_characters
@@ -149,7 +150,7 @@ async def match(
 
 
 @app.post("/match/features")
-def match_features(features = Body(...), top_k = 4): #features is the json the client sends, ... means body is required 
+def match_features(features = Body(...), top_k = 4):
     matches = match_characters(features, top_k=top_k)
 
     for m in matches:
@@ -159,3 +160,46 @@ def match_features(features = Body(...), top_k = 4): #features is the json the c
         "matches": matches,
         "quality": None,
     }
+
+
+@app.post("/describe")
+async def describe(body: dict = Body(...)):
+    name = body.get("name", "")
+    series = body.get("series", "")
+    reasons = body.get("reasons", [])
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        feature_phrases = [r.get("reason", "") for r in reasons[:3]]
+        fallback = (
+            f"Your facial geometry aligns with {name}'s distinctive features. "
+            f"The analysis found {', '.join(feature_phrases).lower()} — "
+            f"the quiet structural language that defines a {series} character."
+        )
+        return {"narrative": fallback, "source": "fallback"}
+
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+        feature_phrases = [r.get("reason", "") for r in reasons[:3]]
+        prompt = (
+            f"You matched someone to {name} from {series}. "
+            f"The top matching facial features were: {', '.join(feature_phrases)}. "
+            f"Write exactly 2 sentences — poetic, evocative, second-person ('Your...') — "
+            f"about what this match reveals about the person's presence or essence. "
+            f"Reference the character subtly. No em-dashes. No quotes around the output."
+        )
+        message = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=120,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        narrative = message.content[0].text.strip()
+        return {"narrative": narrative, "source": "claude"}
+    except Exception as exc:
+        feature_phrases = [r.get("reason", "") for r in reasons[:3]]
+        fallback = (
+            f"Your features carry the same {feature_phrases[0].lower() if feature_phrases else 'quiet intensity'} "
+            f"as {name}. There is something in the geometry that speaks before words do."
+        )
+        return {"narrative": fallback, "source": "fallback"}
