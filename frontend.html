@@ -2266,17 +2266,17 @@
           </div>
           <div id="compare" style="display:none; margin-bottom:12px;">
             <div class="overlay-frame">
-              <div>
-                <div style="color:var(--muted); font-size:13px; margin-bottom:4px;">Your landmarks</div>
-                <img id="overlayCompare" style="display:none" alt="Your overlay">
+              <div id="colYourLandmarks">
+                <div style="color:var(--muted); font-size:13px; margin-bottom:4px;">Your face</div>
+                <img id="overlayCompare" style="display:none;width:100%;border-radius:10px;" alt="">
               </div>
-              <div>
-                <div style="color:var(--muted); font-size:13px; margin-bottom:4px;">Selected match</div>
-                <img id="matchCompare" style="display:none" alt="Match image">
+              <div id="colMatchImage">
+                <div style="color:var(--muted); font-size:13px; margin-bottom:4px;">Top match</div>
+                <img id="matchCompare" style="display:none;width:100%;border-radius:10px;" alt="">
               </div>
-              <div>
+              <div id="colMatchOverlay" style="display:none;">
                 <div style="color:var(--muted); font-size:13px; margin-bottom:4px;">Match overlay</div>
-                <img id="matchOverlayCompare" style="display:none" alt="Match overlay">
+                <img id="matchOverlayCompare" style="display:none;width:100%;border-radius:10px;" alt="">
               </div>
             </div>
           </div>
@@ -2459,13 +2459,34 @@
 
     const PROD_API = "https://animatch-production.up.railway.app";
     const LOCAL_API = "http://127.0.0.1:8000";
-    const isLocal = ["localhost","127.0.0.1"].includes(window.location.hostname);
+
+    // Detect any local context: file://, localhost, 127.0.0.1, LAN IPs
+    const _host = window.location.hostname;
+    const isLocal =
+      window.location.protocol === "file:" ||
+      _host === "" || _host === "localhost" || _host === "127.0.0.1" ||
+      _host.startsWith("192.168.") || _host.startsWith("10.");
+
     const urlApi = new URLSearchParams(window.location.search).get("api");
-    // Auto-use localhost when running locally, ignore stale Railway URL in storage
-    // Always map localhost → 127.0.0.1 to avoid Windows IPv6 DNS 2s delay
-    const API_BASE = (urlApi || (isLocal ? LOCAL_API : localStorage.getItem("ANIMATCH_API_BASE")) || PROD_API)
-      .replace(/\/$/, "").replace("//localhost:", "//127.0.0.1:");
-    if (urlApi) localStorage.setItem("ANIMATCH_API_BASE", urlApi);
+
+    let API_BASE;
+    if (urlApi) {
+      // Explicit override from URL param
+      API_BASE = urlApi;
+      localStorage.setItem("ANIMATCH_API_BASE", urlApi);
+    } else if (isLocal) {
+      // Always use local backend when running locally — never trust stale localStorage
+      API_BASE = LOCAL_API;
+      localStorage.removeItem("ANIMATCH_API_BASE"); // clear any stale Railway URL
+    } else {
+      API_BASE = localStorage.getItem("ANIMATCH_API_BASE") || PROD_API;
+    }
+
+    // Always rewrite localhost → 127.0.0.1 to avoid Windows IPv6 2s delay
+    API_BASE = API_BASE.replace(/\/$/, "")
+      .replace("//localhost:", "//127.0.0.1:")
+      .replace("//localhost/", "//127.0.0.1/")
+      .replace(/\/\/localhost$/, "//127.0.0.1");
     const api = `${API_BASE}/match`;
     const BADGE_THRESH = { good: 50, ok: 30 };
     const go = document.getElementById("go");
@@ -3157,12 +3178,14 @@ const logos = [
           qp.style.display = "inline-flex";
         }
 
-        // Landmark overlay (doesn't depend on renderMatches DOM)
+        // Landmark overlay — store src for compare panel
         let overlaySrc = null;
         if (data.debug_image_b64) {
           overlaySrc = "data:image/png;base64," + data.debug_image_b64;
-          overlayCompare.src = overlaySrc;
-          overlayCompare.style.display = "block";
+          if (overlayCompare) {
+            overlayCompare.src = overlaySrc;
+            overlayCompare.style.display = "block";
+          }
         }
 
         // AI Narrative fires async — by the time Claude responds (1–3s) DOM is ready
@@ -3180,8 +3203,7 @@ const logos = [
           });
         }
 
-        // renderMatches has a 160ms internal fade delay before injecting DOM —
-        // wire up buttons after that delay so they actually exist
+        // renderMatches has a 160ms internal fade delay — wire buttons after DOM is ready
         renderMatches(data.matches);
         setTimeout(() => {
           // Compare faces button
@@ -3189,15 +3211,29 @@ const logos = [
             btn.onclick = () => {
               const idx = parseInt(btn.dataset.idx, 10);
               const m = (data.matches || [])[idx];
+              const colOverlay = document.getElementById("colMatchOverlay");
+
+              // Your face with landmarks
+              if (overlaySrc && overlayCompare) {
+                overlayCompare.src = overlaySrc;
+                overlayCompare.style.display = "block";
+              }
+
+              // Match image
               if (m && m.image_url) { matchCompare.src = m.image_url; matchCompare.style.display = "block"; }
               else { matchCompare.style.display = "none"; }
+
+              // Match overlay (3rd column) — only show when available
               if (m && m.overlay_url) {
                 matchOverlayCompare.src = m.overlay_url;
                 matchOverlayCompare.style.display = "block";
+                if (colOverlay) colOverlay.style.display = "block";
               } else {
                 matchOverlayCompare.removeAttribute("src");
                 matchOverlayCompare.style.display = "none";
+                if (colOverlay) colOverlay.style.display = "none";
               }
+
               compareBlock.style.display = "block";
               compareBlock.scrollIntoView({ behavior: "smooth", block: "nearest" });
             };
@@ -3211,10 +3247,6 @@ const logos = [
               shareBtn.onclick = () => openShareModal(top, topPct, cachedNarrative, overlaySrc);
               makeMagnetic(shareBtn, 0.2);
             }
-          }
-
-          if (!document.getElementById("matchOverlayCompare").src) {
-            document.getElementById("matchOverlayCompare").style.display = "none";
           }
         }, 250);
       } catch (e) {
