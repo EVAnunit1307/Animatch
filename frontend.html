@@ -2183,7 +2183,7 @@
   <div class="container" style="position:relative; z-index:1;">
     <div class="stars"></div>
     <div class="hero">
-      <video class="hero-video" autoplay loop muted playsinline preload="auto" id="heroVideo">
+      <video class="hero-video" autoplay loop muted playsinline preload="auto" id="heroVideo" oncanplay="this.classList.add('loaded')" onloadeddata="this.classList.add('loaded')">
         <source src="https://res.cloudinary.com/dfonotyfb/video/upload/v1775585556/dds3_1_rqhg7x.mp4" type="video/mp4">
       </video>
       <div class="hero-overlay"></div>
@@ -2852,9 +2852,11 @@ const logos = [
     if (_hv) {
       const tryPlay = () => _hv.play().catch(() => {});
       const markLoaded = () => _hv.classList.add("loaded");
+      if (_hv.readyState >= 2) markLoaded();
       _hv.addEventListener("canplay", () => { markLoaded(); tryPlay(); });
       _hv.addEventListener("loadeddata", markLoaded);
-      if (_hv.readyState >= 3) markLoaded();
+      _hv.addEventListener("play", markLoaded);
+      setTimeout(markLoaded, 2000); // fallback: show after 2s even if events don't fire
       tryPlay();
       document.addEventListener("visibilitychange", () => { if (!document.hidden) tryPlay(); });
       document.addEventListener("click", tryPlay, { once: true });
