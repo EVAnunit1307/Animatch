@@ -101,6 +101,7 @@
       border-radius: 0;
       overflow: hidden;
       border: none;
+      background: radial-gradient(ellipse at 60% 40%, #0d1a3a 0%, #050810 60%);
     }
     @media (max-width: 640px) {
       .hero { margin-left: -12px; margin-right: -12px; }
@@ -2819,6 +2820,15 @@ const logos = [
     makeMagnetic(document.getElementById("portalBtn"), 0.28);
     makeMagnetic(document.getElementById("go"), 0.22);
 
+    // ── Ensure hero video plays (browser autoplay policy may pause it) ────
+    const _hv = document.querySelector(".hero-video");
+    if (_hv) {
+      _hv.play().catch(() => {});
+      document.addEventListener("visibilitychange", () => {
+        if (!document.hidden) _hv.play().catch(() => {});
+      });
+    }
+
     // ── Letter pull-up on hero title lines ───────────────
     function splitLine(id, startDelay) {
       const el = document.getElementById(id);
@@ -3096,7 +3106,7 @@ const logos = [
       const form = new FormData();
       form.append("file", small);
       const params = new URLSearchParams();
-      params.set("return_image", document.getElementById("returnImage").checked);
+      params.set("return_image", true);
       params.set("top_k", topKVal);
       statusText.textContent = "Analyzing...";
       overlayEl.style.display = "none";
