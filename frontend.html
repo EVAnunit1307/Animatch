@@ -106,18 +106,36 @@
     @media (max-width: 640px) {
       .hero { margin-left: -12px; margin-right: -12px; }
     }
-    .hero-video {
+    .hero-nebula {
       position: absolute;
       inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
       z-index: 1;
-      opacity: 0;
-      transition: opacity 1.2s ease;
+      background:
+        radial-gradient(ellipse 80% 60% at 70% 40%, rgba(14,42,100,0.9) 0%, transparent 65%),
+        radial-gradient(ellipse 55% 45% at 20% 60%, rgba(8,28,72,0.8) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 50% at 50% 20%, rgba(20,55,130,0.6) 0%, transparent 55%),
+        radial-gradient(ellipse 100% 80% at 50% 50%, #060c1f 40%, #030608 100%);
+      animation: nebulaShift 18s ease-in-out infinite alternate;
     }
-    .hero-video.loaded {
-      opacity: 1;
+    @keyframes nebulaShift {
+      0%   { filter: hue-rotate(0deg) brightness(1); background-position: 0% 50%; }
+      33%  { filter: hue-rotate(8deg) brightness(1.08); }
+      66%  { filter: hue-rotate(-5deg) brightness(0.95); }
+      100% { filter: hue-rotate(12deg) brightness(1.05); background-position: 100% 50%; }
+    }
+    .hero-nebula::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 40% 30% at 80% 70%, rgba(30,80,200,0.35) 0%, transparent 60%),
+        radial-gradient(ellipse 35% 25% at 15% 30%, rgba(10,50,140,0.4) 0%, transparent 55%);
+      animation: nebulaPulse 12s ease-in-out infinite alternate;
+    }
+    @keyframes nebulaPulse {
+      0%   { opacity: 0.6; transform: scale(1); }
+      50%  { opacity: 1; transform: scale(1.04); }
+      100% { opacity: 0.7; transform: scale(0.97); }
     }
     .hero-overlay {
       position: absolute;
@@ -2183,9 +2201,7 @@
   <div class="container" style="position:relative; z-index:1;">
     <div class="stars"></div>
     <div class="hero">
-      <video class="hero-video" autoplay loop muted playsinline preload="auto" id="heroVideo" oncanplay="this.classList.add('loaded')" onloadeddata="this.classList.add('loaded')">
-        <source src="https://res.cloudinary.com/dfonotyfb/video/upload/v1775585556/dds3_1_rqhg7x.mp4" type="video/mp4">
-      </video>
+      <div class="hero-nebula"></div>
       <div class="hero-overlay"></div>
 
       <nav class="hero-nav">
@@ -2847,20 +2863,6 @@ const logos = [
     makeMagnetic(document.getElementById("portalBtn"), 0.28);
     makeMagnetic(document.getElementById("go"), 0.22);
 
-    // ── Ensure hero video plays (browser autoplay policy may pause it) ────
-    const _hv = document.getElementById("heroVideo");
-    if (_hv) {
-      const tryPlay = () => _hv.play().catch(() => {});
-      const markLoaded = () => _hv.classList.add("loaded");
-      if (_hv.readyState >= 2) markLoaded();
-      _hv.addEventListener("canplay", () => { markLoaded(); tryPlay(); });
-      _hv.addEventListener("loadeddata", markLoaded);
-      _hv.addEventListener("play", markLoaded);
-      setTimeout(markLoaded, 2000); // fallback: show after 2s even if events don't fire
-      tryPlay();
-      document.addEventListener("visibilitychange", () => { if (!document.hidden) tryPlay(); });
-      document.addEventListener("click", tryPlay, { once: true });
-    }
 
     // ── Letter pull-up on hero title lines ───────────────
     function splitLine(id, startDelay) {
