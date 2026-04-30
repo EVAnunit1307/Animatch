@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Animatch</title>
   <script defer src="/_vercel/analytics/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap');
     :root {
@@ -106,36 +107,13 @@
     @media (max-width: 640px) {
       .hero { margin-left: -12px; margin-right: -12px; }
     }
-    .hero-nebula {
+    .hero-video {
       position: absolute;
       inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
       z-index: 1;
-      background:
-        radial-gradient(ellipse 80% 60% at 70% 40%, rgba(14,42,100,0.9) 0%, transparent 65%),
-        radial-gradient(ellipse 55% 45% at 20% 60%, rgba(8,28,72,0.8) 0%, transparent 60%),
-        radial-gradient(ellipse 60% 50% at 50% 20%, rgba(20,55,130,0.6) 0%, transparent 55%),
-        radial-gradient(ellipse 100% 80% at 50% 50%, #060c1f 40%, #030608 100%);
-      animation: nebulaShift 18s ease-in-out infinite alternate;
-    }
-    @keyframes nebulaShift {
-      0%   { filter: hue-rotate(0deg) brightness(1); background-position: 0% 50%; }
-      33%  { filter: hue-rotate(8deg) brightness(1.08); }
-      66%  { filter: hue-rotate(-5deg) brightness(0.95); }
-      100% { filter: hue-rotate(12deg) brightness(1.05); background-position: 100% 50%; }
-    }
-    .hero-nebula::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 40% 30% at 80% 70%, rgba(30,80,200,0.35) 0%, transparent 60%),
-        radial-gradient(ellipse 35% 25% at 15% 30%, rgba(10,50,140,0.4) 0%, transparent 55%);
-      animation: nebulaPulse 12s ease-in-out infinite alternate;
-    }
-    @keyframes nebulaPulse {
-      0%   { opacity: 0.6; transform: scale(1); }
-      50%  { opacity: 1; transform: scale(1.04); }
-      100% { opacity: 0.7; transform: scale(0.97); }
     }
     .hero-overlay {
       position: absolute;
@@ -2201,7 +2179,7 @@
   <div class="container" style="position:relative; z-index:1;">
     <div class="stars"></div>
     <div class="hero">
-      <div class="hero-nebula"></div>
+      <video class="hero-video" id="heroVideo" autoplay loop muted playsinline></video>
       <div class="hero-overlay"></div>
 
       <nav class="hero-nav">
@@ -2862,6 +2840,24 @@ const logos = [
     }
     makeMagnetic(document.getElementById("portalBtn"), 0.28);
     makeMagnetic(document.getElementById("go"), 0.22);
+
+    // ── Hero video via HLS.js (Mux) ──────────────────────────────────────
+    (function() {
+      const v = document.getElementById("heroVideo");
+      if (!v) return;
+      const HLS_SRC = "https://stream.mux.com/NcU3HlHeF7CUL86azTTzpy3Tlb00d6iF3BmCdFslMJYM.m3u8";
+      if (typeof Hls !== "undefined" && Hls.isSupported()) {
+        const hls = new Hls({ autoStartLoad: true, startLevel: -1 });
+        hls.loadSource(HLS_SRC);
+        hls.attachMedia(v);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => v.play().catch(() => {}));
+      } else if (v.canPlayType("application/vnd.apple.mpegurl")) {
+        // Safari native HLS
+        v.src = HLS_SRC;
+        v.play().catch(() => {});
+      }
+      document.addEventListener("visibilitychange", () => { if (!document.hidden) v.play().catch(() => {}); });
+    })();
 
 
     // ── Letter pull-up on hero title lines ───────────────
